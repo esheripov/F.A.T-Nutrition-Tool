@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildDate</key>
+	<string>Tue Sep 19 2006 23:27:16</string>
+	<key>BuildVersion</key>
+	<string>1.251805</string>
+	<key>CFBundleGetInfoString</key>
+	<string>AdobeAXEDOMCore 3.3.208, Copyright © 2003-2006 Adobe Systems Incorporated.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.AXEDOMCore</string>
+	<key>CFBundleName</key>
+	<string>AdobeAXEDOMCore</string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleShortVersionString</key>
+	<string>AdobeAXEDOMCore 3.3.208</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>3.3.208</string>
+	<key>Configuration</key>
+	<string>Release</string>
+</dict>
+</plist>

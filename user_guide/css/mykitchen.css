@@ -1,0 +1,280 @@
+body{
+
+	border:0;
+
+	line-height:22px;
+
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+	font-size: 15px;
+
+	font-style:normal;
+
+	font-weight:400;
+
+	line-height:1.2em;
+
+	padding:px 0 11px 0;
+
+	/* [disabled]letter-spacing:-1px; */
+
+}
+
+.box { 
+
+  background: #FFFFFF; 
+
+  width: auto;
+
+  -moz-border-radius: 10px;
+
+-webkit-border-radius: 10px;
+
+border-radius: 10px; /* future proofing */
+
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+
+margin-bottom:30px;
+
+  
+
+}
+
+.boxtop { 
+
+  background: url(ne.gif) no-repeat top right; 
+
+}
+
+.boxtop div { 
+
+  font-size: 0;
+
+  height: 10px; 
+
+  background: url(nw.gif) no-repeat top left; 
+
+}
+
+.boxbottom { 
+
+  background: url(se.gif) no-repeat bottom right; 
+
+}
+
+.boxbottom div { 
+
+  font-size: 0;
+
+  height: 10px; 
+
+  background: url(sw.gif) no-repeat bottom left; 
+
+}
+
+.boxcontent {
+
+  height: 1000px;
+
+  padding: 0px 10px 0px 10px;
+
+  font-color: black;
+
+  -moz-border-radius: 10px;
+
+-webkit-border-radius: 10px;
+
+border-radius: 10px; /* future proofing */
+
+-khtml-border-radius: 10px; /* for old Konqueror browsers */
+
+}
+
+
+
+#addtokitch
+
+{
+
+position: relative;
+
+float:right;
+
+top: 10px;
+
+}
+
+
+
+#deletekitch
+
+{
+
+padding-left:250px;
+
+}
+
+
+
+
+
+#button
+
+{
+
+position: relative;
+
+top: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.maintable
+
+{
+
+
+
+background-color:#00000;
+
+color:#000000;
+
+border:solid #c3c3c3 1px;
+
+margin-left:0px;
+
+height: 900px;
+
+
+
+}
+
+
+
+.code_input
+
+{
+
+border:1px solid #c3c3c3;
+
+width:100%;
+
+height:400px;
+
+background-color:#ffffff;
+
+color:#000000;
+
+}
+
+
+
+
+
+.result_output
+
+{
+
+border:1px solid #c3c3c3;
+
+height:900px;
+
+background-color:#ffffff;
+
+color:#000000;
+
+}
+
+
+
+
+
+.toptext
+
+{
+
+color:#617f10;
+
+font-family:verdana;
+
+margin-top:0px;
+
+margin-bottom:8px;
+
+font-size:120%;
+
+}
+
+
+
+.result_header
+
+{
+
+color:#617f10;
+
+margin-bottom:12px;
+
+margin-top:0px;
+
+font-family:verdana;
+
+font-size:90%;
+
+}
+
+
+
+.bottomtext_div
+
+{
+
+margin-right:3px;
+
+}
+
+
+
+.bottomtext
+
+{
+
+color:#617f10;
+
+font-family:verdana;
+
+margin-bottom:0px;
+
+margin-top:6px;
+
+font-size:90%;
+
+}
+
+
+
+#nutrition
+
+{
+
+padding-left: 10px;
+
+padding-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+

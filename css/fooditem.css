@@ -1,0 +1,75 @@
+/* To use this button input the following html in your html file:
+
+<a href="YOUR LINK GOES HERE">Button text Goes Here</a>
+
+*/
+
+
+
+.fooditem {
+
+	/* styles for button */
+
+	margin:10px auto 0 auto;
+
+	text-align:center;
+
+	
+
+	/* Got this gradient css from :
+
+	 * http://www.red-team-design.com/cross-browser-css-gradient-buttons
+
+	*/
+
+	background: #fff;
+
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#13cbcb) );*/
+
+    /*background: -moz-linear-gradient(-90deg, #81a8cb, #13cbcb); //4477a1*/
+
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');
+
+	
+
+
+
+	width:670px;
+
+	padding: 6px 5px 6px 5px;
+
+	color: #13cbcb;
+
+	text-decoration: none;
+
+	font-weight: bold;
+
+	line-height: 1;
+
+	font: 'Arial';
+
+	font-size: 16px;
+
+	
+
+	
+
+
+
+	
+
+	
+
+	cursor: pointer;
+
+}
+
+
+
+.fooditem:hover {
+
+  background: #13cbcb ;
+
+  color: #fff;
+
+}

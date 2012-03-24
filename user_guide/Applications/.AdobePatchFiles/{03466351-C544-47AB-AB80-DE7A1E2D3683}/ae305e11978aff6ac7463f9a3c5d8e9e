@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/Preferences.xml
+Bundle-Name: Adobe CSI (Core Logging)
+Bundle-ClassPath: .
+Bundle-Activator: com.adobe.csi.core.logging.Activator
+Import-Package: com.adobe.csi.core.preferences,org.apache.log4j,org.ap
+ ache.log4j.varia,org.apache.log4j.xml,org.osgi.framework;version="1.4
+ .0",org.osgi.service.component;version="1.0.0"
+Bundle-Vendor: Adobe Systems Inc.
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.adobe.csi.core.logging
+Export-Package: com.adobe.csi.core.logging;version="1.0.0";uses:="org.
+ apache.log4j,org.osgi.framework"
+Bundle-Version: 1.0.0.344
+Eclipse-LazyStart: true
+

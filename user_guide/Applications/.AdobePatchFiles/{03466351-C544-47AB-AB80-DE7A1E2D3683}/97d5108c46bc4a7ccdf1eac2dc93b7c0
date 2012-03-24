@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping default-access="field">
+
+	<typedef name="manifestVersionEnum" class="com.adobe.drive.data.persistence.usertype.GenericEnumUserType">
+		<param name="enumClass">com.adobe.csi.core.model.Manifest$Version</param>
+	</typedef>
+
+	<typedef name="actionTypeEnum" class="com.adobe.drive.data.persistence.usertype.GenericEnumUserType">
+		<param name="enumClass">com.adobe.csi.core.model.Action$Type</param>
+	</typedef>
+
+	<typedef name="playerTypeEnum" class="com.adobe.drive.data.persistence.usertype.GenericEnumUserType">
+		<param name="enumClass">com.adobe.csi.core.model.Player$Type</param>
+	</typedef>
+
+	<typedef name="preferenceTypeEnum" class="com.adobe.drive.data.persistence.usertype.GenericEnumUserType">
+		<param name="enumClass">com.adobe.csi.core.model.Preference$Type</param>
+	</typedef>
+
+	<typedef name="uiTypeEnum" class="com.adobe.drive.data.persistence.usertype.GenericEnumUserType">
+		<param name="enumClass">com.adobe.csi.core.model.UI$Type</param>
+	</typedef>
+
+	<class name="com.adobe.csi.core.model.Action" table="Action">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="type" type="actionTypeEnum" not-null="true" lazy="false" />
+		<property name="value" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.Application" table="Application">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="applicationId" not-null="true" lazy="false" />
+		<property name="name" not-null="true" lazy="false" />
+		<property name="majorVersion" not-null="true" lazy="false" />
+		<property name="minorVersion" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.Applications" table="Applications">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<set name="applications" cascade="all" lazy="false" sort="natural">
+			<key column="applicationsId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.Application" />
+		</set>
+	</class>
+
+	<class name="com.adobe.csi.core.model.DispatchList" table="DispatchList">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<set name="extensionDispatchInfos" cascade="all" lazy="false" sort="natural">
+			<key column="dispatchListId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.ExtensionDispatchInfo" />
+		</set>
+	</class>
+
+	<class name="com.adobe.csi.core.model.Extension" table="Extension">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="extensionId" not-null="true" lazy="false" />
+		<property name="minPlugPlugVersion" not-null="false" lazy="false" />
+		<property name="name" not-null="true" lazy="false" />
+		<property name="type" not-null="false" lazy="false" />
+
+		<many-to-one name="player" class="com.adobe.csi.core.model.Player" unique-key="true" cascade="all" lazy="false" />
+		<many-to-one name="preferences" class="com.adobe.csi.core.model.Preferences" unique-key="true" cascade="all" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.ExtensionDispatchInfo" table="ExtensionDispatchInfo">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="locale" not-null="true" lazy="false" />
+		<property name="hostId" not-null="true" lazy="false" />
+		<property name="extensionId" not-null="true" lazy="false" />
+		<property name="engineId" not-null="false" lazy="false" />
+		<property name="swfPath" not-null="true" lazy="false" />
+		<property name="scriptPath" not-null="false" lazy="false" />
+		<property name="iconPathNormal" not-null="false" lazy="false" />
+		<property name="iconPathDisabled" not-null="false" lazy="false" />
+		<property name="iconPathRollOver" not-null="false" lazy="false" />
+
+		<set name="menus" cascade="all" lazy="false" sort="natural">
+			<key column="extensionDispatchInfoId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.Menu" />
+		</set>
+		<set name="actions" cascade="all" lazy="false" sort="natural">
+			<key column="extensionDispatchInfoId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.Action" />
+		</set>
+		<many-to-one name="ui" class="com.adobe.csi.core.model.UI" unique-key="true" cascade="all" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.ExtensionList" table="ExtensionList">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<set name="hosts" cascade="all" lazy="false" sort="natural">
+			<key column="extensionListId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.Host" />
+		</set>
+	</class>
+
+	<class name="com.adobe.csi.core.model.Extensions" table="Extensions">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<set name="extensions" cascade="all" lazy="false" sort="natural">
+			<key column="extensionsId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.Extension" />
+		</set>
+	</class>
+
+	<class name="com.adobe.csi.core.model.Host" table="Host">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="hostId" not-null="true" lazy="false" />
+
+		<set name="extensions" cascade="all" lazy="false" sort="natural">
+			<key column="hostId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.HostExtension" />
+		</set>
+	</class>
+
+	<class name="com.adobe.csi.core.model.HostExtension" table="HostExtension">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="hostExtensionId" not-null="true" lazy="false" />
+		<property name="priority" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.InitialGeometry" table="InitialGeometry">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="width" not-null="true" lazy="false" />
+		<property name="height" not-null="true" lazy="false" />
+		<property name="x" not-null="true" lazy="false" />
+		<property name="y" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.Manifest" table="Manifest">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="version" type="manifestVersionEnum" not-null="true" lazy="false" />
+
+		<many-to-one name="updateSite" class="com.adobe.csi.core.model.UpdateSite" unique-key="true" cascade="all" lazy="false" />
+		<many-to-one name="extensions" class="com.adobe.csi.core.model.Extensions" unique-key="true" cascade="all" lazy="false" />
+		<many-to-one name="applications" class="com.adobe.csi.core.model.Applications" unique-key="true" cascade="all" lazy="false" />
+		<many-to-one name="extensionList" class="com.adobe.csi.core.model.ExtensionList" unique-key="true" cascade="all" lazy="false" />
+		<many-to-one name="dispatchList" class="com.adobe.csi.core.model.DispatchList" unique-key="true" cascade="all" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.Menu" table="Menu">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="customPlacement" not-null="false" lazy="false" />
+
+		<many-to-one name="menuItem" class="com.adobe.csi.core.model.MenuItem" unique-key="true" cascade="all" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.MenuItem" table="MenuItem">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="label" not-null="true" lazy="false" />
+
+		<set name="menuItems" cascade="all" lazy="false" sort="natural">
+			<key column="menuItemId" not-null="false" />
+			<one-to-many class="com.adobe.csi.core.model.MenuItem" />
+		</set>
+	</class>
+
+	<class name="com.adobe.csi.core.model.Player" table="Player">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="type" type="playerTypeEnum" not-null="true" lazy="false" />
+		<property name="version" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.Preference" table="Preference">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="key" lazy="false" />
+		<property name="type" type="preferenceTypeEnum" not-null="true" lazy="false" />
+		<property name="value" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.Preferences" table="Preferences">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<set name="preferences" cascade="all" lazy="false">
+			<key column="preferenceId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.Preference" />
+		</set>
+	</class>
+
+	<class name="com.adobe.csi.core.model.UI$Size" table="Size" entity-name="minSize">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="width" not-null="true" lazy="false" />
+		<property name="height" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.UI$Size" table="Size" entity-name="maxSize">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="width" not-null="true" lazy="false" />
+		<property name="height" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.UI" table="UI">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="type" type="uiTypeEnum" not-null="true" lazy="false" />
+		<property name="visible" not-null="true" lazy="false" />
+
+		<many-to-one name="initialGeometry" class="com.adobe.csi.core.model.InitialGeometry" unique-key="true" cascade="all" lazy="false" />
+		<many-to-one name="minSize" entity-name="minSize" class="com.adobe.csi.core.model.UI$Size" unique-key="true" cascade="all" lazy="false" />
+		<many-to-one name="maxSize" entity-name="maxSize" class="com.adobe.csi.core.model.UI$Size" unique-key="true" cascade="all" lazy="false" />
+	</class>
+	
+	<class name="com.adobe.csi.core.model.UpdateSite" table="UpdateSite">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="url" not-null="true" lazy="false" />
+		<property name="ttl" not-null="true" lazy="false" />
+		<property name="eTag" not-null="true" lazy="false" />
+	</class>	
+
+	<class name="com.adobe.csi.core.model.ExtensionBundle" table="ExtensionBundle">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="extensionBundleId" not-null="true" lazy="false" />
+		<property name="version" not-null="true" lazy="false" />
+		<property name="remoteUri" not-null="true" lazy="false" />
+		<property name="localUri" not-null="true" lazy="false" />
+	</class>
+
+	<class name="com.adobe.csi.core.model.UserManifest" table="UserManifest">
+		<id type="integer" name="id">
+			<generator class="native" />
+		</id>
+
+		<property name="ttl" not-null="true" lazy="false" />
+		<property name="eTag" not-null="true" lazy="false" />
+
+		<set name="extensionBundles" cascade="all" lazy="false" sort="natural">
+			<key column="userManifestId" not-null="true" />
+			<one-to-many class="com.adobe.csi.core.model.ExtensionBundle" />
+		</set>
+	</class>
+
+</hibernate-mapping>

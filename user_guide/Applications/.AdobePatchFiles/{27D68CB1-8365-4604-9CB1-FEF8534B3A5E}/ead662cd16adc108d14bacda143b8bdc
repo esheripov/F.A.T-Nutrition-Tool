@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Installeren</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Help</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>$Bestand</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Extensie installeren</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>Extensie ver$pakken</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>Exten$sie verzenden</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>Extensie ve$rwijderen</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Verwijderen</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>Beschikbaar</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>$Ga naar Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>$Afsluiten</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Venster</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>$Help</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Extension Manager $Help</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>$Over Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>Importeren:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>PRODUCTEN</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Ingeschakeld</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Extensie</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Versie</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Auteur</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Updates</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Uitschakelen:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Inschakelen:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Installeren:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Verpakken:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Verwijderen:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>Migreren:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Bezig met importeren van extensies...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Bezig met uitschakelen van extensie...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Bezig met inschakelen van extensie...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Bezig met installeren van extensie...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Bezig met verpakken van extensie...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Bezig met verwijderen van extensie...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Bezig met migreren van extensies...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>Annuleren</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Afbreken</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Opnieuw</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Negeren</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Ja</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>Nee</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Ja op alles</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Accepteren</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Afwijzen</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Later</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Nooit</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>Er zijn extensies in de vorige versie van Extension Manager geïnstalleerd. Wilt u deze migreren?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>De migratie van extensies vanuit de vorige versie is voltooid. Start Extension Manager opnieuw.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Te installeren extensie selecteren</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Te verpakken extensie selecteren</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Extensiepakket opslaan als...</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>UITSLUITING VOOR EXTENSIE&lt;BR&gt;&lt;BR&gt;
+LEES DEZE UITSLUITING GOED DOOR VOORDAT U EEN EXTENSIE INSTALLEERT. INDIEN U NIET AKKOORD GAAT MET DEZE UITSLUITING, DIENT U DE EXTENSIE NIET TE GEBRUIKEN EN/OF TE INSTALLEREN.&lt;BR&gt;&lt;BR&gt;
+U staat op het punt een extensie te installeren die is geleverd en/of opgesteld door Adobe of derden. U begrijpt en accepteert dat Adobe de extensie die u gaat installeren mogelijk NIET heeft opgesteld. 
+De extensie kan door een derde met wie Adobe geen relatie heeft of door Adobe zijn opgesteld. U accepteert dat u de extensie niet zal verspreiden zonder de schriftelijke toestemming van Adobe en/of de licentiehouders. 
+U begrijpt dat deze derde als auteur van de extensie kan vereisen dat u instemt met enige voorwaarden en bepalingen tussen u en de derde voordat u de extensie van deze auteur mag gebruiken.&lt;BR&gt;&lt;BR&gt;
+Wanneer een licentieovereenkomst van derden onder de titel \'LICENTIE VAN DERDEN (INDIEN VAN TOEPASSING)\' hieronder wordt weergegeven of in een bestand bij de extensie wordt meegeleverd, is een dergelijke licentieovereenkomst van derden van toepassing op het gebruik van de extensie in plaats van enige gedownloade
+licentieovereenkomst die u mogelijk hebt geaccepteerd bij het downloaden van de extensie vanaf de site van Adobe; de bepalingen van deze uitsluiting blijven echter wel van kracht.&lt;BR&gt;&lt;BR&gt;
+UITSLUITING VAN ALLE GARANTIES EN TECHNISCHE ONDERSTEUNING&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE EN HAAR LEVERANCIERS BIEDEN GEEN VERHAALSMOGELIJKHEDEN OF GARANTIES, UITDRUKKELIJK NOCH IMPLICIET, VOOR DE EXTENSIE. DE EXTENSIE WORDT \'ALS ZODANIG\' EN \'MET ALLE TEKORTKOMINGEN\' GELEVERD ZONDER ENIGE VORM VAN TECHNISCHE ONDERSTEUNING.&lt;BR&gt;
+(b) ADOBE EN HAAR LEVERANCIERS WIJZEN ALLE GARANTIES EN VERKLARINGEN AF, ZOWEL UITDRUKKELIJK, IMPLICIET ALS ANDERSZINS, MET INBEGRIP VAN DE GARANTIES VAN VERHANDELBAARHEID OF GESCHIKTHEID VOOR EEN BEPAALD DOEL. 
+DAARNAAST WORDT GEEN GARANTIE GEBODEN VAN NIET-INBREUK EN AANSPRAKEN OP ONONDERBROKEN GEBRUIK. ADOBE GARANDEERT NIET DAT DE EXTENSIE FOUTLOOS IS OF ONONDERBROKEN WERKT. GEEN VAN DE RECHTEN OF VERHAALSMOGELIJKHEDEN WAARNAAR IN ARTIKEL 2A VAN DE UCC WORDT VERWEZEN, WORDT 
+AAN U OVERGEDRAGEN, TENZIJ DIT UITDRUKKELIJK HIERIN WORDT TOEGESTAAN. DE EXTENSIE IS NIET ONTWIKKELD, BEDOELD OF IN LICENTIE VERSTREKT VOOR GEBRUIK IN EEN GEVAARLIJKE OMGEVING DIE FOUTVEILIGE BESTURINGEN VEREIST, ZOALS ONDER MEER VOOR HET ONTWERP, DE BOUW, 
+HET ONDERHOUD OF DE BEDIENING VAN NUCLEAIRE INSTALLATIES, VLIEGTUIGNAVIGATIE- OF COMMUNICATIESYSTEMEN, LUCHTVERKEERSREGELINGSSYSTEMEN, MEDISCHE BEWAKINGSAPPARATUUR OF WAPENSYSTEMEN. ADOBE WIJST NADRUKKELIJK ELKE UITDRUKKELIJKE OF IMPLICIETE GARANTIE VAN GESCHIKTHEID VOOR DERGELIJK GEBRUIK AF.&lt;BR&gt;
+(c) INDIEN DE GELDENDE WETGEVING ENIGE GARANTIE VEREIST MET BETREKKING TOT DE EXTENSIE, ZIJN DERGELIJKE GARANTIES IN DUUR BEPERKT TOT NEGENTIG (90) DAGEN VANAF DE DATUM VAN LEVERING.&lt;BR&gt;
+(d) GEEN ENKELE DOOR ADOBE, HAAR DEALERS, DISTRIBUTEURS, VERTEGENWOORDIGERS OF MEDEWERKERS AFGEGEVEN MONDELINGE OF SCHRIFTELIJKE INFORMATIE OF MEDEDELING BEHELST EEN GARANTIE OF BREIDT OP ENIGERLEI WIJZE HET BEREIK VAN DE HIER VERMELDE GARANTIES UIT.&lt;BR&gt;
+(e) IN BEPAALDE RECHTSGEBIEDEN IS EXCLUSIE VAN IMPLICIETE GARANTIES NIET TOEGESTAAN, WAARDOOR BOVENSTAANDE EXCLUSIE MOGELIJK NIET OP U VAN TOEPASSING IS. DEZE GARANTIE GEEFT U SPECIFIEKE WETTELIJKE RECHTEN EN MOGELIJK BESCHIKT U TEVENS OVER ANDERE WETTELIJKE RECHTEN, DIE PER LAND KUNNEN VERSCHILLEN.&lt;BR&gt;&lt;BR&gt;
+BEPERKING VAN AANSPRAKELIJKHEID&lt;BR&gt;&lt;BR&gt;
+(a) NOCH ADOBE NOCH HAAR LEVERANCIERS ZIJN AANSPRAKELIJK TEN OPZICHTE VAN U OF DERDEN VOOR ENIGE INDIRECTE, BIJZONDERE, INCIDENTELE OF FINANCIЛLE SCHADE OF DEKKINGS- OF GEVOLGSCHADE (MET INBEGRIP VAN, MAAR NIET BEPERKT TOT, SCHADE DOOR DE ONMOGELIJKHEID APPARATUUR TE GEBRUIKEN OF GEGEVENS TE OPENEN
+VERLIES VAN TRANSACTIES, WINSTDERVING, BEDRIJFSONDERBREKING EN DERGELIJKE), VOORTVLOEIEND UIT HET GEBRUIK, OF DE ONMOGELIJKHEID VAN GEBRUIK, VAN DE EXTENSIE EN OP BASIS VAN ENIGE THEORIE VAN AANSPRAKELIJKHEID, ZOALS CONTRACTBREUK, GARANTIEBREUK, ONRECHTMATIGE DAAD (MET INBEGRIP VAN ONACHTZAAMHEID),
+PRODUCTAANSPRAKELIJKHEID OF ANDERSZINS, OOK ALS ADOBE OF HAAR VERTEGENWOORDIGERS OP DE HOOGTE ZIJN GESTELD VAN DE MOGELIJKHEID VAN DERGELIJKE SCHADE EN OOK ALS EEN HIER BESCHREVEN VERHAALSMOGELIJKHEID NIET HET GEWENSTE EFFECT HEEFT GEHAD.&lt;BR&gt;
+(b) DE TOTALE AANSPRAKELIJKHEID VAN ADOBE TEN OPZICHTE VAN U OF DERDEN VOOR WERKELIJKE SCHADE, ONGEACHT DE OORZAAK, IS BEPERKT TOT 100 USD.&lt;BR&gt;
+(c) IN BEPAALDE RECHTSGEBIEDEN IS BEPERKING OF EXCLUSIE VAN AANSPRAKELIJKHEID VOOR INCIDENTELE SCHADE OF GEVOLGSCHADE NIET TOEGESTAAN, WAARDOOR BOVENSTAANDE BEPERKING OF EXCLUSIE MOGELIJK NIET OP U VAN TOEPASSING IS EN MOGELIJK BESCHIKT U TEVENS OVER ANDERE WETTELIJKE RECHTEN, DIE PER LAND KUNNEN VERSCHILLEN.&lt;BR&gt;
+(d) VOORGAANDE BEPERKINGEN VAN AANSPRAKELIJKHEID ZIJN BEDOELD VOOR TOEPASSING OP BOVENSTAANDE GARANTIES EN UITSLUITINGEN EN ALLE OVERIGE ASPECTEN VAN DEZE LICENTIEOVEREENKOMST VOOR EINDGEBRUIKERS.&lt;BR&gt;&lt;BR&gt;
+De hiervoor beschreven uitsluiting van garantie en beperking van aansprakelijkheid zijn fundamentele basiselementen van de overeenkomst tussen Adobe en u. 
+Zonder dergelijke beperkingen kan Adobe de extensie niet op een economische basis leveren. Deze uitsluiting van garanties en beperking van aansprakelijkheid komen de licentiehouders van Adobe ten goede.&lt;BR&gt;&lt;BR&gt;
+(ALLEEN BUITEN DE VS) ALLEEN VOOR COMMERCIЛLE EINDGEBRUIKERS&lt;BR&gt;&lt;BR&gt;
+De beperkingen of exclusies van garanties en aansprakelijkheid in deze uitsluiting hebben geen gevolgen voor de grondrechten van een consument (dat wil zeggen, de persoon die goederen verwerft anders dan binnen het kader van een zakelijke transactie).&lt;BR&gt;&lt;BR&gt;
+De beperkingen of exclusies van garanties, verhaalsmogelijkheden of aansprakelijkheid in deze uitsluiting gelden uitsluitend voor u voor zover dergelijke beperkingen of exclusies zijn toegestaan door de wetten van het rechtsgebied waarin u bent gevestigd.&lt;BR&gt;&lt;BR&gt;
+LICENTIE VAN DERDEN (INDIEN VAN TOEPASSING)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Versie:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>© 2000-2008 Adobe Systems Incorporated en haar licentiehouders. Alle rechten voorbehouden.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe en het Adobe-logo zijn gedeponeerde handelsmerken of handelsmerken van Adobe Systems Incorporated in de Verenigde Staten en/of andere landen. Alle andere merken zijn het eigendom van hun respectieve eigenaars.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>Onder bescherming van Amerikaanse patenten 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. Patenten aangevraagd in de V.S. en/of andere landen.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Kan deze extensie niet installeren omdat deze {0} van {1} tot {2} vereist.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Kan deze extensie niet installeren omdat deze {0} {1} vereist.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Kan deze extensie niet installeren omdat deze {0} {1} of hoger vereist.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Kan deze extensie niet installeren omdat deze {0} {1} of lager vereist.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>Als u deze extensie wilt installeren, moet u {0} CS4 installeren of Adobe Extension Manager CS3 gebruiken omdat die versie met Adobe CS3 en eerdere producten werkt.</val>
+        </str> 
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>       
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>De toepassing kan niet worden gestart.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Selecteer een product.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Selecteer een extensie.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Inschakelen voor het huidige product</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Inschakelen voor alle ondersteunde producten</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Uitschakelen voor het huidige product</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Uitschakelen voor alle ondersteunde producten</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Kan de extensie niet laden uit het bestand {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>U staat op het punt om de extensie '{0}' te verwijderen. Wilt u doorgaan?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>Deze extensie wordt niet geïnstalleerd voor product {0}.</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>Deze extensie wordt niet ingeschakeld voor product {0}.</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>Deze extensie wordt niet uitgeschakeld voor product {0}.</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>Deze extensie wordt niet verwijderd voor product {0}.</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>Deze extensie ondersteunt meerdere producten. Wilt u doorgaan met het volgende product?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_nl</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

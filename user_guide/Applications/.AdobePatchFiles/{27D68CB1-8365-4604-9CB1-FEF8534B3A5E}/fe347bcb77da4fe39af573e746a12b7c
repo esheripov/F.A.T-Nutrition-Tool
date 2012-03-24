@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Yükle</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Yardım</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>$Dosya</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Uzantı Yükle</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>Uzantıyı $Paketle</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>Uzan$tıyı Gönder</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>Uzantıyı Kaldı$r</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Kaldır</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>Kullanılabilir</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>Adobe Exchange'e $Git</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>Çı$kış</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Pencere</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>$Yardım</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Extension Manager $Yardımı</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>$Adobe Extension Manager Hakkında</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>İçe Aktarılıyor:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>ÜRÜNLER</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Etkin</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Uzantı</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Sürüm</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Yazar</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Güncellemeler</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Devre Dışı Bırakılıyor:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Etkinleştiriliyor:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Yükleniyor:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Paketleniyor:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Kaldırılıyor:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>Geçiriliyor:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Uzantılar İçe Aktarılıyor...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Uzantı Devre Dışı Bırakılıyor...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Uzantı Etkinleştiriliyor...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Uzantı Yükleniyor...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Uzantı Paketleniyor...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Uzantı Kaldırılıyor...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Uzantılar Geçiriliyor...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>Tamam</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>İptal</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Durdur</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Yeniden Dene</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Yoksay</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Evet</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>Hayır</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Tümüne Evet</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Kabul Et</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Reddet</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Daha sonra</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Hiçbir zaman</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>Extension Manager'ın önceki sürümünde yüklü olan bazı uzantılar var. Bu uzantıları geçirmek istiyor musunuz?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>Önceki sürümden uzantı geçirme işlemi tamamlandı. Lütfen Extension Manager'ı yeniden başlatın.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Yüklenecek Uzantıyı Seçin</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Paketlenecek Uzantıyı Seçin</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Uzantı Paketini Farklı Kaydet</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>UZANTI BİLDİRİMİ&lt;BR&gt;&lt;BR&gt;
+BİR UZANTIYI YÜKLEMEDEN ÖNCE LÜTFEN BİLDİRİMİ DİKKATLE OKUYUN. BU BİLDİRİMİ KABUL ETMEZSENİZ, UZANTIYI KULLANMAYIN VE/VEYA YÜKLEMEYİN.&lt;BR&gt;&lt;BR&gt;
+Adobe veya üçüncü bir taraf tarafından temin edilen ve/veya yazılan bir Uzantıyı yüklemek üzeresiniz. Yüklemek üzere olduğunuz Uzantıyı Adobe'nin YAZMAMIŞ OLABİLECEĞİNİ anlayıp kabul ediyorsunuz.  
+Uzantıyı Adobe'nin hiçbir ilgisi olmadığı bir üçüncü taraf veya Adobe yazmış olabilir. Uzantıyı Adobe ve/veya lisans verenlerinin yazılı izni olmadan dağıtmamayı kabul ediyorsunuz.  
+Üçüncü taraf bir yazarın Uzantısını kullanabilmeniz için, üçüncü taraf yazarın kendi belirlediği koşul ve hükümler varsa, bunları kabul etmeniz gerektiğini anlıyorsunuz.&lt;BR&gt;&lt;BR&gt;
+Aşağıdaki 'ÜÇÜNCÜ TARAF LİSANSI (VARSA)' konu başlığının altında veya Uzantıyla birlikte verilen bir dosyada bir üçüncü taraf lisans sözleşmesi bulunuyorsa, söz konusu üçüncü taraf lisans sözleşmesi, Uzantıyı Adobe’nin sitesinden indirirken 
+kabul etmiş olabileceğiniz tüm lisans sözleşmelerinin yerine geçer; ancak bu Bildirimdeki hükümler daima geçerli kalır.&lt;BR&gt;&lt;BR&gt;
+TÜM GARANTİLER VE TEKNİK DESTEK İÇİN BİLDİRİM&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE VE TEDARİKÇİLERİ UZANTI İÇİN AÇIK VEYA ZIMNİ HİÇBİR TAZMİNAT VEYA GARANTİ VERMEZ. UZANTI 'OLDUĞU GİBİ' VE TÜM KUSURLARIYLA HERHANGİ BİR TEKNİK DESTEK OLMAKSIZIN VERİLİR.&lt;BR&gt;
+(b) ADOBE VE TEDARİKÇİLERİ, TİCARİ OLARAK SATILABİLİRLİK VEYA BELİRLİ BİR AMACA UYGUNLUK İÇİN OLAN GARANTİLER DAHİL AÇIK, ZIMNİ VEYA DİĞER TÜM GARANTİLERİ VE BİLDİRİMLERİ REDDEDER.  
+AYRICA HAKLARININ İHLAL EDİLMEMESİ VE BAŞLIK VEYA SESSİZ EĞLENCEYE DAİR BİR GARANTİ DE VERİLMEZ. ADOBE UZANTININ HATASIZ OLDUĞUNU VEYA KESİNTİSİZ ÇALIŞACAĞINI GARANTİ ETMEZ. İŞBU BELGEDE VERİLDİĞİ AÇIKLIKLA BELİRTİLMEDİĞİ SÜRECE GENEL TİCARET YASASI'NIN 
+2. MADDESİNDE ATIFTA BULUNULAN HAKLAR VE TAZMİNATLAR TARAFINIZA UYGULANMAZ. UZANTI NÜKLEER TESİSLER, UÇUŞ SEYİR VEYA İLETİŞİM SİSTEMLERİ, HAVA TRAFİK KONTROLÜ VE DOĞRUDAN YAŞAM DESTEK CİHAZLARININ VEYA SİLAH SİSTEMLERİNİN 
+TASARLANMASI, ÜRETİLMESİ, BAKIMI VEYA ÇALIŞTIRILMASI DAHİL OLMAK ÜZERE ANCAK BUNLARLA SINIRLI OLMAMAK KAYDIYLA ARIZA GÜVENLİK KONTROLLERİNE GEREKSİNİM DUYULAN TEHLİKELİ ORTAMLARDA KULLANILMAK ÜZERE TASARLANMAMIŞ, AMAÇLANMAMIŞ VEYA LİSANS VERİLMEMİŞTİR. ADOBE SÖZ KONUSU AMAÇLARA UYGUNLUK İÇİN OLAN  AÇIK VEYA ZIMNİ GARANTİLERİ ÖZELLİKLE REDDEDER.&lt;BR&gt;
+(c) İLGİLİ YASALARDA UZANTIYA İLİŞKİN HERHANGİ BİR GARANTİ BULUNMASI DURUMUNDA, SÖZ KONUSU GARANTİLERİN SÜRESİ TESLİM ALMA TARİHİNDEN İTİBAREN DOKSAN (90) GÜNLE SINIRLIDIR.&lt;BR&gt;
+(d) ADOBE, BAYİLERİ, DAĞITIMCILARI, TEMSİLCİLERİ VEYA ÇALIŞANLARI TARAFINDAN SÖZLÜ YA DA YAZILI VERİLEN HİÇBİR BİLGİ VEYA ÖNERİ, HİÇBİR ŞEKİLDE BİR GARANTİ OLUŞTURMAZ VEYA İŞBU BELGEDEKİ GARANTİNİN KAPSAMINI GENİŞLETMEZ.&lt;BR&gt;
+(e) BAZI YARGI BÖLGELERİNDE ZIMNİ GARANTİLERİN HARİÇ TUTULMASINA İZİN VERİLMEDİĞİNDEN, YUKARIDAKİ SINIRLAMALAR VE HARİÇ TUTMALAR TARAFINIZ İÇİN GEÇERLİ OLMAYABİLİR. İŞBU GARANTİ TARAFINIZA BELİRLİ YASAL HAKLAR TANIR, VE EYALETTEN EYALETE DEĞİŞEN BAŞKA HAKLARINIZ DA OLABİLİR.&lt;BR&gt;&lt;BR&gt;
+SORUMLULUK SINIRLAMASI&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE VEYA TEDARİKÇİLERİ, SİZE VEYA HERHANGİ BİR ÜÇÜNCÜ TARAFA KARŞI, UZANTININ KULLANILMASI VEYA KULLANILAMAMASINDAN DOLAYI VE ADOBE VE TEMSİLCİLERİ SÖZ KONUSU ZARARLARIN OLASILIĞINDAN HABERDAR EDİLMİŞ OLSA BİLE 
+VE İŞBU BELGEDE BELİRLENEN BİR TAZMİNAT ESAS AMACINI KARŞILAMASA BİLE SÖZLEŞME İHLALİ, GARANTİ İHLALİ, KASIT (İHMAL DAHİL), ÜRÜN BOZUKLUĞU VEYA HERHANGİ BAŞKA BİR SORUMLULUK İDDİASINA DAYANAN DOLAYLI, ÖZEL, CEZAİ VEYA KARŞILIK OLARAK VERİLEN TAZMİNAT 
+ZARAR VE ZİYANLARINDAN (EKİPMANIN KULLANILAMAMASI VEYA VERİLERE ERİŞİLEMEMESİ, İŞ KAYBI, KAR KAYBI, İŞİN KESİNTİYE UĞRAMASI DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK KAYDIYLA) SORUMLU DEĞİLDİR.&lt;BR&gt;
+(b) ADOBE'NİN HER TÜRLÜ ZARAR VE ZİYANLAR İÇİN SİZE VEYA HERHANGİ BİR ÜÇÜNCÜ TARAFA KARŞI TOPLAM SORUMLULUĞU 100 AMERİKAN DOLARI İLE SINIRLIDIR,&lt;BR&gt;
+(C) BAZI YARGI BÖLGELERİNDE TESADÜFİ VE DOLAYLI ZARARLARA KARŞI SORUMLULUĞUN SINIRLANMASINA VEYA HARİÇ TUTULMASINA İZİN VERİLMEDİĞİNDEN, YUKARIDAKİ SINIRLAMA VEYA HARİÇ TUTMA TARAFINIZ İÇİN GEÇERLİ OLMAYABİLİR VE EYALETTEN EYALETE DEĞİŞEN BAŞKA HAKLARINIZ DA OLABİLİR.&lt;BR&gt;
+(d) YUKARIDAKİ SORUMLULUK SINIRLAMALARI YUKARIDAKİ GARANTİLERDE VE BİLDİRİMLERDE VE İŞBU SON KULLANICI LİSANS SÖZLEŞMESİNİN DİĞER TÜM KISIMLARINDA GEÇERLİDİR.&lt;BR&gt;&lt;BR&gt;
+Yukarıda yer alan Garanti ve Sorumluluk Sınırlamaları Bildirimleri, Adobe ile sizin aranızdaki sözleşmenin temel unsurlarıdır. 
+Adobe söz konusu sınırlamalar olmadan bu uzantıyı iktisadi olarak temin edemez. Söz konusu Garanti ve Sorumluluk Sınırlamaları Bildirimleri Adobe’nin lisans verenlerinin menfaatine haklar doğurur.&lt;BR&gt;&lt;BR&gt;
+(SADECE ABD'NİN DIŞINDA) SADECE TÜKETİCİ SON KULLANICILAR&lt;BR&gt;&lt;BR&gt;
+İşbu bu Bildirimde yer alan garanti ve sorumluluk sınırlamaları ve hariç tutmaları tüketicinin, yani bir iş vesilesiyle mal satın alan bir kimsenin kanuni haklarına etkisi olmaz veya zarar vermez.&lt;BR&gt;&lt;BR&gt;
+İşbu bu Bildirimde yer alan garantiler, tazminatlar ve sorumluluklar, sizin için sadece bulunduğunuz yargı bölgesinde geçerli kanunların izin verdiği sınırlama ve hariç tutma miktarına kadar geçerlidir.&lt;BR&gt;&lt;BR&gt;
+ÜÇÜNCÜ TARAF LİSANSI (VARSA)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Sürüm:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>Telif Hakkı 2000-2008 Adobe System Incoporated ve lisans verenlerine aittir. Tüm hakları saklıdır.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe ve Adobe logosu, ABD ve/veya diğer ülkelerdeki Adobe Systems Incorporated şirketinin tescilli ticari markaları veya ticari markalarıdır. Diğer tüm ticari markalar kendi sahiplerinin mülkiyetindedir.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110 ABD Patentleri'yle korunur. ABD ve/veya diğer ülkelerde sonuca bağlanmayı bekleyen patent başvuruları bulunmaktadır.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Bu eklenti yüklenemiyor, {1} ile {2} arasında {0} uygulamasını gerektiriyor.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Bu eklenti yüklenemiyor, {0} {1} uygulamasını gerektiriyor.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Bu eklenti yüklenemiyor, {0} {1} uygulamasını veya daha sonraki bir sürümünü gerektiriyor.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Bu eklenti yüklenemiyor, {0} {1} uygulamasını veya daha önceki bir sürümünü gerektiriyor.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>Bu eklentiyi yüklemek için lütfen {0} CS4 uygulamasını yüklemeyi veya Adobe CS3 ve daha önceki ürünlerle birlikte çalışan Adobe Extension Manager CS3 uygulamasını kullanmayı deneyin.</val>
+        </str> 
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>       
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>Uygulama başlatılamadı.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Lütfen bir ürün seçin.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Lütfen bir eklenti seçin.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Geçerli ürün için etkinleştir</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Tüm desteklenen ürünler için etkinleştir</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Geçerli ürün için devre dışı bırak</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Tüm desteklenen ürünler için devre dışı bırak</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Uzantı dosyadan yüklenemedi. {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>'{0}' uzantısını kaldırmak üzeresiniz. Devam etmek istiyor musunuz?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>Uzantı, {0} ürünü için yüklenmeyecek</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>Uzantı, {0} ürünü için etkinleştirilmeyecek</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>Uzantı, {0} ürünü için devre dışı bırakılmayacak</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>Uzantı, {0} ürünü için kaldırılmayacak</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>Bu uzantı birden çok ürünü destekliyor, bir sonraki ürünle devam etmek istiyor musunuz?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_tr</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

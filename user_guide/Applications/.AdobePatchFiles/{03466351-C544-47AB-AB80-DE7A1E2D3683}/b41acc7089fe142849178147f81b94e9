@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Service-Component: OSGI-INF/ManifestPersistenceService.xml,OSGI-INF/Se
+ rviceRegistry.xml,OSGI-INF/PublisherService.xml
+Adobe-AutoStart: true
+Bundle-Name: Adobe CSI (Core)
+Import-Package: com.adobe.csi.core.logging;version="1.0.0",com.adobe.d
+ rive.data.model.asset,com.adobe.drive.data.persistence.api,net.sf.cgl
+ ib.proxy,org.hibernate,org.hibernate.criterion,org.hibernate.proxy,or
+ g.osgi.framework;version="1.4.0",org.osgi.service.component;version="
+ 1.0.0"
+Bundle-Vendor: Adobe Systems Inc.
+Bundle-ManifestVersion: 2
+Eclipse-RegisterBuddy: org.hibernate
+Bundle-SymbolicName: com.adobe.csi.core
+Hibernate-Mapping: OSGI-INF/mapping.xml,OSGI-INF/queries.xml
+Export-Package: com.adobe.csi.core,com.adobe.csi.core.model,com.adobe.
+ csi.core.observer
+Bundle-Version: 1.0.0.344
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>CS4ServiceManager</string>
+	<key>CFBundleGetInfoString</key>
+	<string>4.0.0.344, Copyright © 2007-2008 Adobe Systems Incorporated</string>
+	<key>CFBundleIconFile</key>
+	<string>AdobeDrive.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.csi.CS4ServiceManager</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>4.0.0.344</string>
+	<key>LSBackgroundOnly</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.4</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright (c) 2007, Adobe Systems Incorporated.</string>
+</dict>
+</plist>

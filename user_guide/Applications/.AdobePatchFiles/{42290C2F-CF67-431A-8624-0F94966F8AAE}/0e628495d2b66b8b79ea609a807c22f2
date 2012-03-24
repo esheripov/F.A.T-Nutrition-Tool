@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AdobeSWFLStagingCL</key>
+	<string>410838</string>
+	<key>ApolloMainCL</key>
+	<string>397520</string>
+	<key>BinType</key>
+	<string>32</string>
+	<key>BuildDate</key>
+	<string>2008/06/11-19:13:11</string>
+	<key>BuildID</key>
+	<string>1570</string>
+	<key>BuildType</key>
+	<string>RELEASE</string>
+	<key>BuildVersion</key>
+	<string>53.406487</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>AdobeSWFL</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.adobe.adobeswfl</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>AdobeSWFL</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.7</string>
+	<key>CompanyName</key>
+	<string>Adobe Systems Incorporated</string>
+	<key>FileDescription</key>
+	<string>Adobe SWFL library</string>
+	<key>FileVersion</key>
+	<string>1.0</string>
+	<key>InternalName</key>
+	<string>AdobeSWFL.bundle</string>
+	<key>LegalCopyright</key>
+	<string>© 2007-2008 Adobe Systems Incorporated</string>
+	<key>OriginalFilename</key>
+	<string>AdobeSWFL.bundle</string>
+	<key>ProductName</key>
+	<string>AdobeSWFL</string>
+	<key>ProductVersion</key>
+	<string>1.0</string>
+</dict>
+</plist>

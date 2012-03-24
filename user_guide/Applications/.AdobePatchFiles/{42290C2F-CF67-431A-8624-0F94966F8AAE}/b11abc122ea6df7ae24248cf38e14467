@@ -1,0 +1,242 @@
+﻿/****************************************************************************/
+/*                                                                          */
+/*  Copyright 2006 Adobe Systems Incorporated. All rights reserved.         */
+/*                                                                          */
+/*  NOTICE:  Adobe permits you to use, modify, and distribute this file in  */
+/*  accordance with the terms of the Adobe license agreement accompanying   */
+/*  it. If you have received this file from a source other than Adobe,      */
+/*  then your use, modification, or distribution of it requires the prior   */
+/*  written permission of Adobe.                                            */  
+/*                                                                          */
+/****************************************************************************/
+
+/*
+@@@BUILDINFO@@@ VersionCueSDKLoader.jsx 3.0.0
+*/
+/*
+@@@START_XML@@@
+    <?xml version="1.0" encoding="UTF-8"?>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="en_US">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Enables functionality extended by Version Cue SDK.</dc:description>
+	</ScriptInfo>
+	
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="da_DK">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Aktiverer adgang til Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="de_DE">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Ermöglicht den Zugriff auf Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="es_ES">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Permite el acceso al SDK de Version Cue</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fi_FI">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Mahdollistaa pääsyn Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="fr_FR">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Permet l'accès au kit de développement de Version Cue</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="it_IT">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Consente l'accesso a Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="ja_JP">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Version Cue SDK へのアクセスを有効にします</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="ko_KR">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Version Cue SDK에 액세스 활성화</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="nl_NL">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Activeert toegang tot Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="nb_NO">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Gir tilgang til SDK for Version Cue</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pt_BR">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Permite acessar o Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="sv_SE">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Aktiverar tillgång till SDK för Version Cue</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="zh_CN">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>授予访问 Version Cue SDK 的权限</dc:description>
+	</ScriptInfo>	
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="zh_TW">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>啟用 Version Cue SDK 的存取</dc:description>
+	</ScriptInfo>	
+	
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="cs_CZ">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Povoluje přístup k sadě Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="el_GR">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Παρέχει δυνατότητα πρόσβασης στο Version Cue SDK</dc:description>
+	</ScriptInfo>
+		<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="hu_HU">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Lehetővé teszi a Version Cue szoftverfejlesztői készlet (SDK) elérését</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="pl_PL">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Włącza dostęp do Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="ro_RO">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Permite accesul la SDK-ul Version Cue</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="ru_RU">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Открывает доступ к Version Cue SDK</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="tr_TR">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Version Cue SDK'sine erişimi etkinleştirir</dc:description>
+	</ScriptInfo>
+	<ScriptInfo xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="uk_UA">
+		 <dc:title>Adobe Version Cue CS4 SDK</dc:title>
+		 <dc:description>Надає доступ до Version Cue SDK</dc:description>
+	</ScriptInfo>
+	
+		
+@@@END_XML@@@
+*/
+
+
+///////////////////////////////////////////////////////////////////////////////
+// Script to load versioncueSDK using ExternalObject.
+// Important: Do not load & unload VCSDK multiple times. Ideally VCSDK should be 
+// loaded once , use it & unload it when the use is over.
+///////////////////////////////////////////////////////////////////////////////
+
+VersionCueSDKLoader = new Object;
+var vcSDKHandle = null;
+
+VersionCueSDKLoader.loadSDK = function()
+{
+	try
+	{
+		//Load SDK only once
+		if(vcSDKHandle == null)
+		{
+			var sdkFilePath = "lib:";
+			if (File.fs == "Windows")
+			{
+				var vcSideBySideMode = $.getenv("ADOBEVC_USELOCAL_LIBS");				
+				if (vcSideBySideMode != null)
+				{
+					sdkFilePath += "VersionCueSDK.dll";
+				}
+				else
+				{	
+					// The env variable delivers backslashes.
+					sdkFilePath += $.getenv("CommonProgramFiles");
+					sdkFilePath += "/Adobe/Adobe Version Cue CS4/Client/";
+					vccVersion  = "4.0.0";
+					
+					appName    = $.getenv("com.adobe.versioncue.client.appname");
+					appVersion = $.getenv("com.adobe.versioncue.client.appversion");
+					appLocale  = $.getenv("com.adobe.versioncue.client.applocale");
+
+					/*
+					when we install patches we need to tabulate which apps are to use it.
+					this file can be updated whenever we install VC patches.
+					eg: if (appName == .... && appVersion ==....) 
+						{ vcVersion = "3.0.1"; }
+					*/
+					
+					sdkFilePath += vccVersion;
+					sdkFilePath += "/VersionCueSDK.dll";
+					
+					//Replace backslashes to forward
+					var sdkFilePathArr = new Array();
+					sdkFilePathArr = sdkFilePath.split ("\\");
+					var tempPath = "";
+					for(var i = 0 ; i < sdkFilePathArr.length; i++)
+					{
+						if(i !=  sdkFilePathArr.length - 1)
+							tempPath += sdkFilePathArr[i] + "/";
+						else
+							tempPath += sdkFilePathArr[i];
+					}
+					sdkFilePath = Folder.decode(tempPath);
+				}
+				//alert(sdkFilePath);
+				vcSDKHandle = new ExternalObject(sdkFilePath);
+			}
+			else
+			{
+				// Right now this is the only path in MAC.
+				sdkFilePath += "//Library/Application Support/Adobe/Adobe Version Cue CS4/Client/"
+				vccVersion  = "4.0.0";
+				
+				appName    = $.getenv("com.adobe.versioncue.client.appname");
+				appVersion = $.getenv("com.adobe.versioncue.client.appversion");
+				appLocale  = $.getenv("com.adobe.versioncue.client.applocale");
+				
+				/*
+				when we install patches we need to tabulate which apps are to use it.
+				this file can be updated whenever we install VC patches.
+				eg: if (appName == .... && appVersion ==....) 
+					{ vcVersion = "3.0.1"; }
+				*/
+				
+				sdkFilePath += vccVersion;
+				sdkFilePath += "/VersionCueSDK";
+				sdkFilePath = Folder.decode(sdkFilePath);
+				//alert(sdkFilePath);
+				vcSDKHandle = new ExternalObject(sdkFilePath);
+			}
+		}
+	}
+	catch(e)
+	{
+		//Log exception
+		alert("Exception:" + e.message + "\nFilename: " +  $.fileName + "\nLine:" + e.line);
+	}
+	return vcSDKHandle;
+}
+
+VersionCueSDKLoader.unLoadSDK = function()
+{
+	var Success = false;
+	try
+	{
+		if(vcSDKHandle != null)
+		{
+			// externalObject.terminate() only defined in ES version 3.7.72 and higher
+			var versionComponents = $.version.split(".");
+			if ((versionComponents[0] > 3) ||
+				(versionComponents[0] == 3 && versionComponents[1] > 7) || 
+				(versionComponents[0] == 3 && versionComponents[1] == 7 && versionComponents[2] >= 72) )
+			{
+				vcSDKHandle.terminate();
+			}
+			else
+			{
+				vcSDKHandle.unload();
+			}
+			vcSDKHandle = null;
+			Success = true;
+		}
+	}
+	catch(e)
+	{
+		//Log exception
+		alert("Exception:" + e.message + "\nFilename: " +  $.fileName + "\nLine:" + e.line);
+	}
+	return Success;
+}

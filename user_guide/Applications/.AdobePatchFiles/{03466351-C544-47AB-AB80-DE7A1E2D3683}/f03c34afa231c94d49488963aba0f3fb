@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2008 sp1 (http://www.altova.com) by Philipp Marx (N/A) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="requiredURI">
+		<xs:restriction base="xs:anyURI">
+			<xs:minLength value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="requiredString">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="MenuItemType">
+		<xs:sequence>
+			<xs:element name="MenuItem" type="MenuItemType" minOccurs="0" maxOccurs="unbounded" />
+		</xs:sequence>
+		<xs:attribute name="Label" type="requiredString" use="required" />
+	</xs:complexType>
+	<xs:element name="ExtensionManifest">
+		<xs:annotation>
+			<xs:documentation>Adobe Service Manifest for Extensions</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Extensions">
+					<xs:complexType>
+						<xs:sequence minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="Extension">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name" type="requiredString" />
+										<xs:element name="Player">
+											<xs:complexType>
+												<xs:attribute name="Type" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:enumeration value="SWFL" />
+															<xs:enumeration value="AuthPlay" />
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="Version" type="requiredString" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Type">
+											<xs:simpleType>
+												<xs:restriction base="xs:string" />
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="Preferences" minOccurs="0">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Preference">
+														<xs:complexType>
+															<xs:simpleContent>
+																<xs:extension base="xs:anySimpleType">
+																	<xs:attribute name="Key" use="required">
+																		<xs:simpleType>
+																			<xs:restriction base="requiredString" />
+																		</xs:simpleType>
+																	</xs:attribute>
+																	<xs:attribute name="Type" use="required">
+																		<xs:simpleType>
+																			<xs:restriction base="xs:string">
+																				<xs:enumeration value="String" />
+																				<xs:enumeration value="Integer" />
+																				<xs:enumeration value="Float" />
+																			</xs:restriction>
+																		</xs:simpleType>
+																	</xs:attribute>
+																</xs:extension>
+															</xs:simpleContent>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="Id" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string" />
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="MinPlugPlugVersion" type="requiredString" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+					<xs:unique name="extensionKey">
+						<xs:selector xpath="./Extension" />
+						<xs:field xpath="@Id" />
+					</xs:unique>
+				</xs:element>
+				<xs:element name="ExtensionList">
+					<xs:complexType>
+						<xs:sequence minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="Host">
+								<xs:complexType>
+									<xs:sequence maxOccurs="unbounded">
+										<xs:element name="Extension">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Priority" type="xs:nonNegativeInteger" />
+												</xs:sequence>
+												<xs:attribute name="Id" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="Id" type="xs:string" use="required" />
+								</xs:complexType>
+								<xs:unique name="hostExtensionId">
+									<xs:selector xpath="./Extension" />
+									<xs:field xpath="@Id" />
+								</xs:unique>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+					<xs:unique name="hostKey">
+						<xs:selector xpath="./Host" />
+						<xs:field xpath="@Id" />
+					</xs:unique>
+				</xs:element>
+				<xs:element name="DispatchList">
+					<xs:complexType>
+						<xs:sequence minOccurs="0" maxOccurs="unbounded">
+							<xs:element name="ExtensionDispatchInfo">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="SWFPath" type="requiredURI" />
+										<xs:element name="ScriptPath" type="requiredURI" minOccurs="0" />
+										<xs:element name="IconPath" minOccurs="0" maxOccurs="3">
+											<xs:complexType>
+												<xs:simpleContent>
+													<xs:extension base="requiredURI">
+														<xs:attribute name="Type" use="required">
+															<xs:simpleType>
+																<xs:restriction base="xs:string">
+																	<xs:enumeration value="Normal" />
+																	<xs:enumeration value="Disabled" />
+																	<xs:enumeration value="RollOver" />
+																</xs:restriction>
+															</xs:simpleType>
+														</xs:attribute>
+													</xs:extension>
+												</xs:simpleContent>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Menu" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MenuItem" type="MenuItemType" />
+												</xs:sequence>
+												<xs:attribute name="CustomPlacement" type="requiredString" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="Action" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="Type" use="required">
+													<xs:simpleType>
+														<xs:restriction base="xs:string">
+															<xs:enumeration value="UnloadExtension" />
+														</xs:restriction>
+													</xs:simpleType>
+												</xs:attribute>
+												<xs:attribute name="Value" type="requiredString" use="required" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="UI">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="InitialGeometry">
+														<xs:complexType>
+															<xs:attribute name="Width" type="xs:nonNegativeInteger" use="required" />
+															<xs:attribute name="Height" type="xs:nonNegativeInteger" use="required" />
+															<xs:attribute name="X" type="xs:nonNegativeInteger" use="required" />
+															<xs:attribute name="Y" type="xs:nonNegativeInteger" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="MinSize" minOccurs="0">
+														<xs:complexType>
+															<xs:attribute name="Width" type="xs:nonNegativeInteger" use="required" />
+															<xs:attribute name="Height" type="xs:nonNegativeInteger" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="MaxSize" minOccurs="0">
+														<xs:complexType>
+															<xs:attribute name="Width" type="xs:nonNegativeInteger" use="required" />
+															<xs:attribute name="Height" type="xs:nonNegativeInteger" use="required" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="Type">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="Panel" />
+																<xs:enumeration value="ModalDialog" />
+																<xs:enumeration value="Modeless" />
+																<xs:enumeration value="Tooltip" />
+																<xs:enumeration value="Toolbar" />
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+													<xs:element name="Visible">
+														<xs:simpleType>
+															<xs:restriction base="xs:string">
+																<xs:enumeration value="true" />
+																<xs:enumeration value="false" />
+															</xs:restriction>
+														</xs:simpleType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="Locale" use="required">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:pattern value="(All)|(ALL)|(([a-z]{2}_[A-Z]{2})(;([a-z]{2}_[A-Z]{2}))*)" />
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+									<xs:attribute name="HostId" type="xs:string" use="required" />
+									<xs:attribute name="ExtensionId" type="xs:string" use="required" />
+									<xs:attribute name="EngineId" type="xs:string" use="optional" />
+								</xs:complexType>
+								<xs:unique name="iconPathType">
+									<xs:selector xpath="./IconPath" />
+									<xs:field xpath="@Type" />
+								</xs:unique>
+								<xs:unique name="customPlacementKey">
+									<xs:selector xpath="./Menu" />
+									<xs:field xpath="@CustomPlacement" />
+								</xs:unique>								
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+					<xs:unique name="extensionDispatchInfoKey">
+						<xs:selector xpath="./ExtensionDispatchInfo" />
+						<xs:field xpath="@HostId" />
+						<xs:field xpath="@ExtensionId" />
+						<xs:field xpath="@Locale" />
+					</xs:unique>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="Version" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="1.4" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="ExtensionBundleId" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[A-Za-z0-9]+" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="ExtensionBundleVersion" use="optional" type="xs:string"/>
+		</xs:complexType>
+		<xs:key name="extensionId">
+			<xs:selector xpath="./Extensions/Extension" />
+			<xs:field xpath="@Id" />
+		</xs:key>
+		<xs:keyref name="serviceIdRef" refer="extensionId">
+			<xs:selector xpath="./ExtensionList/Host/Extensin" />
+			<xs:field xpath="@Id" />
+		</xs:keyref>
+		<xs:keyref name="serviceIdRef2" refer="extensionId">
+			<xs:selector xpath="./DispatchList/ExtensionDispatchInfo" />
+			<xs:field xpath="@ExtensionId" />
+		</xs:keyref>
+	</xs:element>
+</xs:schema>

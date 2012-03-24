@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd">
+<asf xmlns="http://ns.adobe.com/asf" locale="en_US" version="1.0">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install">
+            <val>Install</val>
+        </str>
+		<str name="Exchange">
+			<val>Exchange</val>
+		</str>
+		<str name="Help">
+			<val>Help</val>
+		</str>
+		<str name="File">
+			<val>$File</val>
+		</str>
+		<str name="InstallExtension">
+			<val>$Install Extension</val>
+		</str>
+		<str name="PackageExtension">
+			<val>$Package Extension</val>
+		</str>
+		<str name="SubmitExtension">
+			<val>$Submit Extension</val>
+		</str>
+		<str name="RemoveExtension">
+			<val>$Remove Extension</val>
+		</str>
+		<str name="InstallExtension_shortcut">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut">
+            <val>G</val>
+        </str>
+		<str name="Remove">
+            <val>Remove</val>
+        </str>
+        <str name="Available">
+            <val>Available</val>
+        </str>
+		<str name="GoToAdobeExchange">
+			<val>$Go To Adobe Exchange</val>
+		</str>
+		<str name="Exit">
+			<val>E$xit</val>
+		</str>
+		<str name="Window">
+			<val>Window</val>
+		</str>
+		<str name="HelpMenu">
+			<val>$Help</val>
+		</str>
+		<str name="HelpMenuItem">
+			<val>Extension Manager $Help</val>
+		</str>
+		<str name="AboutMenuItem">
+			<val>$About Extension Manager</val>
+		</str>
+		<str name="Importing">
+			<val>Importing:</val>
+		</str>
+		<str name="Product">
+			<val>PRODUCTS</val>
+		</str>
+		<str name="Enabled">
+			<val>Enabled</val>
+		</str>
+		<str name="Extension">
+			<val>Extension</val>
+		</str>
+		<str name="Version">
+			<val>Version</val>
+		</str>
+		<str name="Author">
+			<val>Author</val>
+		</str>
+		<str name="Updates">
+			<val>Updates</val>
+		</str>
+		<str name="Disabling">
+			<val>Disabling:</val>
+		</str>
+		<str name="Enabling">
+			<val>Enabling:</val>
+		</str>
+		<str name="Installing">
+			<val>Installing:</val>
+		</str>
+		<str name="Packaging">
+			<val>Packaging:</val>
+		</str>
+		<str name="Removing">
+			<val>Removing:</val>
+		</str>
+		<str name="Migrating">
+		  <val>Migrating:</val>
+        </str>
+		<str name="ImportingExtensions">
+            <val>Importing Extensions...</val>
+        </str>
+		<str name="DisablingExtension">
+            <val>Disabling Extension...</val>
+        </str>
+        <str name="EnablingExtension">
+            <val>Enabling Extension...</val>
+        </str>
+        <str name="InstallingExtension">
+            <val>Installing Extension...</val>
+        </str>
+        <str name="PackagingExtension">
+            <val>Packaging Extension...</val>
+        </str>
+        <str name="RemovingExtension">
+            <val>Removing Extension...</val>
+        </str>
+        <str name="MigratingExtensions">
+          <val>Migrating Extensions...</val>
+        </str>
+		<str name="DialogTitle">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL">
+			<val>Cancel</val>
+		</str>
+		<str name="LABEL_ABORT">
+			<val>Abort</val>
+		</str>
+		<str name="LABEL_RETRY">
+			<val>Retry</val>
+		</str>
+		<str name="LABEL_IGNORE">
+			<val>Ignore</val>
+		</str>
+		<str name="LABEL_YES">
+			<val>Yes</val>
+		</str>
+		<str name="LABEL_NO">
+			<val>No</val>
+		</str>
+		<str name="LABEL_YESTOALL">
+			<val>Yes to All</val>
+		</str>
+		<str name="LABEL_ACCEPT">
+			<val>Accept</val>
+		</str>
+		<str name="LABEL_DECLINE">
+			<val>Decline</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY">
+			<val>Later</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER">
+			<val>Never</val>
+		</str>
+		<str name="MIGRATION_PROMPT">
+			<val>There are some extensions installed in the previous version of Extension Manager, do you want to migrate them?</val>
+		</str>
+		<str name="MIGRATION_DONE">
+			<val>The extension migration from previous version is done. Please restart Extension Manager.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL">
+			<val>Select Extension to Install</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE">
+            <val>Select Extension to Package</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS">
+            <val>Save Extension Package As</val>
+        </str>
+        <str name="EXTENSION_LICENSE">
+            <val>EXTENSION DISCLAIMER&lt;BR&gt;&lt;BR&gt;PLEASE READ THIS DISCLAIMER CAREFULLY BEFORE INSTALLING ANY EXTENSION.  IF YOU DO NOT AGREE WITH THIS DISCLAIMER, THEN DO NOT USE AND/OR COMPLETE INSTALLATION OF THE EXTENSION.&lt;BR&gt;&lt;BR&gt;You are about to install an Extension provided by and/or authored by Adobe or a third party.  You understand and agree that Adobe may NOT have authored the Extension you are about to install.  A third party to which Adobe has no relationship may have authored the Extension or Adobe may have authored it.  You agree that you will not distribute the Extension without the written consent of Adobe and/or its licensors.  You understand that the third party author of an Extension may require you to agree to certain terms and conditions between you and the third party author in order for you to use such author’s Extension.&lt;BR&gt;&lt;BR&gt;In the event a third party license agreement appears under the title 'THIRD PARTY LICENSE (IF ANY)' below, or accompanies the Extension in a file, such third party license agreement shall govern the use of the Extension in lieu of any download license agreement you may have accepted when downloading the Extension from Adobe’s site; provided, however, the provisions of this Disclaimer shall remain effective.&lt;BR&gt;&lt;BR&gt;DISCLAIMER OF ALL WARRANTIES AND TECHNICAL SUPPORT&lt;BR&gt;&lt;BR&gt;(a) ADOBE AND ITS SUPPLIERS PROVIDE NO REMEDIES OR WARRANTIES, WHETHER EXPRESS OR IMPLIED, FOR THE EXTENSION.  THE EXTENSION IS PROVIDED 'AS IS' AND 'WITH ALL FAULTS' WITHOUT ANY TECHNICAL SUPPORT OF ANY KIND.&lt;BR&gt;(b) ADOBE AND ITS SUPPLIERS DISCLAIM ALL WARRANTIES AND REPRESENTATIONS, WHETHER EXPRESS, IMPLIED, OR OTHERWISE, INCLUDING THE WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  ALSO, THERE IS NO WARRANTY OF NON-INFRINGEMENT AND TITLE OR QUIET ENJOYMENT.  ADOBE DOES NOT WARRANT THAT THE EXTENSION IS ERROR-FREE OR WILL OPERATE WITHOUT INTERRUPTION.   NO RIGHTS OR REMEDIES REFERRED TO IN ARTICLE 2A OF THE UCC WILL BE CONFERRED ON YOU UNLESS EXPRESSLY GRANTED HEREIN.  THE EXTENSION IS NOT DESIGNED, INTENDED OR LICENSED FOR USE IN HAZARDOUS ENVIRONMENTS REQUIRING FAIL-SAFE CONTROLS, INCLUDING WITHOUT LIMITATION, THE DESIGN, CONSTRUCTION, MAINTENANCE OR OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL, AND LIFE SUPPORT OR WEAPONS SYSTEMS.  ADOBE SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY OF FITNESS FOR SUCH PURPOSES.&lt;BR&gt;(c) IF APPLICABLE LAW REQUIRES ANY WARRANTIES WITH RESPECT TO THE EXTENSION, ALL SUCH WARRANTIES ARE LIMITED IN DURATION TO NINETY (90) DAYS FROM THE DATE OF DELIVERY.&lt;BR&gt;(d) NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY ADOBE, ITS DEALERS, DISTRIBUTORS, AGENTS OR EMPLOYEES SHALL CREATE A WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF ANY WARRANTY PROVIDED HEREIN.&lt;BR&gt;(e) SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU. THIS WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS AND YOU MAY ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM STATE TO STATE.&lt;BR&gt;&lt;BR&gt;LIMITATION OF LIABILITY&lt;BR&gt;&lt;BR&gt;(a) NEITHER ADOBE NOR ITS SUPPLIERS SHALL BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY INDIRECT, SPECIAL, INCIDENTAL, PUNITIVE, COVER OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR THE INABILITY TO USE EQUIPMENT OR ACCESS DATA, LOSS OF BUSINESS, LOSS OF PROFITS, BUSINESS INTERRUPTION OR THE LIKE), ARISING OUT OF THE USE OF, OR INABILITY TO USE, THE EXTENSION AND BASED ON ANY THEORY OF LIABILITY INCLUDING BREACH OF CONTRACT, BREACH OF WARRANTY, TORT (INCLUDING NEGLIGENCE), PRODUCT LIABILITY OR OTHERWISE, EVEN IF ADOBE OR ITS REPRESENTATIVES HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND EVEN IF A REMEDY SET FORTH HEREIN IS FOUND TO HAVE FAILED OF ITS ESSENTIAL PURPOSE.&lt;BR&gt;(b) ADOBE'S TOTAL LIABILITY TO YOU OR ANY THIRD PARTY FOR ACTUAL DAMAGES FOR ANY CAUSE WHATSOEVER WILL BE LIMITED TO $100.&lt;BR&gt;(c) SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR EXCLUSION MAY NOT APPLY TO YOU AND YOU MAY ALSO HAVE OTHER LEGAL RIGHTS THAT VARY FROM STATE TO STATE.&lt;BR&gt;(d) THE FOREGOING LIMITATIONS ON LIABILITY ARE INTENDED TO APPLY TO THE WARRANTIES AND DISCLAIMERS ABOVE AND ALL OTHER ASPECTS OF THIS EULA.&lt;BR&gt;&lt;BR&gt;The Disclaimer of Warranties and Limitation of Liability set forth above are fundamental elements of the basis of the agreement between Adobe and you. Adobe would not be able to provide the Extension on an economic basis without such limitations.  Such Disclaimer of Warranties and Limitation of Liability inure to the benefit of Adobe’s licensors.&lt;BR&gt;&lt;BR&gt;(OUTSIDE OF THE USA ONLY) CONSUMER END USERS ONLY&lt;BR&gt;&lt;BR&gt;The limitations or exclusions of warranties and liability contained in this Disclaimer do not affect or prejudice the statutory rights of a consumer, i.e., a person acquiring goods otherwise than in the course of a business.&lt;BR&gt;&lt;BR&gt;The limitations or exclusions of warranties, remedies or liability contained in this Disclaimer shall apply to you only to the extent such limitations or exclusions are permitted under the laws of the jurisdiction where you are located.&lt;BR&gt;&lt;BR&gt;THIRD PARTY LICENSE (IF ANY)</val>
+        </str>
+        <str name="About_Version">
+            <val>Version:</val>
+        </str>
+        <str name="About_Copyright">
+            <val>© 2000-2008 Adobe Systems Incorporated and its licensors.  All rights reserved.</val>
+        </str>
+        <str name="About_Legal">
+            <val>Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.</val>
+        </str>
+        <str name="About_Other_Patents">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents">
+            <val>Protected by U.S. Patents 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. Patents pending in the U.S. and/or other countries.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX">
+            <val>This extension can not be installed, it requires {0} from {1} to {2}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX">
+            <val>This extension can not be installed, it requires {0} {1}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN">
+            <val>This extension can not be installed, it requires {0} {1} or greater.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX">
+            <val>This extension can not be installed, it requires {0} {1} or lower.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION">
+            <val>To install this extension, please try to install {0} CS4 or use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str> 
+        <str name="APPLICATION_STARTUP_FAIL">
+            <val>Application failed to start up.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT">
+            <val>Please select a product.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION">
+            <val>Please select an extension.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT">
+            <val>Enable for the current product</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT">
+            <val>Enable for all supported products</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT">
+            <val>Disable for the current product</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT">
+            <val>Disable for all supported products</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION">
+            <val>Failed to load the extension from the file: {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT">
+            <val>You are about to remove the '{0}' extension. Do you want to continue?</val>
+        </str>
+        <str name="INSTALL_FAIL">
+            <val>The extension will not be installed for product {0}</val>
+        </str>
+        <str name="ENABLE_FAIL">
+            <val>The extension will not be enabled for product {0}</val>
+        </str>
+        <str name="DISABLE_FAIL">
+            <val>The extension will not be disabled for product {0}</val>
+        </str>
+        <str name="REMOVE_FAIL">
+            <val>The extension will not be removed for product {0}</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT">
+            <val>This extension supports multiple products, do you want to continue for the next product?</val>
+        </str>
+        <str name="EXCHANGE_URL">
+            <val>http://www.adobe.com/go/exchange</val>
+        </str>
+        <str name="SUBMIT_URL">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e">
+            <val>e</val>
+        </str>        
+        <str name="c">
+	        <val>c</val>
+        </str>
+        <str name="f">
+            <val>f</val>
+        </str>        
+        <str name="h">
+            <val>h</val>
+        </str>
+        <str name="t">
+            <val>t</val>
+        </str>
+        <str name="d">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

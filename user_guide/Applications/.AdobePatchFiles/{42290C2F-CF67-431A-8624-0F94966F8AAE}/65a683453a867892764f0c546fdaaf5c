@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-Name: Version Cue Bonjour
+Bundle-ClassPath: com.adobe.versioncue.bonjour.jar
+Bundle-Vendor: Adobe Systems Inc.
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.adobe.versioncue.bonjour; singleton:=true
+Eclipse-BuddyPolicy: ext
+Export-Package: com.adobe.versioncue.bonjour
+Bundle-Version: 4.0.0.344
+

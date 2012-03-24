@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: com.adobe.drive.shutdown
+Bundle-SymbolicName: com.adobe.drive.shutdown
+Bundle-Version: 1.0.0
+Bundle-Activator: com.adobe.drive.shutdown.Activator
+Bundle-Vendor: Adobe Systems Inc.
+Import-Package: org.apache.commons.net.telnet;version="1.4.1",
+ org.osgi.framework;version="1.3.0"
+Export-Package: com.adobe.drive.shutdown;uses:="org.osgi.framework",
+ com.adobe.drive.shutdown.telnet
+Bundle-ClassPath: bin/,
+ .

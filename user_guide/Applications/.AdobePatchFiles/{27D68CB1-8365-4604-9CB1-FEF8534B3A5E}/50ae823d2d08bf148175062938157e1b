@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>安裝</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>說明</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>檔案($F)</val>
+			<val plat="mac">檔案</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>安裝擴充功能($I)</val>
+			<val plat="mac">安裝擴充功能</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>封裝擴充功能($P)</val>
+			<val plat="mac">封裝擴充功能</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>送出擴充功能($S)</val>
+			<val plat="mac">送出擴充功能</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>移除擴充功能($R)</val>
+			<val plat="mac">移除擴充功能</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>移除</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>可用</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>移至 Adobe Exchange($G)</val>
+			<val plat="mac">移至 Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>結束($X)</val>
+			<val plat="mac">結束</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>視窗</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>說明($H)</val>
+			<val plat="mac">說明</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Extension Manager 說明($H)</val>
+			<val plat="mac">Extension Manager 說明</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>關於 Extension Manager($A)</val>
+			<val plat="mac">關於 Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>讀入:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>產品</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>已啟用</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>擴充功能</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>版本</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>作者</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>更新</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>正在停用:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>啟用:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>正在安裝:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>正在封裝:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>正在移除:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>遷移:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>正在讀入擴充功能...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>正在停用擴充功能...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>正在啟用擴充功能...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>正在安裝擴充功能...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>正在封裝擴充功能...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>正在移除擴充功能...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>正在遷移擴充功能...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>確定</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>取消</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>中止</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>重試</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>忽略</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>是</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>否</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>全部皆是</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>接受</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>拒絕</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>稍後</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>從不</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>先前版本的 Extension Manager 中已安裝了一些擴充功能，您是否要遷移它們?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>已完成從先前版本遷移擴充功能。請重新啟動 Extension Manager。</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>選取要安裝的擴充功能</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>選取要封裝的擴充功能</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>將擴充功能套件另存為</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>擴充功能免責聲明&lt;BR&gt;&lt;BR&gt;
+在安裝任何擴充功能之前，請先仔細閱讀本「免責聲明」。若貴用戶不同意本「免責聲明」，則請勿使用和/或完成擴充功能的安裝。&lt;BR&gt;&lt;BR&gt;
+　貴用戶即將安裝由 Adobe 或協力廠商所提供和/或編寫的「擴充功能」。　貴用戶了解並同意 Adobe 可能並「未」編寫　貴用戶即將安裝的「擴充功能」。
+本「擴充功能」可能是由與 Adobe 無關的協力廠商或是 Adobe 本身所編寫的。　貴用戶同意不會在未取得 Adobe 和/或其授權者之書面同意的情況下分發本「擴充功能」。  
+　貴用戶了解「擴充功能」的協力廠商作者可能會要求　貴用戶遵守雙方之間的特定條款和條件，　貴用戶方可使用此作者的「擴充功能」。&lt;BR&gt;&lt;BR&gt;
+若協力廠商授權協議出現在下述「協力廠商授權 (若有)」標題之下，或以檔案形式隨附「擴充功能」分發，則「擴充功能」的使用受此類協力廠商授權協議之約制，並取代 
+　貴用戶從 Adobe 網站下載「擴充功能」時可能已接受過之任何下載授權協議，但前提為，本「免責聲明」條款仍具法律效力。&lt;BR&gt;&lt;BR&gt;
+所有責任擔保與技術支援之免責聲明&lt;BR&gt;&lt;BR&gt;
+(a) Adobe 與其供應商不以明示或暗示方式，為「擴充功能」提供任何賠償或保證。「擴充功能」係依現況並連同其本身具有之一切瑕疵提供，不含任何形式之技術支援。&lt;BR&gt;
+(b) Adobe 與其供應商否認所有明示或暗示性的保證和陳述，包括銷售性或適用於特定用途的保證。  
+同樣地，也不提供未侵犯他人權益和所有權或不受打擾地享用權的保證。Adobe 不保證「擴充功能」完全沒有錯誤或可以順利執行。　貴用戶不得享有 UCC 條款第 2A 節所論及的權利或賠償，
+除非經本文明確授予。「擴充功能」並非針對在需要防止故障控制的危險環境中使用而設計、計劃或授權，包括 (但不限於) 
+核能設施、航空器導航或通訊系統、空中交通管制，以及維生或武器系統之設計、建造、維修或操作。Adobe 尤其不對此類用途之適用性做任何明示或暗示性的保證。&lt;BR&gt;
+(c) 如果適用法律規定必須針對「擴充功能」做出任何保證時，所有此類保證僅限於交貨後的九十 (90) 天以內有效。&lt;BR&gt;
+(d) 所有 Adobe、其業者、經銷商、代理商或員工所提供之口頭或書面資訊或建議，皆不得做為任何保證，亦不可能以任何方式擴大此處所提及之任何保證範圍。&lt;BR&gt;
+(e) 有些轄區不允許有關暗示性保證的排除條款，因此，上述排除條款可能並不適用於　貴用戶。本責任擔保授予　貴用戶特定法定權利，且　貴用戶也可能享有其他隨各州而異的法定權利。&lt;BR&gt;&lt;BR&gt;
+責任限制&lt;BR&gt;&lt;BR&gt;
+(a) Adobe 或其供應商對於您或任何協力廠商因為使用或無法使用本「擴充功能」，以及依據任何賠償責任基礎，包括違反合約、違反保證、(包括因疏忽而造成之) 侵權、產品賠償責任或其他責任所造成之
+任何間接、特殊、意外、懲罰、涵蓋或必然損失 (包括但不限於因為無法使用設備或存取資料所造成的損害、業務損失、利潤虧損、營運中止等情況)，概不承擔任何賠償責任，
+即使已事先告知 Adobe 或其業務代表可能發生此類損失，以及即使本文所規範之賠償辦法經確認無法達成其主要用途亦然。&lt;BR&gt;
+(b) Adobe 對於不論任何原因而造成您或任何協力廠商之實際損失所負的賠償總額，將不超過美金 100 元。&lt;BR&gt;
+(c) 有些轄區不允許對於意外或必然損害的賠償責任加以設限或排除，因此，上述設限或排除條款可能並不適用於　貴用戶，　貴用戶也可能享有其他隨各州而異的法定權利。&lt;BR&gt;
+(d) 上述賠償責任限制適用於前述保證與免責聲明，以及本授權協議的每一方面。&lt;BR&gt;&lt;BR&gt;
+上述責任擔保免責聲明與賠償責任限制，是構成 Adobe 與　貴用戶之間協議的基本要素。 
+基於經濟上的考量，Adobe 無法不依據這些限制而提供「擴充功能」。此類「保證免責聲明」與「責任限制」適用於 Adobe 的授權人權益。&lt;BR&gt;&lt;BR&gt;
+(美國以外的地區) 僅適用於消費型使用者&lt;BR&gt;&lt;BR&gt;
+本「免責聲明」所含的責任擔保和賠償責任的限制或排除條款，並不會影響或侵害消費者的法定權利，此處所謂的消費者也就是指非因商業需要而取得產品的人。&lt;BR&gt;&lt;BR&gt;
+本「免責聲明」所含的責任擔保、唯一賠償和賠償責任的限制或排除條款中，　貴用戶所適用的部分僅限於　貴用戶所在轄區的法律下所許可的限制與排除條款範圍內。&lt;BR&gt;&lt;BR&gt;
+協力廠商授權 (若有)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>版本:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>版權所有 2000-2008 Adobe System Incoporated 及其授權人。保留所有權利。</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe 和 Adobe 標誌是 Adobe Systems Incorporated 在美國和/或其他國家/地區的註冊商標或商標。所有其他商標由其各自擁有者所有。</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>受以下美國專利保護：5,546,528、5,870,091、5,929,866、5,943,063、6,411,730、6,563,502、6,711,557、6,754,382、6,970,749、7,002,597、7,006,107、7,333,110；並受美國和/或其他國家/地區申請中的專利保護。</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>無法安裝此擴充功能， 它要求從 {1} 到 {2} 的 {0}。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>無法安裝此擴充功能，它要求 {0} {1}。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>無法安裝此擴充功能，它要求 {0} {1} 或更高版本。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>無法安裝此擴充功能，它要求 {0} {1} 或更低版本。</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>若要安裝此擴充功能，請嘗試安裝 {0} CS4 或使用可與 Adobe CS3 及較早產品配合使用的 Adobe Extension Manager CS3。</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>        
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>啟動應用程式失敗。</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>請選取產品。</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>請選取擴充功能。</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>對目前產品啟用</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>對所有支援的產品啟用</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>對目前產品停用</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>對所有支援的產品停用</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>無法從檔案 {0} 載入擴充功能</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>您即將刪除「{0}」擴充功能。 您是否要繼續？</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>不會為產品 {0} 安裝該擴充功能</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>不會為產品 {0} 啟用該擴充功能</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>不會為產品 {0} 停用該擴充功能</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>不會從產品 {0} 刪除該擴充功能</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>此擴充功能支援多個產品，您要在下一個產品中繼續執行嗎？</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_tw</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

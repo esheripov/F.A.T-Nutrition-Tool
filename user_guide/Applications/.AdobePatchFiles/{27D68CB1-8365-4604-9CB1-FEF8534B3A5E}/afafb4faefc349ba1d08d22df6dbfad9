@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>インストール</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>ヘルプ</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>ファイル($F)</val>
+			<val plat="mac">ファイル</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>拡張機能をインストール($I)</val>
+			<val plat="mac">拡張機能をインストール</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>拡張機能を作成($P)</val>
+			<val plat="mac">拡張機能を作成</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>拡張機能を送信($S)</val>
+			<val plat="mac">拡張機能を送信</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>拡張パッケージを削除($R)</val>
+			<val plat="mac">拡張パッケージを削除</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>削除</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>利用可能</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>Adobe Exchange へ($G)</val>
+			<val plat="mac">Adobe Exchange へ</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>終了($X)</val>
+			<val plat="mac">終了</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>ウィンドウ</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>ヘルプ($H)</val>
+			<val plat="mac">ヘルプ</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Extension Manager ヘルプ($H)</val>
+			<val plat="mac">Extension Manager ヘルプ</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>Adobe Extension Manager について($A)</val>
+			<val plat="mac">Adobe Extension Manager について</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>読み込み :</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>製品</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>有効</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>拡張機能</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>バージョン</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>作成者</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>アップデート</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>無効化 :</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>有効化 :</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>インストール :</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>作成 :</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>削除 :</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>移行 :</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>拡張機能を読み込んでいます...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>拡張機能を無効化しています...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>拡張機能を有効化しています...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>拡張機能をインストールしています...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>拡張機能を作成しています...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>拡張パッケージを削除しています...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>拡張機能を移行しています...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>キャンセル</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>中止</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>再試行</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>無視</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>はい</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>いいえ</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>すべてはい</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>承諾する</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>承諾しない</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>後で実行</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>実行しない</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>前のバージョンの Extension Manager でインストールされた拡張機能があります。移行しますか?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>前のバージョンの拡張機能の移行が完了しました。Extension Manager を再起動してください。</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>インストールする拡張機能を選択</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>作成する拡張機能を選択</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>名前を付けて拡張パッケージを保存</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>拡張機能に関する免責&lt;BR&gt;&lt;BR&gt;
+拡張機能をインストールする前に、本免責条項をよくお読みください。本免責条項に同意されない場合、本拡張機能を使用したりインストールしたりすることはできません。&lt;BR&gt;&lt;BR&gt;
+お客様は、Adobe またはサードパーティーが提供あるいは作成した拡張機能をインストールしようとしています。お客様は、インストールする拡張機能が Adobe によって作成されたものではない可能性があることを理解し、それに同意するものとします。
+この拡張機能は、Adobe とは関係のないサードパーティーが作成したものであるか、または Adobe が作成したものです。お客様は、Adobe またはそのライセンサーの書面による許可を得ずにこの拡張機能を配布しないことに同意するものとします。
+お客様は、拡張機能を作成したサードパーティーが、お客様がその拡張機能を使用する際に、特定の使用条件への合意を求める可能性があることを理解するものとします。&lt;BR&gt;&lt;BR&gt;
+サードパーティーライセンス契約が後記の「サードパーティーライセンス (存在する場合)」に記載されている場合、またはファイル内の拡張機能に付随している場合は、拡張機能を使用するにあたって、Adobe の Web サイトから拡張機能をダウンロードしたときに受け取るライセンス契約ではなく、かかるサードパーティーライセンス契約の規定に従うものとします。
+ただし、その場合も本免責条項の規定は有効となります。&lt;BR&gt;&lt;BR&gt;
+すべての保証およびテクニカルサポートに関する免責&lt;BR&gt;&lt;BR&gt;
+(a) Adobe およびその供給業者は、本拡張機能について、明示、黙示の如何を問わず、いかなる救済または保証を行いません。本拡張機能は、現状有姿および瑕疵を問わない条件で提供するものであり、いかなるテクニカルサポートも提供されません。&lt;BR&gt;
+(b) Adobe およびその供給業者は、明示、黙示、その他の方法の如何を問わず、市場性、特定目的への適合性の保証を含め、保証や表明は一切行いません。
+また、第三者の知的所有権を侵害しないこと、一切の権限を有すること、または平穏享受についての保証も行いません。Adobe は、本拡張機能にエラーがないこと、または中断することなく動作することを保証していません。UCC の ARTICLE 2A に示されている権利または救済は、ここに明示的に認められている場合を除き、お客様に付与されません。
+本拡張機能は、核施設、航空機のナビゲーションおよび通信システム、航空管制、および生命維持または武器システムの設計、製造、保守、または操作を含むがこれらに限定されない、フェールセーフコントロールを必要とする危険な環境で使用することを意図して設計またはライセンス供与されるものではありません。
+Adobe は、このような用途への適合性について明示的または黙示的ないかなる保証も行いません。&lt;BR&gt;
+(c) 本拡張機能に関して適用される法律に、本拡張機能に義務づけられる保証規定がある場合、その効力は納品日から 90 日間に限定されます。&lt;BR&gt;
+(d) Adobe、そのディーラー、販売店、代理店もしくは従業員より与えられたいかなる口頭または書面による情報もしくは助言は、保証を成立させるものではなく、ここに定める保証の範囲を拡大することは一切ありません。&lt;BR&gt;
+(e) (米国内向け) 管轄によっては、黙示の保証の除外を認めていないため、上記の除外がお客様に適用されないことがあります。本保証はお客様に特定の法律上の権利を与え、さらにお客様は州によって異なる他の法律上の権利を有する場合があります。&lt;BR&gt;&lt;BR&gt;
+限定責任&lt;BR&gt;&lt;BR&gt;
+(a) Adobe およびその供給業者は、お客様またはサードパーティーに対して、本拡張機能の使用または使用不能に関連して発生し、契約違反、保証違反、過失などの不法行為、製造物責任、またはその他のいかなる責任原理に基づく、間接的損害、特別損害、偶発的損害、懲罰的損害、補填損害、もしくは派生的損害 (装置を使用または
+データにアクセスできないことによる損害、取引の逸失、逸失利益、事業の中断、その他を含むが、これに限定されない) について、たとえ Adobe もしくはその代表者がそのような損害が生ずる可能性について報告を受けていた、あるいは本契約書記載の救済手段がその基本的目的を達成することができないことが明らかとなった場合であっても、一切の責任を負いません。&lt;BR&gt;
+(b) 原因の如何を問わず現実に発生した損害に対して Adobe がお客様またはサードパーティーに対して負う責任総額は、$100 を限度とします。&lt;BR&gt;
+(c) (米国内向け) 管轄によっては、付随的または派生的損害に対する責任の制限または免除を認めていないため、上記の制限や免除がお客様に適用されない場合があります。さらにお客様は州によって異なる他の法律上の権利を有する場合があります。&lt;BR&gt;
+(d) 上記の責任限定は、上記の本契約の保証と免責条項およびその他のすべての点に適用されます。&lt;BR&gt;&lt;BR&gt;
+上記の免責と限定責任の各条項は、Adobe とお客様との間の契約の基本的な前提条件です。
+Adobe は、これらの制限が伴わなければ、経済的にお客様に本拡張機能を提供することができません。これらの免責と限定責任の各条項は、Adobe のライセンサーの利益のために効力を生じるものです。&lt;BR&gt;&lt;BR&gt;
+(米国外の) 消費者であるエンドユーザーのみ適用&lt;BR&gt;&lt;BR&gt;
+本免責条項に含まれる保証および責任の限定または排除は、消費者、つまり業務以外で製品を取得する個人のお客様の法的権利に影響を与えたり、またはそれを害したりするものではありません。&lt;BR&gt;&lt;BR&gt;
+本免責条項に含まれる保証、救済、または責任の限定または排除は、お客様が所在する地域の法律の下で認められる範囲内でのみ適用されます。&lt;BR&gt;&lt;BR&gt;
+サードパーティーライセンス (存在する場合)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>バージョン :</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>© 2000-2008 Adobe Systems Incorporated and its licensors.  All rights reserved.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe および Adobe ロゴは、Adobe Systems Incorporated (アドビ システムズ社) の米国ならびに他の国における商標または登録商標です。その他すべての商標は、それぞれの権利帰属者の所有物です。</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>米国特許番号 5,546,528、5,870,091、5,929,866、5,943,063、6,411,730、6,563,502、6,711,557、6,754,382、6,970,749、7,002,597、7,006,107、7,333,110 その他米国および他の国において出願中の特許で保護されています。</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>この拡張機能はインストールできません。{0} の {1} から {2} までバージョンが必要です。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>この拡張機能はインストールできません。{0} {1} が必要です。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>この拡張機能はインストールできません。{0} {1} 以降のバージョンが必要です。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>この拡張機能はインストールできません。{0} {1} 以前のバージョンが必要です。</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>この拡張機能をインストールするには、{0} CS4 をインストールするか、Adobe CS3 以前の製品に対応した Adobe Extension Manager CS3 を使用してください。</val>
+        </str> 
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>       
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>アプリケーションの起動に失敗しました。</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>製品を選択してください。</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>拡張機能を選択してください。</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>現在の製品に対し有効化</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>対応するすべての製品に対し有効化</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>現在の製品に対し無効化</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>対応するすべての製品に対し無効化</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>次のファイルから拡張機能をロードできませんでした : {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>'{0}' 拡張機能を削除しようとしています。続行しますか?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>この拡張機能は、製品 {0} に対してインストールされません</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>この拡張機能は、製品 {0} に対して有効になりません</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>この拡張機能は、製品 {0} に対して無効になりません</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>この拡張機能は、製品 {0} に対して削除されません</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>この拡張機能は複数の製品に対応しています。次の製品に対しても続行しますか?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_jp</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

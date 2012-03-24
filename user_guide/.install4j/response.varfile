@@ -1,0 +1,11 @@
+#install4j response file for Vuze 4.5
+#Sat Sep 11 17:58:31 PDT 2010
+CONDUIT_ACCEPTED$Boolean=true
+createDesktopLinkAction$Boolean=true
+sys.languageId=en
+void=/
+CONDUIT_DEFAULT_SEARCH$Boolean=true
+TERMS_ACCEPTED$Boolean=true
+createQuicklaunchIconAction$Boolean=true
+CONDUIT_DEFAULT_START$Boolean=false
+createTorrentFileAssoc$Boolean=true

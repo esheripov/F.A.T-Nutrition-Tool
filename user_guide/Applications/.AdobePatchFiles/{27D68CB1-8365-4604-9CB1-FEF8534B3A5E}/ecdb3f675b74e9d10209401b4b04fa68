@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>Adobe Extension Manager CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>安装</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>帮助</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>文件($F)</val>
+			<val plat="mac">文件</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>安装扩展($I)</val>
+			<val plat="mac">安装扩展</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>将扩展打包($P)</val>
+			<val plat="mac">将扩展打包</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>提交扩展($S)</val>
+			<val plat="mac">提交扩展</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>移除扩展($R)</val>
+			<val plat="mac">移除扩展</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>移除</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>可用</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>转到 Adobe Exchange($G)</val>
+			<val plat="mac">转到 Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>退出($X)</val>
+			<val plat="mac">退出</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>窗口</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>帮助($H)</val>
+			<val plat="mac">帮助</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Extension Manager 帮助($H)</val>
+			<val plat="mac">Extension Manager 帮助</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>关于 Adobe Extension Manager($A)</val>
+			<val plat="mac">关于 Adobe Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>正在导入:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>产品</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>已启用</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>扩展</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>版本</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>作者</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>更新</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>正在禁用:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>正在启用:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>正在安装:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>正在打包:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>正在移除:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>正在移植:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>正在导入扩展...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>正在禁用扩展...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>正在启用扩展...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>正在安装扩展...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>正在将扩展打包...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>正在移除扩展...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>正在移植扩展...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>Adobe Extension Manager</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>确定</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>取消</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>中止</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>重试</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>忽略</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>是</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>否</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>全是</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>接受</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>拒绝</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>以后</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>从不</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>早期版本的 Extension Manager 中存在一些扩展，是否要对其进行移植？</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>已完成从早期版本进行的扩展移植。请重新启动 Extension Manager。</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>选取要安装的扩展</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>选取要打包的扩展</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>将扩展包另存为</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>扩展功能免责声明&lt;BR&gt;&lt;BR&gt;
+在安装任何扩展功能之前，请仔细阅读此免责声明。如果您不同意此免责声明中所列条款，请不要使用该扩展功能和/或完成该扩展功能的安装。&lt;BR&gt;&lt;BR&gt;
+您即将安装由 Adobe 或第三方提供和/或创作的扩展功能。您应当了解并认同，您将要安装的扩展功能可能并非由 Adobe 所创作。  
+该扩展功能可能由与 Adobe 不具有合作关系的第三方创作，也可能由 Adobe 自行创作。您同意，未经 Adobe 和/或其许可方的书面许可，不得分发该扩展功能。  
+您了解，为使用第三方创作者的扩展功能，该创作者可能会要求与您之间就某些条款和条件达成协议。&lt;BR&gt;&lt;BR&gt;
+如果第三方许可协议出现在下面“第三方许可（如果有）”标题的下方，或者随扩展功能附在文件中，那么该第三方许可协议将管理对该扩展功能的使用，代替任何在从 Adobe 站点下载该扩展功能时您可能已经接受的下载许可协议，
+但此免责声明的条款仍然保持有效。&lt;BR&gt;&lt;BR&gt;
+所有担保和技术支持的免责声明&lt;BR&gt;&lt;BR&gt;
+(a) Adobe 及其提供商对该扩展功能不作任何明示或暗示的赔偿和担保。该扩展功能按“原样”并“带所有错误”提供，不提供任何形式的技术支持。&lt;BR&gt;
+(b) Adobe 及其提供商不作任何明示、暗示或其他形式的担保和陈述，包括对适销性和特定用途适用性的担保。  
+此外，对无侵害、所有权和平静行使权不作任何担保。Adobe 不保证该扩展功能无故障或其操作不会中断。您不得使用 UCC 的 2A 条款中论及的权利或赔偿，
+除非在此有明确的授予。该扩展功能的设计意图、使用目的和授权并非针对需要防故障控制的危险环境，包括但不限于核能设施、航空器导航或通信系统、空中交通管制以及生命支持或武器系统的
+设计、构建、维护或操作。Adobe 尤其不对此类用途之适用性作任何明示或暗示的保证。&lt;BR&gt;
+(c) 如果适用的法律要求对该扩展功能作出相关的任何保证，则所有此类保证都限于交货后的九十 (90) 天内有效。&lt;BR&gt;
+(d) 所有 Adobe、其经销商、分销商、代理商或员工所提供之口头或书面信息或建议，都不构成任何保证，也不以任何方式扩大此处所提供的任何保证的范围。&lt;BR&gt;
+(e) 有些法律管辖区不允许排除暗示保证，因此，上述排除条件可能不适用于您。本担保授予您特定的法律权利，您还可能享有其他随各州而异的法律权利。&lt;BR&gt;&lt;BR&gt;
+赔偿责任限制&lt;BR&gt;&lt;BR&gt;
+(a) Adobe 及其提供商对于您或第三方依据任何赔偿责任基础，包括违反合约、违反保证、侵权（包括疏忽）、产品赔偿责任或其他责任，
+因为使用或无法使用该扩展功能所造成之任何间接、特殊、意外、惩罚性、保证金或必然损失（包括但不限于因为无法使用设备或访问信息所造成的损失、业务损失、利润损失、运营中止等情况）均不负担任何赔偿责任，
+即使 Adobe 或其业务代表已被告知可能发生此类损失，并且即使此处所提供之赔偿未能达到其基本目的亦然。&lt;BR&gt;
+(b) Adobe 就任何原因所造成之实际损失，对您或任何第三方的赔偿总额最高不超过 100 美元。&lt;BR&gt;
+(c) 有些法律管辖区不允许对于意外或必然损失的赔偿责任加以限制或排除，因此上述限制或排除条件可能不适用于您，您还可能享有其他随各州而异的法律权利。&lt;BR&gt;
+(d) 上述责任限制适用于前述担保及免责声明，以及本协议的所有其他方面。&lt;BR&gt;&lt;BR&gt;
+上述免责声明和责任限制构成了 Adobe 和您之间的协议的基本要素。 
+基于经济上的考虑，Adobe 必须依据这些限制而提供该扩展功能。此类免责声明和责任限制是为了保护 Adobe 的许可方的利益。&lt;BR&gt;&lt;BR&gt;
+（美国以外地区）仅适用于消费型最终用户&lt;BR&gt;&lt;BR&gt;
+本免责声明所含的担保和赔偿责任的限制或排除条件并不影响或侵害消费者的法定权利，此处消费者指因非商业需要而获取产品的人。&lt;BR&gt;&lt;BR&gt;
+本免责声明所含的担保、赔偿或赔偿责任的限制或排除条件中，您所适用的部分仅限于您所在辖区的法律所允许的限制和排除条件范围。&lt;BR&gt;&lt;BR&gt;
+第三方许可（如果有）&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>版本:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>© 2000-2008 Adobe System Incoporated 和许可证颁发者。保留所有权利。</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe 和 Adobe 徽标是 Adobe Systems Incorporated 在美国和/或其他国家（地区）的注册商标或商标。所有其他商标均属于其各自持有者。</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>受以下美国专利的保护：5,546,528、5,870,091、5,929,866、5,943,063、6,411,730、6,563,502、6,711,557、6,754,382、6,970,749、7,002,597、7,006,107、7,333,110，还受正在美国和/或其他国家（地区）申请的专利的保护。</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>无法安装此扩展，它需要从 {1} 到 {2} 版本的 {0}。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>无法安装该扩展，它需要 {0} {1}。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>无法安装此扩展，它需要 {0} {1} 或更高版本。</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>无法安装此扩展，它需要 {0} {1} 或更低版本。</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>要安装此扩展，请尝试安装 {0} CS4 或使用 Adobe Extension Manager CS3（可与 Adobe CS3 和早期产品配合使用）。</val>
+        </str> 
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>       
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>应用程序启动失败。</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>请选择一个产品。</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>请选择一个扩展。</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>对当前产品启用</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>对所有支持的产品都启用</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>对当前产品禁用</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>对所有支持的产品都禁用</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>无法从以下文件加载该扩展：{0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>您将删除“{0}”扩展。是否要继续？</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>不会为产品 {0} 安装该扩展</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>不会对产品 {0} 启用该扩展</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>不会对产品 {0} 禁用该扩展</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>不会为产品 {0} 删除该扩展</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>该扩展支持多个产品，是否要继续对下一个产品使用该扩展？</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_cn</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

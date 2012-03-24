@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Установити</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Довідка</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>Ф$айл</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Установити розширення</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>$Створити пакет розширень</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>Н$адіслати розширення</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>Видалити $розширення</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Видалити</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>Доступно</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>П$ерейти до Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>$Вийти</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Вікно</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>Довідк$а</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Довідк$а Extension Manager</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>П$ро Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>Імпортується:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>ПРОДУКТИ</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Увімкнено</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Розширення</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Версія</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Автор</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Оновлення</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Вимкнення:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Вмикається:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Установлюється:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Створюється пакет:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Видаляється:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>Переміщується:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Імпорт розширень...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Вимкнення розширення...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Увімкнення розширення...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Установлення розширення...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Створення пакетa розширень...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Видалення розширення...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Переміщення розширень...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>Скасувати</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Перервати</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Повторити</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Ігнорувати</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Так</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>Ні</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Так для всіх</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Прийняти</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Відхилити</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Пізніше</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Ніколи</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>Наразі є кілька розширень, установлених з попередньої версії Extension Manager. Бажаєте перемістити їх?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>Переміщення розширень з попередньої версії виконано. Будь ласка, запустіть повторно Extension Manager.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Вибрати розширення для встановлення</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Вибрати розширення для створення пакетa</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Зберегти пакет розширень як</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ ЩОДО РОЗШИРЕННЯ&lt;BR&gt;&lt;BR&gt;
+ПЕРЕД ТИМ, ЯК ІНСТАЛЮВАТИ БУДЬ-ЯКІ РОЗШИРЕННЯ, БУДЬ-ЛАСКА, УВАЖНО ПРОЧИТАЙТЕ ЦЮ ЗАЯВУ ПРО ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ.  ЯКЩО ВИ НЕ ЗГОДНІ З ЦИМ ОБМЕЖЕННЯМ ВІДПОВІДАЛЬНОСТІ, НЕ ВИКОРИСТОВУЙТЕ ТА/АБО НЕ ЗАВЕРШУЙТЕ ІНСТАЛЯЦІЮ РОЗШИРЕННЯ.&lt;BR&gt;&lt;BR&gt;
+Ви збираєтесь інсталювати Розширення, надане та/або розроблене Adobe або третьою стороною.  Ви розумієте та погоджуєтеся з тим, що Adobe може НЕ бути розробником Розширення, що інсталюється.  
+Розширення може бути розроблене Adobe або третьою стороною, до якої Adobe не має відношення.  Ви погоджуєтеся не розповсюджувати Розширення без письмової згоди Adobe та/або її ліцензіарів.  
+Ви розумієте, що для користування Розширенням третя сторона–розробник Розширення може вимагати вашої згоди з певними умовами та положеннями, що існують між вами й такою третьою стороною.&lt;BR&gt;&lt;BR&gt;
+У випадку, якщо ліцензійна угода третьої сторони під назвою «ЛІЦЕНЗІЯ ТРЕТЬОЇ СТОРОНИ (ЯКЩО ІСНУЄ)» відображається нижче або супроводжує Розширення у вигляді файлу, така ліцензійна угода регламентує використання Розширення замість будь-якої 
+ліцензії на завантаження, з умовами якої ви погодилися під час завантаження Розширення з веб-сайту Adobe, але за умови, що положення цього Обмеження відповідальності залишаються в силі.&lt;BR&gt;&lt;BR&gt;
+ВІДМОВА ВІД НАДАННЯ ГАРАНТІЙ І ТЕХНІЧНОЇ ПІДТРИМКИ&lt;BR&gt;&lt;BR&gt;
+(а) ADOBE І ПАРТНЕРИ КОМПАНІЇ НЕ НАДАЮТЬ ЖОДНИХ ПРЯМИХ АБО НЕПРЯМИХ ГАРАНТІЙ ЩОДО РОЗШИРЕННЯ.  РОЗШИРЕННЯ НАДАЄТЬСЯ БЕЗ ГАРАНТІЙ І ЗОБОВ’ЯЗАНЬ ЩОДО ЙОГО ЯКОСТІ, А ТАКОЖ БЕЗ ЗАБЕЗПЕЧЕННЯ БУДЬ-ЯКОЇ ТЕХНІЧНОЇ ПІДТРИМКИ.&lt;BR&gt;
+(b) ADOBE І ПОСТАЧАЛЬНИКИ КОМПАНІЇ ВІДМОВЛЯЮТЬСЯ ВІД БУДЬ-ЯКИХ ПРЯМИХ АБО НЕПРЯМИХ ГАРАНТІЙ І ПОРУК, У ТОМУ ЧИСЛІ ГАРАНТІЙ ПРИДАТНОСТІ ДО ПРОДАЖУ АБО ВИКОРИСТАННЯ ЗА ПРИЗНАЧЕННЯМ.  
+ГАРАНТІЇ НЕПОРУШЕННЯ ПРАВ ІНТЕЛЕКТУАЛЬНОЇ ВЛАСНОСТІ ТА СПОКІЙНОГО ВОЛОДІННЯ ТАКОЖ НЕ НАДАЮТЬСЯ.  ADOBE НЕ ГАРАНТУЄ ВІДСУТНОСТІ ПОМИЛОК І БЕЗПЕРЕРВНОСТІ РОБОТИ РОЗШИРЕННЯ.   КОРИСТУВАЧУ НЕ НАДАЮТЬСЯ ЖОДНІ ПРАВА АБО ЗАСОБИ ПРАВОВОГО ЗАХИСТУ, ПЕРЕДБАЧЕНІ СТАТТЕЮ 2А ЄДИНОГО КОМЕРЦІЙНОГО КОДЕКСУ, 
+ЗА ВИКЛЮЧЕННЯМ ТИХ, ЩО ПРЯМО ЗАЗНАЧЕНІ В ЦЬОМУ ДОКУМЕНТІ.  РОЗШИРЕННЯ НЕ ПРИЗНАЧЕНЕ ДЛЯ ВИКОРИСТАННЯ В НЕБЕЗПЕЧНИХ УМОВАХ, ЩО ВИМАГАЮТЬ ВІДМОВОСТІЙКОЇ СИСТЕМИ КЕРУВАННЯ, ВКЛЮЧАЮЧИ, БЕЗ ОБМЕЖЕННЯ, РОЗРОБКУ, БУДІВНИЦТВО, 
+ТЕХНІЧНЕ ОБСЛУГОВУВАННЯ ТА ЕКСПЛУАТАЦІЮ АТОМНИХ ОБ’ЄКТІВ, СИСТЕМ АВІАЦІЙНОЇ НАВІГАЦІЇ АБО ЗВ’ЯЗКУ, КЕРУВАННЯ ПОВІТРЯНИМ РУХОМ, А ТАКОЖ СИСТЕМ ЖИТТЄЗАБЕЗПЕЧЕННЯ ТА ОЗБРОЄННЯ.  ADOBE ПОВНІСТЮ ВІДМОВЛЯЄТЬСЯ ВІД БУДЬ-ЯКИХ ПРЯМИХ АБО НЕПРЯМИХ ГАРАНТІЙ ЩОДО ПРИДАТНОСТІ ДЛЯ ВИКОРИСТАННЯ ЗА ТАКИМ ПРИЗНАЧЕННЯМ.&lt;BR&gt;
+(с) ЯКЩО ДІЮЧЕ ЗАКОНОДАВСТВО ВИМАГАЄ ГАРАНТІЙ ЩОДО РОЗШИРЕННЯ, УСІ ПОДІБНІ ГАРАНТІЇ ОБМЕЖУЮТЬСЯ ПЕРІОДОМ У ДЕВ'ЯНОСТО (90) ДНІВ ІЗ ДАТИ ДОСТАВКИ.&lt;BR&gt;
+(d) ЖОДНА УСНА АБО ПИСЬМОВА ІНФОРМАЦІЯ ЧИ РЕКОМЕНДАЦІЇ, НАДАНІ ADOBE, ЇЇ ДИЛЕРАМИ, ДИСТРИБ’ЮТОРАМИ, АГЕНТАМИ АБО СПІВРОБІТНИКАМИ, НЕ МОЖУТЬ ПРИЗВОДИТИ ДО ВИНИКНЕННЯ ГАРАНТІЙ АБО БУДЬ-ЯКИМ ЧИНОМ РОЗШИРЮВАТИ ОБ'ЄМ ГАРАНТІЙНИХ ЗОБОВ'ЯЗАНЬ, ПЕРЕДБАЧЕНИХ ЦИМ ДОКУМЕНТОМ.&lt;BR&gt;
+(е) ДЕЯКІ ЮРИСДИКЦІЇ НЕ ДОЗВОЛЯЮТЬ ВИКЛЮЧЕННЯ ОБОВ’ЯЗКОВИХ ГАРАНТІЙ, ТОМУ ВИЩЕЗАЗНАЧЕНЕ ВИКЛЮЧЕННЯ МОЖЕ НЕ ПОШИРЮВАТИСЯ НА ВАС. ЦЯ ГАРАНТІЯ НАДАЄ ВАМ ОКРЕМІ ПРАВА І, ЗАЛЕЖНО ВІД ШТАТУ, ВИ ТАКОЖ МОЖЕТЕ МАТИ ІНШІ ПРАВА.&lt;BR&gt;&lt;BR&gt;
+ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ&lt;BR&gt;&lt;BR&gt;
+(а) АНІ ADOBE, АНІ ЇЇ ПОСТАЧАЛЬНИКИ НЕ НЕСУТЬ ВІДПОВІДАЛЬНОСТІ ПЕРЕД ВАМИ АБО БУДЬ-ЯКОЮ ТРЕТЬОЮ СТОРОНОЮ ЗА БУДЬ-ЯКІ НЕПРЯМІ, ВИПАДКОВІ, ШТРАФНІ АБО НАСТУПНІ ЗБИТКИ (У ТОМУ ЧИСЛІ, БЕЗ ОБМЕЖЕННЯ, ЗБИТКИ, ПОВ’ЯЗАНІ З НЕМОЖЛИВІСТЮ ВИКОРИСТАННЯ ОБЛАДНАННЯ АБО 
+ДОСТУПУ ДО ДАНИХ, УТРАТОЮ КОМЕРЦІЙНИХ МОЖЛИВОСТЕЙ, УПУЩЕНИМИ ПРИБУТКАМИ, ПЕРЕРИВАННЯМ КОМЕРЦІЙНОЇ ДІЯЛЬНОСТІ ТА ІН.), ЩО ВИНИКЛИ В РЕЗУЛЬТАТІ ВИКОРИСТАННЯ АБО НЕМОЖЛИВОСТІ ВИКОРИСТАННЯ РОЗШИРЕННЯ, А ТАКОЖ НА ПІДСТАВІ БУДЬ-ЯКИХ ТЕОРІЙ ВІДПОВІДАЛЬНОСТІ, ВКЛЮЧАЮЧИ ПОРУШЕННЯ УМОВ КОНТРАКТУ, ПОРУШЕННЯ ГАРАНТІЙНИХ ЗОБОВ'ЯЗАНЬ, ПРОТИПРАВНІ ДІЇ (У ТОМУ ЧИСЛІ НЕОБЕРЕЖНІСТЬ), 
+ВІДПОВІДАЛЬНІСТЬ ЗА ЯКІСТЬ ПРОДУКТУ ТА ІН., НАВІТЬ ЯКЩО ADOBE І ЇЇ ПРЕДСТАВНИКИ БУЛИ ПОПЕРЕДЖЕНІ ПРО МОЖЛИВІСТЬ ТАКИХ ЗБИТКІВ, І ЯКЩО ПЕРЕДБАЧЕНІ ЦИМ ДОКУМЕНТОМ ЗАСОБИ ЗАХИСТУ БУЛИ ВИЗНАНІ ТАКИМИ, ЩО НЕ ВІДПОВІДАЮТЬ ЇЇ ОСНОВНІЙ МЕТІ.&lt;BR&gt;
+(b) ЗАГАЛЬНА СУМА ВІДПОВІДАЛЬНОСТІ ADOBE ПЕРЕД ВАМИ АБО БУДЬ-ЯКОЮ ТРЕТЬОЮ СТОРОНОЮ ЗА ФАКТИЧНІ ЗБИТКИ, ЩО ВИНИКЛИ З БУДЬ-ЯКИХ ПРИЧИН, ОБМЕЖУЄТЬСЯ 100 ДОЛАРАМИ США.&lt;BR&gt;
+(с) ДЕЯКІ ЮРИСДИКЦІЇ НЕ ДОЗВОЛЯЮТЬ ОБМЕЖУВАТИ АБО ВИКЛЮЧАТИ ВІДПОВІДАЛЬНІСТЬ ЗА ВИПАДКОВІ АБО НАСТУПНІ ЗБИТКИ, ТОМУ ВИЩЕЗАЗНАЧЕНІ ОБМЕЖЕННЯ ТА ВИКЛЮЧЕННЯ МОЖУТЬ НЕ ПОШИРЮВАТИСЯ НА ВАС. ЗАЛЕЖНО ВІД ШТАТУ, ВИ ТАКОЖ МОЖЕТЕ МАТИ ІНШІ ЮРИДИЧНІ ПРАВА.&lt;BR&gt;
+(d) ВИЩЕЗАЗНАЧЕНІ ОБМЕЖЕННЯ ВІДПОВІДАЛЬНОСТІ ПОШИРЮЮТЬСЯ НА ВСІ ВКАЗАНІ ГАРАНТІЇ ТА ВІДМОВИ ВІД НИХ, А ТАКОЖ НА ВСІ ІНШІ АСПЕКТИ ЦІЄЇ ЛІЦЕНЗІЙНОЇ УГОДИ.&lt;BR&gt;&lt;BR&gt;
+Зазначені вище Відмова від гарантій та Обмеження відповідальності є принциповими елементами, що лежать в основі цієї угоди між вами та Adobe. 
+Adobe не має можливості надавати Розширення на комерційних умовах без таких обмежень.  Відмова від гарантій та Обмеження відповідальності діють в інтересах ліцензіарів Adobe.&lt;BR&gt;&lt;BR&gt;
+(ТІЛЬКИ ЗА МЕЖАМИ США) ТІЛЬКИ ДЛЯ КІНЦЕВИХ СПОЖИВАЧІВ&lt;BR&gt;&lt;BR&gt;
+Обмеження або виключення гарантій і відповідальності, що містяться в цій Заяві, не впливають і не обмежують законні права споживача, тобто особи, що придбає товари не шляхом здійснення комерційної діяльності.&lt;BR&gt;&lt;BR&gt;
+Обмеження та виключення гарантій, засобів правового захисту або відповідальності, що містяться в цьому документі, поширюються на вас лише в межах, дозволених законодавством юрисдикції в місці вашого проживання.&lt;BR&gt;&lt;BR&gt;
+ЛІЦЕНЗІЯ ТРЕТЬОЇ СТОРОНИ (ЯКЩО ІСНУЄ)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Версія:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>Авторські права 2000-2008 Adobe System Incoporated and its licensors.Усі права захищено.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe та логотип Adobe є зареєстрованими торговими марками чи торговими знаками Adobe Systems Incorporated в Сполучених Штатах Америки та/або інших країнах. Усі інші торгові марки належать відповідним власникам.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>Захищено патентами США 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. Патенти заявлені у Сполучених Штатах Америки та/або інших країнах.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Не можна встановити це розширення, воно потребує {0} від {1} до {2}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Це розширення неможливо встановити, воно вимагає наступних умов: {0} {1}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Не можна встановити це розширення, воно потребує {0} {1} або більше.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Не можна встановити це розширення, воно потребує {0} {1} або менше.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>Щоб установити це розширення, будь ласка, спробуйте установити {0} CS4 або скористайтеся Adobe Extension Manager CS3, який працює з Adobe CS3 та продуктами раніших версій.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>        
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>Не вдалося запустити програму.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Будь ласка, виберіть продукт.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Будь ласка, виберіть розширення.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Включите для поточного продукту</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Включити для всіх продуктів, що підтримуються</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Відключити для поточного продукту</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Відключити для всіх продуктів, що підтримуються</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Не вдалося завантажити розширення з файлу: {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>Буде вилучено розширення '{0}'. Продовжити?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>Це розширення не буде встановлено для продукту: {0}</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>Це розширення не буде включено для продукту: {0}</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>Це розширення не буде відключено для продукту: {0}</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>Це розширення не буде вилучено для продукту: {0}</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>Це розширення підтримує різні продукти, продовжити для наступного продукту?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_ua</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>У</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>С</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>а</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>р</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>е</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>В</val>
+        </str>
+	</set>
+</asf>

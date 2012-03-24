@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Installer</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Hjelp</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>$Fil</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Installer tilleggsmodul</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>$Pakking av tilleggsmodul</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>$Send tilleggsmodul</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>$Fjern tilleggsmodul</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Fjern</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>Tilgjengelig</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>$Gå til Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>A$vslutt</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Vindu</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>$Hjelp</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>$Hjelp for Extension Manager</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>$Om Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>Import:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>PRODUKTER</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Aktivert</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Tilleggsmodul</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Versjon</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Forfatter</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Oppdateringer</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Deaktivering:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Aktivering:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Installering:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Pakking:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Fjerning:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>Migrering:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Importerer tilleggsmoduler...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Deaktiverer tilleggsmodul...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Aktiverer tilleggsmodul...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Installerer tilleggsmodul...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Pakker inn tilleggsmodul...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Fjerner tilleggsmodul...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Migrerer tilleggsmoduler...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>Avbryt</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Annuller</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Prøv på nytt</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Ignorer</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Ja</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>Nei</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Ja til alt</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Godkjenn</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Avvis</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Senere</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Aldri</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>Det finnes tilleggsmoduler som ble installert i forrige versjon av Extension Manager. Vil du migrere dem?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>Migrering av tilleggsmoduler fra forrige versjon er ferdig. Start Extension Manager på nytt.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Velg tilleggsmodulen du vil installere</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Velg tilleggsmodulen du vil pakke</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Lagre tilleggsmodulpakke som</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>GARANTIFRASKRIVELSE FOR TILLEGGSMODUL&lt;BR&gt;&lt;BR&gt;
+LES DENNE GARANTIFRASKRIVELSEN NØYE FØR EN TILLEGGSMODUL INSTALLERES. HVIS DU IKKE GODTAR DENNE GARANTIFRASKRIVELSEN, SKAL DU IKKE BRUKE OG/ELLER FULLFØRE INSTALLERINGEN AV TILLEGGSMODULEN.&lt;BR&gt;&lt;BR&gt;
+Du skal installere en tilleggsmodul som er levert og/eller laget av Adobe eller en tredjepart. Du forstår og godtar at Adobe kanskje IKKE selv har laget tilleggsmodulen du skal installere. 
+Tilleggsmodulen kan være laget av Adobe eller en tredjepart som Adobe ikke har et forhold til. Du samtykker i at du ikke skal distribuere tilleggsmodulen uten skriftlig tillatelse av Adobe og/eller dets lisensgivere. 
+Du forstår at tredjeparten som har laget tilleggsmodulen, kan kreve at du godtar visse bestemmelser og vilkår som gjelder mellom deg og denne tredjeparten, for at du skal få tillatelse til å bruke tilleggsmodulen.&lt;BR&gt;&lt;BR&gt;
+Hvis en lisensavtale fra en tredjepart vises under tittelen '(EVENTUELL) LISENS FRA TREDJEPART' nedenfor eller følger med tilleggsmodulen i en fil, skal denne lisensavtalen fra tredjeparten gjelde for bruken av tilleggsmodulen i stedet for en eventuell nedlastet
+lisensavtale du har godtatt ved nedlasting av tilleggsmodulen fra Adobes nettsted. Bestemmelsene i denne garantifraskrivelsen gjelder like fullt.&lt;BR&gt;&lt;BR&gt;
+FRASKRIVELSE AV ALL(E) GARANTIER OG TEKNISK STØTTE&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE OG DETS LEVERANDØRER GIR INGEN RETTSMIDLER ELLER GARANTIER FOR TILLEGGSMODULEN, VERKEN UTTRYKKELIG ELLER UNDERFORSTÅTT. TILLEGGSMODULEN LEVERES ”SOM DEN ER” OG ”MED ALLE FEIL” UTEN TEKNISK STØTTE AV NOE SLAG.&lt;BR&gt;
+(b) ADOBE OG DETS LEVERANDØRER FRASKRIVER SEG ALLE GARANTER OG FREMSTILLINGER – UTTRYKKELIGE, UNDERFORSTÅTTE ELLER ANDRE – HERUNDER GARANTIER FOR SALGBARHET ELLER EGNETHET TIL ET BESTEMT FORMÅL. 
+DET GIS HELLER INGEN GARANTI FOR UNNLATT KRENKELSE AV ANDRES (EIENDOMS)RETTIGHETER ELLER RETT TIL STILLE BRUK. ADOBE GARANTERER IKKE AT TILLEGGSMODULEN VIL FUNGERE FEILFRITT ELLER UTEN AVBRYTELSER. DET GIS INGEN RETTIGHETER ELLER RETTSMIDLER AV TYPEN SOM ER OPPGITT I ARTIKKEL 2A I UCC,
+MED MINDRE DE UTTRYKKELIG ER GITT HER. TILLEGGSMODULEN ER IKKE UTFORMET, BEREGNET ELLER LISENSIERT FOR BRUK I FARLIGE MILJØER DER FEILSIKRE KONTROLLER ER PÅKREVD, HERUNDER, UTEN BEGRENSNING, DESIGN, KONSTRUKSJON,
+VEDLIKEHOLD ELLER DRIFT AV KJERNEFYSISKE ANLEGG, NAVIGASJONS- ELLER KOMMUNIKASJONSSYSTEMER FOR FLY, FLYGEKONTROLLTJENESTE OG LIVREDNINGS- ELLER VÅPENSYSTEMER. ADOBE FRASKRIVER SEG SPESIFIKT EVENTUELLE UTTRYKKELIGE ELLER UNDERFORSTÅTTE GARANTIER FOR EGNETHET TIL SLIKE FORMÅL.&lt;BR&gt;
+(c) HVIS GJELDENDE LOVGIVNING KREVER AT DET GIS GARANTIER MED HENSYN TIL TILLEGGSMODULEN, SKAL ALLE SLIKE GARANTIER VÆRE BEGRENSET I VARIGHET TIL NITTI (90) DAGER ETTER LEVERINGSDATOEN.&lt;BR&gt;
+(d) INGEN MUNTLIG ELLER SKRIFTLIG INFORMASJON ELLER RÅD SOM GIS AV ADOBE ELLER DETS FORHANDLERE, DISTRIBUTØRER, REPRESENTANTER ELLER ANSATTE SKAL UTGJØRE EN GARANTI ELLER UTVIDE OMFANGET AV EN GARANTI SOM ER GITT HER.&lt;BR&gt;
+(e) ENKELTE JURISDIKSJONER ANERKJENNER IKKE UNNTAK FOR UNDERFORSTÅTTE GARANTIER, SÅ UNNTAKET OVENFOR GJELDER KANSKJE IKKE FOR DEG. DENNE GARANTIEN GIR DEG VISSE JURIDISKE RETTIGHETER. DU KAN I TILLEGG HA ANDRE JURIDISKE RETTIGHETER, SOM VARIERER FRA STAT TIL STAT.&lt;BR&gt;&lt;BR&gt;
+BEGRENSNING I ERSTATNINGSANSVAR&lt;BR&gt;&lt;BR&gt;
+(a) VERKEN ADOBE ELLER DETS LEVERANDØRER ER ERSTATNINGSANSVARLIGE OVERFOR DEG ELLER EN TREDJEPART FOR INDIREKTE, SPESIELL ELLER PÅLØPEN SKADE, FORHØYET STRAFFEERSTATNING ELLER FØLGESKADE SOM MÅTTE OPPSTÅ, HERUNDER, MEN IKKE BEGRENSET TIL, ERSTATNING FOR MANGLENDE EVNE TIL Å BRUKE UTSTYRET ELLER FÅ TILGANG TIL DATA,
+TAPTE KUNDEFORHOLD, TAPT FORTJENESTE, DRIFTSAVBRUDD (ELLER TILSVARENDE) SOM OPPSTÅR SOM FØLGE AV, ELLER MANGLENDE EVNE TIL Å BRUKE, TILLEGGSMODULEN, OG UANSETT TEORETISK ANSVARSGRUNNLAG, HERUNDER KONTRAKTBRUDD, GARANTIBRUDD ELLER SKADEVOLDENDE HANDLING (HERUNDER UAKTSOMHET),
+OBJEKTIVT PRODUKTANSVAR ELLER ANNET, SELV OM ADOBE ELLER DETS REPRESENTANTER ER BLITT INFORMERT OM MULIGHETEN FOR AT SLIK SKADE KAN OPPSTÅ, OG SELV OM ET RETTSMIDDEL SOM ER ANGITT HER IKKE HAR OPPFYLT SITT FORMÅL.&lt;BR&gt;
+(b) ADOBES TOTALE ERSTATNINGSANSVAR OVERFOR DEG ELLER EN TREDJEPART FOR FAKTISKE SKADER, SKAL, UANSETT ÅRSAK, VÆRE BEGRENSET TIL 100 USD.&lt;BR&gt;
+(c) ENKELTE JURISDIKSJONER TILLATER IKKE BEGRENSNING AV, ELLER UNNTAK FOR, ANSVARET FOR PÅLØPEN SKADE ELLER FØLGESKADE. OVENSTÅENDE BEGRENSNING ELLER UNNTAK GJELDER DERFOR KANSKJE IKKE FOR DEG. DU KAN I TILLEGG HA ANDRE JURIDISKE RETTIGHETER, SOM VARIERER FRA STAT TIL STAT.&lt;BR&gt;
+(d) OVENSTÅENDE BEGRENSNINGER I ERSTATNINGSANSVARET GJELDER FOR ALLE GARANTIENE OG GARANTIFRASKRIVELSENE OVENFOR OG ALLE ANDRE ASPEKTER VED DENNE LISENSAVTALEN FOR SLUTTBRUKERE.&lt;BR&gt;&lt;BR&gt;
+Garantifraskrivelsen og ansvarsfraskrivelsen ovenfor er viktige elementer i avtalen mellom Adobe og deg. 
+Uten slike begrensninger ville det, av økonomiske grunner, ikke være mulig for Adobe å levere tilleggsmodulen. En slik garantifraskrivelse og ansvarsfraskrivelse er dermed gunstig for Adobes lisensgivere.&lt;BR&gt;&lt;BR&gt;
+(GJELDER BARE UTENFOR USA) GJELDER BARE SLUTTFORBRUKERE&lt;BR&gt;&lt;BR&gt;
+Begrensningene eller unntakene som gjelder for garantier og erstatningsansvar i denne fraskrivelsen, verken gjelder for eller påvirker en forbrukers lovbestemte rettigheter. Med forbruker menes en person som kjøper varer som ikke skal brukes til næringsformål.&lt;BR&gt;&lt;BR&gt;
+Begrensningene eller unntakene som gjelder for garantier, rettsmidler eller erstatningsansvar i denne fraskrivelsen, gjelder bare for deg i den utstrekning slike begrensninger eller unntak er tillatt i lovgivningen som gjelder i jurisdiksjonen der du bor.&lt;BR&gt;&lt;BR&gt;
+(EVENTUELL) LISENS FRA TREDJEPART&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Versjon:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>© 2000-2008 Adobe System Incorporated og selskapets lisensgivere. Med enerett.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe og Adobe-logoen er enten registrerte varemerker eller varemerker for Adobe Systems Incorporated i USA og/eller andre land. Alle andre varemerker tilhører de respektive eierne.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>Beskyttet av U.S. Patents 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. Patentsøknader er til behandling i USA og/eller andre land.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Denne utvidelsen kan ikke installeres, den krever {0} fra {1} til {2}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Denne utvidelsen kan ikke installeres. Den krever {0} {1}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Denne utvidelsen kan ikke installeres, den krever {0} {1} eller høyere.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Denne utvidelsen kan ikke installeres, den krever {0} {1} eller lavere.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>For å installere denne utvidelsen må du prøve å installere {0} CS4 eller bruke Adobe Extension Manager CS3 som fungerer med Adobe CS3 og tidligere produkter.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>        
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>Applikasjonen kunne ikke starte.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Velg et produkt.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Velg en utvidelse.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Aktiver for gjeldende produkt</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Aktiver for alle støttede produkter</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Deaktiver for gjeldende produkt</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Deaktiver for alle støttede produkter</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Kunne ikke laste utvidelsen fra filen: {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>Du er i ferd med å fjerne utvidelsen '{0}'. Vil du fortsette?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>Utvidelsen vil ikke bli installert for produkt {0}</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>Utvidelsen vil ikke bli aktivert for produkt {0}</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>Utvidelsen vil ikke bli deaktivert for produkt {0}</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>Utvidelsen vil ikke bli fjernet for produkt {0}</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>Denne utvidelsen støtter flere produkter. Vil du fortsette til neste produkt?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_no</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

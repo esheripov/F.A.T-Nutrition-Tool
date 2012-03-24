@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>설치</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>도움말</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>파일($F)</val>
+			<val plat="mac">파일</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>확장 설치($I)</val>
+			<val plat="mac">확장 설치</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>확장 패키지($P)</val>
+			<val plat="mac">확장 패키지</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>확장 전송($S)</val>
+			<val plat="mac">확장 전송</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>확장 제거($R)</val>
+			<val plat="mac">확장 제거</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>제거</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>사용 가능</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>Adobe Exchange로 가기($G)</val>
+			<val plat="mac">Adobe Exchange로 가기</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>종료($X)</val>
+			<val plat="mac">종료</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>창</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>도움말($H)</val>
+			<val plat="mac">도움말</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Extension Manager 도움말($H)</val>
+			<val plat="mac">Extension Manager 도움말</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>Extension Manager 정보($A)</val>
+			<val plat="mac">Extension Manager 정보</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>가져오는 중:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>제품</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>활성화됨</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>확장</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>버전</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>제작자</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>업데이트</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>비활성화 중:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>활성화 중:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>설치 중:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>패키지 중:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>제거 중:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>마이그레이션 중:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>확장을 가져오는 중…</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>확장을 비활성화하는 중...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>확장을 활성화하는 중...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>확장 설치 중…</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>확장 패키지 중...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>확장을 제거하는 중…</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>확장 마이그레이션 중...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>확인</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>취소</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>중단</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>다시 시도</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>무시</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>예</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>아니요</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>모두 예</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>동의</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>동의 안 함</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>나중에</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>전혀 안 함</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>이전 버전의 Extension Manager에 일부 확장이 설치되어 있습니다. 마이그레이션하시겠습니까?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>확장을 이전 버전으로부터 마이그레이션했습니다. Extension Manager를 다시 시작하십시오.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>설치할 확장 선택</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>패키지할 확장 선택</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>다른 이름으로 확장 패키지 저장</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>확장 보증 거부&lt;BR&gt;&lt;BR&gt;
+확장을 설치하기 전에 본 보증 거부를 자세히 읽어주십시오. 이 보증 거부에 동의하지 않을 경우에는 확장을 사용 및/또는 설치하지 마십시오.&lt;BR&gt;&lt;BR&gt;
+귀하는 Adobe 또는 타사에서 제공 및/또는 제작한 확장을 설치하려고 하며, 설치하려는 확장이 Adobe에서 제작된 것이 아닐 수도 있다는 점을 이해하고 동의합니다.  
+해당 확장은 Adobe와 관련 없는 타사에서 제작했을 수 있으며 경우에 따라서는 Adobe에서 제작했을 수도 있습니다. 귀하는 Adobe 및/또는 해당 사용 허가자의 서면 동의 없이 확장을 배포하지 않는다는 데 동의합니다.  
+타사의 확장 제작자는 사용자가 이러한 제작자의 확장을 사용하는 데 사용자와 타사 제작자 간의 특정 추가 조항 및 조건에 동의할 것을 요구할 수 있습니다.&lt;BR&gt;&lt;BR&gt;
+아래의 '타사 라이센스(있을 경우)'라는 제목으로 타사 사용권 계약서가 있거나 확장에 첨부된 파일이 있으면 Adobe의 사이트에서 확장을 다운로드할 때 동의한 다운로드 사용권 계약서 대신
+이러한 타사 사용권 계약서에 따라 확장의 사용이 제한됩니다. 그러나 이 보증 거부의 조항은 효력이 유지됩니다.&lt;BR&gt;&lt;BR&gt;
+모든 보증 및 기술 지원의 보증 거부&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE 및 해당 공급자는 명시적이거나 묵시적 조건에 관계 없이 확장에 대한 여하한 보상 또는 보증도 하지 않습니다. 확장은 어떠한 기술 지원도 없이 '있는 그대로' '모든 오류와 함께' 제공됩니다.&lt;BR&gt;
+(b) ADOBE 및 해당 공급자는 명시적, 묵시적 또는 기타 조건에 관계 없이 특정 목적에 대한 적합성 또는 비침해에 대한 보증을 포함하여 모든 보증 및 표시를 거부합니다.  
+또한 ADOBE는 비침해, 소유권 또는 아무 문제 없이 사용할 수 있음을 보증하지 않습니다. ADOBE는 확장에 오류가 없거나 확장이 중단 없이 작동될 것을 보증하지 않습니다. UCC 2A 조항에 참조된 권한 또는 보상은
+여기에서 명시적으로 부여되지 않는 한 제공되지 않습니다. 확장은 제한이 없을 때를 포함하여 핵 시설, 항공기 운항이나 통신 시스템, 항공 관제, 생명 보조 기구, 무기 시스템 등과 같이
+절대 안전을 요구하는 위험한 환경에서 사용하도록 디자인되거나, 의도되거나 라이센스가 제공되지 않았습니다. ADOBE는 특히 이러한 목적에 대한 적합성에 대한 명시적 또는 묵시적 보증을 거부합니다.&lt;BR&gt;
+(c) 관련 법률에서 확장에 관한 보증을 요구하면 이러한 모든 보증은 제품이 배달된 날짜로부터 90일 내로 제한됩니다.&lt;BR&gt;
+(d) ADOBE, 해당 총판, 배포자, 대리점 또는 직원이 구두 또는 서면 정보 또는 권고를 제공한다고 하더라도 보증 효과가 발생하는 않으며 여기에 제공된 모든 보증의 범위 또한 확대되지 않습니다.&lt;BR&gt;
+(e) 일부 관할권에서는 묵시적인 보증을 배제하는 것을 허용하지 않으므로 위의 배제 사항이 적용되지 않을 수 있습니다. 이 보증을 통해 특정한 법적 권리가 주어지며 주에 따라 다른 법적 권리도 주어질 수 있습니다.&lt;BR&gt;&lt;BR&gt;
+책임 제한&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE 및 해당 공급자는 ADOBE 또는 해당 관계자가 이러한 손실에 대한 가능성을 언급한 경우 및 여기에서 정한 보상이 기본적인 목적을 달성하지 못한 경우에도
+사용자 또는 모든 타사에 대해 책임 이론(계약 위반, 보증 위반, 불법 행위(부주의 포함), 제품 책임 등 포함)을 기반으로 한 확장의 사용에 따른 간접, 특별, 부수적, 징벌적, 은폐적 또는
+파생적 손해(장비의 사용, 액세스 데이터, 영업 손실, 영업 이익 손실, 영업 중단 등으로 인한 손해를 포함하되 이에 제한되지 않음)에 대하여 어떠한 경우에도 책임을 지지 않습니다.&lt;BR&gt;
+(b) 사용자 또는 모든 타사의 실제적인 손해에 대한 ADOBE의 총 책임은 어떠한 이유 하에서도 $100 이하로 제한됩니다.&lt;BR&gt;
+(c) 일부 관할권에서는 부수적 또는 파생적 손해에 대한 책임을 제한하거나 거부하는 것을 허용하지 않으므로 위의 제한 또는 거부 사항이 적용되지 않을 수 있으며 주에 따라 다른 법적 권한이 주어질 수 있습니다.&lt;BR&gt;
+(d) 앞서 언급한 책임에 대한 제한은 위의 보증 및 거부뿐만 아니라 이 EULA의 다른 모든 측면에 적용됩니다.&lt;BR&gt;&lt;BR&gt;
+위에서 정한 보증 거부 및 책임 제한은 Adobe와 사용자 간 계약의 기본적인 요소입니다. 
+Adobe는 이러한 제한 없이 확장을 전자적으로 제공할 수 없습니다. 이러한 보증 거부 및 책임 제한은 Adobe 사용 허가자의 이익을 보장하기 위한 것입니다.&lt;BR&gt;&lt;BR&gt;
+미국을 제외한 다른 국가의 고객 및 최종 사용자에게만 해당&lt;BR&gt;&lt;BR&gt;
+이 거부 사항에 포함된 보증 및 책임의 제한 또는 거부는 고객, 즉 영업 이외의 경로로 제품을 취득하는 사람의 법적 권한에 영향을 미치거나 법적 권한을 침해하지 않습니다.&lt;BR&gt;&lt;BR&gt;
+이 거부 사항에 포함된 보증, 보상 또는 책임의 제한 또는 거부는 사용자가 속한 관할권의 법에 따라 이러한 제한 또는 거부가 허용된 한도 내에서만 사용자에게 적용됩니다.&lt;BR&gt;&lt;BR&gt;
+타사 라이센스(있는 경우에 한함)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>버전:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>저작권 2000-2008 Adobe System Incoporated 및 해당 사용권 허가자. 저작권 본사 소유.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe 및 Adobe 로고는 미국 및/또는 기타 국가/지역에서 Adobe Systems Incorporated의 등록 상표 또는 상표입니다. 다른 모든 상표는 해당 소유자의 재산입니다.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>이러한 상표는 미국 특허 번호 5,546,528, 5,870,091, 5,929,866, 5,943,063, 6,411,730, 6,563,502, 6,711,557, 6,754,382, 6,970,749, 7,002,597, 7,006,107, 7,333,110에 의해 보호됩니다. 미국 및/또는 기타 국가/지역의 특허는 출원 중입니다.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>이 확장에 {0} {1}~{2}가(이) 필요하기 때문에 설치할 수 없습니다.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>이 확장에 {0} {1}가(이) 필요하기 때문에 설치할 수 없습니다.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>이 확장에 {0} {1} 이상이 필요하기 때문에 설치할 수 없습니다.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>이 확장에 {0} {1} 이하가 필요하기 때문에 설치할 수 없습니다.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>이 확장을 설치하려면 {0} CS4를 설치하거나 Adobe CS3 및 이전 제품과 함께 작동하는 Adobe Extension Manager CS3을 사용하십시오.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>        
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>응용 프로그램을 시작할 수 없습니다.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>제품을 선택하십시오.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>확장을 선택하십시오.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>현재 제품에 대해 활성화</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>모든 지원되는 제품에 대해 활성화</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>현재 제품에 대해 비활성화</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>모든 지원되는 제품에 대해 비활성화</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>파일에서 확장을 로드할 수 없음: {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>'{0}' 확장을 제거하려고 합니다. 계속하시겠습니까?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>확장은 {0} 제품에 설치되지 않습니다.</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>확장은 {0} 제품에 대해 활성화되지 않습니다.</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>확장은 {0} 제품에 대해 비활성화되지 않습니다.</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>확장은 {0} 제품에서 제거되지 않습니다.</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>이 확장은 여러 제품을 지원합니다. 다음 제품에 대해 계속하시겠습니까?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_kr</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

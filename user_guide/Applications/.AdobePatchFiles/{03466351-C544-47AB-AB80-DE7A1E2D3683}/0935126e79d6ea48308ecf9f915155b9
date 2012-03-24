@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE vcconfig PUBLIC "-//Adobe Systems Eng. GmbH//DTD Version Cue Config V 1.0//EN"
+                          "">
+
+<vcconfig version="1.0">
+    <vcmap>
+        <vcentry key="classpath">
+            <vclist>
+                <vcstring>plugins/org.eclipse.equinox.launcher_1.0.0.v20070606.jar</vcstring>
+            </vclist>
+		</vcentry>
+
+		<vcentry key="vmArguments">
+			<vclist>
+				<vcstring>-XstartOnFirstThread</vcstring>
+				<vcstring>-hotspot</vcstring>
+				<vcstring>-Xms48m</vcstring>
+			</vclist>
+		</vcentry>
+
+		<vcentry key="systemProperties">
+			<vcmap>
+				<vcentry key="java.awt.headless">
+					<vcstring>true</vcstring>
+				</vcentry>
+				<vcentry key="osgi.clean">
+					<vcstring>true</vcstring>
+				</vcentry>
+				<vcentry key="com.adobe.csi.ncomm.timeout">
+					<vcstring>5</vcstring>
+				</vcentry>
+			</vcmap>
+		</vcentry>
+
+		<vcentry key="vmMaxMemory">
+			<vcint>128</vcint>
+		</vcentry>
+
+        <vcentry key="startupClass">
+			<vcstring>org.eclipse.equinox.launcher.Main</vcstring>
+		</vcentry>
+
+        <vcentry key="arguments">
+        	<vclist>
+				<!-- -install dynamically calculated by Agent app
+	        	<vcstring>-install</vcstring>
+	        	<vcstring>..</vcstring>
+				-->
+
+				<vcstring>-configuration</vcstring>
+				<vcstring>@user.dir/configuration</vcstring>
+ 				<vcstring>-debug</vcstring>
+				<vcstring>debugOptions.properties</vcstring>
+       		</vclist>
+        </vcentry>
+
+        <vcentry key="platform">
+            <vcmap>
+		        <vcentry key="win32">
+		            <vcmap>
+				        <vcentry key="workingDir">
+		        			<vcstring>[APPDATA]/Adobe/CS4ServiceManager</vcstring>
+				        </vcentry>
+
+				        <vcentry key="environment">
+				        	<vcmap>
+				        	</vcmap>
+				        </vcentry>
+
+				        <vcentry key="jre-dll">
+				        	<vcstring>jre\bin\client\jvm.dll</vcstring>
+				        </vcentry>
+		            </vcmap>
+		        </vcentry>
+
+		        <vcentry key="macosx">
+		            <vcmap>
+				        <vcentry key="workingDir">
+		        			<vcstring>~/Library/Application Support/Adobe/CS4ServiceManager</vcstring>
+				        </vcentry>
+						<vcentry key="systemProperties">
+							<vcmap>
+								<vcentry key="file.encoding">
+									<vcstring>UTF-8</vcstring>
+								</vcentry>
+							</vcmap>
+						</vcentry>
+				        <vcentry key="environment">
+				        	<vcmap>
+				        		<vcentry key="JAVA_JVM_VERSION">
+				        			<vcstring>1.5</vcstring>
+				        		</vcentry>
+				        	</vcmap>
+				        </vcentry>
+		            </vcmap>
+		        </vcentry>
+            </vcmap>
+        </vcentry>
+    </vcmap>
+</vcconfig>

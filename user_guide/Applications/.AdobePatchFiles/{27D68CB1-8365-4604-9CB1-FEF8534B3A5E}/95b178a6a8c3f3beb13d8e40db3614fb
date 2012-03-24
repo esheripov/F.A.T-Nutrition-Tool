@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Instalovat</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Nápověda</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>$Soubor</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Nainstalovat doplněk</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>$Sbalit doplněk</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>$Odeslat doplněk</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>O$debrat doplněk</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Odebrat</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>K dispozici</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>$Jít na Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>$Konec</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Okno</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>$Nápověda</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>$Nápověda doplňku Extension Manager</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>$O modulu Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>Import:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>PRODUKTY</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Zapnuto</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Doplněk</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Verze</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Autor</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Aktualizace</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Vypínání:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Zapínání:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Instalace:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Balení:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Odebrání:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>Migrace:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Import doplňků...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Vypínání doplňku...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Zapínání doplňku...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Instaluje se doplněk...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Balení doplňku...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Odebrání doplňku...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Migrace doplňků...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>Storno</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Zrušit</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Zkusit znovu</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Ignorovat</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Ano</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>Ne</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Ano pro všechny</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Přijmout</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Odmítnout</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Později</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Nikdy</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>Některé doplňky byly nainstalovány prostřednictvím předchozí verze modulu Extension Manager, chcete provést jejich migraci?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>Migrace doplňků z předchozí verze je dokončena. Spusťte modul Extension Manager znovu.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Vyberte doplněk, který chcete instalovat</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Vyberte doplněk, který chcete sbalit</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Uložit balíček doplňku jako</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>ODMÍTNUTÍ ODPOVĚDNOSTI PRO DOPLNĚK&lt;BR&gt;&lt;BR&gt;
+PŘEČTĚTE SI PROSÍM PEČLIVĚ TOTO ODMÍTNUTÍ ODPOVĚDNOSTI PŘED NAINSTALOVÁNÍM JAKÉHOKOLI DOPLŇKU.  POKUD S TÍMTO ODMÍTNUTÍ ODPOVĚDNOSTI NESOUHLASÍTE, PAK TENTO DOPLNĚK NEPOUŽÍVEJTE ANEBO NEPROVÁDĚJTE JEHO INSTALACI.&lt;BR&gt;&lt;BR&gt;
+Chystáte se nainstalovat doplněk, který dodává anebo vytvořila společnost Adobe nebo jiná třetí strana.  Berete na vědomí a souhlasíte s tím, že společnost Adobe NEMUSÍ být autorem tohoto doplňku, který se chystáte nainstalovat.  
+Tento doplněk mohla vytvořit třetí strana, se kterou nemá společnost Adobe žádný vztah, nebo ho mohla vytvořit společnost Adobe.  Souhlasíte s tím, že nebudete tento doplněk distribuovat bez písemného souhlasu společnosti Adobe anebo jejích poskytovatelů licencí.  
+Berete na vědomí, že třetí strana, která je autorem tohoto doplňku může vyžadovat, abyste souhlasili s určitými podmínkami a ustanoveními, které jsou mezi vámi a touto třetí stranou, abyste mohli používat doplněk od tohoto autora.&lt;BR&gt;&lt;BR&gt;
+V případě, že se pod nadpisem 'LICENCE TŘETÍ STRANY (POKUD EXISTUJE)' dole zobrazí licenční smlouva třetí strany, nebo pokud doprovází tento doplněk v souboru, pak taková licenční smlouva třetí strany bude řídit používání tohoto doplňku namísto jakékoli stažené 
+licenční smlouvy, se kterou jste mohli souhlasit při stahování tohoto doplňku z webu Adobe; ale pod podmínkou, že ustanovení tohoto Odmítnutí odpovědnosti zůstanou v platnosti.&lt;BR&gt;&lt;BR&gt;
+VYLOUČENÍ VŠECH ZÁRUK A TECHNICKÁ PODPORA&lt;BR&gt;&lt;BR&gt;
+(a) SPOLEČNOST ADOBE A JEJÍ DODAVATELÉ NEPOSKYTUJÍ PRO TENTO DOPLNĚK ŽÁDNÉ NÁHRADY NEBO ZÁRUKY, AŤ VÝSLOVNĚ VYJÁDŘENÉ NEBO IMPLIKOVANÉ.  TENTO DOPLNĚK JE POSKYTOVÁN 'TAK JAK JE' A 'SE VŠEMI CHYBAMI' BEZ TECHNICKÉ PODPORY JAKÉHOKOLIV DRUHU.&lt;BR&gt;
+(b) SPOLEČNOST ADOBE A JEJÍ DODAVATELÉ ODMÍTAJÍ VŠECHNY DALŠÍ ZÁRUKY A POŽADAVKY, AŤ UŽ VÝSLOVNĚ VYJÁDŘENÉ, IMPLIKOVANÉ NEBO JINÉ, VČETNĚ ZÁRUK PRODEJNOSTI NEBO VHODNOSTI PRO URČITÝ ÚČEL.  
+TAKÉ NEEXISTUJE ŽÁDNÁ ZÁRUKA NENARUŠOVÁNÍ A VLASTNICKÝCH NÁROKŮ NEBO NERUŠENÉHO DRŽENÍ.  SPOLEČNOST ADOBE NEZARUČUJE, ŽE DOPLNĚK JE BEZ CHYB, NEBO ŽE BUDE FUNGOVAT BEZ PŘERUŠENÍ.   ŽÁDNÁ PRÁVA NEBO NÁHRADY, NA KTERÉ ODKAZUJE ČLÁNEK 2A JEDNOTNÉHO OBCHODNÍHO ZÁKONÍKU (UCC) 
+VÁM NEBUDOU UDĚLENA, POKUD TO ZDE NENÍ VÝSLOVNĚ UVEDENO.  DOPLNĚK NENÍ NAVRŽEN, URČEN, ANI LICENCOVÁN PRO POUŽÍVÁNÍ V NEBEZPEČNÝCH PROSTŘEDÍCH, VYŽADUJÍCÍCH BEZPORUCHOVÉ ŘÍZENÍ, ZAHRNUJÍCÍ, ALE NEOMEZENÉ JEN NA NÁVRH, KONSTRUKCI, 
+ÚDRŽBU NEBO PROVOZ JADERNÝCH ZAŘÍZENÍ, LETECKOU NAVIGACI NEBO KOMUNIKAČNÍ SYSTÉMY, ŘÍZENÍ LETOVÉHO PROVOZU, ŽIVOT UDRŽUJÍCÍ NEBO ZBRAŇOVÉ SYSTÉMY.  SPOLEČNOST ADOBE SPECIFICKY ODMÍTÁ JAKÉKOLIV VÝSLOVNÉ NEBO IMPLIKOVANÉ ZÁRUKY VHODNOSTI PRO TAKOVÉ ÚČELY.&lt;BR&gt;
+(c) POKUD PLATNÉ ZÁKONY VYŽADUJÍ JAKÉKOLI ZÁRUKY TÝKAJÍCÍ SE DOPLŇKU, JSOU VŠECHNY TAKOVÉ ZÁRUKY OMEZENY NA DOBU DEVADESÁTI (90) DNŮ ODE DNE DODÁNÍ.&lt;BR&gt;
+(d) ŽÁDNÉ ÚSTNÍ NEBO PÍSEMNÉ INFORMACE NEBO RADY POSKYTNUTÉ SPOLEČNOSTÍ ADOBE, JEJÍMI DEALERY, DISTRIBUTORY, AGENTY NEBO ZAMĚSTNANCI NEVYTVOŘÍ ZÁRUKY NEBO JAKÝMKOLIV ZPŮSOBEM NEZVÝŠÍ ROZSAH JAKÝCHKOLI ZÁRUK STANOVENÝCH ZDE.&lt;BR&gt;
+(e) NĚKTERÉ JURISDIKCE NEPOVOLUJÍ VYLOUČENÍ IMPLIKOVANÝCH ZÁRUK, TAKŽE VÝŠE UVEDENÁ VYLOUČENÍ SE NA VÁS NEMUSÍ VZTAHOVAT. TATO ZÁRUKA VÁM DÁVÁ KONKRÉTNÍ ZÁKONNÁ PRÁVA A MŮŽETE MÍT I DALŠÍ ZÁKONNÁ PRÁVA, KTERÁ SE V JEDNOTLIVÝCH STÁTECH LIŠÍ.&lt;BR&gt;&lt;BR&gt;
+OMEZENÍ ODPOVĚDNOSTI&lt;BR&gt;&lt;BR&gt;
+(a) ANI SPOLEČNOST ADOBE ANI JEJÍ DODAVATELÉ NEBUDOU ODPOVĚDNÍ VÁM ANI ŽÁDNÉ TŘETÍ STRANĚ ZA JAKÉKOLI NEPŘÍMÉ, MIMOŘÁDNÉ, NÁHODNÉ, TRESTNÍ, POJISTNÉ NEBO NÁSLEDNÉ ŠKODY (ZAHRNUJÍCÍ, ALE NEOMEZENÉ POUZE NA ŠKODY NÁSLEDKEM ZTRÁTY POUŽITELNOSTI ZAŘÍZENÍ NEBO PŘÍSTUPU 
+K DATŮM, ZTRÁTU OBCHODU, ZTRÁTU ZISKU, PŘERUŠENÍ PROVOZU A PODOBNĚ), VZNIKLÝCH NA ZÁKLADĚ POUŽÍVÁNÍ NEBO NESCHOPNOSTI POUŽÍVAT TENTO DOPLNĚK, A PODLE JAKÉKOLI TEORIE ODPOVĚDNOSTI, ZAHRNUJÍCÍ PORUŠENÍ SMLOUVY, PORUŠENÍ ZÁRUKY, DELIKTU (VČETNĚ NEDBALOSTI), 
+ODPOVĚDNOSTI ZA PRODUKT NEBO JINÉ, A TO ANI V PŘÍPADĚ, ŽE SPOLEČNOST ADOBE NEBO JEJÍ ZÁSTUPCI BYLI NA MOŽNOST TAKOVÝCHTO ZTRÁT UPOZORNĚNI A I V PŘÍPADĚ, ŽE BUDE SHLEDÁNO, ŽE ZDE STANOVENÁ NÁHRADA NESPLNÍ SVŮJ ZÁKLADNÍ ÚČEL.&lt;BR&gt;
+(b) CELKOVÁ ODPOVĚDNOST SPOLEČNOSTI ADOBE VÁM NEBO JAKÉKOLI TŘETÍ STRANĚ ZA SKUTEČNÉ ŠKODY Z JAKÉKOLI PŘÍČINY BUDE OMEZENA NA 100 USD.&lt;BR&gt;
+(c) NĚKTERÉ JURISDIKCE NEPOVOLUJÍ OMEZENÍ NEBO VYLOUČENÍ ODPOVĚDNOSTI ZA NÁHODNÉ NEBO NÁSLEDNÉ ŠKODY, TAKŽE VÝŠE UVEDENÁ OMEZENÍ NEBO VYLOUČENÍ SE NA VÁS NEMUSÍ VZTAHOVAT A MŮŽETE MÍT I JINÁ ZÁKONNÁ PRÁVA, KTERÁ SE V JEDNOTLIVÝCH STÁTECH LIŠÍ.&lt;BR&gt;
+(d) PŘEDCHÁZEJÍCÍ OMEZENÍ ODPOVĚDNOSTI SE VZTAHUJÍ NA ZÁRUKY A OMEZENÍ UVEDENÁ VÝŠE A NA VŠECHNY OSTATNÍ ASPEKTY TÉTO LICENČNÍ SMLOUVY.&lt;BR&gt;&lt;BR&gt;
+Vyloučení záruk a omezení odpovědnosti uvedená výše jsou zásadními součástmi základu smlouvy mezi společností Adobe a vámi. 
+Společnost Adobe by bez těchto omezení nebyla schopna poskytovat tento doplněk na ekonomickém základě.  Taková vyloučení záruk a omezení odpovědnosti jsou ve prospěch poskytovatelů licencí pro společnost Adobe.&lt;BR&gt;&lt;BR&gt;
+(POUZE MIMO USA) POUZE SPOTŘEBITELŠTÍ KONCOVÍ UŽIVATELÉ&lt;BR&gt;&lt;BR&gt;
+Omezení nebo vyloučení záruk a odpovědnosti obsažené v tomto Odmítnutí odpovědnosti neovlivňují ani neomezují zákonná práva spotřebitele, to znamená osoby, která nabyla zboží jinak než za účelem obchodu.&lt;BR&gt;&lt;BR&gt;
+Omezení nebo vyloučení záruk, náhrad nebo odpovědnosti obsažená v tomto Odmítnutí odpovědnosti se na vás budou vztahovat pouze do takové míry, ve které jsou taková omezení nebo vyloučení povolena podle zákonů v jurisdikci, kde sídlíte.&lt;BR&gt;&lt;BR&gt;
+LICENCE TŘETÍ STRANY (POKUD EXISTUJE)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Verze:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>Copyright © 2000-2008 Adobe Systems Incorporated a držitelé licencí. Všechna práva vyhrazena.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe a logo Adobe jsou buď registrované ochranné známky nebo ochranné známky společnosti Adobe Systems Incorporated ve Spojených státech anebo dalších zemích. Všechny ostatní známky jsou vlastnictvím oprávněných vlastníků.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>Chráněno US patenty 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. Patentováno v USA a dalších zemích.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Toto rozšíření nelze nainstalovat, protože vyžaduje aplikaci {0} ve verzích {1} až {2}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Toto rozšíření nelze nainstalovat, protože vyžaduje aplikaci {0} {1}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Toto rozšíření nelze nainstalovat, protože vyžaduje aplikaci {0} {1} nebo vyšší verzi.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Toto rozšíření nelze nainstalovat, protože vyžaduje aplikaci {0} {1} nebo nižší verzi.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>Chcete-li nainstalovat toto rozšíření, zkuste nainstalovat aplikaci {0} CS4 nebo použijte nástroj Adobe Extension Manager CS3, který spolupracuje s aplikacemi Adobe CS3 a staršími produkty.</val>
+        </str>   
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>     
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>Spuštění aplikace se nezdařilo.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Vyberte produkt.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Vyberte rozšíření.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Povolit pro aktuální produkt</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Povolit pro všechny podporované produkty</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Zakázat pro aktuální produkt</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Zakázat pro všechny podporované produkty</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Nahrávání rozšíření ze souboru {0} selhalo</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>Chystáte se odebrat rozšíření {0}. Chcete pokračovat?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>Rozšíření nebude nainstalováno pro produkt {0}</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>Rozšíření nebude povoleno pro produkt {0}</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>Rozšíření nebude zakázáno pro produkt {0}</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>Rozšíření nebude odebráno pro produkt {0}</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>Toto rozšíření podporuje několik produktů. Chcete pokračovat na následující produkt?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_cz</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

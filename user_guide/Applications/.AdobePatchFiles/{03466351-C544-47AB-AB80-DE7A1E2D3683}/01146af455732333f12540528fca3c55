@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<component name="com.adobe.csi.core.logging.Activator">
+
+	<implementation class="com.adobe.csi.core.logging.Activator"/>
+	
+	<reference
+		name="IPreferencesService"
+		interface="com.adobe.csi.core.preferences.IPreferencesService"
+		bind="setPreferencesService"
+		unbind="unsetPreferencesService"
+		cardinality="1..1"
+		policy="dynamic"/>
+</component>

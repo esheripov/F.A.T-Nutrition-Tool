@@ -1,0 +1,46 @@
+/* To use this button input the following html in your html file:
+<a href="YOUR LINK GOES HERE">Button text Goes Here</a>
+*/
+
+.buttonAK {
+	/* styles for button */
+	margin:10px auto 0 auto;
+	text-align:center;
+	
+	/* Got this gradient css from :
+	 * http://www.red-team-design.com/cross-browser-css-gradient-buttons
+	*/
+	background: #13cbcb;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#81a8cb), to(#13cbcb) );*/
+    /*background: -moz-linear-gradient(-90deg, #81a8cb, #13cbcb); //4477a1*/
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#81a8cb', endColorstr='#4477a1');
+	
+
+	width:80px;
+	padding: 7px 6px 7px 6px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 1;
+	font: 'Arial';
+	font-size: 16px;
+	
+	
+	/* css3 implementation :) */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	/*text-shadow: 0 -1px 1px rgba(0,0,0,0.25);*/
+	/*border-bottom: 1px solid rgba(0,0,0,0.25);*/
+	
+	cursor: pointer;
+}
+.buttonAK:addtocatalog{
+	width:200px;
+}
+.buttonAK:hover {
+  background: #fff;
+  color: #13cbcb;
+}

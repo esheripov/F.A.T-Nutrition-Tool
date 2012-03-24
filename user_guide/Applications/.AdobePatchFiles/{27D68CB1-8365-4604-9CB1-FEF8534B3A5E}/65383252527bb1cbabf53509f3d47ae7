@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Asenna</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Ohje</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>$Tiedosto</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Asenna laajennus</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>$Paketoi laajennus</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>$Lähetä laajennus</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>Pois$ta laajennus</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Poista</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>Käytettävissä</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>$Siirry Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>Lop$eta</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Ikkuna</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>$Ohje</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>Extension Manager -ohjelman  $Ohje</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>$Tietoja Extension Managerista</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>Tuodaan:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>TUOTTEET</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Käytössä</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Laajennus</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Versio</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Tekijä</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Päivitykset</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Otetaan pois käytöstä:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Otetaan käyttöön:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Asennetaan:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Paketoidaan:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Poistetaan:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>Siirretään uuteen versioon:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Tuodaan laajennuksia...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Otetaan laajennus pois käytöstä...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Otetaan laajennus käyttöön...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Asennetaan laajennusta...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Pakataan laajennusta...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Poistetaan laajennusta...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Siirretään laajennuksia uuteen versioon...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>Peruuta</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Keskeytä</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Yritä uudelleen</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Ohita</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Kyllä</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>Ei</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Kyllä kaikkiin</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Hyväksy</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Hylkää</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Myöhemmin</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Ei koskaan</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>Aikaisemmassa Extension Manager -versiossa on asennettuna laajennuksia, siirretäänkö ne uuteen versioon?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>Laajennuksen edellinen versio on siirretty nykyiseen versioon. Käynnistä Extension Manager uudelleen.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Valitse asennettava laajennus</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Valitse pakattava laajennus</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Tallenna laajennuspaketti nimellä</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>LAAJENNUSTA KOSKEVA VASTUUVAPAUSLAUSEKE&lt;BR&gt;&lt;BR&gt;
+LUE TÄMÄ VASTUUVAPAUSLAUSEKE HUOLELLISESTI ENNEN LAAJENNUSTEN ASENTAMISTA. JOS ET HYVÄKSY TÄTÄ VASTUUVAPAUSLAUSEKETTA, ÄLÄ KÄYTÄ JA/TAI VIIMEISTELE LAAJENNUKSEN ASENNUSTA.&lt;BR&gt;&lt;BR&gt;
+Olet asentamassa laajennuksen, jonka on toimittanut ja/tai hyväksynyt Adobe tai kolmas osapuoli. Ymmärräthän ja hyväksyt sen, että Adobe EI ehkä ole hyväksynyt laajennusta, jota olet juuri asentamassa?
+Kolmas osapuoli, johon Adobella ei ole liikesuhdetta, tai Adobe on ehkä hyväksynyt laajennuksen tai Adobe on hyväksynyt sen. Suostut olemaan jakelematta  laajennusta ilman Adoben ja/tai sen lisenssinhaltijoiden hyväksyntää.  
+Ymmärräthän, että kolmannen osapuolen laajennuksen hyväksymiseksi joudut hyväksymään sinun ja kolmannen osapuolen väliset ehdot, jotta voi käyttää tämän laajennusta.&lt;BR&gt;&lt;BR&gt;
+Mikäli kolmannen osapuolen lisenssisopimus näkyy otsikon (MAHDOLLINEN) KOLMANNEN OSAPUOLEN LISENSSISOPIMUS alla tai tulee laajennuksen mukana tiedostona, tämä kolmannen osapuolen lisenssisoimus säätelee laajennuksen käyttöä ladatun tiedoston sijaan
+lisenssisopimus, jonka olet ehkä hyväksynyt ladatessasi laajennusta Adoben sivuilta; edellyttäen kuitenkin, että tämän vastuuvapauslausekkeen ehdot pysyvät voimassa.&lt;BR&gt;&lt;BR&gt;
+TAKUITA JA TEKNISTÄ TUKEA KOSKEVA VASTUUVAPAUSLAUSEKE&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE JA SEN ALIHANKKIJAT EIVÄT TARJOA LAAJENNUKSEEN KORJAUSKEINOJA TAI TAKUITA, OLIPA TÄMÄ MAINITTU ERIKSEEN TAI YMMÄRRETTY NIIN.  LAAJENNUS TOIMITETAAN \"SELLAISENAAN\" JA \"VIRHEETTÖMÄNÄ\" ILMAN MINKÄÄNLAISTA TEKNISTÄ TUKEA.&lt;BR&gt;
+(b) ADOBE JA SEN ALIHANKKIJAT SANOUTUVAT IRTI VASTUUSTA KOSKIEN KAIKISTA TAKUITA JA ESITYKSIÄ, OLIPA TÄMÄ MAINITTU TAI YMMÄRRETTÄVISSÄ,  TAI MUUTOIN, MUKAAN LUKIEN TAKUUT TAI KAUPALLISTAMISTAKUUT TAI SOVELTUVUUS TIETTYYN TARKOITUKSEEN.
+TAKUUTA EI OLE MYÖSKÄÄN VÄÄRINKÄYTÖN TAI OMISTUSOIKEUDEN JA OMAN KÄYTÖN VARALTA.  ADOBE EI TAKAA, ETTÄ LAAJENNUS ON VIRHEETÖN TAI TOIMII HÄIRIÖTTÄ. UCC:N KOHDASSA 2A MAINITUT OIKEUDET TAI KORJAUSKEINOT 
+EIVÄT KUULU SINULLE ELLEI NIITÄ OLE TÄSSÄ ERIKSEEN MYÖNNETTY. LAAJENNUSTA EI OLE SUUNNITELTU, TARKOITETTU TAI LISENSIOITU KÄYTETTÄVÄKSI VAARALLISISSA YMPÄRISTÖISSÄ, JOTKA EDELLYTTÄVÄT TURVATARKISTUKSIA, MUKAAN LUKIEN MUTTA RAJOITTUMATTA SUUNNITTELUA, RAKENTAMISTA
+YDINVOIMALOIDEN, LENTOKONENAVIGOINNIN TAI VIESTIJÄRJESTELMIEN, LENNONVALVONTA JA ELINTOIMINTOJEN TAI ASEJÄRJESTELMIEN YLLÄPITO TAI TOIMINTA. ADOBE IRTISANOUTUU ERIKSEEN MAINITUSTA TAI YMMÄRRETYSTÄ TAKUUSTA, JOKA KOSKEE SOVELTUVUUTTA TÄLLAISIIN TARKOITUKSIIN.&lt;BR&gt;
+(c) MIKÄLI SOVELLETTAVA LAKI EDELLYTTÄÄ LAAJENNUKSELLE TAKUITA, KAIKKI TÄLLAISET TAKUUT RAJOITETAAN AJALLISESTI YHDEKSÄÄNKYMMENEEN (90) PÄIVÄÄN TOIMITUSPÄIVÄSTÄ LUKIEN.&lt;BR&gt;
+(d) ADOBEN, SEN JÄLLEENMYYJIEN, EDUSTAJIEN TAI TYÖNTEKIJÖIDEN ANTAMA SUULLINEN TAI KIRJALLINEN TIETO TAI NEUVO MUODOSTAA TAKUUN TAI AINAKIN  LISÄÄ TÄSSÄ ANNETUN MINKÄÄNLAISEN TAKUUN LAAJUUTTA.&lt;BR&gt;
+(e) JOILLAKIN LAINKÄYTTÖALUEILLA EI SALLITA YMMÄRRETTYJEN TAKUIDEN POISJÄTTÄMISTÄ, JOTEN EDELLÄ MAINITTU POIKKEUS EI EHKÄ KOSKE SINUA. TÄMÄ TAKUU ANTAA SINULLE TIETYT LAINMUKAISET OIKEUDET, JA SINULLA SAATTAA OLLA MUITAKIN OIKEUKSIA, JOTKA VAIHTELEVAT VALTIOITTAIN.&lt;BR&gt;&lt;BR&gt;
+VASTUUN RAJOITTAMINEN&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE JA SEN ALINHANKKIJAT EIVÄT VASTAA SINULLE EIKÄ MILLEKÄÄN KOLMANNELLE OSAPUOLELLE EPÄSUORISTA, ERITYISISTÄ, TUOTTAMUKSELLISISTA, RANGAISTAVISTA, PEITELLYISTÄ TAI SEURAAMUKSELLISISTA VAHINGOISTA (MUKAAN LUKIEN MUTTA RAJOITTUMATTA VAHINGOT, JOTKA JOHTUVAT KYVYTTÖMYYDESTÄ KÄYTTÄÄ TAI KÄYNNISTÄÄ LAITTEITA
+LAAJENNUKSEN KÄYTÖSTÄ TAI KYVYTTÖMYYDESTÄ KÄYTTÄÄ SITÄ AIHEUTUVA TIETOJEN, LIIKETOIMIEN, VOITTOJEN, LIIKETOIMIEN MENETYS TAI MUU ONGELMA, JOKA PERUSTUU AJATUKSEEN VASTUUSTA, MUKAAN LUKIEN SOPIMUSRIKKOMUS, TAKUURIKKOMUS, VIRHE (MYÖS HUOLIMATTOMUUS), 
+TUOTEVASTUU TAI MUU, VAIKKA ADOBEA TAI SEN EDUSTAJIA OLISI VAROITETTU TÄLLAISTEN VAHINKOJEN MAHDOLLISUUDESTA JA VAIKKA TÄSSÄ MAINITUN KORJAUSKEINON ON TODETTU EPÄONNISTUNEEN TARKOITUKSESSAAN.&lt;BR&gt;
+(b) ADOBEN KOKONAISVASTUU SINUA TAI MITÄ TAHANSA KOLMATTA OSAPUOLTA KOHTAAN VARSINAISISTA VAHINGOISTA MISTÄ TAHANSA SYYSTÄ RAJOITTUU 100 DOLLARIIN.&lt;BR&gt;
+(c) JOILLAKIN LAINKÄYTTÖALUEILLA EI SALLITA TUOTTAMUKSELLISTEN TAI SEURAAMUKSELLISTEN VAHINKOJEN RAJOITTAMISTA TAI POISTAMISTA, JOTEN EDELLÄ OLEVA RAJOITUS TAI POISTO EI EHKÄ KOSKE SINUA, JA SINULLA SAATTAA OLLA MUITAKIN LAINMUKAISIA OIKEUKSIA, KOSKA NE VAIHTELEVAT VALTIOITTAIN.&lt;BR&gt;
+(d) EDELLÄ MAINITTUJEN VASTUURAJOITUSTEN ON TARKOITUS KOSKEA EDELLÄ MAINITTUJA TAKUITA JA VASTUUVAPAUSLAUSEKKEITA SEKÄ TÄMÄN \"EULAN\" MUITA NÄKÖKOHTIA.&lt;BR&gt;&lt;BR&gt;
+Edellä mainittu takuita ja vastuurajoitusta koskeva lauseke on Adoben ja sinun välisen sopimuksen perusasioita. 
+Adobe ei pystyisi toimittamaan laajennusta taloudellisesti ilman tällaisia rajoituksia. Tällainen takuuta ja vastuun rajoittamista koskeva lauseke on Adoben lisenssinhaltijoiden turvaksi.&lt;BR&gt;&lt;BR&gt;
+(VAIN YHDYSVALTAIN ULKOPUOLELLA) VAIN KULUTTAJAT JA LOPPUKÄYTTÄJÄT&lt;BR&gt;&lt;BR&gt;
+Tämän vastuuvapauslausekkeen takuuta tai vastuuta koskevat rajoitukset tai poikkeukset eivät vaikuta kuluttajan laillisiin oikeuksiin tai tai vaaranna niitä, kun kyseessä on henkilö, joka hankki hyödykkeitä muuten kuin liiketoiminnan puitteissa.&lt;BR&gt;&lt;BR&gt;
+Tämän vastuuvapauslausekkeen sisältämät takuiden, korjauskeinojen tai vastuun rajoitukset koskevat sinua vain siinä laajuudessa kuin tällaiset rajoitukset tai poikkeukset ovat sallittuja omalla lainkäyttöalueellasi.&lt;BR&gt;&lt;BR&gt;
+KOLMANNEN OSAPUOLEN LISENSSI (MAHDOLLINEN)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Versio:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>© 2000-2008 Adobe System Incorporated ja sen lisensoijat. Kaikki oikeudet pidätetään.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe ja Adobe logo ovat Adobe Systems Incorporatedin rekisteröityjä tavaramerkkejä tai tavaramerkkejä Yhdysvalloissa ja/tai muissa maissa. Kaikki muut tavaramerkit ovat niiden omistajien omaisuutta.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>Suojattu Yhdysvaltain patenteilla 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. Patentteja haettu Yhdysvalloissa ja/tai muissa maissa.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Laajennusta ei voi asentaa, koska siihen vaaditaan {0} {1}–{ 2}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Laajennusta ei voida asentaa, koska siihen vaaditaan: {0} {1}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Laajennusta ei voi asentaa, koska siihen vaaditaan {0} {1} tai uudempi.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Laajennusta ei voi asentaa, koska siihen vaaditaan {0} {1} tai aikaisempi.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>Asenna laajennus asentamalla {0} CS4 tai käyttämällä Adobe Extension Manager CS3:a, joka toimii Adobe CS3 -tuotteen ja aikaisempien tuotteiden kanssa.</val>
+        </str>     
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>   
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>Sovelluksen käynnistäminen epäonnistui.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Valitse tuote.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Valitse laajennus.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Ota käyttöön nykyisessä tuotteessa</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Ota käyttöön kaikissa tuetuissa tuotteissa</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Ota pois käytöstä nykyisessä tuotteessa</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Ota pois käytöstä kaikissa tuetuissa tuotteissa.</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Laajennusta ei voitu ladata tiedostosta: {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>Olet poistamassa laajennusta {0}. Jatketaanko?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>Laajennusta ei asenneta tuotteelle {0}</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>Laajennusta ei oteta käyttöön tuotteessa {0}</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>Laajennusta ei oteta pois käytöstä tuotteessa {0}</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>Laajennusta ei poisteta tuotteesta {0}</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>Tämä laajennus tukee useita tuotteita, haluatko jatkaa seuraavaan tuotteeseen?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_fi</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

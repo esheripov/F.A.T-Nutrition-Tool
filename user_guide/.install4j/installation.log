@@ -1,0 +1,489 @@
+[INFO] logger started at Sat Sep 11 17:55:34 PDT 2010
+[INFO] executable name: /Volumes/Vuze_Installer/Vuze Installer.app
+[INFO] install4j version: 4.2.8 (build 4537)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=/Volumes/Vuze_Installer/Vuze Installe...
+sun.boot.library.path=/System/Library/Frameworks/JavaVM.fra...
+java.vm.version=16.3-b01-279
+awt.nativeDoubleBuffering=true
+gopherProxySet=false
+mrj.build=9M3165
+java.vm.vendor=Apple Inc.
+java.vendor.url=http://www.apple.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=US
+sun.os.patch.level=unknown
+install4j.exeDir=/Volumes/Vuze_Installer/
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Volumes/Vuze_Installer/Vuze Installe...
+java.runtime.version=1.6.0_20-b02-279-9M3165
+java.awt.graphicsenv=apple.awt.CGraphicsEnvironment
+java.endorsed.dirs=/System/Library/Frameworks/JavaVM.fra...
+os.arch=x86_64
+java.io.tmpdir=/var/folders/sY/sYjE1Jy7EeWZ2f6CCPqGu...
+apple.awt.graphics.UseOpenGL=false
+line.separator=
+
+java.vm.specification.vendor=Sun Microsystems Inc.
+os.name=Mac OS X
+sun.java2d.noddraw=true
+sun.jnu.encoding=MacRoman
+java.library.path=/Volumes/Vuze_Installer/Vuze Installe...
+java.specification.name=Java Platform API Specification
+java.class.version=50.0
+sun.management.compiler=HotSpot 64-Bit Server Compiler
+os.version=10.5.8
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+user.home=/Users/ebeddows
+user.timezone=America/Los_Angeles
+java.awt.printerjob=apple.awt.CPrinterJob
+java.specification.version=1.6
+file.encoding=MacRoman
+user.name=ebeddows
+java.class.path=/Volumes/Vuze_Installer/Vuze Installe...
+apple.awt.graphics.UseQuartz=false
+java.vm.specification.version=1.0
+sun.arch.data.model=64
+java.home=/System/Library/Frameworks/JavaVM.fra...
+java.specification.vendor=Sun Microsystems Inc.
+user.language=en
+awt.toolkit=apple.awt.CToolkit
+java.vm.info=mixed mode
+java.version=1.6.0_20
+java.ext.dirs=/Library/Java/Extensions:/System/Libr...
+sun.boot.class.path=/System/Library/Frameworks/JavaVM.fra...
+java.vendor=Apple Inc.
+install4j.appDir=/Volumes/Vuze_Installer/Vuze Installe...
+file.separator=/
+java.vendor.url.bug=http://bugreport.apple.com/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+mrj.version=1050.1.6.0_20-279
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.cpu.isalist=
+sun.awt.exception.handler=apple.awt.CToolkit$EventQueueExceptio...
+[INFO] com.install4j.runtime.installer.platform.macos.VolumeInfo: image: /Users/ebeddows/Desktop/Vuze_Installer.dmg, mountPoint: /Volumes/Vuze_Installer
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CONDUIT_OFFER_SCREEN=com.vuze.install4j.ConduitOfferScreen@7d5b1773[class com.vuze.install4j.ConduitOfferScreen]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TUNEUP_OFFER_SCREEN=com.vuze.install4j.TuneUpOfferScreen@5809fdee[class com.vuze.install4j.TuneUpOfferScreen]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_75
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: sys.installationDir=/Applications[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.install4j.runtime.beans.screens.StartupScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen: Show screen
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CUST_INST_COMP_REND=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: vuze.installation_id=5rv31284252937601zvapg01[class java.lang.String]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TERMS_ACCEPTED=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_80
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_81
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CUSTOMIZE_INSTALL=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.vuze.install4j.LoadExternalFileAction: Before execute action
+[INFO] com.vuze.install4j.LoadExternalFileAction: Property externalFile: i4j_extf_18_5p83tu_xza4ha.png
+[INFO] com.vuze.install4j.LoadExternalFileAction: Property variableName: EXTF_vuze_logo_128x132.png
+[INFO] com.vuze.install4j.LoadExternalFileAction: Property rollbackSupported: true
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: EXTF_vuze_logo_128x132.png=/Volumes/Vuze_Installer/Vuze Installer.app/Contents/Resources/app/i4j_extf_18_5p83tu_xza4ha.png[class java.io.File]
+[INFO] com.vuze.install4j.LoadExternalFileAction: After execute action
+[INFO] com.vuze.install4j.LoadExternalFileAction: Before execute action
+[INFO] com.vuze.install4j.LoadExternalFileAction: Property externalFile: i4j_extf_19_5p83tu
+[INFO] com.vuze.install4j.LoadExternalFileAction: Property variableName: EXTF_VuzeToolbarInstaller
+[INFO] com.vuze.install4j.LoadExternalFileAction: Property rollbackSupported: true
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: EXTF_VuzeToolbarInstaller=/Volumes/Vuze_Installer/Vuze Installer.app/Contents/Resources/app/i4j_extf_19_5p83tu[class java.io.File]
+[INFO] com.vuze.install4j.LoadExternalFileAction: After execute action
+[INFO] com.install4j.runtime.beans.screens.FormScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FormScreen: Show screen
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: vuze.installation_id=5rv31284252937601zvapg01[class java.lang.String]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: createQuicklaunchIconAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: createTorrentFileAssoc=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: void=/[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.FormScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.vuze.install4j.ConduitOfferScreen: Show screen
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CONDUIT_NEXT_BUTTON_CLICKED=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CONDUIT_NEXT_BUTTON_CLICKED=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CONDUIT_ACCEPTED=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CONDUIT_DEFAULT_SEARCH=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: CONDUIT_DEFAULT_START=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_97
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: INSTALL_CONDUIT_TOOLBAR=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: INSTALL_CONDUIT_TOOLBAR=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TOOLBAR_INSTALLED_OR_EXISTS=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: vuze.installation_id=5rv31284252937601zvapg01[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.vuze.install4j.ConduitInstallAction: Before execute action
+[INFO] com.vuze.install4j.ConduitInstallAction: Property ieDownloadLink: http://vuzeremote.ourtoolbar.com/ie
+[INFO] com.vuze.install4j.ConduitInstallAction: Property firefoxDownloadLink: http://vuzeremote.ourtoolbar.com/xpi
+[INFO] com.vuze.install4j.ConduitInstallAction: Property rollbackSupported: true
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/META-INF/zigbert.rsa; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/META-INF/zigbert.rsa
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/chrome/vuze_remote.jar; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/chrome/vuze_remote.jar
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/chrome.manifest; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/chrome.manifest
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitAutoCompleteSearch.js; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitAutoCompleteSearch.js
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitAutoCompleteSearch.xpt; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitAutoCompleteSearch.xpt
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitToolbar.idl; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitToolbar.idl
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitToolbar.js; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitToolbar.js
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitToolbar.xpt; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/ConduitToolbar.xpt
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/FFExternalAlert.dll; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/FFExternalAlert.dll
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/FFExternalAlert.xpt; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/FFExternalAlert.xpt
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/RadioWMPCore.dll; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/RadioWMPCore.dll
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/RadioWMPCore.xpt; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/components/RadioWMPCore.xpt
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/defaults/default_radio_skin.xml; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/defaults/default_radio_skin.xml
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/defaults/fbAlert.js; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/defaults/fbAlert.js
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/install.rdf; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/install.rdf
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/lib/xpcom.js; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/lib/xpcom.js
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.gif; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.gif
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.ico; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.ico
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.PNG; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.PNG
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.src; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.src
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.xml; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/searchplugin/conduit.xml
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/version.txt; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/version.txt
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/META-INF/manifest.mf; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/META-INF/manifest.mf
+[INFO] com.vuze.install4j.ConduitInstallAction: Before install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/META-INF/zigbert.sf; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.vuze.install4j.ConduitInstallAction: After install file: /Users/ebeddows/Library/Application Support/Firefox/Profiles/rn4p0g8j.default/extensions/{ba14329e-9550-4989-b3f2-9732e92d17cc}/META-INF/zigbert.sf
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: vuze.installation_id=5rv31284252937601zvapg01[class java.lang.String]
+[INFO] com.vuze.install4j.ConduitInstallAction: After execute action
+[INFO] com.vuze.install4j.ConduitOfferScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen: Show screen
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_106
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_107
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property directoryResolverScript: null
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property fileFilterScript: null
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property sizeCalculatorScript: null
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property checkFreeSpace: true
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property delay: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property installRuntime: true
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property showFileNames: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property triggerReboot: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property updateBundledJre: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property validateApplicationId: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property rollbackSupported: true
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: sys.installationDir=/[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: File installation started: total size: 22270500 bytes; file count: 46
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/Info.plist; size: 2383 bytes; exists: false
+[INFO] fileTime: Wed Aug 04 15:31:32 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/Info.plist
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/installer.log; size: 0 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:22 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/installer.log
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/MacOS/JavaApplicationStub; size: 44912 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:16 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/MacOS/JavaApplicationStub
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/PkgInfo; size: 9 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:16 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/PkgInfo
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azitunes/azitunes_0.2.5.jar; size: 146151 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:08 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azitunes/azitunes_0.2.5.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azitunes/azureus.sig; size: 160 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:18 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azitunes/azureus.sig
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azitunes/libScriptingBridgeCalls.jnilib; size: 40912 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:18 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azitunes/libScriptingBridgeCalls.jnilib
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azitunes/plugin.properties; size: 125 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:18 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azitunes/plugin.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azplugins/azplugins_2.1.6.jar; size: 686865 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:08 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azplugins/azplugins_2.1.6.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azrating/azrating_1.3.1.jar; size: 21642 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:08 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azrating/azrating_1.3.1.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azupdater/azupdaterpatcher_1.8.16.jar; size: 4011 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:08 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azupdater/azupdaterpatcher_1.8.16.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azupdater/azureus.sig; size: 160 bytes; exists: false
+[INFO] fileTime: Wed Apr 21 18:51:48 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azupdater/azureus.sig
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azupdater/plugin.properties; size: 189 bytes; exists: false
+[INFO] fileTime: Wed Apr 21 18:51:48 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azupdater/plugin.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azupdater/Updater.jar; size: 45089 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:08 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azupdater/Updater.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azupnpav/azupnpav_0.2.30.jar; size: 382643 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:08 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azupnpav/azupnpav_0.2.30.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azupnpav/azureus.sig; size: 160 bytes; exists: false
+[INFO] fileTime: Wed Aug 25 15:03:56 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azupnpav/azureus.sig
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/plugins/azupnpav/plugin.properties; size: 125 bytes; exists: false
+[INFO] fileTime: Wed Aug 25 15:03:56 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/plugins/azupnpav/plugin.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/Resources/Java/Azureus2.jar; size: 14676003 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:24 PDT 2010, mode: 666, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/Resources/Java/Azureus2.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/Resources/Java/dll/libOSXAccess.jnilib; size: 96008 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:16 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/Resources/Java/dll/libOSXAccess.jnilib
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/Resources/Java/dll/libOSXAccess_10.5.jnilib; size: 127904 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:16 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/Resources/Java/dll/libOSXAccess_10.5.jnilib
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/Resources/Java/swt.jar; size: 2751379 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:26 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/Resources/Java/swt.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/Resources/Java/swt_carbon/swt.jar; size: 2916371 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:28 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/Resources/Java/swt_carbon/swt.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze.app/Contents/Resources/Vuze.icns; size: 174821 bytes; exists: false
+[INFO] fileTime: Fri Apr 09 00:29:16 PDT 2010, mode: 777, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze.app/Contents/Resources/Vuze.icns
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze Uninstaller.app/Contents/Info.plist; size: 1540 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:28 PDT 2010, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze Uninstaller.app/Contents/Info.plist
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze Uninstaller.app/Contents/MacOS/JavaApplicationStub; size: 96912 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:28 PDT 2010, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze Uninstaller.app/Contents/MacOS/JavaApplicationStub
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze Uninstaller.app/Contents/PkgInfo; size: 8 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:28 PDT 2010, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze Uninstaller.app/Contents/PkgInfo
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze Uninstaller.app/Contents/Resources/app.icns; size: 51572 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:28 PDT 2010, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze Uninstaller.app/Contents/Resources/app.icns
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Vuze Uninstaller.app/Contents/Resources/i4jlauncher.config; size: 2446 bytes; exists: false
+[INFO] fileTime: Tue Aug 31 19:08:28 PDT 2010, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Vuze Uninstaller.app/Contents/Resources/i4jlauncher.config
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/inst_jre.cfg; size: 64 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/inst_jre.cfg
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4jruntime.jar; size: 944475 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4jruntime.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/MessagesDefault; size: 28605 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/MessagesDefault
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4jparams.conf; size: 59365 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4jparams.conf
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/user.jar; size: 126549 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/user.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_0_5p83tu.utf8; size: 28605 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_0_5p83tu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_10_5p83tu.utf8; size: 32628 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_10_5p83tu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_11_5p83tu.properties; size: 1874 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_11_5p83tu.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_12_5p83tu.utf8; size: 30270 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_12_5p83tu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_13_5p83tu.properties; size: 1894 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_13_5p83tu.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_14_5p83tu_1q2vg51.png; size: 154 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_14_5p83tu_1q2vg51.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_15_5p83tu_1rjd818.png; size: 607 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_15_5p83tu_1rjd818.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_16_5p83tu_qin5kk.png; size: 1136 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_16_5p83tu_qin5kk.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_17_5p83tu.exe; size: 7168 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_17_5p83tu.exe
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_18_5p83tu_xza4ha.png; size: 5150 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_18_5p83tu_xza4ha.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_19_5p83tu; size: 18028 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_19_5p83tu
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_1_5p83tu.properties; size: 1565 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_1_5p83tu.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_20_5p83tu_19c5po3.png; size: 9070 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_20_5p83tu_19c5po3.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_21_5p83tu_1dcx5tw.png; size: 5960 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_21_5p83tu_1dcx5tw.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_22_5p83tu.html; size: 18172 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_22_5p83tu.html
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_23_5p83tu_rz1c2y.png; size: 8827 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_23_5p83tu_rz1c2y.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_24_5p83tu.dll; size: 57344 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_24_5p83tu.dll
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_25_5p83tu.dll; size: 55808 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_25_5p83tu.dll
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_26_5p83tu_7o6cv2.png; size: 54114 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_26_5p83tu_7o6cv2.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_27_5p83tu_luoufk.png; size: 53308 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_27_5p83tu_luoufk.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_28_5p83tu.html; size: 40376 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_28_5p83tu.html
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_2_5p83tu.utf8; size: 26695 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_2_5p83tu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_3_5p83tu.properties; size: 1728 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_3_5p83tu.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_4_5p83tu.utf8; size: 31949 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_4_5p83tu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_5_5p83tu.properties; size: 1834 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_5_5p83tu.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_6_5p83tu.utf8; size: 30697 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_6_5p83tu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_7_5p83tu.properties; size: 1624 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_7_5p83tu.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_8_5p83tu.utf8; size: 28930 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_8_5p83tu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /.install4j/i4j_extf_9_5p83tu.properties; size: 1731 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:57:27 PDT 2010, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /.install4j/i4j_extf_9_5p83tu.properties
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction: Property file: Vuze Uninstaller.app
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction: Property backupForRollback: false
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction: Property recurse: true
+[INFO] com.install4j.runtime.beans.actions.files.DeleteFileAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_111
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: vuze.installation_id=5rv31284252937601zvapg01[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_112
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TUNEUP_WINDOWS=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TUNEUP_OSX=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TUNEUP_OSX=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TUNEUP_ITUNES=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TuneUpApp=iTunes[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen: Rollback barrier reached
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.vuze.install4j.TuneUpOfferScreen: Show screen
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TUNEUP_ACCEPT_BUTTON_CLICKED=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: TUNEUP_ACCEPT_BUTTON_CLICKED=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackSupported: false
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property rollbackScript: null
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: Property script: I4jScript_Internal_118
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: INSTALL_TUNEUP=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: vuze.installation_id=5rv31284252937601zvapg01[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction: After execute action
+[INFO] com.vuze.install4j.LaunchVuzeAction: Before execute action
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property osxLaunchFile: Vuze.app
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property osxLaunchDirectory: .
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property dllFile32bit: i4j_extf_24_5p83tu.dll
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property dllFile64bit: i4j_extf_25_5p83tu.dll
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property dllMethod: RunNonElevated
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property parameterFile: Azureus.exe
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property toolbarUrl: http://www.vuze.com/toolbar/Welcome.html?r=install
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property showToolbarURL: false
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property launchVuze: true
+[INFO] com.vuze.install4j.LaunchVuzeAction: Property rollbackSupported: true
+[INFO] com.install4j.runtime.beans.actions.misc.RunExecutableAction: used working dir: /.
+[INFO] com.vuze.install4j.LaunchVuzeAction: After execute action
+[INFO] com.vuze.install4j.TuneUpInstallAction: Before execute action
+[INFO] com.vuze.install4j.TuneUpInstallAction: Property rollbackSupported: true
+[INFO] com.vuze.install4j.TuneUpInstallAction: About to install TuneUp
+[INFO] com.vuze.install4j.TuneUpInstallAction: Before install file: /Applications/TuneUp.app/Contents/Frameworks/SharedMenusCocoa.framework/Headers/MenuSharing.h; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:58:11 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[ERROR] Could not write /Applications/TuneUp.app/Contents/Frameworks/SharedMenusCocoa.framework/Headers/MenuSharing.h
+[ERROR] com.vuze.install4j.TuneUpInstallAction: Install file not successful: /Applications/TuneUp.app/Contents/Frameworks/SharedMenusCocoa.framework/Headers/MenuSharing.h
+[INFO] com.vuze.install4j.TuneUpInstallAction: Before install file: /Applications/TuneUp.app/Contents/Frameworks/SharedMenusCocoa.framework/Headers/SharedMenusObj.h; size: 0 bytes; exists: false
+[INFO] fileTime: Sat Sep 11 17:58:29 PDT 2010, mode: 777, overwriteMode: Never, shared: false, uninstallMode: If created, delayIfNecessary: false
+[ERROR] com.vuze.install4j.TuneUpInstallAction: Install file not successful: /Applications/TuneUp.app/Contents/Frameworks/SharedMenusCocoa.framework/Headers/SharedMenusObj.h
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: vuze.installation_id=5rv31284252937601zvapg01[class java.lang.String]
+[INFO] com.vuze.install4j.TuneUpInstallAction: After execute action
+[INFO] com.vuze.install4j.LogWaitAction: Before execute action
+[INFO] com.vuze.install4j.LogWaitAction: Property maxWaitTime: 10000
+[INFO] com.vuze.install4j.LogWaitAction: Property rollbackSupported: true
+[INFO] com.vuze.install4j.LogWaitAction: After execute action
+[INFO] com.vuze.install4j.TuneUpOfferScreen: Rollback barrier reached
+[INFO] com.vuze.install4j.TuneUpOfferScreen: command: finish
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Finishing
+[INFO] cleaning up
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Finished

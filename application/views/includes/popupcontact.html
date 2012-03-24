@@ -1,0 +1,321 @@
+<style>
+
+
+
+#cheaterMealItem
+
+{
+
+	text-align:center;
+
+	background-color:#FFF;
+
+	color:#000;
+
+	width:50px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+}
+
+#rounded-corner{
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	letter-spacing:-1;
+
+	font-size:13px;
+
+	width:500px;
+
+	text-align:center;
+
+	border-collapse:collapse;
+
+	margin:0px;
+
+	background:#13cbcb;
+
+	}
+
+#rounded-corner thead th.rounded-company{
+
+	background:#13cbcb url("http://media.smashingmagazine.com/images/express-css-table-design/table-images/left.png") left -1px no-repeat;}
+
+#rounded-corner thead th.rounded-q4{
+
+	background:#13cbcb url("http://media.smashingmagazine.com/images/express-css-table-design/table-images/right.png") right -1px no-repeat;}
+
+#rounded-corner th{
+
+	text-align:center;
+
+	font-weight:normal;
+
+	font-size:13px;
+
+	color:white;
+
+	background:#13cbcb;
+
+	padding:6px;
+
+	font-weight:bold;
+
+	}
+
+#rounded-corner td{
+
+	background:white;
+
+	color:#FFF;
+
+	padding:6px;
+
+	 }
+
+#rounded-corner tfoot td.rounded-foot-left{
+
+	background:#13cbcb url("http://media.smashingmagazine.com/images/express-css-table-design/table-images/botleft.png") left bottom no-repeat;}
+
+#rounded-corner tfoot td.rounded-foot-right{
+
+	background:#13cbcb url("http://media.smashingmagazine.com/images/express-css-table-design/table-images/botright.png") right bottom no-repeat;}
+
+#rounded-corner tbody tr:hover td{
+
+		background:#cffafa;
+
+		}
+
+
+
+</style>
+
+
+
+<div id="popupContact" style="width:500px; height:410px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; -khtml-border-radius: 10px;">  
+
+        <a id="" style="text-decoration:none">x</a><br>
+
+        <center><h1 style ="font-size:25px; text-align: center; margin-left:115px; margin-bottom:-50px;
+
+        line-height:14px;  
+
+    top:4px;  
+
+    color:#13cbcb;  
+
+    font-weight:700;  
+
+    display:block;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    letter-spacing:-1;
+
+    "  id="typeOfMealGenerated"></h1></center>
+
+        <div id="mealDiv">
+
+            <form id="cheaterForm" style="position:absolute; visibility:hidden" action="addCheaterMeal" method="post">
+
+        		<input id="userMealButton" class="button" type="submit" style="float:right; font-size:12px; margin:auto; visibility:hidden; margin-bottom:15px; margin-top:-10px;" value = "Use Meal"/><br /><br />
+
+            	<table id="rounded-corner" summary="">
+                <thead>
+                <tr>
+                <th scope="col" class="rounded-q1">Item Name</th>
+                <th scope="col" class="rounded-q1">Calories</th>
+                <th scope="col" class="rounded-q2">Carbs</th>
+                <th scope="col" class="rounded-q3">Proteins</th>
+                <th scope="col" class="">Fats</th>
+                <th scope="col" class="">Sugars</th>
+                <th scope="col" class="rounded-q1">Cholesterol</th>
+                </tr>
+                </thead>
+                <tfoot>
+
+                <tr>
+
+                <td colspan="3" class="rounded-q1"><em></em></td>
+
+                <td colspan="4" class="rounded-q1">
+
+                	<input placeholder="Cheater Meal Name" type="text" id="cheaterMealItem" name="mealname" required="required" style="width:100%; border:solid 1px #CCC;" />
+
+                    <input id="cheaterDate" type="hidden" name="date" value="" />
+
+                </td>
+
+                </tr>
+
+                </tfoot>
+
+                    <tbody>
+
+                        <tr id = "item1">
+
+                            <td><input  type="text" id="cheaterMealItem" name="name" required="required" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input  type="number" min="0" step=".01" id="cheaterMealItem" placeholder="" name="calories"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input  type="number" min="0" step=".01" id="cheaterMealItem" placeholder="" name="carbs"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input  type="number" min="0"step=".01"  id="cheaterMealItem" placeholder="" name="proteins" size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input  type="number" min="0" step=".01" id="cheaterMealItem" placeholder="" name="fats"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input  type="number" min="0"step=".01"id="cheaterMealItem" placeholder="" name="sugars"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input  type="number" min="0" step=".00001" id="cheaterMealItem" placeholder="" name="cholesterol" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>                	
+
+                        <tr id = "item2">
+
+                            <td><input placeholder="" type="text" id="cheaterMealItem" name="name2" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="calories2"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="carbs2"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="proteins2" size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="fats2"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="sugars2"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".00001" placeholder="" id="cheaterMealItem" name="cholesterol2" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>
+
+                        <tr id = "item3">
+
+                            <td><input placeholder="" type="text" id="cheaterMealItem" name="name3" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="calories3"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="carbs3"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="proteins3" size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="fats3"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="sugars3"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".00001" placeholder="" id="cheaterMealItem" name="cholesterol3" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>
+
+                        <tr id = "item4">
+
+                            <td><input placeholder="" type="text" id="cheaterMealItem" name="name4" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="calories4"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="carbs4"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="proteins4" size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="fats4"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="sugars4"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".00001" placeholder="" id="cheaterMealItem" name="cholesterol4" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>
+
+                        <tr id = "item5">
+
+                            <td><input placeholder="" type="text" id="cheaterMealItem" name="name5" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="calories5"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="carbs5"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="proteins5" size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="fats5"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="sugars5"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".00001" placeholder="" id="cheaterMealItem" name="cholesterol5" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>
+
+                        <tr id = "item6">
+
+                            <td><input placeholder="" type="text" id="cheaterMealItem" name="name6" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="calories6"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="carbs6"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="proteins6" size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="fats6"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="sugars6"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".00001" placeholder="" id="cheaterMealItem" name="cholesterol6" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>
+
+                        <tr id = "item7">
+
+                            <td><input placeholder="" type="text" id="cheaterMealItem" name="name7" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="calories7"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="carbs7"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="proteins7" size="5" style="border:solid 1px #CCC;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="fats7"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="sugars7"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".00001" placeholder="" id="cheaterMealItem" name="cholesterol7" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>
+
+                        <tr id = "item8">
+
+                            <td><input placeholder="" type="text" id="cheaterMealItem" name="name8" size="5" style="border:solid 1px #CCC; margin-left:7px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="calories8"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="carbs8"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="proteins8" size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01"  placeholder="" id="cheaterMealItem" name="fats8"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".01" placeholder="" id="cheaterMealItem" name="sugars8"  size="5" style="border:solid 1px #CCC; margin-left:6px;"/></td>
+
+                            <td><input type="number" min="0" step=".00001" placeholder="" id="cheaterMealItem" name="cholesterol8" size="5" style="border:solid 1px #CCC; margin-left:10px;"/></td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </form>
+
+        </div>
+
+</div>  
+
+
+
+
+
+
+
+<div id="backgroundPopup"></div>

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Adobe-AutoStart: true
+Service-Component: OSGI-INF/LocalizationExposeService.xml,OSGI-INF/Loc
+ alizationService.xml,OSGI-INF/Trace.xml
+Bundle-Name: Core Plug-in
+Bundle-ClassPath: com.adobe.drive.core.jar
+Bundle-Activator: com.adobe.drive.core.Core
+Import-Package: com.adobe.csi.core.logging;version="1.0.0",com.adobe.d
+ rive.data.model,org.eclipse.core.runtime,org.eclipse.osgi.service.deb
+ ug;version="1.0.0",org.osgi.framework;version="1.3.0",org.osgi.servic
+ e.component;version="1.0.0",org.osgi.service.prefs;version="1.1.0",or
+ g.osgi.util.tracker;version="1.3.3"
+Bundle-Vendor: ADOBE
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.adobe.drive.core
+Export-Package: com.adobe.drive.core,com.adobe.drive.core.l10n,com.ado
+ be.drive.core.messages,com.adobe.drive.core.progress,com.adobe.drive.
+ core.tracing
+Bundle-Version: 1.0.0.344
+

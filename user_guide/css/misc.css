@@ -1,0 +1,39 @@
+
+.userKitchenItem
+{
+	cursor:pointer;
+}
+.catalogItem
+{
+	border:medium;
+	cursor:pointer;
+}
+.catalogItem:hover
+{
+	background-color:#FF0;
+}
+.userKitchenItem:hover
+{
+	background-color:#FF0;
+}
+body
+{
+}
+#mealTable
+{
+	background-color:#999;
+	width:100%;
+}
+#cheaterMealTable
+{
+	background-color:#CCC;
+	color:#000;
+	border: 1 none;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: top;
+	border:1;
+}

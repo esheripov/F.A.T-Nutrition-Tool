@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Adobe-AutoStart: true
+Service-Component: OSGI-INF/SystemKeychainService.xml
+Bundle-Name: Adobe CSI (Keystore)
+Import-Package: com.adobe.csi.auth
+Bundle-Vendor: Adobe Systems Inc.
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.adobe.csi.auth.keystore
+Export-Package: com.adobe.csi.auth.keystore
+Bundle-Version: 1.0.0.344
+

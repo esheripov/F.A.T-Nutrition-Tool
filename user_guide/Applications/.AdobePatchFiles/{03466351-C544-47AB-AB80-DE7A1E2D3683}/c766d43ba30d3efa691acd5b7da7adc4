@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-Name: com.adobe.drive.utils
+Bundle-ClassPath: lib/icu4j.jar,.
+Import-Package: org.apache.commons.codec,org.apache.commons.codec.bina
+ ry
+Bundle-Vendor: Adobe Systems Inc.
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.adobe.drive.utils
+Export-Package: com.adobe.drive.utils
+Bundle-Version: 1.0.0.344
+

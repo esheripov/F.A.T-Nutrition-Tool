@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VCDetector
+Bundle-SymbolicName: com.adobe.drive.vcdetector
+Bundle-Version: 1.0.0
+Export-Package: com.adobe.drive.vcdetector
+Require-Bundle: com.adobe.versioncue.bonjour,
+ com.adobe.csi.core.logging

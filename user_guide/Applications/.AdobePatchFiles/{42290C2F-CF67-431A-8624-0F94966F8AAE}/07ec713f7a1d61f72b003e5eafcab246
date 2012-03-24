@@ -1,0 +1,2788 @@
+/*
+@@@BUILDINFO@@@ VersionCueMain.jsx 1.0.0.1 3.0.0.72client963 3-February-2007
+*/
+
+//------------------------------------------------------------------------------
+//	ADOBE SYSTEMS INCORPORATED
+//	Copyright 2007 Adobe Systems Incorporated 
+//	All Rights Reserved
+//	NOTICE: Adobe permits you to use, modify, and distribute 
+//			this file in accordance with the terms of the Adobe license 
+//			agreement accompanying it. If you have received this file 
+//			from a source other than Adobe, then your use, modification, 
+//			or distribution of it requires the prior written permission of Adobe.
+//------------------------------------------------------------------------------
+
+//	versioncue.debugLog( "Start executing VersionCueMain.jsx complete" );
+
+#target bridge
+if ( BridgeTalk.appName == "bridge" ) 
+{
+
+	if (typeof versioncue == "undefined")
+	{
+		versioncue = new Object;
+		versioncue.uri = "bridge:vc:intrinsic://localhost/session/";		// root URI for VC
+		//This is the global handle to ExternalObject for versioncueSDK.dll
+		versioncue.vcSDKHandle = null;
+		versioncue.extensionPath = File ($.fileName).parent;
+	}
+	
+	// Command Object: All VC commands needs to be stored here for consistent reference and use
+	function cmd()
+	{
+	//	Optimization for VAdapter: Map this into a hash/index to match the backend
+	//	There are currently 30 possible commands implemented here (and more stated in VCAdapterLib), a search/str compare would result in 30 x 30
+	}
+
+	versioncue.cmd = new cmd();
+	
+	// all real commands are appended with a "1", tools with "2"
+	versioncue.cmd.alwaysEnabled		= "***Always Enabled***";					// special command that is excluded from canEnable() logic
+	versioncue.cmd.enableUponSelection	= "***Enabled upon selection***";			// enabled if there is a thumbnail selected
+
+	versioncue.cmd.welcome				= versioncue.cmd.alwaysEnabled;				// welcome commands are always enabled
+
+	versioncue.cmd.bridgeDelete			= "delete";		// command maps to Bride <File> menu delete operation... different than all the other VC commands
+	versioncue.cmd.checkin1				= "CheckIn";
+	versioncue.cmd.checkin2				= "CheckInTools";
+	versioncue.cmd.checkin4				= "CheckInCompact";
+	versioncue.cmd.checkout1			= "CheckOut";
+	versioncue.cmd.checkout2			= "CheckOutTools";
+	versioncue.cmd.checkout4			= "CheckOutCompact";
+	versioncue.cmd.createProject1		= "createProject";
+	versioncue.cmd.createProject2		= "createProjectTools";
+	versioncue.cmd.createProject3		= "createProjectFolders";
+	versioncue.cmd.connectTo1			= "connectTo";
+	versioncue.cmd.connectTo2			= "connectToTools";
+	versioncue.cmd.connectTo3			= "connectToFolders";
+	versioncue.cmd.disconnect1			= "disconnect";
+	versioncue.cmd.disconnect2			= "disconnectTools";
+	versioncue.cmd.disconnect3			= "disconnectFolders";
+	versioncue.cmd.editProperties1		= "editProperties";
+	versioncue.cmd.editProperties2		= "editPropertiesTools";
+	versioncue.cmd.editProperties3		= "editPropertiesFolders";
+	versioncue.cmd.expunge1				= "expunge";
+	versioncue.cmd.expunge2				= "expungeTools";
+	versioncue.cmd.getVersions1			= "getVersions";
+	versioncue.cmd.getVersions2			= "getVersionsTools";
+	versioncue.cmd.getVersions4			= "getVersionsCompact";
+	versioncue.cmd.ingest1				= "ingest";
+	versioncue.cmd.ingest2				= "ingestTools";
+	versioncue.cmd.ingest3				= "ingestFolders";
+	versioncue.cmd.ingest4				= "ingestCompact";
+	versioncue.cmd.logout1				= "logout";
+	versioncue.cmd.logout2				= "logoutTools";
+	versioncue.cmd.logout3				= "logoutFolders";
+	versioncue.cmd.promote1				= "promote";
+	versioncue.cmd.promote2				= "promoteTools";
+	versioncue.cmd.remove1				= "remove";
+	versioncue.cmd.remove2				= "removeTools";
+	versioncue.cmd.remove3				= "removeFolders";
+	versioncue.cmd.remove4				= "removeCompact";
+	versioncue.cmd.restore1				= "restore";
+	versioncue.cmd.restore2				= "restoreTools";
+	versioncue.cmd.revert1				= "revert";
+	versioncue.cmd.revert2				= "revertTools";
+	versioncue.cmd.revert4				= "revertCompact";
+	versioncue.cmd.shareProject1		= "shareProject";
+	versioncue.cmd.shareProject2		= "shareProjectTools";
+	versioncue.cmd.shareProject3		= "shareProjectFolders";
+	versioncue.cmd.smartDownload1		= "smartDownload";
+	versioncue.cmd.smartDownload2		= "smartDownloadTools";
+	versioncue.cmd.smartDownload3		= "smartDownloadFolders";
+	versioncue.cmd.smartDownload4		= "smartDownloadCompact";
+	versioncue.cmd.sync1				= "synchronize";
+	versioncue.cmd.sync2				= "synchronizeTools";
+	versioncue.cmd.sync3				= "synchronizeFolders";
+	versioncue.cmd.sync4				= "synchronizeCompact";
+	versioncue.cmd.viewTrash1			= "viewTrash";
+	versioncue.cmd.viewTrash2			= "viewTrashTools";
+	versioncue.cmd.viewTrash3			= "viewTrashFolders";
+
+	// PNG files
+	// all series 1 ids are normal button states, series 2 are rollover states
+	
+	// PNG object... group for collection of all PNG files
+	function png()
+	{
+	}	
+	
+	versioncue.png						= new png();
+	
+	versioncue.png.checkout1			= "7016.png";
+	versioncue.png.checkout2			= "7017.png";
+	versioncue.png.checkin1				= "7027.png";
+	versioncue.png.checkin2				= "7034.png";
+	versioncue.png.connect1				= "7030.png";
+	versioncue.png.connect2				= "7022.png";
+	versioncue.png.delete1				= "7025.png";
+	versioncue.png.delete2				= "7026.png";
+	versioncue.png.inspector1			= "7032.png";
+	versioncue.png.inspector2			= "7033.png";
+	versioncue.png.newProject1			= "7018.png";
+	versioncue.png.newProject2			= "7019.png";	
+	versioncue.png.revert1				= "7020.png";
+	versioncue.png.revert2				= "7035.png";
+	versioncue.png.sync1				= "7021.png";
+	versioncue.png.sync2				= "7031.png";
+	versioncue.png.upload1				= "7023.png";		// Not used currently
+	versioncue.png.upload2				= "7024.png";		// no rollover icon yet available
+	versioncue.png.version1				= "7028.png";
+	versioncue.png.version2				= "7029.png";
+	versioncue.png.welcome1				= "8007.png";
+	versioncue.png.welcome2				= "8007.png";		// rollover state the same as normal (special case)
+	versioncue.png.viewTrash1			= "7036.png";
+	versioncue.png.viewTrash2			= "7037.png";
+	versioncue.png.searchNext1			= "7038.png";
+	versioncue.png.searchNext2			= "7040.png";
+	versioncue.png.searchPrevious1		= "7039.png";
+	versioncue.png.searchPrevious2		= "7041.png";
+	versioncue.png.promote1				= "7042.png";
+	versioncue.png.promote2				= "7043.png";	
+	versioncue.png.undelete1			= "7044.png";
+	versioncue.png.undelete2			= "7045.png";		// No rollover icon yet available
+
+//	versioncue.debugLog( "Command init complete" );
+
+	//----------------------------------------------------------------------------
+	// Load External library
+	//----------------------------------------------------------------------------
+	
+	versioncue.pngPath = versioncue.resourcesFolder.fsName + "/Images/";
+	
+//	versioncue.debugLog( "versioncue.pngPath: "  + versioncue.pngPath);
+	
+	// Enable to debug the location where VCAdapterLib is placed
+	versioncue.getLibPath = function()
+	{
+		var path = versioncue.resourcesFolder.fsName + "/Plugins/VCAdapterLib";
+		return path;
+	}
+
+	//----------------------------------------------------------------------------
+	// Shut down VC
+	//----------------------------------------------------------------------------
+	
+	versioncue.isShutDownCalled = false;
+	
+	function VCShutDown()
+	{
+		versioncue.isShutDownCalled = true;
+		
+		app.eventHandlers.pop( { handler:vcEventHandler } );
+		app.eventHandlers.pop( { handler:versioncue.VCSelectionsChanged } );
+		delete vcHandler;
+		delete VCExtensionModel;
+
+		var	vcFlashPlayer = null;
+
+		// HACK:	VCStartPage.getVCFlashPlayer()/getTabByID() accesses app.document which is UNDEFINED when user closes all windows on Mac and exits
+		//			Due to time constraints and limit the number of code changes, we check this workflow here as this seems to be only affected point
+		if (app.document != undefined)
+			//Check if welcome screen is open & dont show again is checked.
+			vcFlashPlayer = VCStartPage.getVCFlashPlayer();
+
+		if(vcFlashPlayer != null)
+		{	
+			if(vcFlashPlayer.invokePlayerFunction('IsDontShowAgainCallback'))
+			{					    				    
+				VCSession.setSettingsValue("Version_Cue_Welcome_Screen","DontShowAgain","1");
+			}
+		}
+		if( typeof VersionCueSDKLoader != "undefined" && typeof VersionCueSDKLoader == "object" )
+		{
+  				// If SDK is loaded by externalobject remove it or do nothing.
+  				VersionCueSDKLoader.unLoadSDK();	
+		}
+		
+		versioncue.lib.terminate();
+	}
+
+	//----------------------------------------------------------------------------
+	// process notifications
+	//----------------------------------------------------------------------------
+	versioncue.processNotifications = function (vcHandler)
+	{
+		vcHandler.processNotifications();
+		return true;
+	}
+
+	//----------------------------------------------------------------------------
+	// add root version cue node to favorites
+	//----------------------------------------------------------------------------
+	versioncue.addFavorite = function()
+	{	
+		if (!app.favorites.contains(versioncue.uri))
+		{
+			vcRoot = new Thumbnail(versioncue.uri);
+			app.favorites.section = "standard";
+			app.favorites.insert(vcRoot);
+		}
+		// add the version cue node to the root of the folders
+		app.addCustomRoot(versioncue.uri);
+	}
+
+		
+	versioncue.getCurrentThumbnail = function()
+	{
+		currentDocument = app.document;
+		
+		if (currentDocument.selectionLength == 0)
+			return currentDocument.thumbnail;
+		else
+			return currentDocument.selections[ 0 ];	
+	}
+
+	//----------------------------------------------------------------------------
+	// context menu enablement
+	//--------------------------------------------------------------------------------
+	versioncue.canEnable = function(m)
+	{
+		try 
+		{
+			var enable = vcModelPrototype.canEnable( m, app.document );
+			m.enabled = enable;
+		} catch(error) { Window.alert(error); }
+	}
+
+	//----------------------------------------------------------------------------
+	// This method will execute a dynamic(custom) menu command
+	//----------------------------------------------------------------------------
+	versioncue.executeDynamicMenu = function(m)
+	{
+		try 
+		{
+			var doc = app.document;
+			var success = vcModelPrototype.executeCustomMenu(m, doc);
+		} catch(error) { Window.alert(error); }
+	}
+
+
+	//----------------------------------------------------------------------------
+	// This method will generate the custom menu
+	//----------------------------------------------------------------------------
+	versioncue.generateCustomMenu = function(m, menuType)
+	{
+		try 
+		{
+			//let us clear custom menu else it will keep on showing.
+			vcModelPrototype.clearCustomMenu();		
+			
+			var array;
+			if( menuType != undefined && menuType == "context" )
+			{
+				array = vcModelPrototype.generateCustomContextMenu( app.document );
+			}else
+			{
+				array = vcModelPrototype.generateCustomToolsMenu( app.document );
+			}
+				
+			for( var i=0; i < array.length; i++ )
+			{
+				versioncue.menu = array[i];
+				versioncue.menu.onSelect =  versioncue.executeDynamicMenu;			
+			}
+		} catch(error) { Window.alert(error); }
+	}
+
+	//----------------------------------------------------------------------------
+	// Alerts
+	//----------------------------------------------------------------------------
+	versioncue.createRenameUI = function()
+	{
+		try 
+		{	
+			// Dialog resource definition using the ExtendScript auto layout.
+			var dialogDef =  
+				"palette { orientation: 'column', alignChildren: 'center', text: 'Adobe Version Cue', \
+						info: Panel { orientation: 'column', alignChildren: 'center', \
+						text: 'Renaming Files...', \
+	        			alertGroup: Group { orientation: 'row', \
+						pb: Progressbar { alignment:'fill' , preferredSize: [250, 20]}, \
+						Cancel: Button { text: 'Cancel', properties:{name:'Cancel'} }, \
+						}, \
+					  }, \
+				}";
+				
+			versioncue.renameUIAlert = new Window(dialogDef);
+			versioncue.renameUIAlert.info.alertGroup.Cancel.text =  versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Cancel=Cancel" );
+			var displayStr = '$$$/Bridge/VCAdapter/Batch_Rename_2=Renaming Files... (1)%';
+			versioncue.renameUIAlert.info.text =  versioncue.getLocalizedString_n(displayStr, 0 );
+			versioncue.renameUIAlert.info.alertGroup.pb.value = 0;
+			versioncue.renameUIAlert.layout.layout(true);
+			// Function handling a click on the "OK" Button.
+			versioncue.renameUIAlert.info.alertGroup.Cancel.onClick = function()
+			{
+				versioncue.renameUIAlert.close(0);
+			}
+			versioncue.renameUIAlert.center(); 
+			versioncue.renameUIAlert.show();
+			return;
+			
+		} catch(error) { Window.alert(error);  }
+	}
+
+	versioncue.popRenameUI = function(percentageComplete)
+	{
+		try 
+		{
+				var displayStr = '$$$/Bridge/VCAdapter/Batch_Rename_2=Renaming Files... (1)%';
+				versioncue.renameUIAlert.info.text =  versioncue.getLocalizedString_n(displayStr, percentageComplete );
+				versioncue.renameUIAlert.info.alertGroup.pb.value = percentageComplete;
+				versioncue.renameUIAlert.layout.layout(true);
+			
+				versioncue.renameUIAlert.show();
+				return;
+				
+		} catch(error) { Window.alert(error); }
+	}
+
+	versioncue.closeRenameUI = function()
+	{
+		try 
+		{	
+				versioncue.renameUIAlert.close(0);
+		} catch(error) { Window.alert(error); }
+	}
+
+	versioncue.popScriptUIAlert = function(errorString)
+	{
+		try 
+		{
+			// Dialog resource definition using the ExtendScript auto layout.
+			var dialogDef =  
+				"dialog { orientation: 'column', alignChildren: 'center', text: 'Adobe Version Cue', \
+						info: Panel { orientation: 'column', alignChildren: 'center', \
+						text: 'Error Alert', \
+	        				alertGroup: Group { orientation: 'row', margins: 0, \
+						s: StaticText { text:'' } \
+						}, \
+					  }, \
+					buttons: Group { orientation: 'row', \
+					ok: Button { text: 'OK', properties:{name:'ok'} }, \
+					} \
+				}";
+	
+			/* Create a window with resource definition */
+			var scriptUIAlert = new Window(dialogDef);
+			scriptUIAlert.info.alertGroup.s.text = errorString;
+			
+			scriptUIAlert.info.text =  versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Script_UI_Head=Error Alert" );
+			scriptUIAlert.buttons.ok.text =  versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Script_UI_Ok=OK" );
+			scriptUIAlert.layout.layout(true);
+	
+			// Function handling a click on the "OK" Button.
+			scriptUIAlert.buttons.ok.onClick = function()
+			{
+				scriptUIAlert.close(0);
+			}
+	
+			scriptUIAlert.center(); 
+			scriptUIAlert.show();
+	
+		} catch(error) { Window.alert(error); }
+	}
+
+	versioncue.popHandleConflictFourOpsUI = function( fileName, parentName, isFile )
+	{
+		try 
+		{
+			versioncue.isApplyToAll = false;
+			versioncue.buttonNumber = 0;
+			// Dialog resource definition using the ExtendScript auto layout.
+			var dialogDef =  
+				"dialog { orientation: 'column', alignChildren: 'center', text: 'Adobe Version Cue', \
+						info: Panel { orientation: 'column', alignChildren: 'center', \
+						text: 'Confirm File Replace', \
+	        				alertText: Group { orientation: 'row', margins: 0, \
+						s: StaticText { text:'' } \
+						}, \
+					  }, \
+					buttons: Group { orientation: 'row', \
+					all: 		Checkbox { text: 'Apply to all?', properties:{name:'all'} }, \
+					firstOp:	Button { text: 'Add as Version', properties:{name:'firstOp'} }, \
+					secondOp: 	Button { text: 'Replace', properties:{name:'secondOp'} }, \
+					thirdOp: 	Button { text: 'Skip', properties:{name:'thirdOp'} }, \
+					fourthOp: 	Button { text: 'Cancel', properties:{name:'fourthOp'} }, \
+					} \
+				}";
+	
+			/* Create a window with resource definition */
+			var handleConflictUI = new Window(dialogDef);
+			var displayStr = '$$$/Bridge/VCAdapter/Conflict_Copy_Alert=An item with the name "(1)" already exists in "(2)".';
+			handleConflictUI.info.alertText.s.text = versioncue.getLocalizedString_n(displayStr, fileName, parentName );
+						
+			//support for localization
+			if( isFile )
+			{
+				handleConflictUI.info.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Head=Confirm File Action" );
+				handleConflictUI.buttons.firstOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Version=Add as Version" );
+			}
+			else
+			{
+				//it is a folder
+				handleConflictUI.info.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Folder_Head=Confirm Folder Action" );
+				handleConflictUI.buttons.firstOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Resolve=Auto Resolve" );
+			}
+			handleConflictUI.buttons.all.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Checkbox=Apply to all?" );
+			handleConflictUI.buttons.secondOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Replace=Replace" );
+			handleConflictUI.buttons.thirdOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Skip=Skip" );
+			handleConflictUI.buttons.fourthOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Cancel=Cancel" );
+
+			handleConflictUI.layout.layout(true);
+			
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.secondOp.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				versioncue.buttonNumber = 1;
+				handleConflictUI.close(0);
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.thirdOp.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				versioncue.buttonNumber = 2;
+				handleConflictUI.close(0);
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.fourthOp.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				versioncue.buttonNumber = 3;
+				handleConflictUI.close(0);
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.firstOp.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				if( isFile )
+				{
+					versioncue.buttonNumber = 5;
+				}
+				else
+				{
+					versioncue.buttonNumber = 6;
+				}
+				handleConflictUI.close(0);
+			}
+	
+			handleConflictUI.center(); 
+			handleConflictUI.show();
+			
+			return;
+	
+		} catch(error) { Window.alert(error); }
+	}
+
+	versioncue.popHandleConflictThreeOpsUI = function( fileName, parentName, isFile, isMove )
+	{
+		try 
+		{
+			versioncue.isApplyToAll = false;
+			versioncue.buttonNumber = 0;
+			// Dialog resource definition using the ExtendScript auto layout.
+			var dialogDef =  
+				"dialog { orientation: 'column', alignChildren: 'center', text: 'Adobe Version Cue', \
+						info: Panel { orientation: 'column', alignChildren: 'center', \
+						text: 'Confirm File Replace', \
+	        				alertText: Group { orientation: 'row', margins: 0, \
+						s: StaticText { text:'' } \
+						}, \
+					  }, \
+					buttons: Group { orientation: 'row', \
+					all: 		Checkbox { text: 'Apply to all?', properties:{name:'all'} }, \
+					firstOp: 	Button { text: 'Replace', properties:{name:'firstOp'} }, \
+					secondOp: 	Button { text: 'Skip', properties:{name:'secondOp'} }, \
+					thirdOp: 	Button { text: 'Cancel', properties:{name:'thirdOp'} }, \
+					} \
+				}";
+	
+			/* Create a window with resource definition */
+			var handleConflictUI = new Window(dialogDef);
+			var displayStr = '$$$/Bridge/VCAdapter/Conflict_Move_Alert=An item with the name "(1)" already exists in "(2)".';
+			handleConflictUI.info.alertText.s.text = versioncue.getLocalizedString_n(displayStr, fileName, parentName );
+						
+			//support for localization
+			if( isFile )
+			{
+				handleConflictUI.info.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Head=Confirm File Action" );
+			}
+			else
+			{
+				handleConflictUI.info.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Folder_Head=Confirm Folder Action" );
+			}
+			
+			handleConflictUI.buttons.all.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Checkbox=Apply to all?" );
+			if( isMove && isFile )
+			{
+				handleConflictUI.buttons.firstOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Replace=Replace" );
+				handleConflictUI.buttons.secondOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Skip=Skip" );
+			}
+			else if( isFile )
+			{
+				handleConflictUI.buttons.firstOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Version=Add as Version" );
+				handleConflictUI.buttons.secondOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Replace=Replace" );
+			}
+			else
+			{
+				handleConflictUI.buttons.firstOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Copy_Resolve=Auto Resolve" );
+				handleConflictUI.buttons.secondOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Replace=Replace" );
+			}
+			handleConflictUI.buttons.thirdOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Cancel=Cancel" );
+			
+			handleConflictUI.layout.layout(true);
+			
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.firstOp.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				if( isMove && isFile )
+				{
+					versioncue.buttonNumber = 1;
+				}
+				else if( isFile )
+				{
+					versioncue.buttonNumber = 5;
+				}
+				else
+				{
+					versioncue.buttonNumber = 6;
+				}
+				handleConflictUI.close(0);
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.secondOp.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				if( isMove && isFile )
+				{
+					versioncue.buttonNumber = 2;
+					handleConflictUI.close(0);
+				}
+				else if( isMove )
+				{
+					// a folder
+					versioncue.buttonNumber = 1;
+					handleConflictUI.close(0);
+				}
+				else
+				{
+					versioncue.buttonNumber = 1;
+					handleConflictUI.close(0);
+				}
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.thirdOp.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				versioncue.buttonNumber = 3;
+				handleConflictUI.close(0);
+			}
+	
+			handleConflictUI.center(); 
+			handleConflictUI.show();
+	
+		} catch(error) { Window.alert(error); }
+	}
+	
+	versioncue.popHandleConflictTwoOpsUI = function( fileName, parentName, isFile )
+	{
+		try 
+		{
+			versioncue.isApplyToAll = false;
+			versioncue.buttonNumber = 0;
+			// Dialog resource definition using the ExtendScript auto layout.
+			var dialogDef =  
+				"dialog { orientation: 'column', alignChildren: 'center', text: 'Adobe Version Cue', \
+						info: Panel { orientation: 'column', alignChildren: 'center', \
+						text: 'Confirm File Replace', \
+	        				alertText: Group { orientation: 'row', margins: 0, \
+						s: StaticText { text:'' } \
+						}, \
+					  }, \
+					buttons: Group { orientation: 'row', \
+					firstOp: 	Button { text: 'Replace', properties:{name:'firstOp'} }, \
+					secondOp: 	Button { text: 'Skip', properties:{name:'secondOp'} }, \
+					} \
+				}";
+	
+			/* Create a window with resource definition */
+			var handleConflictTwoOpsUI = new Window(dialogDef);
+			var displayStr = '$$$/Bridge/VCAdapter/Conflict_Move_Alert=An item with the name "(1)" already exists in "(2)".';
+			handleConflictTwoOpsUI.info.alertText.s.text = versioncue.getLocalizedString_n(displayStr, fileName, parentName );
+						
+			//support for localization
+			if( isFile )
+			{
+				handleConflictTwoOpsUI.info.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Head=Confirm File Action" );
+			}
+			else
+			{
+				handleConflictTwoOpsUI.info.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Folder_Head=Confirm Folder Action" );
+			}
+			handleConflictTwoOpsUI.buttons.firstOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Replace=Replace" );
+			handleConflictTwoOpsUI.buttons.secondOp.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Move_Cancel=Cancel" );
+			
+			handleConflictTwoOpsUI.layout.layout(true);
+					
+			handleConflictTwoOpsUI.buttons.firstOp.onClick = function()
+			{
+				versioncue.buttonNumber = 1;
+				handleConflictTwoOpsUI.close(0);
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictTwoOpsUI.buttons.secondOp.onClick = function()
+			{
+				versioncue.buttonNumber = 3;
+				handleConflictTwoOpsUI.close(0);
+			}
+	
+			handleConflictTwoOpsUI.center(); 
+			handleConflictTwoOpsUI.show();
+	
+		} catch(error) { Window.alert(error); }
+	}
+
+	versioncue.popHandleConflictSyncUI = function( fileName )
+	{
+		try 
+		{
+			versioncue.isApplyToAll = false;
+			versioncue.buttonNumber = 0;
+			// Dialog resource definition using the ExtendScript auto layout.
+			var dialogDef =  
+				"dialog { orientation: 'column', alignChildren: 'center', text: 'Adobe Version Cue', \
+						info: Panel { orientation: 'column', alignChildren: 'center', \
+						text: 'Confirm File Check In', \
+        					alertText: Group { orientation: 'row', margins: 0, \
+						s: StaticText { text:'' } \
+						}, \
+					  }, \
+					buttons: Group { orientation: 'row', \
+					all: 		Checkbox { text: 'Apply to all?', properties:{name:'all'} }, \
+					checkin: 	Button { text: 'Check In', properties:{name:'checkin'} }, \
+					skip: 		Button { text: 'Skip', properties:{name:'skip'} }, \
+					cancel: 	Button { text: 'Cancel', properties:{name:'cancel'} }, \
+					} \
+				}";
+
+			/* Create a window with resource definition */
+			var handleConflictUI = new Window(dialogDef);
+			var displayStr = '$$$/Bridge/VCAdapter/Conflict_Sync_Alert=Item "(1)" needs to be checked In before this operation.';
+			handleConflictUI.info.alertText.s.text = versioncue.getLocalizedString_n(displayStr, fileName);
+			
+			//support for localization
+			handleConflictUI.info.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Sync_Head=Confirm File Check In" );
+			handleConflictUI.buttons.all.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Sync_Checkbox=Apply to all?" );
+			handleConflictUI.buttons.checkin.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Sync_CheckIn=Check In" );
+			handleConflictUI.buttons.skip.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Sync_Skip=Skip" );
+			handleConflictUI.buttons.cancel.text = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Conflict_Sync_Cancel=Cancel" );
+			
+			handleConflictUI.layout.layout(true);
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.checkin.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				versioncue.buttonNumber = 4;
+				handleConflictUI.close(0);
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.skip.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				versioncue.buttonNumber = 2;
+				handleConflictUI.close(0);
+			}
+
+			// Function handling a click on the "OK" Button.
+			handleConflictUI.buttons.cancel.onClick = function()
+			{
+				versioncue.isApplyToAll = handleConflictUI.buttons.all.value;
+				versioncue.buttonNumber = 3;
+				handleConflictUI.close(0);
+			}
+
+			handleConflictUI.center(); 
+			handleConflictUI.show();
+
+		} catch(error) { Window.alert(error); }
+	}
+//	versioncue.debugLog( "Conflict setup complete" );
+
+	//----------------------------------------------------------------------------
+	// Pivot Panels
+	//----------------------------------------------------------------------------
+
+	versioncue.viewSpecialNode = function(aThumb, nodeType)
+	{
+		try 
+		{
+			newThumb = vcModelPrototype.getSpecialNode(aThumb, nodeType);
+			app.document.thumbnail = newThumb;
+		} catch(error) { Window.alert(error); }
+	}
+	
+	versioncue.viewTrash = function(aThumb)
+	{
+		try 
+		{
+			versioncue.viewSpecialNode(aThumb, 'trash');
+		} catch(error) { Window.alert(error); }
+	}
+	
+	versioncue.viewVersions = function(aThumb)
+	{
+		try 
+		{
+			versioncue.viewSpecialNode(aThumb, 'versions');
+		} catch(error) { Window.alert(error); }
+	}
+
+
+	
+	// some key value pairs we can throw into various panelettes
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_Filename=Filename");
+	var infoNamePai = [versioncue.displayName + ": ", "[[core.immediate.name]]"];
+
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_Modified=Modified");
+	var infoDatePair = [versioncue.displayName + ": ", "[[VersionCue.common.modDateText]]"];
+
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_IsOnline=Is Online");
+	var infoIsOnlinePair = [versioncue.displayName + ": ", "[[VersionCue.common.isServerOnline]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_Version=Version");
+	var infoVersionPair = [versioncue.displayName + ": ", "[[VersionCue.common.version]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_Location=Location");
+	var infoLocationPair = [versioncue.displayName + ": ", "[[VersionCue.common.location]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_SizeText=Disk Size");
+	var infoDiskUsagePair = [versioncue.displayName + ": ", "[[VersionCue.common.sizeText]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_IsShared=Is Shared");
+	var infoIsSharedPair = [versioncue.displayName + ": ", "[[VersionCue.common.isShared]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_Comment=Comment");
+	var infoCommentPair = [versioncue.displayName + ": ", "[[VersionCue.common.comment]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_Status=Status");
+	var infoStatusPair = [versioncue.displayName + ": ", "[[VersionCue.common.statusText]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_SavedBy=Saved By");
+	var infoSavedByPair = [versioncue.displayName + ": ", "[[VersionCue.common.versionSavedByName]]"];
+	
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_OnServer=On Server");
+	var infoServerNamePair = [versioncue.displayName + ": ", "[[VersionCue.common.serverName]]"];
+
+	versioncue.displayName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Displayname_InProject=In Project");
+	var infoProjectNamePair = [versioncue.displayName + ": ", "[[VersionCue.common.projectName]]"];
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Server pivot panel
+	versioncue.createServerPivotPanel = function()
+	{ 
+		var isVisible = false;
+		var isWide = false;
+		var sortPos = 1;
+		// The PivotPanel and all the Panelette Constructors first two arguments are Strings
+		// The first string provides an "identifier" for the panel. This is the string which
+		// will appear in the Preverences panel where users can turn Pivot panels on or off.
+		// The second string is what appears in the title bar of the window and can contain
+		// infoset and JavaScript markup; the markup allows the title shown to change
+		// when the users selecton changes.
+		var panelName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Panelette_Server_Name=Version Cue Server Panel");
+		var vcWorkspacePanel = new PivotPanel(panelName, "[[core.immediate.name]]", isVisible, isWide, sortPos );
+
+		// The panel has three panelettes
+
+		// panelette shows information
+		// about the server selected
+		var serverInfoPairs = [infoIsOnlinePair,infoVersionPair,infoLocationPair];
+
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_ServerInfo=Server Info");
+
+		var vcServerInfoPanelette = new TextPanelette("Server Info", versioncue.paneletteTitle, "[[this]]", serverInfoPairs );
+		vcWorkspacePanel.registerPanelette(vcServerInfoPanelette);
+
+		// panelette shows the projects on the server.
+		// This information comes from the children infoset
+		// of the node representing the server.
+
+		var projectsRef = "[[core.children.children]]"; // the projects are children of the server
+		
+		// You have to pass an array of string arrays with a length of 2
+		// to the IconListPanelette to make info appear in columns, but the first
+		// string in each pair has no effect on what shows up on screen.
+		var pairA = ["Hello World","[[core.immediate.name]]"];
+		var columnText = [pairA]; // or... ,pairB,pairC]; if you want to show more info.
+
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_ProjectsOn=Projects On");
+		versioncue.paneletteTitle += " [[core.immediate.name]]";
+		
+		var vcProjectsListPanelette = new IconListPanelette( "Projects Panelette", versioncue.paneletteTitle, projectsRef, columnText );
+		vcWorkspacePanel.registerPanelette( vcProjectsListPanelette );
+		
+		// panelette shows tasks. Tasks are implemented as 'hotlinks'
+		// that execute some JavaScript when the user clicks on them.
+		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_CreateNewProject=Create New Project");
+		versioncue.paneletteCreateNewProjectPair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.createProject();]]"];
+
+		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_EditProperties=Edit Properties");
+		versioncue.paneletteEditPropertiesPair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.editProperties();]]"];
+
+		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_Disconnect=Disconnect from this Server");
+		versioncue.paneletteDisconnectPair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.disconnect();]]"];
+
+		var tasksKeyValuePairs = [
+			versioncue.paneletteCreateNewProjectPair,
+			versioncue.paneletteEditPropertiesPair,
+			versioncue.paneletteDisconnectPair
+		];
+
+
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_ServerTasks=Server Tasks");
+		var vcWorkspaceTasksPanelette = new TextPanelette("Version Cue Server Tasks", versioncue.paneletteTitle, "[[this]]", tasksKeyValuePairs);
+		vcWorkspacePanel.registerPanelette( vcWorkspaceTasksPanelette );
+
+
+		// A callback function to control whether or not the panel is shown.
+		vcWorkspacePanel.hidePanelForThumbnail = function( aThumbnail ) {
+			if( aThumbnail.VersionCue != undefined && aThumbnail.VersionCue.common.isServer ) {
+				return false;
+			}
+			return true;
+		};
+		
+		// Add the PivotPanel to the app
+		app.registerPivotPanel( vcWorkspacePanel );
+		
+	} // end Workspace Panel stuff
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// Project Panel
+	versioncue.createProjectPivotPanel = function()
+	{
+		var isVisible = false;
+		var isWide = false;
+		var sortPos = 2;
+		var panelName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Panelette_Project_Name=Version Cue Project Panel");
+		var vcProjectPanel = new PivotPanel(panelName, "[[core.immediate.name]]", isVisible, isWide, sortPos );
+		
+		var infoKeyValuePairs = [infoCommentPair, infoStatusPair, infoIsSharedPair, infoServerNamePair, infoLocationPair  ];
+
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_ProjectInfo=Project Info");
+		var projectInfoPanelette = new TextPanelette("Version Cue Project Info", versioncue.paneletteTitle, "[[this]]", infoKeyValuePairs );
+		vcProjectPanel.registerPanelette( projectInfoPanelette );
+
+		// The second panelette shows tasks
+		// specifically hotlinks that run some ExtendScript
+//		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_SynchronizeProject=Synchronize Project Files");
+//		versioncue.paneletteSynchronizePair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.synchronize();]]"];
+
+		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_AddFiles=Add Files");
+		versioncue.paneletteAddFilesPair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.ingest();]]"];
+
+		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_EditProperties=Edit Properties");
+		versioncue.paneletteEditPropertiesPair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.editProperties();]]"];
+
+		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_ViewTrash=View Project Trash");
+		versioncue.paneletteViewTrashPair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.viewTrash(pivotThumbnail);]]"];
+
+		versioncue.paneletteCommand = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteCommand_RemoveProject=Disconnect from this Project");
+		versioncue.paneletteRemoveProjectPair = ["", "[[" + versioncue.paneletteCommand + "][javascript://versioncue.disconnect();]]"];
+
+		var tasksKeyValuePairs = [
+//				versioncue.paneletteSynchronizePair,
+				versioncue.paneletteAddFilesPair,
+				versioncue.paneletteEditPropertiesPair,
+				versioncue.paneletteViewTrashPair,
+				versioncue.paneletteRemoveProjectPair
+		];
+		
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_ProjectTasks=Project Tasks");
+		var vcProjectTasksPanelette = new TextPanelette("Version Cue Project Tasks", versioncue.paneletteTitle, "[[this]]", tasksKeyValuePairs);
+		vcProjectPanel.registerPanelette( vcProjectTasksPanelette );
+		
+		// A callback function to control whether or not the panel is shown.
+		vcProjectPanel.hidePanelForThumbnail = function( aThumbnail ) {
+			if( aThumbnail.VersionCue != undefined && aThumbnail.VersionCue.common.isProject ) {
+				return false;
+			}
+			return true;
+		};
+		
+		// Add the PivotPanel to the app
+		app.registerPivotPanel( vcProjectPanel );
+	
+	} // end Project Panel stuff
+	///////////////////////////////////////////////////////////////////////////////
+	// Asset Panel 
+	versioncue.createAssetPivotPanel = function()
+	{
+		var isVisible = false;
+		var isWide = false;
+		var sortPos = 3;
+		var panelName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Panelette_Asset_Name=Version Cue Asset Panel");
+		var vcAssetPanel = new PivotPanel(panelName, "[[core.immediate.name]]", isVisible, isWide, sortPos );
+
+		// Panelette to show asset details
+		var infoKeyValuePairs = [infoStatusPair, infoVersionPair, infoSavedByPair, infoDiskUsagePair, infoDatePair, infoProjectNamePair, infoServerNamePair, infoCommentPair];
+
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_AssetInfo=Asset Info");
+		var vcAssetDetails = new TextPanelette("Version Cue Asset Details", versioncue.paneletteTitle, "[[this]]", infoKeyValuePairs );
+		vcAssetPanel.registerPanelette( vcAssetDetails );
+		
+		// A callback function to control whether or not the panel is shown.
+		vcAssetPanel.hidePanelForThumbnail = function( aThumbnail ) {
+			if( aThumbnail.VersionCue != undefined && aThumbnail.VersionCue.common.isAsset ) {
+				return false;
+			}
+			return true;
+		};
+		
+		// Add the PivotPanel to the app
+		app.registerPivotPanel( vcAssetPanel );
+		
+	} // end Asset Details Panel stuff
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Versions Panel 
+	versioncue.createVersionsPivotPanel = function()
+	{
+		/*var isVisible = false;
+		var isWide = false;
+		var sortPos = 4;
+		var panelName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Panelette_Versions_Name=Version Cue Versions Panel");
+		var vcVersionsPanel = new PivotPanel(panelName, "[[core.immediate.name]]", isVisible, isWide, sortPos );
+
+		var infosetRef = "[[VersionCue.versions.versionsContainer]]";
+		var infoKeyValuePairs = [infoVersionPair, infoDatePair, infoSavedByPair, infoCommentPair];
+
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_Versions=Versions");
+		var vcVersionsPanelette = new ThumbnailPanelette( "Version Cue Versions Thumbnails", versioncue.paneletteTitle, infosetRef, infoKeyValuePairs, "right" );
+
+		vcVersionsPanel.registerPanelette( vcVersionsPanelette );
+		
+		// A callback function to control whether or not the panel is shown.
+		vcVersionsPanel.hidePanelForThumbnail = function( aThumbnail ) {
+			if( aThumbnail.VersionCue != undefined && aThumbnail.VersionCue.common.isFile ) {
+				return false;
+			}
+			return true;
+		};
+		
+		// Add the PivotPanel to the app
+		app.registerPivotPanel( vcVersionsPanel );
+		*/
+	} // end Versions Details Panel stuff
+
+	///////////////////////////////////////////////////////////////////////////////
+	// Custom Metadata Panel 
+	versioncue.createCustomMetadaPivotPanel = function()
+	{
+		var isVisible = false;
+		var isWide = false;
+		var sortPos = 5;
+		var panelName = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Panelette_Custom_Metadata_Name=Version Cue Custom Metadata Panel");
+		var vcCustomMetadaPanel = new PivotPanel(panelName, "[[core.immediate.name]]", isVisible, isWide, sortPos );
+
+		// Panelette to show custom metadata
+		var metaKeyValuePairs = [
+				["[[VersionCue.customMetadataPivot.name1]]", "[[VersionCue.customMetadataPivot.value1]]"],
+				["[[VersionCue.customMetadataPivot.name2]]", "[[VersionCue.customMetadataPivot.value2]]"],
+				["[[VersionCue.customMetadataPivot.name3]]", "[[VersionCue.customMetadataPivot.value3]]"],
+				["[[VersionCue.customMetadataPivot.name4]]", "[[VersionCue.customMetadataPivot.value4]]"],
+		];
+		
+		versioncue.paneletteTitle = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/PaneletteTitle_CustomProperties=Custom Properties");
+		var qeAssetCustomMetadata = new TextPanelette("DAM Properties", versioncue.paneletteTitle, "[[this]]", metaKeyValuePairs );
+		vcCustomMetadaPanel.registerPanelette( qeAssetCustomMetadata );
+
+		// A callback function to control whether or not the panel is shown.
+		vcCustomMetadaPanel.hidePanelForThumbnail = function( aThumbnail ) {
+			if( aThumbnail.VersionCue != undefined && aThumbnail.VersionCue.common.isFile ) {
+				return false;
+			}
+			return true;
+		};
+		
+		// Add the PivotPanel to the app
+		app.registerPivotPanel( vcCustomMetadaPanel );
+		
+		//let us off it by default in preferences
+		vcCustomMetadaPanel.displayInInspector = false;
+		
+		vcModelPrototype.registerCustomMetadataPivotPanel( vcCustomMetadaPanel );
+		
+	} // end Asset Details Panel stuff
+	
+	// Locations which script DOM cannot access (STUB for now)
+	versioncue.locationAllowed = function ( name )
+	{
+		var names = [
+			"My Computer", "Computer", "Bridge Center",
+			"Version Cue", "Collections", "Adobe Stock Photos" ];
+		
+		for( var i=0; i<names.length; i++ )
+		{
+			if( name == names[i] )
+				return false;
+		}
+		return true;
+	}
+
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// NavBar Functionality
+	//		Section of code handles NavBar management
+	//
+
+	// responsibility to manage all navBars within VC context
+	versioncue.navBarManager = function ()
+	{
+		this.count 					= 0;
+		this.navBarArray 			= new Array();		// NavBar array, 1 for each document instance (key in the following member navBarArrayDocument)
+		this.navBarArrayDocument	= new Array();		// Document reference for the corresponding navBar
+		
+		this.navbarHeight			= 40;
+		this.navBarBounds			= [6, 2, 600, this.navbarHeight];	// note the height here needs to be within this.navbarHeight
+	}
+		
+	// given a documentID (unique) from Bridge, find the appropriate versionCue NavBar associated
+	versioncue.findNavBar = function( vcNavBarManager, documentID )
+	{
+		for (count = 0; count < vcNavBarManager.count; count++)
+		{
+			if (vcNavBarManager.navBarArrayDocument[ count ] == documentID )
+				return vcNavBarManager.navBarArray[ count ];
+		}
+		return undefined;
+	}
+	
+	// add NavBar group to the NavBarManager array so it can be tracked and found later
+	versioncue.addNavBar = function( navBarGroup, documentID )
+	{
+		if (versioncue.navBarManagerObj == undefined) return;
+
+		var numElements 	= versioncue.navBarManagerObj.navBarArrayDocument.length;
+		var documentIDStr 	= documentID.toString();
+			
+		versioncue.navBarManagerObj.navBarArray.push( navBarGroup );		
+		versioncue.navBarManagerObj.navBarArrayDocument.push( documentID );	
+		versioncue.navBarManagerObj.count++;
+		
+//		versioncue.navBarManagerObj.navBarArrayDocument.push( documentIDStr );	
+		if (versioncue.navBarManagerObj.navBarArrayDocument[ 0 ] == undefined)
+		{
+			numElements = versioncue.navBarManagerObj.navBarArrayDocument.length;	
+			return 0;
+		}
+		return versioncue.navBarManagerObj.count;		
+	}
+	
+	// constructor for standard VC NavBar (for all non-search functions)
+	versioncue.navBar = function( document )
+	{
+		// store state information here
+		this.state			= "none";				// initial state reflect no content in the NavBar
+
+		this.uiGroup		= document.topNavbar;
+	}
+	
+	// constructor for the Search NavBar
+	versioncue.searchNavBar = function( document, lowerRange, upperRange )
+	{
+		this.assetsPerPage	= 0;				// initial value, set properly later
+		this.lowerRange		= lowerRange;
+		this.upperRange		= upperRange;
+
+		this.uiGroup		= document.bottomNavbar;
+	}
+	
+	// reset the search results for the current document in focus
+	versioncue.resetSearchResults = function()
+	{
+		if (versioncue.navBarManagerObj == undefined || app.document == undefined)
+			return;			
+			
+		var navBarGroup		= versioncue.findNavBar( versioncue.navBarManagerObj, app.document.id );
+		if (navBarGroup == undefined)
+			return;						
+		var searchNavBar	= navBarGroup.searchNavBar;
+	
+		searchNavBar.lowerRange	= 0;
+		searchNavBar.upperRange	= 0;	
+	}
+
+	// constructor for the NavBar Group... one of these exists for EVERY document view
+	versioncue.navBarGroup = function( document )
+	{
+		this.documentOwner		= document.id;
+		
+		this.vcNavBar			= new versioncue.navBar( document );
+		this.searchNavBar		= new versioncue.searchNavBar( document, 0, 0 );
+		// add additional nav bars here
+	}
+
+	// Main controller to handle adding all NavBars within VC
+	// All relevant NavBars are setup for a given Bridge document and set visible/hidden depending on state
+	versioncue.addAllNavBars = function( document )
+	{
+		// setup navBar group (containing all NavBars)
+		// and associate all the content before any of the individual navBar contents is setup
+		var navBarGroup			= new versioncue.navBarGroup( document );
+		versioncue.addNavBar( navBarGroup, document.id );
+		
+		// Placeholder: Should we require any restrictions where NavBar can be visible, state them here
+		if( document.thumbnail != undefined )
+			if( versioncue.locationAllowed( document.thumbnail.name ) )
+			{}
+			
+		// setup standard VC NavBar
+		versioncue.setupNavBar( document, navBarGroup.vcNavBar );
+			
+		// setup all NavBars... has to be done outside the construction block
+		versioncue.setupSearchNavBar( navBarGroup.searchNavBar );
+		// In the scenario where new Bridge document is created, we need to make sure that this called to reflect actuals 
+		versioncue.searchResultsHandler();
+	}
+		
+	// Hide all NavBars belonging to VC
+	versioncue.hideAllNavBars = function( documentID )
+	{
+		if (versioncue.navBarManagerObj == undefined)
+			return;
+						
+		var navBarGroup = versioncue.findNavBar( versioncue.navBarManagerObj, documentID );
+		if (navBarGroup == undefined)
+			return;						// acceptable state, not yet setup
+
+		versioncue.showSearchNavBar( documentID, false );
+
+		navBarGroup.vcNavBar.uiGroup.visible = false;	
+	}
+	
+	
+	versioncue.showHideInspectorPanel = function()
+	{
+		var palettes  			= app.document.palettes;
+		var	inspectorInScope	= false;
+
+		// find the actual in scope/visible property for the Inspector
+		for (counter = 0; counter < palettes.length; counter++)
+		{
+			if (palettes[ counter ].id == "inspectorTab")
+			{
+				inspectorInScope = palettes[ counter ].visible;
+			}
+		}
+
+		// ref #1437875: irt Bridge's app.document.displayInspectorView 
+		if (true == app.document.displayInspectorView)
+		{
+			// already visible but not in scope
+			if (inspectorInScope == false)
+			{
+				app.document.displayInspectorView = false;
+				app.document.displayInspectorView = true;
+			}
+			else
+			{
+				app.document.displayInspectorView = false;
+			}
+		}
+		else
+		{
+			app.document.displayInspectorView = true;
+		}
+	}
+	
+	
+	// Asset delete button handler
+	versioncue.deleteBtnHandler = function( )
+	{
+		try
+		{
+			app.document.chooseMenuItem( "MoveToTrash" );
+		}
+		catch( e ) { reportError( e ) };
+	}
+	
+	// auto alignment properties for the standard VC NavBar
+	versioncue.navBarAutoAlign = function( group )
+	{
+		group.spacing		= 3;
+		group.alignChildren = "center";
+		group.orientation 	= "row";
+		group.layout.layout( true );	
+	}
+
+	// Framework: Use this to create new navbars
+	versioncue.setupAssetNavBar = function( bar )
+	{
+		var vcPicture;
+
+		bar.commandArray 	= new Array();		// there are NO NavBar btns in this NavBar... change to accomodate needs
+		bar.buttonArray		= new Array();		//				''						''
+	
+		// add a group to the top navbar (all nav bar contents will be added into this group)
+		bar.group = bar.add( "group",
+			versioncue.navBarManagerObj.navBarBounds,
+			"VC Nav Bar"
+		);
+
+		// Welcome to VC
+//		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Welcome=Version Cue Welcome Screen" );
+//		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.welcome1, versioncue.png.welcome2 );
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_ConnectTo=Connect To..." );
+		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.connect1, versioncue.png.connect2 );
+		bar.commandArray[ 0 ] 			= versioncue.cmd.welcome;
+		bar.buttonArray[ 0 ].onClick 	= versioncue.connectTo /*vcWelcomeHandler*/;
+		bar.buttonArray[ 0 ].enabled	= true;				// override default behavior always enabled
+		
+		// Add NavBar contents here
+		// Make sure that everything added here is in a DISABLED state
+
+		// Use the standard alignment options defined in the versioncue.navBarAutoAlign()
+		versioncue.navBarAutoAlign( bar.group );
+		
+	}
+	
+	versioncue.addBtn2VCNavBar = function( bar, coordinates, label, iconFileName, rolloverImageFileName )
+	{
+//		versioncue.debugLog("addBtn2VCNavBar: " + label + " iconFileName: " + iconFileName + " rolloverImageFileName: " + rolloverImageFileName);
+		
+		var newBtn;
+		
+		// deprecate this path once we have all the colored images in place
+		if (rolloverImageFileName == undefined)
+			rolloverImageFileName = iconFileName;
+
+		// normal, disabled, pressed, rollover
+		iconImageObj = ScriptUI.newImage( versioncue.pngPath + iconFileName, 
+			undefined, undefined, 
+			versioncue.pngPath + rolloverImageFileName );
+		newBtn = bar.group.add( "iconbutton", coordinates, iconImageObj, { style:"toolbutton" } );
+
+		// default all new btns to a disabled state, and re-enable them once the canEnableCommand() determines their availability
+		newBtn.enabled 	= false;
+		
+		newBtn.helpTip 	= label;
+
+		return newBtn;
+	}	
+	
+	// setup/append the Trash NavBar by placing contents into this NavBar
+	versioncue.setupTrashNavBar = function( bar )
+	{
+		var	localizedStr;
+		var vcPicture;
+
+		bar.commandArray	= new Array();
+		bar.buttonArray		= new Array();		
+	
+		// add a group to the top navbar (all nav bar contents will be added into this group)
+		bar.group = bar.add( "group",
+			versioncue.navBarManagerObj.navBarBounds,
+			"VC Nav Bar"
+		);
+
+		// Welcome to VC
+//		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Welcome=Version Cue Welcome Screen" );
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_ConnectTo=Connect To..." );
+//		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.welcome1, versioncue.png.welcome2 );
+		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.connect1, versioncue.png.connect2 );
+		bar.commandArray[ 0 ] 			= versioncue.cmd.welcome;
+		bar.buttonArray[ 0 ].onClick 	= versioncue.connectTo /*vcWelcomeHandler*/;
+		bar.buttonArray[ 0 ].enabled	= true;				// override default behavior always enabled
+		
+		// Expunge (Permanent Delete)
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_DeletePermanent=Delete Permanent..." );
+		bar.buttonArray[ 1 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.delete1, versioncue.png.delete2 );
+		bar.commandArray[ 1 ] 			= versioncue.cmd.expunge1;
+		bar.buttonArray[ 1 ].onClick 	= versioncue.expunge;
+	
+		// Restore asset(s) from trash... do NOT use undelete command (deprecated)
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Restore=Restore..." );
+		bar.buttonArray[ 2 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.undelete1, versioncue.png.undelete2 );
+		bar.commandArray[ 2 ] 			= versioncue.cmd.restore1;
+		bar.buttonArray[ 2 ].onClick	= versioncue.restore;
+
+		// View Inspector Panel
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_InspectorToggle=View / Hide Inspector Panel" );
+		bar.buttonArray[ 3 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.inspector1, versioncue.png.inspector2 );
+		bar.commandArray[ 3 ] 			= versioncue.cmd.alwaysEnabled;
+		bar.buttonArray[ 3 ].onClick	= versioncue.showHideInspectorPanel;
+		bar.buttonArray[ 3 ].enabled	= true;				// override default settings, Inspector panel is always enabled 
+
+		versioncue.navBarAutoAlign( bar.group );
+		
+	}
+		
+	// setup/append the Versions NavBar by placing contents into this NavBar
+	versioncue.setupVersionsNavBar = function( bar )
+	{
+		var	localizedStr;
+		var vcPicture;
+
+		bar.commandArray 	= new Array();		
+		bar.buttonArray		= new Array();		
+	
+		// add a group to the top navbar (all nav bar contents will be added into this group)
+		bar.group = bar.add( "group",
+			versioncue.navBarManagerObj.navBarBounds,
+			"VC Nav Bar"
+		);
+
+		// Welcome to VC
+//		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Welcome=Version Cue Welcome Screen" );
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_ConnectTo=Connect To..." );
+//		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.welcome1, versioncue.png.welcome2 );
+		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.connect1, versioncue.png.connect2 );
+		bar.commandArray[ 0 ] 			= versioncue.cmd.welcome;
+		bar.buttonArray[ 0 ].onClick 	= versioncue.connectTo /*vcWelcomeHandler*/;
+		bar.buttonArray[ 0 ].enabled	= true;				// override default behavior always enabled
+
+		// Promote version
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Promote=Promote..." );
+		bar.buttonArray[ 1 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.promote1, versioncue.png.promote2 );
+		bar.commandArray[ 1 ] 			= versioncue.cmd.promote1;
+		bar.buttonArray[ 1 ].onClick	= versioncue.promote;
+		
+		// Delete version
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Delete=Delete" );
+		bar.buttonArray[ 2 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.delete1, versioncue.png.delete2 );
+		bar.commandArray[ 2 ] 			= versioncue.cmd.bridgeDelete;
+		bar.buttonArray[ 2 ].onClick	= versioncue.deleteBtnHandler;
+		
+		// View Inspector Panel
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_InspectorToggle=View / Hide Inspector Panel" );
+		bar.buttonArray[ 3 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.inspector1, versioncue.png.inspector2 );
+		bar.commandArray[ 3 ] 			= versioncue.cmd.alwaysEnabled;
+		bar.buttonArray[ 3 ].onClick	= versioncue.showHideInspectorPanel;
+		bar.buttonArray[ 3 ].enabled	= true;				// override default settings, Inspector panel is always enabled 
+
+		versioncue.navBarAutoAlign( bar.group );
+		
+	}
+	
+	// setup/append the Project NavBar by placing contents into this NavBar
+	versioncue.setupProjectNavBar = function( bar )
+	{
+		var	localizedStr;
+		var vcPicture;
+
+		bar.commandArray 	= new Array();		
+		bar.buttonArray		= new Array();		
+
+		// add a group to the top navbar (all nav bar contents will be added into this group)
+		bar.group = bar.add( "group",
+			versioncue.navBarManagerObj.navBarBounds,
+			"VC Nav Bar"
+		);
+
+		// Welcome to VC
+//		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Welcome=Version Cue Welcome Screen" );
+//		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.welcome1, versioncue.png.welcome2 );
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_ConnectTo=Connect To..." );
+		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.connect1, versioncue.png.connect2 );
+		bar.commandArray[ 0 ] 			= versioncue.cmd.welcome;
+		bar.buttonArray[ 0 ].onClick 	= versioncue.connectTo /*vcWelcomeHandler*/;
+		bar.buttonArray[ 0 ].enabled	= true;				// override default behavior always enabled
+
+		// Checkout
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_CheckOut=Check-out" );
+		bar.buttonArray[ 2 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.checkout1, versioncue.png.checkout2 );
+		bar.commandArray[ 2 ] 			= versioncue.cmd.checkout1;
+		bar.buttonArray[ 2 ].onClick	= versioncue.checkOut;
+
+		// Checkin
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_CheckIn=Check-in" );
+		bar.buttonArray[ 1 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.checkin1, versioncue.png.checkin2 );
+		bar.commandArray[ 1 ] 			= versioncue.cmd.checkin1;
+		bar.buttonArray[ 1 ].onClick	= versioncue.checkIn;
+
+		// Revert
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Revert=Revert..." );
+		bar.buttonArray[ 3 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.revert1, versioncue.png.revert2 );
+		bar.commandArray[ 3 ] 			= versioncue.cmd.revert1;
+		bar.buttonArray[ 3 ].onClick	= versioncue.revert;
+
+		// Delete File
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Delete=Delete" );
+		bar.buttonArray[ 4 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.delete1, versioncue.png.delete2 );
+		bar.commandArray[ 4 ] 			= versioncue.cmd.bridgeDelete;
+		bar.buttonArray[ 4 ].onClick	= versioncue.deleteBtnHandler;
+			
+		// Reveal Version
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Versions=Versions..." );
+		bar.buttonArray[ 5 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.version1, versioncue.png.version2 );
+		bar.commandArray[ 5 ] 			= versioncue.cmd.getVersions1;
+		bar.buttonArray[ 5 ].onClick	= versioncue.getVersions;
+		
+		// View Project Trash
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_ViewProjectTrash=View Project Trash" );
+		bar.buttonArray[ 6 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.viewTrash1, versioncue.png.viewTrash2 );
+		bar.commandArray[ 6 ] 			= versioncue.cmd.viewTrash1;
+		bar.buttonArray[ 6 ].onClick	= versioncue.viewProjectTrash;
+		bar.buttonArray[ 6 ].enabled	= true;				// override default settings, View Project Trash is always enabled
+
+		// View Inspector Panel
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_InspectorToggle=View / Hide Inspector Panel" );
+		bar.buttonArray[ 7 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.inspector1, versioncue.png.inspector2 );
+		bar.commandArray[ 7 ] 			= versioncue.cmd.alwaysEnabled;
+		bar.buttonArray[ 7 ].onClick	= versioncue.showHideInspectorPanel;
+		bar.buttonArray[ 7 ].enabled	= true;				// override default settings, Inspector panel is always enabled 
+
+		versioncue.navBarAutoAlign( bar.group );
+		
+	}
+	
+	// setup/append the Server NavBar by placing contents into this NavBar
+	versioncue.setupServerNavBar = function( bar )
+	{
+		var	localizedStr;
+		var vcPicture;
+
+		bar.commandArray 	= new Array();		
+		bar.buttonArray		= new Array();		
+
+		// add a group to the top navbar (all nav bar contents will be added into this group)
+		bar.group = bar.add( "group",
+			versioncue.navBarManagerObj.navBarBounds,
+			"VC Nav Bar"
+		);
+
+		// Welcome to VC
+//		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Welcome=Version Cue Welcome Screen" );
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_ConnectTo=Connect To..." );
+//		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.welcome1, versioncue.png.welcome2 );
+		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.connect1, versioncue.png.connect2 );
+		bar.commandArray[ 0 ] 			= versioncue.cmd.welcome;
+		bar.buttonArray[ 0 ].onClick 	= versioncue.connectTo /*vcWelcomeHandler*/;
+		bar.buttonArray[ 0 ].enabled	= true;				// override default behavior always enabled
+		
+		// New Project
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_NewProject=New Project..." );
+		bar.buttonArray[ 1 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.newProject1, versioncue.png.newProject2 );
+		bar.commandArray[ 1 ] 			= versioncue.cmd.createProject2;
+		bar.buttonArray[ 1 ].onClick	= versioncue.createProject;
+		
+		// View Inspector Panel
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_InspectorToggle=View / Hide Inspector Panel" );
+		bar.buttonArray[ 2 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.inspector1, versioncue.png.inspector2 );
+		bar.commandArray[ 2 ] 			= versioncue.cmd.alwaysEnabled;
+		bar.buttonArray[ 2 ].onClick	= versioncue.showHideInspectorPanel;
+		bar.buttonArray[ 2 ].enabled	= true;				// override default settings, Inspector panel is always enabled
+		
+		versioncue.navBarAutoAlign( bar.group );
+		
+	}
+	
+	// setup/append the Folder NavBar by placing contents into this NavBar
+	versioncue.setupNondescriptNavBar = function( bar )
+	{
+		var	localizedStr;
+		var vcPicture;
+
+		bar.commandArray 	= new Array();
+		bar.buttonArray		= new Array();		
+
+		// add a group to the top navbar (all nav bar contents will be added into this group)
+		bar.group = bar.add( "group",
+			versioncue.navBarManagerObj.navBarBounds,
+			"VC Nav Bar"
+		);
+
+		// Welcome to VC
+//		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Welcome=Version Cue Welcome Screen" );
+//		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.welcome1, versioncue.png.welcome2 );
+//		bar.commandArray[ 0 ] 			= versioncue.cmd.welcome;
+//		bar.buttonArray[ 0 ].onClick 	= versioncue.connectTo /*vcWelcomeHandler*/;
+//		bar.buttonArray[ 0 ].enabled	= true;				// override default behavior always enabled
+		
+		// Connect to server
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_ConnectTo=Connect To..." );
+		bar.buttonArray[ 0 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.connect1, versioncue.png.connect2 );
+		bar.commandArray[ 0 ] 			= versioncue.cmd.connectTo2;
+		bar.buttonArray[ 0 ].onClick	= versioncue./*vcWelcomeHandler*/ connectTo;
+
+		// New Project
+		localizedStr					= versioncue.getLocalizedString_n( "$$$/Bridge/VCAdapter/Menu_NewProject=New Project..." );
+		bar.buttonArray[ 1 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.newProject1, versioncue.png.newProject2 );
+		bar.commandArray[ 1 ] 			= versioncue.cmd.createProject2;
+		bar.buttonArray[ 1 ].onClick	= versioncue.createProject;
+			
+		// View Inspector Panel
+		localizedStr					= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_InspectorToggle=View / Hide Inspector Panel" );
+		bar.buttonArray[ 2 ]			= versioncue.addBtn2VCNavBar( bar, undefined, localizedStr, versioncue.png.inspector1, versioncue.png.inspector2 );
+		bar.commandArray[ 2 ] 			= versioncue.cmd.alwaysEnabled;
+		bar.buttonArray[ 2 ].onClick	= versioncue.showHideInspectorPanel;
+		bar.buttonArray[ 2 ].enabled	= true;				// override default settings, Inspector panel is always enabled 
+			
+		versioncue.navBarAutoAlign( bar.group );
+	}
+	
+	// Function enables/disables the NavBar contents based on the enablement logic from VCAdapter
+	versioncue.setupNavBarBtnState = function( document )
+	{
+		if ((versioncue == undefined) || (versioncue.navBarManagerObj == undefined))
+			return;
+	
+		// default to app.document if not specified
+		if (document == undefined) 
+			document = app.document;
+
+		var navBarGroup	= versioncue.findNavBar( versioncue.navBarManagerObj, document.id );
+		if ((navBarGroup == undefined) || (navBarGroup.vcNavBar == undefined) || (navBarGroup.vcNavBar.uiGroup == undefined))
+			return;
+
+		var commandArray	= navBarGroup.vcNavBar.uiGroup.commandArray;
+		if (commandArray == undefined) return;
+		
+		var buttonArray		= navBarGroup.vcNavBar.uiGroup.buttonArray;		
+		if (buttonArray == undefined) return;
+
+		for (counter = 0; counter < commandArray.length; counter++)
+		{
+			var commandStr 	= commandArray[ counter ];
+			
+			if (commandStr == versioncue.cmd.alwaysEnabled)
+				buttonArray[ counter ].enabled = true;
+			// enabled IFF there is 1 or more items selected
+			else if (commandStr == versioncue.cmd.enableUponSelection)
+				buttonArray[ counter ].enabled = (document.selectionLength > 0);
+			else
+			{
+				var btnEnabled	= vcModelPrototype.canEnableCommand( commandStr, document );
+				buttonArray[ counter ].enabled = btnEnabled;
+			}
+		}
+	}
+			
+	versioncue.setupNavBar = function( document, vcNavBar )
+	{
+		var bar		= vcNavBar.uiGroup;
+			
+		// tear down what was there prior IFF NavBar state is changing
+		// selection state == "none" means that the NavBar is simply hidden
+		if (bar.group != undefined)
+			bar.remove( bar.group );		// remove the old group that was in place which will delete its children in memory (I hope)
+		
+		// this information needs to be set PRIOR to any content is added to Navbar... in addition we have to explicitely these properties everytime we rebuild the navbar (otherwise it will conflict with others that share the same navbar space
+		bar					= document.topNavbar;
+		vcNavBar.uiGroup	= bar;
+		bar.type			= "scriptui";
+		bar.height			= versioncue.navBarManagerObj.navbarHeight;
+
+		// resetup the content
+		switch (vcNavBar.state)
+		{
+			case "asset":
+				versioncue.setupAssetNavBar( bar );
+				break;
+		
+			case "server":
+				versioncue.setupServerNavBar( bar );
+				break;
+		
+			// folder and project shows the same NavBar contents
+			case "folder":
+			case "project":
+			case "searchAssortment":
+				versioncue.setupProjectNavBar( bar );
+				break;
+				
+			case "trash":
+				versioncue.setupTrashNavBar( bar );
+				break;
+				
+			case "versions":
+				versioncue.setupVersionsNavBar( bar );
+				break;
+				
+			// non-descript (top level NavBar)
+			case "none":
+				versioncue.setupNondescriptNavBar( bar );
+				break;
+		} 
+		
+	}
+		
+	// Function responsible for handling context switching to reflect the appropriate selection state
+	versioncue.updateNavBar = function( document )
+	{
+		var navBarGroup	= versioncue.findNavBar( versioncue.navBarManagerObj, document.id );
+		if ((navBarGroup.vcNavBar == undefined) || (navBarGroup.vcNavBar.uiGroup == undefined))
+			return;
+
+		var parentThumbnail	= document.thumbnail;
+		var newState		= "none";
+		var vcNode = parentThumbnail.VersionCue;
+		if (vcNode == undefined) 
+		{
+			vcNavBar.uiGroup.visible = false;
+			return;
+		}
+		var vcNavBar = navBarGroup.vcNavBar;
+		if (vcNavBar == undefined) return;
+		
+		// do optimizations here, make sure that the selection content has not changed
+		var prevState 	= vcNavBar.state
+		
+		// set the appropriate state so the setup process can do the right thing later
+		if (vcNode.common.isServer)
+			newState = "server";
+		else if (vcNode.common.isProject)
+			newState = "project";
+		else if (vcNode.common.isFolder)		// this needs to be checked PRIOR to asset as folder are also considered assets
+			newState = "folder";
+		else if (vcNode.common.isAsset)
+			newState = "asset";
+		else if (vcNode.common.isTrashNode)
+			newState = "trash";
+		else if (vcNode.common.isVersionsNode)
+			newState = "versions";
+		else if (vcNode.common.isSearchNode)
+			newState = "searchAssortment";	
+		else
+			newState = "none";			// all other modes are non-descript
+		
+		// do the actual setup here
+		vcNavBar.state = newState;
+		versioncue.setupNavBar( document, vcNavBar );
+		
+		vcNavBar.uiGroup.visible = true;	
+	}
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// Search Functionality
+	
+	// update the button state for the given search nav bar
+	versioncue.updateSearchNavBarButtonState = function( searchNavBar, totalFound )
+	{
+		var	enabled;
+		if ((searchNavBar.lowerRange == 1) ||
+			((searchNavBar.lowerRange - searchNavBar.assetsPerPage) < 0))
+			enabled = false;
+		else
+			enabled = true;
+		searchNavBar.uiGroup.group.PrevBtn.enabled = enabled;
+
+		if ((searchNavBar.upperRange >= totalFound) ||
+			((searchNavBar.lowerRange + searchNavBar.assetsPerPage) >= totalFound))
+			enabled = false;
+		else
+			enabled = true;
+		searchNavBar.uiGroup.group.NextBtn.enabled = enabled;		
+	}
+	
+	// Method registered with Thumbnail called by Bridge when the contents of the search node changes
+	versioncue.searchResultsHandler = function()
+	{
+		var vcNode			= app.document.thumbnail.VersionCue;
+		var navBarGroup		= versioncue.findNavBar( versioncue.navBarManagerObj, app.document.id );
+		if (navBarGroup == undefined) return;
+				
+		var searchNavBar	= navBarGroup.searchNavBar;
+		if (searchNavBar == undefined) return;
+
+		var searchResults	= searchNavBar.uiGroup.group.SearchResults;
+		if (searchResults == undefined) return;
+
+		var totalFound		= vcNode.searchResults.totalFound;		// get the latest totals as this can change		
+		var currentTotal	= searchNavBar.upperViewRange - searchNavBar.lowerViewRange;
+		// make sure that we update the results matching current found up to date results
+		if (currentTotal != searchNavBar.assetsPerPage)
+		{
+			if (totalFound < searchNavBar.assetsPerPage)
+				searchNavBar.upperRange	= totalFound;
+			else
+				searchNavBar.upperRange = searchNavBar.lowerRange + searchNavBar.assetsPerPage;
+		}
+
+		var lowerViewRange	= searchNavBar.lowerRange;
+		var upperViewRange	= searchNavBar.upperRange;
+		
+		// just in time pinning
+		if (upperViewRange > totalFound)
+		{
+			upperViewRange			= totalFound;
+			searchNavBar.upperRange	= totalFound;
+		}
+		versioncue.updateSearchNavBarButtonState( searchNavBar, totalFound );
+
+		// update the status results... VC is 0 based, display will be 1 based
+		var displayStr 		= "$$$/Bridge/VCAdapter/SearchResults=Showing (1)-(2) results out of (3)";
+		if (totalFound == 0)
+			searchResults.text 	= versioncue.getLocalizedString_n( displayStr, 0, 0, 0  );
+		else
+		searchResults.text 	= versioncue.getLocalizedString_n( displayStr, lowerViewRange + 1, upperViewRange, totalFound  );
+	}
+
+	// Handles browse to next search page results
+	versioncue.getNextSearchPage = function( )
+	{
+		try
+		{
+			var vcNode				= app.document.thumbnail.VersionCue;
+			var navBarGroup			= versioncue.findNavBar( versioncue.navBarManagerObj, app.document.id );
+			var searchNavBar		= navBarGroup.searchNavBar;
+ 		    var totalFound			= vcNode.searchResults.totalFound;		// get the latest total found as this can change
+			var nextPageAvailable;
+			
+			if (versioncue.vcModelPrototype == undefined) return;
+					
+			// cannot go to the next page
+			if ((searchNavBar.lowerRange + searchNavBar.assetsPerPage) > totalFound)
+				nextPageAvailable 		= false;
+			else
+			{
+				searchNavBar.lowerRange	+= searchNavBar.assetsPerPage;
+				searchNavBar.upperRange	+= searchNavBar.assetsPerPage;
+				nextPageAvailable		= (searchNavBar.upperRange < totalFound);
+				// pin at current total
+				if (nextPageAvailable == false)
+					searchNavBar.upperRange = totalFound;
+				
+	 			// set the page range so the view will udpate with the results
+				success = versioncue.vcModelPrototype.setSearchPageRange( app.document.thumbnail, searchNavBar.lowerRange, searchNavBar.upperRange );
+			}
+			
+			// make sure that we update the search results status text
+			versioncue.searchResultsHandler();
+		}
+		catch( e )
+		{
+			reportError( e );
+		}
+	}
+
+	// Handles browse to previous search page results
+	versioncue.getPrevSearchPage = function( )
+	{
+		try
+		{
+			var vcNode				= app.document.thumbnail.VersionCue;
+			var navBarGroup			= versioncue.findNavBar( versioncue.navBarManagerObj, app.document.id );
+			var searchNavBar		= navBarGroup.searchNavBar;
+			var totalFound			= vcNode.searchResults.totalFound;		// get the latest total found as this can change
+			var prevPageAvailable;
+					
+			// cannot go to the next page
+			searchNavBar.lowerRange	-= searchNavBar.assetsPerPage;
+			searchNavBar.upperRange	-= searchNavBar.assetsPerPage;
+			prevPageAvailable		= (searchNavBar.lowerRange > 0);
+			// pin at current total
+			if (prevPageAvailable == false)
+			{
+				searchNavBar.lowerRange = 0;
+				searchNavBar.upperRange = searchNavBar.assetsPerPage;
+			}
+			// set the page range so the view will udpate with the results
+			success = versioncue.vcModelPrototype.setSearchPageRange( app.document.thumbnail, searchNavBar.lowerRange, searchNavBar.upperRange );
+
+			// make sure that we update the search results status text
+			versioncue.searchResultsHandler();
+		}
+		catch( e )
+		{
+			reportError( e );
+		}
+	}
+	
+	// Changes the number of search results per given viewable page in the VCAdapterLib
+	versioncue.setSearchResultsPerPage = function( useThisList )
+	{
+		try
+		{
+			var navBarGroup = versioncue.findNavBar( versioncue.navBarManagerObj, app.document.id );
+			if (navBarGroup == undefined) return;
+	
+			var searchNavBar = navBarGroup.searchNavBar;
+	
+			var myList;
+			// path when called from Bridge/Script UI callback
+			if (useThisList == undefined)
+				myList = searchNavBar.uiGroup.group.SearchResultsList;
+			// list given by the caller for initialization
+			else
+				myList = useThisList;
+			var selectionIndex	= myList.selection.index;
+
+			// convert the selected list item to a number and set it in the VCAdapterLib
+			var resultsPerPage 			= Number( myList.items[ selectionIndex ].toString() );
+			searchNavBar.assetsPerPage	= resultsPerPage;
+			searchNavBar.upperRange		= searchNavBar.lowerRange + resultsPerPage;
+			searchNavBar.lowerRange		= 0;
+			searchNavBar.upperRange		= resultsPerPage;
+
+			// ensure that the VCAdpaterLib remember this NavBar change setting for future searches
+			versioncue.vcModelPrototype.setSearchResultsPerPage( resultsPerPage );
+			success = versioncue.vcModelPrototype.setSearchPageRange( app.document.thumbnail, searchNavBar.lowerRange, searchNavBar.upperRange );
+					
+			// make sure that we update the search results status text
+			versioncue.searchResultsHandler();
+		}
+		catch( e )
+		{
+			report( e );
+		}
+	}
+	
+	// Setup and create an UI enclosing group in the given Search Nav Bar
+	versioncue.setupSearchNavBar = function( searchNavBar )
+	{
+		var displayStr;
+		var bar		= searchNavBar.uiGroup;		
+		bar.type	= "scriptui";
+		bar.height	= versioncue.navBarManagerObj.navbarHeight;		
+	
+		// add a group to the top navbar
+		bar.group = bar.add( "group",
+			versioncue.navBarManagerObj.navBarBounds,
+			"Search Nav Bar"
+		);
+		
+		// Previous Button
+		displayStr						= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/SearchNavBar_Prev=Previous search results" );
+		bar.group.PrevBtn				= versioncue.addBtn2VCNavBar( bar, [ 0, 10, 30, 24 ], displayStr, versioncue.png.searchPrevious1, versioncue.png.searchPrevious2  );
+		bar.group.PrevBtn.onClick		= versioncue.getPrevSearchPage; 				// Handle the Previous Btn click
+
+		// Next Button
+		displayStr						= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/SearchNavBar_Next=Next search results" );
+		bar.group.NextBtn				= versioncue.addBtn2VCNavBar( bar, [ 35, 10, 65, 24 ], displayStr, versioncue.png.searchNext1, versioncue.png.searchNext2 );
+		bar.group.NextBtn.onClick		= versioncue.getNextSearchPage; 				// ''		''	 Next Btn click
+		
+		// static text representing current search state
+		displayStr = "$$$/Bridge/VCAdapter/SearchResults=Showing (1)%-(2)% results out of (3)%";
+		bar.group.SearchResults = bar.group.add( "statictext", [ 100, 8, 395, 24 ],			// porportionally spaced against (right arrow) and (drop down list static text)
+			versioncue.getLocalizedString_n( displayStr, 0, 0, 0  ) );
+		bar.group.SearchResults.justify = "center";
+
+		// Drop Down list controlling number of results per search page
+		displayStr = "$$$/Bridge/VCAdapter/SearchResultsPerPageTitle=Show:"
+		bar.group.ShowTitle = bar.group.add( "statictext", 
+			[ 420, 8, 490, 24 ],								// we set this to a large nuber to suit lowest common den. so all languages will work
+			versioncue.getLocalizedString( displayStr ) );
+		bar.group.ShowTitle.justify = "right";					// ScriptUI followup
+		
+		var selectionIndex	= 0;															// default to the 1st item selected
+		if (versioncue.isMac)
+		{
+			var myList = bar.group.add( "dropdownlist",
+										[ 495, 6, 560, 24 ],		// minor fine tuning
+										[ "25", "50", "100" ] );
+		}
+		else if (versioncue.isWin)
+		{
+			var myList = bar.group.add( "dropdownlist",
+										[ 495, 5, 560, 24 ],
+										[ "25", "50", "100" ] );
+		}
+	
+		myList.items[ selectionIndex ].selected		= true;									// default to the 1st item in the list
+		bar.group.SearchResultsList 				= myList;
+		myList.onChange								= versioncue.setSearchResultsPerPage;			// tell the VCAdpaterLib the number of search results / page
+
+		var resultsPerPage 							= Number( myList.items[ selectionIndex ].toString() );
+		searchNavBar.assetsPerPage					= resultsPerPage;
+		// make sure that the VCAdapter registers this change (when a NavBar is created)
+		versioncue.vcModelPrototype.setSearchResultsPerPage( resultsPerPage );
+
+		searchNavBar.lowerRange						= 0;
+		searchNavBar.upperRange						= resultsPerPage;
+			
+		// layout
+		bar.group.orientation = "row";
+		bar.group.layout.layout( false );									// intentionally disable this as we want to control positioning
+		
+	}
+	
+	// show/hide Search NavBar, use this method as it will shield one from possible searchNavBar not setup
+	versioncue.showSearchNavBar = function( documentID, visible )
+	{
+		if ( versioncue.navBarManagerObj == undefined)
+			return;						// acceptable state, not yet setup
+	
+		var navBarGroup = versioncue.findNavBar( versioncue.navBarManagerObj, documentID );
+		if (navBarGroup == undefined)
+			return;						// acceptable state, not yet setup
+		var searchNavBar = navBarGroup.searchNavBar;
+		if (searchNavBar == undefined)
+			return;
+				
+		searchNavBar.uiGroup.type		= "scriptui";
+
+		// register function notifier should the search node changes
+		if (searchNavBar.uiGroup.visible != visible)
+		{
+			if (visible)
+				app.document.thumbnail.registerInterest( versioncue.searchResultsHandler );
+			else
+				app.document.thumbnail.unregisterInterest( versioncue.searchResultsHandler );
+			searchNavBar.uiGroup.visible	= visible;	
+		}
+	}
+//	versioncue.debugLog( "NavBar setup complete" );
+	
+	versioncue.extraMetadataDefined = function()
+	{
+		var myExtraMetadata = app.preferences.extraMetadata;
+		var extraMetadataSelected = false;
+		for (var i=0; i < myExtraMetadata.length; i++)
+		{
+			if (myExtraMetadata[i] != undefined)
+			{
+				extraMetadataSelected = true;
+			}
+		}
+		return extraMetadataSelected;
+	}
+	
+	versioncue.setAdditionalMetadata = function( vcNode , document )
+	{
+		var customMetadata;
+		if (vcNode.common.isVersionsNode)
+		{
+			customMetadata = [
+						"[[VersionCue.common.versionSavedByName]]",
+						"[[VersionCue.common.comment]]"
+					];
+		}
+		else
+		{
+			if (vcNode.common.isViewCustom)
+			{
+				customMetadata = [
+						"[[VersionCue.customMetadataThumbnail.metadataLine1]]",
+						"[[VersionCue.customMetadataThumbnail.metadataLine2]]",
+						"[[VersionCue.customMetadataThumbnail.metadataLine3]]"
+					];
+			}
+			else
+			{
+				customMetadata = [
+						"[[VersionCue.common.statusText]]",
+						"[[VersionCue.common.version]]",
+						"[[VersionCue.common.comment]]"
+					];
+			}
+		}
+		document.additionalMetadata = customMetadata;
+	}
+	
+	// Configure Event Handler
+	versioncue.configureEventHandler = function( vcNode, eventDocument )
+	{	
+		if (eventDocument.browserMode == "compact")
+		{
+			if (vcNode.common.isSearchNode)
+				versioncue.showSearchNavBar( eventDocument.id, false );
+			versioncue.hideAllNavBars( eventDocument.id );		
+		}
+		else if (eventDocument.browserMode == "full")
+		{
+			if (vcNode.common.isSearchNode)
+				versioncue.showSearchNavBar( eventDocument.id, true );
+
+			versioncue.updateNavBar( eventDocument );
+			versioncue.setupNavBarBtnState( eventDocument );
+		}
+	}
+	
+
+	// Main event handler for all VC related actions
+	vcEventHandler = function( event )
+	{
+//		versioncue.debugLog( "vcEventHandler()" );
+		try 
+		{
+			if ((event == undefined) || (event.object == undefined) || (event.type == undefined))
+				return {handled:false};
+	
+			if( versioncue.isShutDownCalled )
+				return {handled:false};
+				
+			if ((event.type == "close") && (event.object instanceof App))
+			{
+				VCShutDown();
+				return {handled:false};
+			}
+
+			if ((app == undefined) || (app.document == undefined) || (app.document.thumbnail == undefined))
+				return {handled:false};
+			
+			var document	 	= app.document;
+			var viewThumbnail	= document.thumbnail;
+			var eventDocument	= event.document;
+			
+			if ( event.location == "prefs" )
+			{
+//				versioncue.debugLog("event.location == 'prefs' event.type: " + event.type);
+				switch (event.type)
+				{
+					// user pressed ok, preference might have changed
+					case "ok":
+						if ( !versioncue.extraMetadataDefined() )
+						{
+							// extra metadata not defined, let us set additional metadata
+							if (viewThumbnail.VersionCue != undefined)
+								versioncue.setAdditionalMetadata( viewThumbnail.VersionCue, document );
+						}
+						else
+						{
+							// extra metadata is defined, let us invalidate addditional metadata
+							document.additionalMetadata = app.preferences.extraMetadata;
+						}
+						break;
+						
+					case "disabled":
+//						versioncue.debugLog("event.scriptName: " + event.scriptName);
+						if (typeof event.scriptName != "undefined")
+						{
+							if (event.scriptName == "VersionCue")
+							{
+								// disable the VC favorite
+								app.favorites.disable(versioncue.uri);
+							}
+						}						
+						break;
+						
+					case "enabled":
+//						versioncue.debugLog("event.scriptName: " + event.scriptName);
+						if (typeof event.scriptName != "undefined")
+						{
+							if (event.scriptName == "VersionCue")
+							{
+								// enable the VC favorite
+								app.favorites.enable(versioncue.uri);
+							}
+						}						
+						break;
+						
+					default:
+						break;
+				}
+			} /// location is prefs
+
+            // This is workaround to simulate VC place select/deselct event. On select open welcome
+            // screen & on deselect remove it.
+             
+/*			if (event.object instanceof Thumbnail && event.type == "open")
+			{
+				var vcStartPageTab;
+ 				if(typeof( VCStartPage ) != "undefined" && typeof( VCStartPage ) == "object")
+ 				{
+ 					vcStartPageTab = VCStartPage.getTabByID(VCStartPage.StartPageTabID);
+ 					if(event.object.uri == versioncue.uri && vcStartPageTab == null)
+					{
+						// VC icon in favorites is Selected
+						var isFromHelpMenu = false;
+						versioncue.vcWelcomeHandler( isFromHelpMenu, event.document );	
+					}
+					else
+					{
+						if (viewThumbnail.VersionCue != undefined)
+						{
+							//Do nothing
+						}
+						else
+						{
+							// VC icon in favorites is Deselected
+							VCStartPage.removestartPageTab( true );
+						}
+					}
+				}
+			  }
+*/
+            // we dont service NON-VC events
+			if (viewThumbnail.VersionCue == undefined)
+				return {handled:false};
+			var vcNode 			= viewThumbnail.VersionCue;
+
+			// 1 time initialization to setup the navBarManager, the object responsible for tracking all NavBars in VC
+			if (versioncue.navBarManagerObj == undefined)
+			{
+				var navBarManager			= new versioncue.navBarManager();
+				versioncue.navBarManagerObj	= navBarManager;
+			}
+
+//			versioncue.debugLog( document.thumbnail.uri );
+						
+			// thumbnail event								
+			if (event.object instanceof Thumbnail)
+			{
+//				versioncue.debugLog( "(event.object instanceof Thumbnail) vcEventHandler::" + event.type + " event" );
+
+                switch (event.type)
+				{				
+					case "open":
+						if (vcNode == undefined)
+							versioncue.hideAllNavBars( eventDocument.id );
+						// VersionCue Thumbnail Context
+						else
+						{
+							var navBarGroup		= versioncue.findNavBar( versioncue.navBarManagerObj, eventDocument.id );
+	
+							// NavBar was not found, create a new NavBar (new document workflow)
+							if (navBarGroup == undefined)
+							{
+								versioncue.addAllNavBars( eventDocument );
+								// update the navBarGroup to reflect the newly added state
+								navBarGroup	= versioncue.findNavBar( versioncue.navBarManagerObj, eventDocument.id );
+							}
+							// make sure that this is a search URI thumbnail before adding the navBar
+							if (vcNode.common.isSearchNode)
+							{											
+								// NavTool Bar created prior, set it visible again
+								versioncue.showSearchNavBar( eventDocument.id, true );
+								// make sure that we update the VCAdapterLib internals with the new Search Results Per Page on document open
+								versioncue.vcModelPrototype.setSearchResultsPerPage( navBarGroup.searchNavBar.assetsPerPage );
+								versioncue.searchResultsHandler();
+							}
+							// We dont get a leave msg, so we hide our bottom bar in non-search context
+							else
+								versioncue.showSearchNavBar( eventDocument.id, false );
+							
+							versioncue.updateNavBar( eventDocument );
+							versioncue.setupNavBarBtnState( eventDocument );
+							
+							// customize metadata for VC projects
+							if (!versioncue.extraMetadataDefined())
+							{
+								versioncue.setAdditionalMetadata( vcNode, eventDocument );
+							}
+						}
+						break;
+				}	// switch
+			}	// event.object instanceof Thumbnail
+						
+				
+			if (event.location == "document")
+			{		
+				switch (event.type)
+				{							
+					case "selectionsChanged":
+						if (vcNode == undefined)
+						{
+							versioncue.hideAllNavBars( eventDocument.id );
+							break;				
+						}
+						versioncue.setupNavBarBtnState( eventDocument );
+						break;
+						
+					case "close":
+						versioncue.hideAllNavBars( eventDocument.id );
+						break;
+									
+					// debugging purposes, filter these out otherwise we get hit all the time
+					case "configure":
+						versioncue.configureEventHandler( vcNode, eventDocument );
+						break;
+						
+					case "select":
+					case "deselect":
+					default:
+						break;
+				}	// switch					
+			}	// event.location == "document"
+			
+		}
+		catch( error ) { Window.alert( error ); }
+		
+		// make sure that we are good citizens and dont gobble up events for others to process
+		return {handled:false};
+	}
+  	
+
+
+	//----------------------------------------------------------------------------
+	// VCAdapterLib Debugging Facilities (TBD:  Move this off to a VCAdapterLibTest.jsx
+	//			In addition L#164 of VersionCue.jsx should also be moved off to VCAdapterLibTest.jsx
+	//----------------------------------------------------------------------------
+	var 	enableVCLoggingText 	= "Enable VCAdapterLib DEBUG logging";
+	
+	//----------------------------------------------------------------------------
+	// VCAdapterLib DEBUG logging: selection handler
+	versioncue.debugLogging = function(m)
+	{
+		try 
+		{
+			vcHandler.toggleDebugLogging();
+			m.checked = !m.checked;
+		} catch(error) { Window.alert(error); }
+	}
+
+	versioncue.debugMenu		= MenuElement.find( 'Debug' );
+	if (versioncue.debugMenu != null)
+	{	
+		var debugMenu = versioncue.debugMenu;
+	
+		// initial state to match VCAdapterLib defaults == disabled
+		debugMenu.menu = MenuElement.create( "command", enableVCLoggingText, "-at the end of Debug", "toggleDebugLogging" );
+		debugMenu.menu.onSelect 	= versioncue.debugLogging;
+	}
+
+	versioncue.VCSelectionsChanged = function( event )
+	{
+		try 
+		{
+			var doc = event.document;
+			if( event.type == "selectionsChanged" && ( doc.selectionLength == 1 ) )
+			{
+				vcModelPrototype.selectionChanged( doc.selections[0] );
+			}
+		}
+		catch(error) { Window.alert(error); }
+		return {handled:false};
+	}
+	
+	///////////////////////////////////////////////////////////////////////////////
+	// Main logic of script
+	///////////////////////////////////////////////////////////////////////////////
+	{
+
+		// **********************************
+		// Load the VCAdapterLib and other required components
+		// **********************************
+		versioncue.libPath = versioncue.getLibPath();
+		// let us decode the libPath
+		versioncue.libPath = Folder.decode(versioncue.libPath);
+		versioncue.lib = new ExternalObject("lib:" + versioncue.libPath);
+		
+		// load the welcome startup page javascript file 
+ 		versioncue.startPageJSX = File( versioncue.resourcesFolder + "/Scripts/VCStartPage.jsx" );
+ 		VCStartPage = new Object;
+ 		VCStartPage.VCStartPageWorkspaceID = "Adobe Version Cue";
+ 		VCStartPage.StartPageTabID = "startPage";
+ 		$.evalFile( versioncue.startPageJSX );
+				
+//		versioncue.debugLog( "Load Process complete" );
+
+		// **********************************
+		//	Initialize the Handler API:  See CommandRegistry.cpp
+		//
+		//	Important:  DO NOT call Handler object for items that require ANY Bridge scripting wrapper in the argument list (i.e. app.document.selections)
+		//				ES will not be able to handle as this is a Bridge extension. Thus any calls into VCAdapter will show up with the wrong argument type!
+		// **********************************
+
+		vcHandler = new VCExtensionHandler( app );
+		app.registerExtension( vcHandler );
+		for(var i = 0; i < vcHandler.prefixes.length; i++)
+		{
+			app.registerPrefix(vcHandler.prefixes[i], vcHandler );
+		}
+//		versioncue.debugLog( "Handler API Init complete" );
+
+		// **********************************
+		// Initialize the Model API:  See CommandRegistry.cpp
+		// **********************************
+		vcModelPrototype = new VCExtensionModel();
+		versioncue.vcModelPrototype = vcModelPrototype;		// make sure that we persist this for callbacks
+//		versioncue.debugLog( "Model API Init complete" );
+
+		// **********************************
+		// vcHandler.setApp(app);
+		
+		// **********************************
+		// Register ALL infosets here associated w/VC
+		// **********************************
+		
+		var vcInfoset = vcHandler.getInfosetDefinition("common");
+		app.registerInfoset(vcHandler, vcInfoset);
+
+		vcInfoset = vcHandler.getInfosetDefinition("customMetadataPivot");
+		app.registerInfoset(vcHandler, vcInfoset);
+
+		vcInfoset = vcHandler.getInfosetDefinition( "searchResults" );
+		app.registerInfoset( vcHandler, vcInfoset );
+			
+		vcInfoset = vcHandler.getInfosetDefinition( "versions" );
+		app.registerInfoset( vcHandler, vcInfoset );
+		
+		vcInfoset = vcHandler.getInfosetDefinition("customMetadataThumbnail");
+		app.registerInfoset( vcHandler, vcInfoset );
+		
+		vcInfoset = vcHandler.getInfosetDefinition("vcQuick");
+		app.registerInfoset( vcHandler, vcInfoset );
+			
+//		versioncue.debugLog( "Infoset Init complete" );
+			
+
+		// **********************************
+		// schedule periodic task to process notifications from VC
+		// **********************************
+		app.scheduleTask("versioncue.processNotifications(vcHandler)", 150, true);
+
+		// **********************************
+		versioncue.addFavorite();
+		
+		// **********************************
+		// load the SDK
+ 		if( VersionCueSDKLoader != "undefined" && typeof VersionCueSDKLoader == "object")
+ 			VersionCueSDKLoader.loadSDK();
+	
+		// **********************************
+		// Create all the pivot panels
+		// **********************************
+		versioncue.createServerPivotPanel();
+		versioncue.createProjectPivotPanel();
+		versioncue.createAssetPivotPanel();
+		versioncue.createVersionsPivotPanel();
+		versioncue.createCustomMetadaPivotPanel();
+		
+//		versioncue.debugLog( "Pivot setup complete" );
+		
+		// **********************************
+		// Add the event handlers to support VersionCue
+		// **********************************
+		app.eventHandlers.push( { handler:vcEventHandler } );
+		
+		//let us create a new event handler
+		VCSelectionChanged = { handler:versioncue.VCSelectionsChanged };
+		app.eventHandlers.push( VCSelectionChanged );
+		
+//		versioncue.debugLog( "Event handlers created" );
+		
+		// **********************************
+		// Add menu elements
+		// **********************************
+
+		// Version Cue Tools menu
+		versioncue.menu  = MenuElement.create("menu", "Version Cue", "-after BatchRename", "VersionCueToolsMenu");
+		versioncue.menu.onDisplay = versioncue.generateCustomMenu;
+		
+		// Version Cue Compact Flyout menu
+		versioncue.menu = MenuElement.create("menu", "Version Cue", "-after Bridge/CompactFlyoutMenu/View", "VersionCueCompactFlyoutMenu");
+
+		//----------------------------------------------------------------------------
+		versioncue.ingest = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.ingest();
+				op.app = app;
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_AddFiles=Add Files..." );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "-at the end of Thumbnail", versioncue.cmd.ingest1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.ingest;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "at the beginning of VersionCueToolsMenu", versioncue.cmd.ingest2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.ingest;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "-after Bridge/ContextMenu/Folders/Rename", versioncue.cmd.ingest3);
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.ingest;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "at the end of VersionCueCompactFlyoutMenu", versioncue.cmd.ingest4);
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.ingest;
+
+		//----------------------------------------------------------------------------
+		versioncue.checkOut = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.checkOut();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_CheckOut=Check-out" );
+		versioncue.menu = MenuElement.create("command", menuItemText, "after ingest", versioncue.cmd.checkout1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.checkOut;
+
+		versioncue.menu = MenuElement.create("command", menuItemText, "after ingestTools", versioncue.cmd.checkout2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.checkOut;
+
+		versioncue.menu = MenuElement.create("command", menuItemText, "-after " + versioncue.cmd.ingest4, versioncue.cmd.checkout4 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.checkOut;
+
+
+		//----------------------------------------------------------------------------
+		versioncue.checkIn = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.checkIn();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_CheckIn=Check-in" );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after CheckOut", versioncue.cmd.checkin1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.checkIn;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after CheckOutTools", versioncue.cmd.checkin2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.checkIn;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.checkout4, versioncue.cmd.checkin4 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.checkIn;
+
+		//----------------------------------------------------------------------------
+		versioncue.revert = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.revert();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Revert=Revert..." );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after CheckIn", versioncue.cmd.revert1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.revert;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after CheckInTools", versioncue.cmd.revert2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.revert;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.checkin4, versioncue.cmd.revert4 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.revert;
+
+		//----------------------------------------------------------------------------
+		versioncue.getVersions = function(m)
+		{
+			try 
+			{
+				var thumbnail = versioncue.getCurrentThumbnail();
+				versioncue.viewSpecialNode(thumbnail, 'versions');
+			} catch(error) { Window.alert(error); }
+		}
+		
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Versions=Versions..." );
+		versioncue.menu = MenuElement.create("command", menuItemText, "-after revert", versioncue.cmd.getVersions1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.getVersions;
+		
+		versioncue.menu = MenuElement.create("command", menuItemText, "-after revertTools", versioncue.cmd.getVersions2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.getVersions;
+		
+		versioncue.menu = MenuElement.create("command", menuItemText, "-after " + versioncue.cmd.revert4, versioncue.cmd.getVersions4 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.getVersions;
+		
+		//----------------------------------------------------------------------------
+		versioncue.promote = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.promote();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Promote=Promote..." );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after getVersions", versioncue.cmd.promote1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.promote;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after getVersionsTools", versioncue.cmd.promote2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.promote;
+
+		//----------------------------------------------------------------------------
+		versioncue.viewProjectTrash = function(m)
+		{
+			try 
+			{
+				var thumbnail = versioncue.getCurrentThumbnail();
+				versioncue.viewSpecialNode(thumbnail, 'trash');
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_ViewProjectTrash=View Project Trash" );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "-after promote", versioncue.cmd.viewTrash1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.viewProjectTrash;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "-after promoteTools", versioncue.cmd.viewTrash2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.viewProjectTrash;
+		
+		versioncue.menu = MenuElement.create( "command", menuItemText, "-after "+ versioncue.cmd.remove3, versioncue.cmd.viewTrash3 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.viewProjectTrash;
+		
+		//----------------------------------------------------------------------------
+		versioncue.expunge = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.expunge();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_DeletePermanent=Delete Permanent..." );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after viewTrash", versioncue.cmd.expunge1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.expunge;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after viewTrashTools", versioncue.cmd.expunge2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.expunge;
+		
+		//----------------------------------------------------------------------------
+		versioncue.restore = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.restore();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Restore=Restore..." );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after expunge", versioncue.cmd.restore1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.restore;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after expungeTools", versioncue.cmd.restore2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.restore;
+		
+		//----------------------------------------------------------------------------
+		versioncue.createProject = function(m)
+		{
+			try 
+			{
+				// needs to use ProgressOperator
+				var op = vcModelPrototype.createProject();
+				op.document = app.document;	
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_NewProject=New Project..." );
+		versioncue.menu = MenuElement.create("command", menuItemText, "-after restore", versioncue.cmd.createProject1);
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.createProject;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "-after restoreTools", versioncue.cmd.createProject2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.createProject;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "-after " + versioncue.cmd.viewTrash3, versioncue.cmd.createProject3 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.createProject;
+
+		//----------------------------------------------------------------------------
+		versioncue.connectTo = function(m)
+		{
+			try 
+			{			
+				var op = vcModelPrototype.connectTo();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		//----------------------------------------------------------------------------
+		// context menu enablement
+		//--------------------------------------------------------------------------------
+		versioncue.canEnableConnectTo = function(m)
+		{
+			try 
+			{
+				// let us generate custom context menu
+				versioncue.generateCustomMenu( m , "context" );
+				
+				if( app.document.selectionLength == 0 )
+				{
+					var enable = vcModelPrototype.canEnable( m, app.document );
+					m.enabled = enable;
+				}
+				else
+				{
+					m.enabled = false;
+				}
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_ConnectTo=Connect To..." );
+		versioncue.menu = MenuElement.create("command", menuItemText, "after createProject", versioncue.cmd.connectTo1);
+		versioncue.menu.onDisplay = versioncue.canEnableConnectTo;
+		/*vcWelcomeHandler*/
+		versioncue.menu.onSelect = versioncue.connectTo;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after createProjectTools", versioncue.cmd.connectTo2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		/*vcWelcomeHandler*/
+		versioncue.menu.onSelect = versioncue.connectTo;
+
+		versioncue.menu = MenuElement.create("command", menuItemText, "after " + versioncue.cmd.createProject3, versioncue.cmd.connectTo3);
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		/*vcWelcomeHandler*/
+		versioncue.menu.onSelect = versioncue.connectTo;
+
+		//----------------------------------------------------------------------------
+		versioncue.disconnect = function(m)
+		{
+			try 
+			{
+				var force = false;
+				if( versioncue.isMac && m != undefined )
+				{
+					force = m.altDown;
+				}
+				else if ( versioncue.isWin && m != undefined)
+				{
+					force = m.ctrlDown;
+				}
+				
+				var op = vcModelPrototype.disconnect( force );
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Disconnect=Disconnect..." );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.connectTo1, versioncue.cmd.disconnect1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.disconnect;
+				
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.connectTo2, versioncue.cmd.disconnect2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.disconnect;
+				
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.connectTo3, versioncue.cmd.disconnect3 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.disconnect;
+				
+		//----------------------------------------------------------------------------
+		versioncue.editProperties = function(m)
+		{
+			try 
+			{
+				var op = vcModelPrototype.editProperties();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_EditProperties=Edit Properties..." );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.disconnect1, versioncue.cmd.editProperties1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.editProperties;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.disconnect2, versioncue.cmd.editProperties2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.editProperties;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.disconnect3, versioncue.cmd.editProperties3 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.editProperties;
+
+		//----------------------------------------------------------------------------
+		versioncue.shareProject = function(m)
+		{
+			try 
+			{
+				// needs to use ProgressOperator
+				var op = vcModelPrototype.shareProject();
+				op.document = app.document;
+				app.enqueueOperation( op );
+			} catch(error) { Window.alert(error); }
+		}
+
+		var 	menuItemText = versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_ShareProject=Share Project" );
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.createProject1, versioncue.cmd.shareProject1 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.shareProject;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.createProject2, versioncue.cmd.shareProject2 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.shareProject;
+
+		versioncue.menu = MenuElement.create( "command", menuItemText, "after " + versioncue.cmd.createProject3, versioncue.cmd.shareProject3 );
+		versioncue.menu.onDisplay = versioncue.canEnable;
+		versioncue.menu.onSelect = versioncue.shareProject;
+
+		//----------------------------------------------------------------------------
+ 		// Welcome to VC facilities
+   		
+ /*		versioncue.welcomeMenuHandler = function ( m )
+ 		{
+ 			try
+ 			{
+ 				var vcFlashPlayer = VCStartPage.getVCFlashPlayer();
+ 				if( vcFlashPlayer != null )
+ 				{
+ 					 m.checked = true;
+ 				}
+ 				else
+ 				{
+ 					m.checked = false;
+ 				}
+ 			}
+ 			catch(error)
+ 			{
+ 				reportError( error )
+ 			}
+ 		}
+ 		
+ 		//  Call vcWelcomeHandler. Either remove page or show it by resetting dont show flag
+ 		versioncue.showWelcomePage = function(m)
+ 		{
+ 			try
+ 			{
+ 				//Remove dont show flag
+ 				if( VersionCueSDKLoader != "undefined" && typeof VersionCueSDKLoader == "object" && VersionCueSDKLoader.loadSDK() != null)
+ 				{					
+ 					var isFromHelpMenu = true;
+ 					versioncue.vcWelcomeHandler( isFromHelpMenu );					
+ 				}
+ 			}
+ 			catch(error)
+ 			{
+ 				reportError( error )
+ 			}
+ 		}
+ 
+ 
+ 		var menuItemText			= versioncue.getLocalizedString( "$$$/Bridge/VCAdapter/Menu_Welcome=Version Cue Welcome Screen" );
+ 		versioncue.menu 			= MenuElement.create( "command", menuItemText, "-at the beginning of Help", "vcWelcomeScreen" );
+ 		versioncue.welcomeMenuItem	= versioncue.menu; 
+ 		versioncue.menu.onDisplay	= versioncue.welcomeMenuHandler;
+ 		versioncue.menu.onSelect	= versioncue.connectTo;  // showWelcomePage;
+ 		versioncue.menu.enabled		= true;							// always enabled, outside canEnable() logic
+ 		versioncue.menu.checked		= false;						// default state
+*/ 		
+//		versioncue.debugLog( "Menu setup complete" );
+
+	}
+//	versioncue.debugLog( "*** VersionCueMain.jsx Execution End ***" );
+}

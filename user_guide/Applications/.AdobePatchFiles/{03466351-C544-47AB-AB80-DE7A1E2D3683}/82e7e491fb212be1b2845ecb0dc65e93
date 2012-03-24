@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Pipes
+Bundle-SymbolicName: com.adobe.drive.pipes
+Bundle-Version: 1.0.0
+Export-Package: com.adobe.drive.pipes

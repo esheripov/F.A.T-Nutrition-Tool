@@ -1,0 +1,1480 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Adobe Gen_WWCombined-fr_CA-20080623_1026</title>
+<meta name="Created-with" 
+  content="Document converted in part by ConvertDoc from www.Softinterface.com" />
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<style type="text/css">
+/*<![CDATA[*/
+ body
+ {
+  font-size: 10pt;
+  background-color: #FFFFFF;
+  color: #000000;
+ }
+ p {margin-top: 0pt;margin-bottom: 0pt;}
+ p.c8 {margin-top: 40pt; text-align: left}
+ p.c7 {margin-top: 32pt; text-align: left}
+ p.c6 {margin-top: 8pt; text-align: left}
+ p.c5 {margin-top: 20pt; text-align: left}
+ span.c4 {font-family:'Times New Roman Bold';font-size:10pt;}
+ p.c3 {margin-top: 16pt; text-align: left}
+ p.c2 {text-align: left}
+ span.c1 {font-size:10pt;}
+ :link { color: #FF0000 }
+ :visited{ color: #880000 }
+/*]]>*/
+</style>
+</head>
+<body>
+<p class="c2"><b>ADOBE<a target="ADB-ESG" name="_DV_M3" id=
+"_DV_M3"></a></b></p>
+<p class="c2"><b>Contrat de Licence de
+Logiciel</b></p>
+<p class="c3">AVIS A L&rsquo;UTILISATEUR :
+VEUILLEZ LIRE ATTENTIVEMENT LE PRESENT CONTRAT. EN COPIANT, EN
+INSTALLANT OU EN UTILISANT LE LOGICIEL EN TOUT OU EN PARTIE, VOUS
+ACCEPTEZ TOUTES LES DISPOSITIONS DU PRESENT CONTRAT, NOTAMMENT, LES
+DISPOSITIONS CONCERNANT : LES CONDITIONS DE TRANSFERT DECRITES A
+L&rsquo;ARTICLE 4 ; LA GARANTIE DECRITE AUX ARTICLES 6 ET 7 ; LA
+RESPONSABILITE DECRITE A L&rsquo;ARTICLE 8 ; LA CONNECTIVITE ET
+LE RESPECT DE LA VIE PRIVEE DECRITS A L&rsquo;ARTICLE 14 ; AINSI
+QUE LES DISPOSITIONS ET EXCEPTIONS PARTICULIERES DECRITES A
+L&rsquo;ARTICLE 16. VOUS RECONNAISSEZ QUE LE PRESENT CONTRAT
+REVET LE MEME CARACTERE QUE TOUT AUTRE CONTRAT ECRIT QUE VOUS
+AURIEZ NEGOCIE ET SIGNE. LE PRESENT CONTRAT VOUS EST OPPOSABLE, A
+VOUS ET A TOUTE SOCIETE AYANT OBTENU LE LOGICIEL ET POUR LE COMPTE
+DE LAQUELLE IL EST UTILISE (PAR EXEMPLE, LE CAS ECHEANT, VOTRE
+EMPLOYEUR). SI VOUS N&rsquo;ACCEPTEZ PAS LES DISPOSITIONS DU
+PRESENT CONTRAT, N&rsquo;UTILISEZ PAS LE LOGICIEL. VEUILLEZ VOUS
+CONNECTER AU SITE <a target="ADB-ESG" href=
+"http://www.adobe.com/go/support_fr">http://www.adobe.com/go/support_fr</a>
+AFIN DE PRENDRE CONNAISSANCE DES CONDITIONS ET
+LIMITATIONS RELATIVES AU RETOUR DUDIT LOGICIEL ET POUR EN OBTENIR
+LE REMBOURSEMENT.<a target="ADB-ESG" name="_DV_C3" id="_DV_C3"></a></p>
+<p class="c3">VOUS POUVEZ AVOIR CONCLU UN AUTRE
+CONTRAT &Eacute;CRIT DIRECTEMENT AVEC ADOBE (P.&nbsp;EX. : UN
+CONTRAT DE LICENCE DE VOLUME) QUI COMPL&Egrave;TE OU REMPLACE TOUT
+OU PARTIE DU PR&Eacute;SENT CONTRAT.</p>
+<p class="c3">ADOBE ET SES FOURNISSEURS
+D&Eacute;TIENNENT TOUS LES DROITS DE PROPRI&Eacute;T&Eacute;
+INTELLECTUELLE LI&Eacute;S AU LOGICIEL. LE LOGICIEL FAIT
+L&rsquo;OBJET D&rsquo;UNE CONCESSION DE LICENCE ET NON
+D&rsquo;UNE VENTE. ADOBE VOUS AUTORISE A COPIER, TELECHARGER,
+INSTALLER, UTILISER OU BENEFICIER D&rsquo;UNE AUTRE MANIERE DES
+FONCTIONNALITES OU DE LA PROPRIETE INTELLECTUELLE RELATIVES AU
+LOGICIEL CONFORMEMENT AUX DISPOSITIONS DU PRESENT CONTRAT
+UNIQUEMENT. L&rsquo;UTILISATION DE CERTAINS COMPOSANTS ET
+SERVICES APPARTENANT A DES TIERS INTEGRES AU LOGICIEL OU AUXQUELS
+ON ACCEDE PAR LE BIAIS DU LOGICIEL PEUT ETRE SOUMISE A
+D&rsquo;AUTRES CONDITIONS, GENERALEMENT ENONCEES DANS UN CONTRAT
+DE LICENCE DISTINCT, DANS LES CONDITIONS D&rsquo;UTILISATION OU
+DANS UN FICHIER &laquo;&nbsp;LISEZ-MOI&nbsp;&raquo; FOURNI AVEC CES
+ELEMENTS ET CES SERVICES, OU SUR LE SITE WEB <a target="ADB-ESG" href=
+"http://www.adobe.com/go/thirdparty_fr">http://www.adobe.com/go/thirdparty_fr</a>.
+</p>
+<p class="c3">LE LOGICIEL PEUT CONNECTER
+AUTOMATIQUEMENT L&rsquo;ORDINATEUR A L&rsquo;INTERNET.
+REPORTEZ-VOUS AUX ARTICLES 14 ET 16 POUR OBTENIR DE PLUS AMPLES
+INFORMATIONS.</p>
+<p class="c3">LE LOGICIEL PEUT CONTENIR UN SYSTEME
+D&rsquo;ACTIVATION DE PRODUIT ET D&rsquo;AUTRES SYSTEMES
+CON&Ccedil;US POUR EMPECHER TOUTE COPIE ET UTILISATION ILLICITES.
+CETTE TECHNOLOGIE PEUT CONNECTER AUTOMATIQUEMENT
+L&rsquo;ORDINATEUR A L&rsquo;INTERNET COMME DECRIT A
+L&rsquo;ARTICLE 14. EN OUTRE, UNE FOIS CONNECTE, LE LOGICIEL
+PEUT TRANSMETTRE VOTRE NUMERO DE SERIE A ADOBE AFIN
+D&rsquo;EVITER TOUTE UTILISATION ILLICITE. POUR PLUS
+D&rsquo;INFORMATIONS CONCERNANT LE SYSTEME D&rsquo;ACTIVATION
+DE PRODUIT, VEUILLEZ VOUS CONNECTER AU SITE <a target="ADB-ESG" href=
+"http://www.adobe.com/go/activation_fr">http://www.adobe.com/go/activation_fr</a>.
+</p>
+<p class="c5"><b>1. D&eacute;finitions.<a target="ADB-ESG" name=
+"_DV_M14" id="_DV_M14"></a></b></p>
+<p class="c6">Le terme
+&laquo;&nbsp;Adobe&nbsp;&raquo; d&eacute;signe Adobe Systems
+Incorporated, soci&eacute;t&eacute; inscrite au registre de
+commerce du Delaware, 345 Park Avenue, San Jose, Californie 95110,
+si ce contrat est conclu alors que vous r&eacute;sidez aux
+Etats-Unis, au Canada ou au Mexique. Dans le cas contraire, ce
+terme d&eacute;signe Adobe Systems Software Ireland Limited, 4-6
+Riverwalk, Citywest Business Campus, Saggart, Dublin 24,
+R&eacute;publique d&rsquo;Irlande.</p>
+<p class="c6">Le terme &laquo;&nbsp;Adobe
+Runtime(s)&nbsp;&raquo; signifie Adobe AIR, Adobe Flash Player,
+Shockwave Player, Adobe Media Player ou Authorware
+Player.</p>
+<p class="c6">Le terme
+&laquo;&nbsp;Ordinateur&nbsp;&raquo; d&eacute;signe un appareil
+&eacute;lectronique virtuel ou physique qui accepte les
+donn&eacute;es au format num&eacute;rique ou dans un format
+similaire et les traite en vue d&rsquo;obtenir des
+r&eacute;sultats sp&eacute;cifiques &agrave; partir d&rsquo;une
+s&eacute;quence d&rsquo;instructions.</p>
+<p class="c6">Le terme &laquo;&nbsp;R&eacute;seau
+Interne&nbsp;&raquo; d&eacute;signe un r&eacute;seau priv&eacute;
+et exclusif, accessible uniquement par les employ&eacute;s et les
+sous-traitants individuels (c.-&agrave;-d. des int&eacute;rimaires)
+d&rsquo;une soci&eacute;t&eacute; particuli&egrave;re ou de
+toute entit&eacute; commerciale semblable. L&rsquo;expression
+&laquo;&nbsp;R&eacute;seau Interne&nbsp;&raquo; ne d&eacute;signe
+pas l&rsquo;Internet ou tout autre r&eacute;seau communautaire
+ouvert au public, comme les associations et organisations
+similaires fonctionnant par voie d&rsquo;adh&eacute;sion ou de
+souscription.</p>
+<p class="c6">Le terme &laquo;&nbsp;Fichier de
+sortie&nbsp;&raquo; signifie un fichier cr&eacute;&eacute; en
+utilisant le Logiciel.</p>
+<p class="c6">Le terme &laquo;&nbsp;Nombre
+autoris&eacute;&nbsp;&raquo; d&eacute;signe le chiffre un (1), sauf
+disposition contraire de toute licence valide (ex.&nbsp;: licence
+de volume) conc&eacute;d&eacute;e par Adobe.</p>
+<p class="c6">Le terme
+&laquo;&nbsp;Logiciel&nbsp;&raquo; d&eacute;signe (a) toutes les
+donn&eacute;es fournies avec le pr&eacute;sent contrat, notamment,
+mais de fa&ccedil;on non limitative, (i) les fichiers logiciels et
+autres donn&eacute;es informatiques d&rsquo;Adobe ou de
+tiers&nbsp;; (ii) des &eacute;chantillons et galeries de photos,
+des images, des fichiers sonores, des dessins et d&rsquo;autres
+&oelig;uvres artistiques fournis avec des logiciels Adobe et non
+obtenus aupr&egrave;s d&rsquo;Adobe via un service tiers (sauf
+indication contraire de ce service) ou aupr&egrave;s d&rsquo;un
+tiers via un service distinct (les &laquo;&nbsp;Fichiers de
+contenu&nbsp;&raquo;)&nbsp;; (iii) des fichiers et documents
+annexes &eacute;crits explicatifs (la
+&laquo;&nbsp;Documentation&nbsp;&raquo;)&nbsp;; et (iv) des polices
+de caract&egrave;res&nbsp;; ainsi que (b) toutes les versions
+modifi&eacute;es et leurs copies, ainsi que les mises &agrave;
+niveau, mises &agrave; jour et compl&eacute;ments &agrave; ces
+donn&eacute;es qui vous sont fournis par Adobe &agrave; tout
+moment, sauf si ceux-ci vous sont fournis en vertu d&rsquo;un
+autre contrat (ci-apr&egrave;s collectivement les
+&laquo;&nbsp;Mises &agrave; jour&nbsp;&raquo;).</p>
+<p class="c5"><b>2. Concession de
+Licence.</b></p>
+<p class="c6">Si vous avez obtenu le Logiciel et
+le ou les num&eacute;ros de s&eacute;rie n&eacute;cessaires
+aupr&egrave;s d&rsquo;Adobe ou de l&rsquo;un de ses
+licenci&eacute;s agr&eacute;&eacute;s et &agrave; condition que
+vous respectiez les dispositions du pr&eacute;sent contrat, Adobe
+vous conc&egrave;de une licence non exclusive
+d&rsquo;installation et d&rsquo;utilisation du Logiciel
+conform&eacute;ment &agrave; la Documentation et aux fins qui y
+sont d&eacute;crites, dans les conditions d&eacute;crites
+ci-apr&egrave;s. Veuillez vous reporter &agrave; l&rsquo;Article
+16 relatif aux dispositions sp&eacute;cifiques &agrave;
+l&rsquo;usage de certains produits et composants y compris,
+notamment, le logiciel de polices de caract&egrave;res, Acrobat,
+After Effects, Adobe Presenter, Contribute, Flash Player Version
+Cue et Adobe Runtimes.<a target="ADB-ESG" name="_DV_M19" id=
+"_DV_M19"></a></p>
+<p class="c6">2.1 Utilisation
+g&eacute;n&eacute;rale. Vous &ecirc;tes autoris&eacute; &agrave;
+installer et &agrave; utiliser un exemplaire du Logiciel sur vos
+Ordinateurs compatibles, jusqu&rsquo;&agrave; concurrence du
+Nombre Autoris&eacute; pourvu que, &agrave; la demande du Logiciel,
+vous fournissiez un num&eacute;ro de s&eacute;rie valide pour
+chaque exemplaire&nbsp;; et<a target="ADB-ESG" name="_DV_M22" id=
+"_DV_M22"></a></p>
+<p class="c6">2.2 Distribution via un serveur.
+Vous &ecirc;tes autoris&eacute; &agrave; copier une image du
+Logiciel sur le ou les serveurs de fichiers de votre r&eacute;seau
+interne afin de t&eacute;l&eacute;charger et d&rsquo;installer
+le Logiciel sur d&rsquo;autres Ordinateurs appartenant au
+m&ecirc;me R&eacute;seau interne dans les limites d&eacute;crites
+&agrave; l&rsquo;article 2.1&nbsp;; et</p>
+<p class="c6">2.3 Utilisation sur le serveur. Vous
+&ecirc;tes autoris&eacute;, dans les limites d&eacute;crites
+&agrave; l&rsquo;article 2.1, &agrave; installer le Logiciel sur
+un ou plusieurs serveurs de fichiers informatiques internes, pour
+une utilisation du Logiciel initi&eacute;e par une personne
+&agrave; partir d&rsquo;un Ordinateur du m&ecirc;me
+R&eacute;seau interne uniquement. Le nombre total
+d&rsquo;utilisateurs (et non le nombre simultan&eacute;
+d&rsquo;utilisateurs) capables d&rsquo;utiliser le Logiciel
+sur ce ou ces serveurs de fichiers informatiques ne peut pas
+exc&eacute;der le Nombre autoris&eacute;.<a target="ADB-ESG" name="OLE_LINK5" id=
+"OLE_LINK5"></a></p>
+<p class="c6">Par exemple, ce qui
+pr&eacute;c&egrave;de ne vous autorise pas &agrave; installer le
+logiciel ou &agrave; y acc&eacute;der (que ce soit directement ou
+&agrave; l&rsquo;aide de commandes, de donn&eacute;es ou
+d&rsquo;instructions) : (i) depuis ou vers un Ordinateur externe
+&agrave; votre r&eacute;seau&nbsp;; (ii) pour activer des groupes
+de travail ou des services h&eacute;berg&eacute;s sur le Web ou
+Internet accessibles &agrave; tous&nbsp;; (iii) par une personne
+morale ou physique non habilit&eacute;e &agrave; utiliser,
+t&eacute;l&eacute;charger, copier ou b&eacute;n&eacute;ficier
+d&rsquo;une mani&egrave;re quelconque de la
+fonctionnalit&eacute; du Logiciel sauf sous licence
+d&rsquo;Adobe&nbsp;; ou (iv) en tant que composant d&rsquo;un
+syst&egrave;me, d&rsquo;un flux de travaux ou d&rsquo;un
+service accessible par plus d&rsquo;utilisateurs que le Nombre
+autoris&eacute;&nbsp;; ou (v) pour des op&eacute;rations qui ne
+sont pas initi&eacute;es par un utilisateur individuel (p. ex. le
+traitement automatis&eacute; des donn&eacute;es sur un
+serveur)&nbsp;; et</p>
+<p class="c6">2.4 Utilisation sur Ordinateur
+Portable ou Priv&eacute;. Sous r&eacute;serve des importantes
+limitations pr&eacute;vues &agrave; l&rsquo;Article 2.5,
+l&rsquo;utilisateur principal de l&rsquo;Ordinateur sur
+lequel le Logiciel est install&eacute;
+(l&rsquo;&nbsp;&laquo;&nbsp;Utilisateur Principal&nbsp;&raquo;),
+peut, dans les limites d&eacute;crites &agrave; l&rsquo;article
+2.1, installer une seconde copie du Logiciel pour son utilisation
+personnelle exclusivement sur un Ordinateur portable ou sur un
+Ordinateur priv&eacute; install&eacute; &agrave; son domicile
+personnel, &agrave; condition que le Logiciel install&eacute; sur
+cet Ordinateur portable ou priv&eacute; ne soit pas en m&ecirc;me
+temps utilis&eacute; sur l&rsquo;Ordinateur principal. Il se
+peut que vous soyez oblig&eacute; de contacter Adobe pour
+proc&eacute;der &agrave; une seconde copie.</p>
+<p class="c6">2.5 Limitations relatives &agrave;
+l&rsquo;Usage Secondaire par les Licenci&eacute;s en Volume.
+Dans le cas o&ugrave; le Logiciel aurait &eacute;t&eacute; obtenu
+par un licenci&eacute; autre qu&rsquo;un licenci&eacute; en
+volume d&rsquo;&eacute;ducation par le biais d&rsquo;un
+programme de licence de volume Adobe (connu sous le nom
+d&rsquo;&nbsp;&laquo;&nbsp;Adobe Open Options&nbsp;&raquo;), la
+seconde copie du Logiciel effectu&eacute;e en application de
+l&rsquo;Article 2.4 ne peut &ecirc;tre utilis&eacute;e
+qu&rsquo;au b&eacute;n&eacute;fice et dans le cadre de
+l&rsquo;activit&eacute; dudit licenci&eacute; en volume. Pour un
+suppl&eacute;ment d&rsquo;informations sur l&rsquo;usage
+secondaire par les licenci&eacute;s en volume, veuillez vous rendre
+sur notre site <a target="ADB-ESG" href=
+"http://www.adobe.com/go/open_options_fr">http://www.adobe.com/go/open_options_fr</a>.
+</p>
+<p class="c6">2.6 Copie de Sauvegarde. Vous
+&ecirc;tes autoris&eacute; &agrave; effectuer un nombre raisonnable
+de copies de sauvegarde du Logiciel, sous r&eacute;serve de ne pas
+installer ou utiliser vos copies de sauvegarde &agrave;
+d&rsquo;autres fins que d&rsquo;archivage.</p>
+<p class="c6">2.7 Fichiers de Contenu. Sauf
+dispositions contraires contenues dans les fichiers
+&laquo;&nbsp;Lisez-moi&nbsp;&raquo; ou tout autre contrat
+associ&eacute; aux fichiers de contenu, qui peuvent contenir des
+droits et des restrictions propres &agrave; ces
+&eacute;l&eacute;ments, vous &ecirc;tes autoris&eacute; &agrave;
+afficher &agrave; l&rsquo;&eacute;cran, modifier, reproduire et
+distribuer tous les fichiers de contenu. Toutefois, vous
+n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; distribuer les
+Fichiers de Contenu seuls (c&rsquo;est-&agrave;-dire
+s&rsquo;ils constituent la valeur principale du produit
+distribu&eacute;) et vous n&rsquo;&ecirc;tes pas autoris&eacute;
+&agrave; revendiquer un droit sur une marque relative aux Fichiers
+de Contenu ou &agrave; toute &oelig;uvre
+d&eacute;riv&eacute;e.</p>
+<p class="c6">2.8 Exemple de Code
+d&rsquo;Application. Vous avez la possibilit&eacute; de modifier
+le format de code source des modules des logiciels qui sont
+identifi&eacute;s comme exemples de code, exemples de code
+d&rsquo;application ou composants (chacun constituant
+un&nbsp;&laquo;&nbsp;Exemple de Code
+d&rsquo;Application&nbsp;&raquo;) dans la documentation
+accompagnant ces derniers, uniquement &agrave; des fins de
+conception, de d&eacute;veloppement et de contr&ocirc;le de sites
+Web et d&rsquo;applications d&eacute;velopp&eacute;es en
+utilisant des logiciels Adobe&nbsp;; sous r&eacute;serve de
+n&rsquo;&ecirc;tre autoris&eacute; &agrave; copier et &agrave;
+distribuer l&rsquo;Exemple de Code d&rsquo;Application
+(modifi&eacute; ou non modifi&eacute;) qu&rsquo;&agrave;
+condition de respecter l&rsquo;ensemble des conditions
+suivantes&nbsp;: (1) que vous distribuiez l&rsquo;Exemple de
+Code d&rsquo;Application de l&rsquo;objet compil&eacute; avec
+votre application&nbsp;; (2) que vous n&rsquo;incluiez pas
+l&rsquo;Exemple de Code d&rsquo;Application dans une
+application ou un produit con&ccedil;u &agrave; des fins de
+d&eacute;veloppement de site web&nbsp;; et (3) que vous
+n&rsquo;utilisiez pas le nom d&rsquo;Adobe, les logos ou les
+autres marques d&rsquo;Adobe pour commercialiser votre
+application. Vous vous engagez &agrave; rembourser, &agrave;
+exempter de toute responsabilit&eacute; et &agrave; d&eacute;fendre
+Adobe contre toute perte, tout dommage, toute r&eacute;clamation ou
+toute action en justice, y compris les frais d&rsquo;avocats qui
+pourraient d&eacute;couler ou r&eacute;sulter de l&rsquo;usage
+ou de la distribution de votre application. Vous pouvez avoir la
+possibilit&eacute; de modifier ou distribuer des codes logiciel
+d&rsquo;Adobe dans une documentation se rapportant &agrave; ces
+codes et/ou au Logiciel ou par le biais d&rsquo;un contrat
+s&eacute;par&eacute; entre vous et Adobe.&nbsp;</p>
+<p class="c6">2.9 Langages de programmation. Le
+Logiciel peut comprendre des parties du SDK d&rsquo;ExtendScript
+et de Pixel Bender. Sous r&eacute;serve des limitations contenues
+au pr&eacute;sent Article 2 et des autorisations contenues &agrave;
+l&rsquo;Article 2.8, Adobe vous conf&egrave;re une licence non
+exclusive, non cessible et libre de droits en vue, uniquement,
+d&rsquo;utiliser des &eacute;l&eacute;ments des SDK
+d&rsquo;ExtendScript et de Pixel Bender dans le cadre
+d&rsquo;activit&eacute;s de d&eacute;veloppement interne de
+programmes d&rsquo;application destin&eacute;s &agrave;
+fonctionner avec les Produits Adobe.</p>
+<p class="c6">Sauf disposition explicite contraire
+&agrave; l&rsquo;Article 2.9, aucune partie des SDK
+d&rsquo;ExtendScript et de Pixel Bender ne peut &ecirc;tre
+modifi&eacute;e ou distribu&eacute;e. Vous &ecirc;tes tenu de faire
+figurer les mentions de copyright d&rsquo;Adobe sur vos
+programmes d&rsquo;application, sauf en ce qui concerne les
+programmes dont le copyright indique d&rsquo;autres droits de
+propri&eacute;t&eacute;. Vous ne pouvez pas utiliser la
+d&eacute;nomination sociale d&rsquo;Adobe ainsi que son logo ou
+ses marques d&eacute;pos&eacute;es pour commercialiser vos
+produits.</p>
+<p class="c6">Vous vous engagez &agrave;
+indemniser, &agrave; exempter de toute responsabilit&eacute; et
+&agrave; d&eacute;fendre Adobe contre toute perte, tout dommage,
+toute r&eacute;clamation ou toute action en justice, y compris les
+frais d&rsquo;avocats qui pourraient d&eacute;couler ou
+r&eacute;sulter de cette distribution.</p>
+<p class="c6">2.10 Configuration &agrave;
+amor&ccedil;age double. Le Logiciel est sous licence pour
+utilisation sur un syst&egrave;me d&rsquo;exploitation bien
+pr&eacute;cis. Vous devez acheter une licence s&eacute;par&eacute;e
+d&rsquo;usage du Logiciel pour chaque syst&egrave;me
+d&rsquo;exploitation. Si vous souhaitez, par exemple, installer
+le Logiciel sur les syst&egrave;mes d&rsquo;exploitation Mac OS
+et Windows sur un m&ecirc;me ordinateur qui ex&eacute;cute ces deux
+plates-formes (c.-&agrave;.-d. une machine &agrave; amor&ccedil;age
+double), vous devez obtenir deux licences individuelles du
+Logiciel. Ceci s&rsquo;applique m&ecirc;me si les deux versions
+du Logiciel, con&ccedil;ues pour diff&eacute;rents syst&egrave;mes
+d&rsquo;exploitation, vous sont fournies sur le m&ecirc;me
+support.</p>
+<p class="c6">2.11 Logiciel
+d&rsquo;&eacute;valuation. Le Logiciel, ou une partie du
+Logiciel, peut ne pas n&eacute;cessiter de num&eacute;ro de
+s&eacute;rie pour &ecirc;tre install&eacute; ou utilis&eacute;, par
+exemple si le Logiciel est configur&eacute; pour autoriser une
+p&eacute;riode d&rsquo;&eacute;valuation limit&eacute;e ou un
+nombre de d&eacute;marrages limit&eacute;. Vous
+n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; utiliser le
+Logiciel de fa&ccedil;on non conforme &agrave; sa conception ou
+&agrave; la Documentation. Vous ne pouvez pas, par exemple,
+utiliser le Logiciel apr&egrave;s la p&eacute;riode
+d&rsquo;&eacute;valuation sans saisir un num&eacute;ro de
+s&eacute;rie valide. VOUS ASSUMEZ TOUS LES RISQUES LIES A
+L&rsquo;UTILISATION DE FICHIERS DE SORTIE CREES AVEC LE LOGICIEL
+UTILISE DURANT UNE EVALUATION.</p>
+<p class="c5"><b>3. Titularit&eacute; des Droits
+de Propri&eacute;t&eacute; Intellectuelle.</b></p>
+<p class="c6">Le Logiciel et toute copie
+autoris&eacute;e que vous effectuez sont la propri&eacute;t&eacute;
+intellectuelle d&rsquo;Adobe Systems Incorporated et de ses
+fournisseurs. La structure, l&rsquo;organisation et le code du
+Logiciel constituent des secrets commerciaux et des informations
+confidentielles de valeur d&rsquo;Adobe Systems Incorporated et
+de ses fournisseurs. Le Logiciel est prot&eacute;g&eacute; par la
+loi, y compris notamment par les lois am&eacute;ricaines et
+d&rsquo;autres pays sur le copyright [droit d&rsquo;auteur]
+et par les dispositions des trait&eacute;s internationaux. Sauf
+disposition expresse des pr&eacute;sentes, le pr&eacute;sent
+contrat ne vous conc&egrave;de aucun droit de
+propri&eacute;t&eacute; intellectuelle sur le Logiciel et Adobe et
+ses fournisseurs se r&eacute;servent tous les droits qui ne sont
+pas express&eacute;ment conc&eacute;d&eacute;s.</p>
+<p class="c5"><b>4. Limitations et
+exigences.</b></p>
+<p class="c6">4.1 Mentions de
+propri&eacute;t&eacute;. Toute copie autoris&eacute;e du Logiciel
+que vous effectuez doit contenir les m&ecirc;mes mentions de droit
+d&rsquo;auteur et autres mentions de propri&eacute;t&eacute;
+intellectuelle que celles qui apparaissent dans ou sur le
+Logiciel.</p>
+<p class="c6">4.2 Obligations
+d&rsquo;utilisation. Vous acceptez de ne pas utiliser le
+Logiciel de fa&ccedil;on autre que celle autoris&eacute;e par ce
+contrat et de ne pas utiliser le Logiciel d&rsquo;une
+fa&ccedil;on non conforme &agrave; sa conception ou &agrave; la
+Documentation.</p>
+<p class="c6">4.3 Modifications. Sauf disposition
+contraire expos&eacute;e &agrave; l&rsquo;Article 2.7 ou 16,
+vous n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; modifier,
+adapter ou traduire le Logiciel.<a target="ADB-ESG" name="OLE_LINK3" id=
+"OLE_LINK3"></a></p>
+<p class="c6">4.4 Interdiction
+d&rsquo;ing&eacute;nierie inverse. Vous n&rsquo;&ecirc;tes
+pas autoris&eacute; &agrave; effectuer de
+l&rsquo;ing&eacute;nierie inverse, d&eacute;compiler,
+d&eacute;sassembler le Logiciel, ni essayer de toute autre
+fa&ccedil;on de d&eacute;couvrir son code source, sauf dans la
+limite explicitement autoris&eacute;e par la loi en vigueur et ce,
+uniquement &agrave; des fins
+d&rsquo;interop&eacute;rabilit&eacute; avec le
+Logiciel.</p>
+<p class="c6">4.5 D&eacute;groupage. Il se peut
+que le Logiciel contienne divers utilitaires, applications et
+composants, qu&rsquo;il fonctionne avec des plates-formes ou des
+langages multiples, qu&rsquo;il vous soit fourni sur plusieurs
+supports ou que vous en receviez plusieurs copies.
+N&eacute;anmoins, le Logiciel est con&ccedil;u et vous est fourni
+comme un seul produit que vous devez utiliser comme tel sur des
+Ordinateurs conform&eacute;ment aux dispositions des Articles 2 et
+16. Vous n&rsquo;&ecirc;tes pas oblig&eacute;
+d&rsquo;installer tous les composants du Logiciel, mais vous ne
+pouvez pas d&eacute;grouper les composants du Logiciel dans le but
+de les utiliser sur diff&eacute;rents Ordinateurs. Vous ne pouvez
+pas d&eacute;grouper ou r&eacute;organiser le Logiciel &agrave; des
+fins de distribution, de transfert ou de revente. Les exceptions de
+cet Article 4.5 sont pr&eacute;sent&eacute;es &agrave;
+l&rsquo;Article 16.</p>
+<p class="c6">4.6 Transfert. VOUS NE POUVEZ PAS
+LOUER OU DONNER EN CREDIT-BAIL, VENDRE, CONCEDER DES SOUS-LICENCES,
+CEDER OU TRANSFERER VOS DROITS RELATIFS AU LOGICIEL OU AUTORISER LA
+COPIE DE TOUT OU D&rsquo;UNE PARTIE DU LOGICIEL SUR
+L&rsquo;ORDINATEUR D&rsquo;UN AUTRE UTILISATEUR OU
+D&rsquo;UNE AUTRE SOCIETE SAUF AUTORISATION EXPLICITE STIPULEE
+DANS LES PRESENTES. Vous pouvez toutefois transf&eacute;rer tous
+vos droits d&rsquo;utilisation du Logiciel &agrave; une autre
+personne physique ou morale sous r&eacute;serve que : (a) vous
+transf&eacute;riez &eacute;galement &agrave; ladite personne
+physique ou morale (i) le pr&eacute;sent contrat, (ii) le(s)
+num&eacute;ro(s) de s&eacute;rie, le Logiciel sur le support fourni
+par Adobe ou par son distributeur agr&eacute;&eacute;, et tous les
+autres logiciels ou mat&eacute;riels int&eacute;gr&eacute;s,
+emball&eacute;s ou pr&eacute;install&eacute;s avec le Logiciel, y
+compris toutes les copies, mises &agrave; niveau, mises &agrave;
+jour et versions ant&eacute;rieures, et (iii) toutes copies des
+logiciels de polices de caract&egrave;res convertis dans
+d&rsquo;autres formats; (b) vous ne conserviez aucune mise
+&agrave; niveau, mise &agrave; jour ou copie, y compris les copies
+de sauvegarde et celles stock&eacute;es sur un ordinateur, et (c)
+le b&eacute;n&eacute;ficiaire accepte les dispositions du
+pr&eacute;sent contrat ainsi que toutes les autres dispositions en
+vertu desquelles vous avez achet&eacute; une licence valide du
+Logiciel. NONOBSTANT CE QUI PRECEDE, VOUS N&rsquo;ETES PAS
+AUTORISE A TRANSFERER LES COPIES DU LOGICIEL DESTINEES A LA
+FORMATION, LES PREVERSIONS, NI LES COPIES NON-DESTINEES A LA VENTE.
+Avant un transfert, Adobe peut vous demander, ainsi
+qu&rsquo;&agrave; la partie destinataire, de confirmer par
+&eacute;crit que vous respectez les dispositions du pr&eacute;sent
+contrat, de fournir &agrave; Adobe des informations vous concernant
+et de vous enregistrer en qualit&eacute; d&rsquo;utilisateur
+final du Logiciel. Pr&eacute;voyez un d&eacute;lai de 4 &agrave; 6
+semaines pour le transfert. Pour plus d&rsquo;informations,
+veuillez consulter le site <a target="ADB-ESG" href=
+"http://www.adobe.com/go/support_fr">http://www.adobe.com/go/support_fr</a>
+ou contacter le Service d&rsquo;Assistance
+Client&egrave;le d&rsquo;Adobe.</p>
+<p class="c6">4.7 Interdiction de service bureau.
+Vous n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; utiliser ou
+fournir le Logiciel pour un service bureau.</p>
+<p class="c6">4.8 Limitations relatives aux
+Moteurs d&rsquo;ex&eacute;cution Adobe. Vous
+n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; utiliser de
+Moteurs d&rsquo;ex&eacute;cutions Adobe sur un &eacute;quipement
+autre qu&rsquo;un ordinateur individuel ou sur toute version
+int&eacute;gr&eacute;e ou embarqu&eacute;e de tout syst&egrave;me
+d&rsquo;exploitation quel qu&rsquo;il soit. Pour clarifier
+tout doute, et &agrave; titre d&rsquo;exemple exclusivement,
+vous n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; utiliser de
+Moteurs d&rsquo;ex&eacute;cution Adobe sur (a) des
+p&eacute;riph&eacute;riques mobiles, syst&egrave;mes
+multim&eacute;dias de salon, ordinateurs de poche,
+t&eacute;l&eacute;phones, tablettes Internet et tablettes PC (sous
+un syst&egrave;me autre que Windows XP Tablet PC Edition et ses
+versions ult&eacute;rieures), consoles de jeux,
+t&eacute;l&eacute;viseurs, lecteurs de DVD, centres
+multim&eacute;dias (sous un syst&egrave;me autre que Windows XP
+Edition Media Center et ses versions ult&eacute;rieures), panneaux
+d&rsquo;affichage &eacute;lectroniques ou autres appareils
+num&eacute;riques de signalisation, p&eacute;riph&eacute;riques
+Internet ou autres appareils connect&eacute;s &agrave;
+l&rsquo;Internet, assistants num&eacute;riques personnels,
+&eacute;quipements m&eacute;dicaux, distributeurs automatiques de
+billets, appareils t&eacute;l&eacute;matiques, machines de jeux,
+syst&egrave;mes d&rsquo;automatisation domestiques, kiosques,
+t&eacute;l&eacute;commandes ou tout autre appareil
+&eacute;lectronique grand public, (b) des &eacute;quipements de
+t&eacute;l&eacute;phonie mobile, syst&egrave;mes de c&acirc;ble,
+satellite ou t&eacute;l&eacute;vision ou (c) tout appareil &agrave;
+syst&egrave;me ferm&eacute;. Consultez <a target="ADB-ESG" href=
+"http://www.adobe.com/go/licensing_fr">http://www.adobe.com/go/licensing_fr</a>
+pour plus d&rsquo;informations sur la
+concession de licence de Moteurs d&rsquo;ex&eacute;cution Adobe
+sur ces syst&egrave;mes.</p>
+<p class="c5"><b>5. Mises &agrave;
+Jour.</b></p>
+<p class="c6">Si le Logiciel est une mise &agrave;
+niveau ou une mise &agrave; jour d&rsquo;une version
+ant&eacute;rieure du Logiciel Adobe, vous devez d&eacute;tenir une
+licence en vigueur pour cette version ant&eacute;rieure pour
+pouvoir utiliser la mise &agrave; niveau ou la mise &agrave; jour.
+Apr&egrave;s avoir install&eacute; une telle mise &agrave; niveau
+ou mise &agrave; jour, vous pouvez continuer &agrave; utiliser une
+version ant&eacute;rieure conform&eacute;ment &agrave; son contrat
+de licence d&rsquo;utilisateur final mais seulement &agrave;
+condition que (a) la mise &agrave; niveau ou la mise &agrave; jour
+et toutes les versions ant&eacute;rieures soient install&eacute;es
+sur le m&ecirc;me Ordinateur&nbsp;; (b) les versions
+ant&eacute;rieures ou les copies de celles-ci ne soient pas
+transf&eacute;r&eacute;es &agrave; un tiers ou &agrave; un autre
+appareil &agrave; moins que toutes les copies de la mise &agrave;
+jour ou de la mise &agrave; niveau ne soient aussi
+transf&eacute;r&eacute;es audit tiers ou audit appareil&nbsp;; et
+(c) vous acceptiez que toute obligation qu&rsquo;Adobe peut
+avoir de prendre en charge toute version ant&eacute;rieure puisse
+&ecirc;tre termin&eacute;e d&egrave;s la disponibilit&eacute;
+d&rsquo;une mise &agrave; jour ou d&rsquo;une mise &agrave;
+niveau. Aucune autre utilisation d&rsquo;une version
+ant&eacute;rieure n&rsquo;est autoris&eacute;e apr&egrave;s
+avoir install&eacute; une mise &agrave; jour ou une mise &agrave;
+niveau. Les mises &agrave; niveau ou mises &agrave; jour
+qu&rsquo;Adobe vous conc&egrave;de en licence peuvent comporter
+des conditions suppl&eacute;mentaires ou
+diff&eacute;rentes.</p>
+<p class="c5"><b>6. GARANTIE
+LIMITEE.</b></p>
+<p class="c6">Adobe garantit &agrave; la personne
+physique ou morale qui est la premi&egrave;re &agrave; acheter une
+licence du Logiciel afin de l&rsquo;utiliser conform&eacute;ment
+au pr&eacute;sent contrat, que le Logiciel fonctionnera, pour
+l&rsquo;essentiel, conform&eacute;ment &agrave; la Documentation
+pendant quatre-vingt-dix (90) jours &agrave; compter de la
+r&eacute;ception du Logiciel, &agrave; condition qu&rsquo;il
+soit utilis&eacute; sur le syst&egrave;me d&rsquo;exploitation
+et dans la configuration mat&eacute;rielle recommand&eacute;s. De
+faibles variations de performances par rapport aux
+sp&eacute;cifications de la Documentation ne peuvent pas donner
+lieu &agrave; l&rsquo;application de la pr&eacute;sente
+garantie. Cette garantie limit&eacute;e ne s&rsquo;applique pas
+aux produits suivants qui sont offerts &laquo;&nbsp;TELS
+QUELS&nbsp;&raquo; et sans aucune garantie de la part
+d&rsquo;Adobe&nbsp;: programmes correctifs, logiciel de police
+de caract&egrave;res converti en d&rsquo;autres formats&nbsp;;
+version pr&eacute;liminaire (b&ecirc;ta), &eacute;valuation,
+&eacute;chantillon, et copies non destin&eacute;es &agrave; la
+revente du Logiciel&nbsp;; sites Web, services en ligne
+d&rsquo;Adobe&nbsp;; services en ligne tiers&nbsp;; Certified
+Document Services (reportez-vous &agrave; l&rsquo;Article
+16)&nbsp;; et tout logiciel mis &agrave; la disposition des clients
+pour un t&eacute;l&eacute;chargement gratuit sur le site Web
+d&rsquo;Adobe. Toutes les demandes en garantie doivent
+&ecirc;tre faites dans le d&eacute;lai de quatre-vingt-dix (90)
+jours susmentionn&eacute; aupr&egrave;s du Service
+d&rsquo;Assistance Client&egrave;le Adobe et &ecirc;tre
+accompagn&eacute;es d&rsquo;une preuve d&rsquo;achat.
+Veuillez consulter le Service d&rsquo;Assistance
+Client&egrave;le Adobe sur le site <a target="ADB-ESG" href=
+"http://www.adobe.com/go/support_fr">http://www.adobe.com/go/support_fr</a>
+pour obtenir plus d&rsquo;informations &agrave;
+propos des demandes en garantie. Si le Logiciel ne fonctionne pas,
+pour l&rsquo;essentiel, conform&eacute;ment &agrave; la
+Documentation, l&rsquo;enti&egrave;re responsabilit&eacute;
+d&rsquo;Adobe et de ses soci&eacute;t&eacute;s affili&eacute;es
+et vos seuls recours, se limiteront, au choix d&rsquo;Adobe, au
+remplacement du Logiciel ou au remboursement de la redevance que
+vous avez vers&eacute;e pour obtenir la licence du Logiciel. LA
+GARANTIE LIMITEE DEFINIE DANS LE PRESENT ARTICLE VOUS ACCORDE DES
+DROITS SPECIFIQUES. VOUS POUVEZ BENEFICIER D&rsquo;AUTRES DROITS
+AUTORISES PAR LA LOI QUI VARIENT D&rsquo;UNE JURIDICTION A UNE
+AUTRE. ADOBE N&rsquo;A NULLEMENT L&rsquo;INTENTION DE LIMITER
+VOS DROITS A LA GARANTIE AUTORISES PAR LA LOI EN VIGUEUR DANS VOTRE
+PAYS. Veuillez consulter l&rsquo;Article 16 pour les
+dispositions relatives aux juridictions ou contactez le Service
+d&rsquo;Assistance Client&egrave;le Adobe.&nbsp;</p>
+<p class="c5"><b>7. EXCLUSIONS.</b></p>
+<p class="c6">LA GARANTIE LIMITEE DECRITE
+CI-DESSUS EST L&rsquo;UNIQUE GARANTIE CONCEDEE PAR ADOBE AINSI
+QUE SES FILIALES ET DEFINIT LES RECOURS EXCLUSIFS EN CAS DE
+VIOLATION DE LA GARANTIE PAR ADOBE, SES FILIALES OU SES
+FOURNISSEURS. LA GARANTIE LIMITEE CONCEDEE CI-DESSUS, AINSI QUE
+TOUTE GARANTIE ET RECOURS LEGAUX NE POUVANT ETRE EXCLUS OU LIMITES
+PAR LA LOI SONT LES SEULES GARANTIES APPLICABLES A CE LOGICIEL. A
+PART LES GARANTIES CONCEDEES CI-DESSUS ET CELLES QUI SONT CONCEDEES
+PAR LA LOI&nbsp;; ADOBE, SES FILIALES, SES FOURNISSEURS ET SES
+AUTORITES DE CERTIFICATION (DEFINIES CI-DESSOUS) EXCLUENT TOUTE
+GARANTIE, CONDITION, DECLARATION ET DISPOSITION EXPLICITE OU
+IMPLICITE, EN VERTU DE LA LOI, DE LA COMMON LAW, D&rsquo;UNE
+COUTUME, D&rsquo;UN USAGE OU AUTRE, CONCERNANT D&rsquo;AUTRES
+SUJETS, NOTAMMENT, LES PERFORMANCES, LA SECURITE, LA GARANTIE DE
+NON-CONTREFA&Ccedil;ON DES DROITS D&rsquo;UN TIERS,
+L&rsquo;INTEGRATION, LA QUALITE MARCHANDE, LA JOUISSANCE
+PAISIBLE, LA QUALITE SATISFAISANTE OU L&rsquo;ADEQUATION A UN
+USAGE PARTICULIER. A PART LA CONCESSION DE CES GARANTIES ET
+RECOURS, ADOBE ET SES FOURNISSEURS OFFRENT &laquo;&nbsp;TELS
+QUELS&nbsp;&raquo; LE LOGICIEL ET L&rsquo;ACCES A TOUT SITE WEB,
+SERVICE EN LIGNE D&rsquo;ADOBE OU D&rsquo;UN TIERS ET SERVICE
+D&rsquo;AUTORITE DE CERTIFICATION, AVEC TOUS LES DEFAUTS
+QU&rsquo;ILS POURRAIENT CONTENIR. CETTE EXCLUSION DE GARANTIE
+PEUT NE PAS ETRE VALABLE DANS CERTAINS ETATS. VOUS POUVEZ
+BENEFICIER D&rsquo;AUTRES DROITS DE GARANTIE AUTORISES PAR LA
+LOI ET QUI NE PEUVENT PAS FAIRE L&rsquo;OBJET D&rsquo;UN
+DESISTEMENT OU ETRE DECLINES. ADOBE N&rsquo;A NULLEMENT
+L&rsquo;INTENTION DE LIMITER VOS DROITS A LA GARANTIE
+D&rsquo;UNE FA&Ccedil;ON QUI NE SERAIT PAS PERMISE PAR LA LOI.
+Les dispositions des Articles 7 et 8 resteront en vigueur en cas de
+r&eacute;siliation du pr&eacute;sent contrat, quelle qu&rsquo;en
+soit la cause, mais cela ne sous-entend pas ou ne cr&eacute;e pas
+de droits d&rsquo;utilisation permanents du Logiciel
+apr&egrave;s la r&eacute;siliation du pr&eacute;sent
+contrat.</p>
+<p class="c5"><b>8. LIMITATION DE
+RESPONSABILITE.</b></p>
+<p class="c6">SAUF DANS LE CADRE DU RECOURS
+EXCLUSIF CONCEDE CI-DESSUS PAR ADOBE ET DE TOUT RECOURS LEGAL NE
+POUVANT ETRE EXCLU, ADOBE, SES FILIALES, SES FOURNISSEURS OU LES
+AUTORITES DE CERTIFICATION NE SERONT EN AUCUN CAS RESPONSABLES
+ENVERS VOUS DE PERTE, DOMMAGES-INTERETS, RECLAMATION OU FRAIS
+QUELCONQUES, Y COMPRIS TOUS DOMMAGES CONSECUTIFS, INDIRECTS OU
+ACCIDENTELS, TOUT MANQUE A GAGNER, PERTES D&rsquo;ECONOMIES,
+DOMMAGES RESULTANT D&rsquo;UNE INTERRUPTION D&rsquo;ACTIVITE,
+D&rsquo;UN PREJUDICE CORPOREL OU DU NON-RESPECT DE TOUTE
+OBLIGATION D&rsquo;ATTENTION OU DE RECLAMATIONS D&rsquo;UN
+TIERS, ET CE, MEME SI UN REPRESENTANT D&rsquo;ADOBE A ETE
+INFORME DE L&rsquo;EVENTUALITE DE TELS DOMMAGES, PERTES,
+RECLAMATIONS OU FRAIS. L&rsquo;ENTIERE RESPONSABILITE
+D&rsquo;ADOBE ET CELLE DE SES FILIALES, FOURNISSEURS, ET
+AUTORITES DE CERTIFICATION EN VERTU DU PRESENT CONTRAT OU DANS LE
+CADRE DE CE DERNIER, EST LIMITEE, QUOI QU&rsquo;IL ARRIVE, AU
+MONTANT VERSE POUR LE LOGICIEL, S&rsquo;IL Y A LIEU. LA PRESENTE
+LIMITATION S&rsquo;APPLIQUE MEME EN CAS DE MANQUEMENT GRAVE OU
+DE MANQUEMENT A DES DISPOSITIONS ESSENTIELLES DU PRESENT CONTRAT.
+Aucune disposition du pr&eacute;sent contrat ne limite la
+responsabilit&eacute; d&rsquo;Adobe envers vous en cas de
+d&eacute;c&egrave;s ou de pr&eacute;judices corporels
+r&eacute;sultant d&rsquo;une n&eacute;gligence de la part
+d&rsquo;Adobe ou d&rsquo;un acte frauduleux. Adobe agit pour
+le compte de ses filiales, fournisseurs, et autorit&eacute;s de
+certification afin de rejeter, d&rsquo;exclure et de limiter les
+obligations, les garanties et les responsabilit&eacute;s, mais
+&agrave; aucun autre &eacute;gard et dans aucun autre but. Pour
+plus d&rsquo;informations, veuillez contacter le Service
+d&rsquo;Assistance Client&egrave;le Adobe.</p>
+<p class="c6">LES LIMITATIONS ET EXCLUSIONS
+CI-DESSUS S&rsquo;APPLIQUENT DES LORS QU&rsquo;ELLES SONT
+AUTORISEES PAR LA LOI APPLICABLE DANS VOTRE PAYS. CETTE LIMITATION
+DE RESPONSABILITE PEUT NE PAS ETRE VALABLE DANS CERTAINS ETATS.
+VOUS POUVEZ BENEFICIER DE DROITS QUI NE PEUVENT PAS FAIRE
+L&rsquo;OBJET DE DESISTEMENT EN VERTU DES LOIS DE PROTECTION DU
+CONSOMMATEUR ET D&rsquo;AUTRES LOIS. ADOBE N&rsquo;A
+NULLEMENT L&rsquo;INTENTION DE LIMITER VOS DROITS A LA GARANTIE
+OU AUX RECOURS D&rsquo;UNE FA&Ccedil;ON QUELCONQUE QUI NE SERAIT
+PAS AUTORISEE PAR LA LOI. REPORTEZ-VOUS A L&rsquo;ARTICLE 16
+POUR LES CONDITIONS SPECIFIQUES A VOTRE JURISDICTION.</p>
+<p class="c5"><b>9. Lois sur
+l&rsquo;Exportation.</b></p>
+<p class="c6">Vous acceptez que le Logiciel ne
+soit pas utilis&eacute;, exp&eacute;di&eacute;,
+transf&eacute;r&eacute; ou export&eacute; vers un pays ou
+utilis&eacute; d&rsquo;une mani&egrave;re interdite par la
+United States Export Administration Act (loi am&eacute;ricaine sur
+le contr&ocirc;le des exportations) ou par toutes autres lois,
+restrictions ou r&eacute;glementations concernant
+l&rsquo;exportation (ci-apr&egrave;s collectivement les
+&laquo;&nbsp;Lois sur l&rsquo;exportation&nbsp;&raquo;). En
+outre, si le Logiciel est identifi&eacute; comme &eacute;tant un
+article dont l&rsquo;exportation est contr&ocirc;l&eacute;e dans
+le cadre des Lois sur l&rsquo;Exportation, vous d&eacute;clarez
+et garantissez que vous n&rsquo;&ecirc;tes pas citoyen ou
+r&eacute;sident d&rsquo;une nation frapp&eacute;e
+d&rsquo;embargo ou faisant l&rsquo;objet d&rsquo;autres
+mesures de restriction (y compris, mais de fa&ccedil;on non
+limitative, l&rsquo;Iran, la Syrie, le Soudan, Cuba et la
+Cor&eacute;e du Nord) et que les Lois sur l&rsquo;Exportation ne
+vous interdisent pas non plus de recevoir le Logiciel. Tous les
+droits d&rsquo;utilisation du Logiciel sont
+conc&eacute;d&eacute;s sous r&eacute;serve que vous en soyez
+d&eacute;chu dans le cas o&ugrave; vous ne respecteriez pas les
+clauses du pr&eacute;sent contrat.</p>
+<p class="c5"><b>10. Loi
+applicable.</b></p>
+<p class="c6">Si vous &ecirc;tes un consommateur
+utilisant uniquement le Logiciel &agrave; des fins personnelles
+non-commerciales, le pr&eacute;sent contrat est alors r&eacute;gi
+par les lois de l&rsquo;Etat dans lequel vous avez achet&eacute;
+la licence d&rsquo;utilisation du Logiciel. Si vous
+n&rsquo;&ecirc;tes pas ce type de client, le pr&eacute;sent
+contrat est r&eacute;gi et interpr&eacute;t&eacute; selon les lois
+en vigueur : (a) dans l&rsquo;Etat de Californie si vous avez
+obtenu une licence du Logiciel aux Etats-Unis, au Canada ou au
+Mexique&nbsp;; ou (b) au Japon, si vous avez obtenu une licence du
+Logiciel au Japon, en Chine, en Cor&eacute;e ou dans tout autre
+pays d&rsquo;Asie du Sud-est dans lequel toutes les langues
+officielles s&rsquo;&eacute;crivent en script
+id&eacute;ographique (par exemple le hanzi, kanji ou hanja) et/ou
+dans d&rsquo;autres scripts de m&ecirc;me structure ou de
+structure similaire, comme le hangul ou le kana&nbsp;; ou (c) en
+Angleterre, si vous avez obtenu une licence du Logiciel dans toute
+autre juridiction non mentionn&eacute;e ci-dessus. Les tribunaux
+respectifs du comt&eacute; de Santa Clara en Californie, lorsque
+s&rsquo;applique la loi de l&rsquo;Etat de Californie, du
+Tokyo District Court au Japon, lorsque s&rsquo;applique la loi
+du Japon, et les tribunaux comp&eacute;tents de Londres en
+Angleterre, lorsque s&rsquo;applique la loi anglaise, ont chacun
+comp&eacute;tence non exclusive en cas de litiges relatifs au
+pr&eacute;sent contrat. Le pr&eacute;sent contrat n&rsquo;est
+pas r&eacute;gi par les r&egrave;gles de conflits de lois de ces
+pays, ni par la Convention des Nations Unies sur les contrats de
+vente internationale de marchandises, dont l&rsquo;application
+est express&eacute;ment exclue.</p>
+<p class="c5"><b>11. Stipulations
+g&eacute;n&eacute;rales.</b></p>
+<p class="c6">Si une stipulation quelconque du
+pr&eacute;sent contrat s&rsquo;av&egrave;re nulle et
+inopposable, la validit&eacute; et l&rsquo;opposabilit&eacute;
+des autres stipulations n&rsquo;en seront pas affect&eacute;es.
+Le pr&eacute;sent contrat ne peut &ecirc;tre modifi&eacute; que par
+un document &eacute;crit, sign&eacute; par un responsable
+d&rsquo;Adobe d&ucirc;ment habilit&eacute; &agrave; cet effet.
+Ceci constitue l&rsquo;int&eacute;gralit&eacute; du contrat
+conclu entre Adobe et vous-m&ecirc;me concernant le Logiciel ; il
+se substitue &agrave; toutes d&eacute;clarations, discussions,
+engagements, communications ou publicit&eacute;s ant&eacute;rieures
+relatives au Logiciel.</p>
+<p class="c5"><b>12. Avis aux utilisateurs finaux
+du Gouvernement des Etats-Unis.</b></p>
+<p class="c6">Dans le cas d&rsquo;Utilisateurs
+Finaux du Gouvernement des Etats-Unis, Adobe s&rsquo;engage
+&agrave; se conformer &agrave; toutes les lois applicables sur
+l&rsquo;&eacute;galit&eacute; des chances, y compris,
+s&rsquo;il y a lieu, aux dispositions du d&eacute;cret-loi
+(Executive Order) 11246, telles que modifi&eacute;es, du Paragraphe
+402 de la Vietnam Era Veterans Readjustment Assistance Act (loi sur
+l&rsquo;aide &agrave; la r&eacute;adaptation des
+v&eacute;t&eacute;rans du Vietnam) de 1974 (38 USC 4212), et du
+Paragraphe 503 de la Rehabilitation Act (loi sur la
+r&eacute;habilitation) de 1973, tel que modifi&eacute;, et aux
+r&eacute;glementations sp&eacute;cifi&eacute;es &agrave;
+l&rsquo;Article 41 CFR sections 60-1 &agrave; 60-60, 60-250, et
+60-741. Les r&eacute;glementations et les dispositions relatives
+aux actions affirmatives contenues dans la phrase
+pr&eacute;c&eacute;dente seront int&eacute;gr&eacute;es par
+r&eacute;f&eacute;rence au pr&eacute;sent contrat.</p>
+<p class="c5"><b>13. Respect des
+licences.</b></p>
+<p class="c6">Si vous avez une activit&eacute;
+commerciale, une soci&eacute;t&eacute; ou un organisme, vous vous
+engagez, pas plus d&rsquo;une fois tous les 12 mois, &agrave;
+autoriser l&rsquo;inspection de vos enregistrements,
+syst&egrave;mes et installations, dans les dix (10) jours suivant
+toute demande d&rsquo;Adobe ou d&rsquo;un de ses
+repr&eacute;sentants agr&eacute;&eacute;s, pour v&eacute;rifier que
+vous utilisez les logiciels d&rsquo;Adobe en conformit&eacute;
+avec vos licences Adobe en vigueur. Vous devrez
+imm&eacute;diatement obtenir des licences valides pour &ecirc;tre
+en conformit&eacute; si la v&eacute;rification r&eacute;v&egrave;le
+que votre utilisation n&rsquo;est pas conforme aux licences en
+vigueur.</p>
+<p class="c5"><b>14. Connectivit&eacute; &agrave;
+Internet et confidentialit&eacute;.</b></p>
+<p class="c6">14.1 Connexions automatiques
+&agrave; l&rsquo;Internet. Le Logiciel peut entra&icirc;ner la
+connexion automatique de l&rsquo;Ordinateur &agrave;
+l&rsquo;Internet ainsi que la communication avec un site Web
+d&rsquo;Adobe dans le but de vous fournir &eacute;ventuellement
+des informations suppl&eacute;mentaires, des
+caract&eacute;ristiques et des fonctionnalit&eacute;s. Sauf
+indication contraire dans les Articles 14.2 &agrave; 14.6, les
+conditions suivantes sont applicables &agrave; toute connexion du
+Logiciel &agrave; Internet&nbsp;:</p>
+<p class="c6">14.1.1 Lorsque le Logiciel se
+connecte automatiquement &agrave; l&rsquo;Internet, il envoie
+&agrave; un site Web d&rsquo;Adobe une adresse de protocole
+Internet (&laquo;&nbsp;Adresse IP&nbsp;&raquo;) associ&eacute;e
+&agrave; votre connexion actuelle &agrave;
+Internet&nbsp;;</p>
+<p class="c6">14.1.2 Lorsque le Logiciel se
+connecte automatiquement &agrave; l&rsquo;Internet, aucune
+information personnelle d&rsquo;identification n&rsquo;est
+envoy&eacute;e, sauf si les adresses IP sont
+consid&eacute;r&eacute;es comme des informations personnelles
+d&rsquo;identification dans certaines juridictions,
+et&nbsp;;</p>
+<p class="c6">14.1.3 Lorsque le Logiciel se
+connecte &agrave; Internet et communique avec un site Web
+d&rsquo;Adobe, la Charte de traitement des donn&eacute;es
+personnelles se trouvant &agrave; <a target="ADB-ESG" href=
+"http://www.adobe.com/go/privacy_fr">http://www.adobe.com/go/privacy_fr</a>
+est applicable. En outre, les conditions
+d&rsquo;utilisation d&rsquo;Adobe.com <a target="ADB-ESG" href=
+"http://www.adobe.com/go/copyright_fr">http://www.adobe.com/go/copyright_fr</a>
+s&rsquo;appliquent sauf si d&rsquo;autres
+conditions d&rsquo;utilisation vous sont
+pr&eacute;sent&eacute;es &agrave; ce moment-l&agrave;. Veuillez
+tenir compte du fait que la Charte de traitement des donn&eacute;es
+personnelles d&rsquo;Adobe autorise le suivi des visites sur les
+sites Web, et qu&rsquo;elle aborde en d&eacute;tail le sujet du
+suivi et l&rsquo;utilisation de cookies, de pixels invisibles et
+d&rsquo;autres dispositifs semblables.&nbsp;</p>
+<p class="c6">14.2 Utilisation de fichiers PDF.
+Lorsque vous utilisez le Logiciel pour ouvrir un fichier PDF dans
+lequel l&rsquo;affichage de publicit&eacute;s a
+&eacute;t&eacute; activ&eacute; au moyen du service
+&laquo;&nbsp;Ads for Adobe PDF&nbsp;&raquo;, votre ordinateur se
+connecte &agrave; un site Web g&eacute;r&eacute; par Adobe, un
+annonceur ou un autre tiers. En plus d&rsquo;envoyer votre
+adresse IP, le g&eacute;rant du site peut utiliser des technologies
+pour envoyer (ou &laquo;&nbsp;offrir&nbsp;&raquo;) des
+publicit&eacute;s ou tout autre contenu &eacute;lectronique qui
+appara&icirc;t &agrave; l&rsquo;int&eacute;rieur ou pr&egrave;s
+du fichier ouvert. L&rsquo;exploitant du site Web peut aussi
+utiliser JavaScript, des pixels invisibles (aussi appel&eacute;s
+pixels espions ou GIF invisibles) et d&rsquo;autres technologies
+pour am&eacute;liorer et mesurer l&rsquo;efficacit&eacute; des
+publicit&eacute;s et pour personnaliser le contenu publicitaire.
+Adobe peut ne pas avoir acc&egrave;s &agrave; des
+fonctionnalit&eacute;s utilis&eacute;es par un tiers ou les
+contr&ocirc;ler, de sorte que le traitement des donn&eacute;es par
+des sites Web tiers n&rsquo;est pas r&eacute;gi par la Charte de
+traitement des donn&eacute;es personnelles.</p>
+<p class="c6">14.3 Mise &agrave; jour. Le Logiciel
+peut entra&icirc;ner la connexion automatique de
+l&rsquo;Ordinateur &agrave; l&rsquo;Internet afin de
+v&eacute;rifier la disponibilit&eacute; de mises &agrave; jour pour
+un t&eacute;l&eacute;chargement automatique sur votre Ordinateur et
+pour communiquer le bon d&eacute;roulement de
+l&rsquo;installation &agrave; Adobe. Consultez la Documentation
+pour apprendre comment modifier les r&eacute;glages de mise
+&agrave; jour par d&eacute;faut.</p>
+<p class="c6">14.4 Utilisation des services en
+ligne d&rsquo;Adobe. Le Logiciel peut entra&icirc;ner la
+connexion automatique de l&rsquo;Ordinateur &agrave;
+l&rsquo;Internet pour faciliter l&rsquo;acc&egrave;s &agrave;
+du contenu et &agrave; des services qui vous sont offerts par Adobe
+comme d&eacute;crit ult&eacute;rieurement &agrave;
+l&rsquo;Article 16.5. Votre Logiciel peut en outre
+t&eacute;l&eacute;charger automatiquement des mises &agrave; jour
+de mat&eacute;riel de ces services pour les mettre &agrave; votre
+disposition imm&eacute;diatement m&ecirc;me lorsque vous &ecirc;tes
+hors ligne. Consultez la Documentation pour apprendre comment
+modifier les r&eacute;glages de mise &agrave; jour par
+d&eacute;faut.</p>
+<p class="c6">14.5 Certificats num&eacute;riques.
+Le Logiciel utilise des certificats num&eacute;riques pour vous
+aider &agrave; identifier les fichiers
+t&eacute;l&eacute;charg&eacute;s (c.-&agrave;.-d. les applications
+et leur contenu) ainsi que l&rsquo;&eacute;diteur de ces
+fichiers. Par exemple, Adobe AIR utilise des certificats
+num&eacute;riques pour vous aider &agrave; identifier
+l&rsquo;&eacute;diteur des applications Adobe AIR et la gamme de
+produits Adobe Acrobat utilise ces certificats num&eacute;riques
+pour signer et valider les signatures dans les documents PDF ainsi
+que pour valider les documents PDF certifi&eacute;s. Votre
+Ordinateur peut se connecter &agrave; l&rsquo;Internet au moment
+de la validation du certificat num&eacute;rique.</p>
+<p class="c6">14.6 Gestionnaire de configuration.
+Le Logiciel peut inclure Flash Player. Flash Player peut stocker
+certains r&eacute;glages d&rsquo;utilisateur sur votre
+Ordinateur comme objet local partag&eacute;. Ces
+&eacute;l&eacute;ments de configuration ne vous sont pas
+associ&eacute;s, mais ils vous permettent de g&eacute;rer certains
+&eacute;l&eacute;ments de configuration dans le cadre de Flash
+Player. Vous trouverez plus d&rsquo;information sur les objets
+partag&eacute;s locaux sur le site <a target="ADB-ESG" href=
+"http://www.adobe.com/go/flashplayer_security_fr">http://www.adobe.com/go/flashplayer_security_fr</a>
+et plus d&rsquo;information sur le Gestionnaire
+de configuration sur le site <a target="ADB-ESG" href=
+"http://www.adobe.com/go/settingsmanager_fr">http://www.adobe.com/go/settingsmanager_fr</a>.
+</p>
+<p class="c5"><b>15. Communications poste &agrave;
+poste.</b></p>
+<p class="c6">Le Logiciel peut utiliser votre
+connexion au r&eacute;seau local pour se connecter automatiquement
+&agrave; d&rsquo;autres logiciels Adobe et peut indiquer, de ce
+fait, qu&rsquo;il est ouvert &agrave; des communications
+provenant d&rsquo;autres logiciels Adobe. Ces communications
+peuvent transmettre l&rsquo;adresse IP de votre connexion au
+r&eacute;seau local, mais aucune information personnelle
+d&rsquo;identification n&rsquo;est envoy&eacute;e ou
+re&ccedil;ue via ces connexions r&eacute;seau (sauf si les adresses
+IP sont consid&eacute;r&eacute;es comme des informations
+personnelles d&rsquo;identification dans certaines
+juridictions). Veuillez consulter la Documentation pour apprendre
+comment modifier les r&eacute;glages de mise &agrave; jour par
+d&eacute;faut.</p>
+<p class="c5"><b>16. Exceptions et dispositions
+particuli&egrave;res.</b></p>
+<p class="c6">Le pr&eacute;sent article expose les
+dispositions sp&eacute;cifiques relatives &agrave; certains
+produits et composants du Logiciel ainsi que certaines exceptions
+aux dispositions ci-dessus. Si une disposition du pr&eacute;sent
+article est en contradiction avec toute autre disposition du
+pr&eacute;sent contrat, le pr&eacute;sent article
+pr&eacute;vaudra.</p>
+<p class="c6">16.1 Pr&eacute;judice, dispositions
+pour l&rsquo;Union Europ&eacute;enne.</p>
+<p class="c6">16.1.1 Le pr&eacute;sent contrat ne
+porte pas pr&eacute;judice aux droits l&eacute;gaux de toute
+partie, y compris celles qui agissent en qualit&eacute; de
+consommateur. Par exemple, dans le cas de consommateurs
+n&eacute;o-z&eacute;landais obtenant le Logiciel pour une
+utilisation personnelle ou domestique (et non &agrave; des fins
+commerciales), le pr&eacute;sent contrat est soumis au Consumer
+Guarantees Act.</p>
+<p class="c6">16.1.2 Si vous avez obtenu le
+Logiciel dans l&rsquo;Union Europ&eacute;enne (UE), si vous
+r&eacute;sidez dans l&rsquo;UE et si vous &ecirc;tes un
+consommateur (c&rsquo;est-&agrave;-dire si vous utilisez le
+Logiciel &agrave; des fins personnelles non commerciales),
+l&rsquo;Article 6 ne s&rsquo;applique alors pas &agrave;
+votre achat du Logiciel et &agrave; l&rsquo;utilisation que vous
+en faites. En lieu et place, Adobe garantie pour une p&eacute;riode
+de 2 ans &agrave; compter de la date d&rsquo;achat, que le
+Logiciel offre les fonctionnalit&eacute;s &eacute;nonc&eacute;es
+dans la Documentation (les &laquo;&nbsp;fonctionnalit&eacute;s
+convenues dans le contrat&nbsp;&raquo;) lorsqu&rsquo;il est
+utilis&eacute; avec la configuration mat&eacute;rielle
+recommand&eacute;e. De l&eacute;g&egrave;res variations de
+performances par rapport aux fonctionnalit&eacute;s
+&eacute;nonc&eacute;es dans le contrat ne sauraient donner lieu
+&agrave; une application de la garantie. LA PRESENTE GARANTIE NE
+S&rsquo;APPLIQUE PAS AUX LOGICIELS QUE VOUS DEMANDEZ A UTILISER
+EN PREVERSION, VERSION D&rsquo;ESSAI, VERSION
+D&rsquo;APPRENTISSAGE, ECHANTILLON DE PRODUIT, OU AUX POLICES DE
+CARACTERES CONVERTIES EN D&rsquo;AUTRES FORMATS OU SI DES
+MODIFICATIONS QUE VOUS AVEZ APPORTEES AUX LOGICIELS
+ENTRA&Icirc;NENT L&rsquo;APPARITION D&rsquo;UN DEFAUT. Pour
+invoquer la garantie, vous devez notifier le service
+d&rsquo;assistance &agrave; la client&egrave;le d&rsquo;Adobe
+pendant cette p&eacute;riode de 2 ans, et fournir les
+d&eacute;tails de preuve d&rsquo;achat du Logiciel. Adobe vous
+aidera &agrave; v&eacute;rifier si un d&eacute;faut existe dans le
+Logiciel ou vous indiquera si l&rsquo;erreur se produit suite
+&agrave; une installation incorrecte du Logiciel (auquel cas Adobe
+vous aidera). S&rsquo;il y a un d&eacute;faut dans le Logiciel,
+vous pouvez r&eacute;clamer &agrave; Adobe soit un remboursement,
+soit une r&eacute;paration ou soit une copie de remplacement du
+Logiciel. Toute demande doit &ecirc;tre accompagn&eacute;e
+d&rsquo;une preuve d&rsquo;achat. Dans le cas o&ugrave; les
+d&eacute;tails de votre garantie sont v&eacute;rifi&eacute;s, Adobe
+r&eacute;pondra &agrave; votre demande de
+r&eacute;paration/remplacement du Logiciel, sauf si une telle
+demande n&rsquo;est pas jug&eacute;e raisonnable par Adobe,
+auquel cas Adobe vous remboursera. Veuillez contacter le service
+d&rsquo;assistance client&egrave;le d&rsquo;Abobe si vous
+avez besoin d&rsquo;aide avec cette garantie.</p>
+<p class="c6">Veuillez noter que les dispositions
+relatives &agrave; l&rsquo;Article 8 (Limite de
+responsabilit&eacute;) s&rsquo;appliqueront toujours aux
+r&eacute;clamations pour dommage relatives &agrave; votre
+utilisation du Logiciel. N&eacute;anmoins, Adobe sera responsable
+pour tout dommage direct raisonnablement pr&eacute;visible en cas
+de violation du pr&eacute;sent contrat. Il vous est
+conseill&eacute; de prendre toutes les mesures raisonnables pour
+&eacute;viter et r&eacute;duire les dommages, en particulier en
+faisant des copies de sauvegarde du Logiciel et de vos
+donn&eacute;es informatiques.</p>
+<p class="c6">Ce contrat, et en particulier
+l&rsquo;Article 16.1.2, est destin&eacute; &agrave;
+d&eacute;crire vos droits (y compris vos droits l&eacute;gaux) dans
+le cas o&ugrave; vous auriez des probl&egrave;mes suite &agrave;
+votre utilisation du Logiciel. Vos droits l&eacute;gaux
+s&rsquo;appliquent dans le cas o&ugrave; ils surpassent cette
+description.</p>
+<p class="c6">16.2 Clauses suppl&eacute;mentaires
+concernant la version pr&eacute;liminaire du Logiciel. Si le
+Logiciel est une version commerciale pr&eacute;liminaire ou
+s&rsquo;il s&rsquo;agit d&rsquo;un logiciel b&ecirc;ta
+(&laquo;&nbsp;Version pr&eacute;liminaire du
+Logiciel&nbsp;&raquo;), le pr&eacute;sent Article
+s&rsquo;applique. La Version pr&eacute;liminaire du Logiciel est
+une version pr&eacute;liminaire, qui n&rsquo;est en aucun cas la
+version finale du produit d&rsquo;Adobe, qui peut contenir des
+bogues, des erreurs et d&rsquo;autres probl&egrave;mes pouvant
+affecter le fonctionnement de votre syst&egrave;me et engendrer des
+pannes et des pertes de donn&eacute;es. Adobe peut ne jamais
+commercialiser la Version Pr&eacute;liminaire du Logiciel. Si la
+version pr&eacute;liminaire du Logiciel vous a &eacute;t&eacute;
+fournie dans le cadre d&rsquo;un contrat &eacute;crit
+s&eacute;par&eacute;, tel que le Adobe Systems Incorporated Serial
+Agreement for Unreleased Products, l&rsquo;utilisation de votre
+Logiciel est &eacute;galement soumise aux conditions dudit contrat.
+Vous vous engagez &agrave; renvoyer ou &agrave; d&eacute;truire
+toutes les copies de la version pr&eacute;liminaire du Logiciel
+&agrave; la demande d&rsquo;Adobe ou lorsque cette
+derni&egrave;re commercialisera ledit Logiciel. VOUS UTILISEZ LA
+VERSION PRELIMINAIRE DU LOGICIEL A VOS PROPRES RISQUES. VEUILLEZ
+VOUS REPORTER AUX ARTICLES 7 ET 8 RELATIFS AUX EXCLUSIONS DE
+GARANTIES ET LIMITATIONS DE RESPONSABILITE REGISSANT LA VERSION
+PRELIMINAIRE DU LOGICIEL.</p>
+<p class="c6">16.3 Produits Logiciels de Formation
+(Educational Software Product). Si le Logiciel est un Produit
+Logiciel de Formation (Logiciel fabriqu&eacute; et distribu&eacute;
+pour &ecirc;tre uniquement utilis&eacute; par les Utilisateurs
+Finaux des Logiciels de Formation), vous n&rsquo;&ecirc;tes
+autoris&eacute; &agrave; utiliser le Logiciel qu&rsquo;&agrave;
+condition d&rsquo;y &ecirc;tre habilit&eacute; dans votre
+juridiction en qualit&eacute; d&rsquo;Utilisateur Final de
+Formation (Educational End User). Veuillez vous connecter au
+site <a target="ADB-ESG" href=
+"http://www.adobe.com/go/edu_purchasing_fr">http://www.adobe.com/go/edu_purchasing_fr</a>
+pour vous assurer que votre situation
+r&eacute;pond aux conditions d&rsquo;utilisation de ce Logiciel.
+Afin de trouver un revendeur acad&eacute;mique agr&eacute;&eacute;
+Adobe (Adobe Authorized Academic Reseller) dans votre
+r&eacute;gion, visitez notre site &agrave; <a target="ADB-ESG" href=
+"http://www.adobe.com/go/store_fr">http://www.adobe.com/go/store_fr</a>.
+</p>
+<p class="c6">16.4 Logiciels de polices de
+caract&egrave;res. Si le Logiciel comprend un Logiciel de Polices
+de Caract&egrave;res&nbsp;:</p>
+<p class="c6">16.4.1 Vous pouvez utiliser le
+logiciel de polices de caract&egrave;res avec le Logiciel sur des
+Ordinateurs, conform&eacute;ment aux dispositions de
+l&rsquo;Article 2 et avoir des sorties du logiciel de polices de
+caract&egrave;res de tout p&eacute;riph&eacute;rique de sortie
+connect&eacute; &agrave; ces Ordinateurs.</p>
+<p class="c6">16.4.2 Si le nombre
+d&rsquo;ordinateurs autoris&eacute; est inf&eacute;rieur ou
+&eacute;gal &agrave; cinq, vous pouvez t&eacute;l&eacute;charger le
+logiciel de polices de caract&egrave;res dans la m&eacute;moire
+(disque dur ou RAM) d&rsquo;un p&eacute;riph&eacute;rique de
+sortie connect&eacute; &agrave; au moins un des ordinateurs, afin
+que ledit logiciel de polices de caract&egrave;res reste dans ledit
+p&eacute;riph&eacute;rique de sortie, et d&rsquo;un
+p&eacute;riph&eacute;rique de sortie suppl&eacute;mentaire pour
+chaque multiple de cinq du Nombre d&rsquo;Ordinateurs
+Autoris&eacute;.&nbsp;</p>
+<p class="c6">16.4.3 Vous pouvez donner une copie
+de la ou des polices de caract&egrave;res que vous avez
+utilis&eacute;es dans un fichier donn&eacute; &agrave; un imprimeur
+commercial ou un autre service bureau&nbsp;; ledit service bureau
+peut utiliser la ou les polices de caract&egrave;res pour traiter
+votre fichier, &agrave; condition que ce service ait une licence
+valide pour utiliser ledit logiciel de polices de
+caract&egrave;res.</p>
+<p class="c6">16.4.4 Vous pouvez convertir et
+installer le logiciel de polices de caract&egrave;res dans un autre
+format &agrave; des fins d&rsquo;utilisation sous
+d&rsquo;autres environnements, sous r&eacute;serve des
+conditions suivantes : l&rsquo;Ordinateur sur lequel le logiciel
+de polices de caract&egrave;res converti est utilis&eacute; ou
+install&eacute; sera consid&eacute;r&eacute; comme &eacute;tant
+l&rsquo;un de vos Ordinateurs Autoris&eacute;s. Le logiciel de
+polices de caract&egrave;res que vous avez converti devra
+&ecirc;tre utilis&eacute; conform&eacute;ment &agrave; toutes les
+dispositions du pr&eacute;sent contrat. Ledit logiciel de polices
+de caract&egrave;res converti ne peut &ecirc;tre utilis&eacute; que
+dans le cadre de vos propres activit&eacute;s internes habituelles
+ou &agrave; des fins personnelles ; il ne peut pas &ecirc;tre
+distribu&eacute; ou c&eacute;d&eacute; &agrave; quelque fin que ce
+soit, sauf disposition contraire de l&rsquo;Article 4.6 des
+pr&eacute;sentes.</p>
+<p class="c6">16.4.5 Vous pouvez int&eacute;grer
+des copies du logiciel de polices de caract&egrave;res dans vos
+documents &eacute;lectroniques &agrave; des fins
+d&rsquo;impression et de visualisation. Si le logiciel de
+polices de caract&egrave;res que vous int&eacute;grez est
+d&eacute;sign&eacute; comme &eacute;tant
+&laquo;&nbsp;conc&eacute;d&eacute; sous licence pour une
+int&eacute;gration modifiable&nbsp;&raquo; (licensed for editable
+embedding) sur le site Web d&rsquo;Adobe <a target="ADB-ESG" href=
+"http://www.adobe.com/go/embedding_eula_fr">http://www.adobe.com/go/embedding_eula_fr</a>,
+ vous pouvez &eacute;galement int&eacute;grer des copies du
+logiciel de polices de caract&egrave;res &agrave; des fins de
+modification de vos documents &eacute;lectroniques. Aucun autre
+droit d&rsquo;int&eacute;gration n&rsquo;est implicitement
+sous-entendu ou autoris&eacute; en vertu de la pr&eacute;sente
+licence.</p>
+<p class="c6">16.5 Services en ligne.</p>
+<p class="c6">16.5.1 Offerts par Adobe. Le
+Logiciel peut faciliter l&rsquo;acc&egrave;s &agrave;
+diff&eacute;rents contenus et services h&eacute;berg&eacute;s par
+des sites Web g&eacute;r&eacute;s par Adobe et/ou ses filiales
+(&laquo;&nbsp;Service(s) en ligne Adobe&nbsp;&raquo;). Ces services
+tiers en ligne Adobe comprennent notamment&nbsp;: Les pages
+d&rsquo;accueil de Resource Central, kuler, Acrobat.com, Bridge
+Home, Search for Help, Device Central et autres produits. Un
+service en ligne Adobe peut parfois appara&icirc;tre comme une
+fonctionnalit&eacute; ou une extension du Logiciel bien
+qu&rsquo;il se trouve sur un site Web. L&rsquo;acc&egrave;s
+&agrave; un service en ligne Adobe peut parfois n&eacute;cessiter
+un abonnement s&eacute;par&eacute; ou un autre type de paiement
+et/ou votre acceptation de conditions d&rsquo;utilisation
+suppl&eacute;mentaires. Les services en lignes Adobe ne sont pas
+forc&eacute;ment disponibles dans toutes les langues ou accessibles
+par les r&eacute;sidents de tous les pays. Adobe peut, &agrave;
+tout moment, pour quelque raison que ce soit, modifier ou suspendre
+la disponibilit&eacute; de tout service en ligne Adobe. Adobe se
+r&eacute;serve aussi le droit de commencer &agrave; facturer
+l&rsquo;acc&egrave;s &agrave; un service en ligne Adobe
+pr&eacute;alablement gratuit. Etant donn&eacute; que les services
+en ligne Adobe d&eacute;pendent de la connexion automatique
+&agrave; Internet, veuillez aussi vous r&eacute;f&eacute;rer
+&agrave; l&rsquo;Article 14 pour obtenir des informations
+importantes concernant la connectivit&eacute; &agrave; Internet et
+la protection de vos donn&eacute;es personnelles. Comme
+d&eacute;crit &agrave; l&rsquo;Article 14, lorsque le Logiciel
+acc&egrave;de &agrave; un service en ligne Adobe,
+l&rsquo;utilisation de ce service est r&eacute;gie par la Charte
+de traitement des donn&eacute;es personnelles d&rsquo;Adobe
+(<a target="ADB-ESG" href=
+"http://www.adobe.com/go/privacy_fr">http://www.adobe.com/go/privacy_fr</a>), par les conditions d&rsquo;utilisation d&rsquo;Adobe.com
+(<a target="ADB-ESG" href=
+"http://www.adobe.com/go/copyright_fr">http://www.adobe.com/go/copyright_fr</a>)
+ et par toutes autres conditions suppl&eacute;mentaires qui
+peuvent vous &ecirc;tre pr&eacute;sent&eacute;es.</p>
+<p class="c6">16.5.2 Offerts par des tiers. Le
+Logiciel peut vous faciliter l&rsquo;acc&egrave;s &agrave; des
+sites web g&eacute;r&eacute;s par des tiers proposant des produits,
+des informations, des logiciels et des services
+(&laquo;&nbsp;Service(s) tiers en ligne&nbsp;&raquo;). Ces services
+tiers en ligne comprennent notamment&nbsp;: le service Kodak Easy
+Share Gallery ainsi que le contenu d&rsquo;Adobe Media Player
+Catalog. Votre acc&egrave;s aux services tiers en ligne et leur
+utilisation sont r&eacute;gis par les dispositions, conditions,
+exclusions et notifications disponibles sur le site en question ou
+associ&eacute;s d&rsquo;une autre mani&egrave;re &agrave; ces
+services en ligne tiers. Adobe peut,
+&agrave; tout moment, pour quelque raison que ce soit, modifier ou
+suspendre la disponibilit&eacute; de tous Services en ligne tiers.
+Adobe ne contr&ocirc;le pas et ne sanctionne pas les sites web ou
+les services en ligne de tiers et n&rsquo;assume aucune
+responsabilit&eacute; vis-&agrave;-vis de ceux-ci. Toutes
+transactions entre vous-m&ecirc;me et un tiers concernant un
+service en ligne tiers, y compris les chartes de protection des
+donn&eacute;es personnelles et l&rsquo;utilisation de ces
+informations par ces tiers, la livraison et le paiement des biens
+et de services et toutes autres dispositions, conditions, garanties
+ou d&eacute;clarations li&eacute;es &agrave; ces transactions ne
+concernent que vous et ce tiers. Les services en lignes tiers ne
+sont pas forc&eacute;ment disponibles dans toutes les langues ou
+accessibles par les r&eacute;sidents de tous les pays. Adobe peut,
+&agrave; tout moment, pour quelque raison que ce soit, modifier ou
+suspendre la disponibilit&eacute; de tout service en ligne
+tiers.<a target="ADB-ESG" name="OLE_LINK2" id="OLE_LINK2"></a></p>
+<p class="c6">16.5.3 SAUF ACCORD EXPLICITE
+CONTRAIRE D&rsquo;ADOBE, DE SES FILIALES OU D&rsquo;UN TIERS
+DANS UN CONTRAT SEPARE, VOUS UTILISEZ LES SERVICES D&rsquo;ADOBE
+ET DE SES TIERS A VOS PROPRES RISQUES ET PERILS, CONFORMEMENT AUX
+GARANTIES ET AUX LIMITATIONS DE RESPONSABILITE DECRITES AUX
+ARTICLES 7 ET 8.</p>
+<p class="c6">16.6 Moteur d&rsquo;Affichage
+[Render Engine] After Effects. Si le Logiciel comprend une version
+compl&egrave;te d&rsquo;Adobe After Effects, vous pouvez alors
+installer un nombre illimit&eacute; de Moteurs d&rsquo;Affichage
+[Render Engines] sur les Ordinateurs de votre R&eacute;seau Interne
+comprenant au moins un Ordinateur sur lequel la version
+compl&egrave;te du logiciel Adobe After Effects est
+install&eacute;e. Le terme &laquo;&nbsp;Moteur
+d&rsquo;affichage&nbsp;&raquo; d&eacute;signe une partie du
+Logiciel pouvant &ecirc;tre install&eacute;e et permettant aux
+projets After Effects d&rsquo;&ecirc;tre affich&eacute;s&nbsp;;
+toutefois, cette partie du Logiciel ne peut pas &ecirc;tre
+utilis&eacute;e pour cr&eacute;er ou modifier des projets et ne
+comprend pas l&rsquo;interface utilisateur After Effects
+compl&egrave;te.</p>
+<p class="c6">16.7 Logiciel Version Cue. Si le
+Logiciel comprend le logiciel Adobe Creative Suite et le logiciel
+Version Cue, vous pouvez, au lieu d&rsquo;installer et
+d&rsquo;utiliser une copie unique du composant Version Cue
+Server avec les autres composants du Logiciel conform&eacute;ment
+&agrave; l&rsquo;Article 2.1, installer le composant Version Cue
+Server sur un serveur de fichiers informatiques de votre
+R&eacute;seau Interne et rendre ce serveur accessible &agrave; des
+Ordinateurs sur ce R&eacute;seau Interne, dans la mesure o&ugrave;
+votre R&eacute;seau Interne comprend au moins un Ordinateur sur
+lequel le logiciel Adobe Creative Suite est install&eacute;. De
+plus, si vous fournissez des services de cr&eacute;ation &agrave;
+titre professionnel, vous &ecirc;tes autoris&eacute; &agrave;
+donner acc&egrave;s au Version Cue Server &agrave; des clients qui
+se trouvent en dehors de votre R&eacute;seau Interne &agrave;
+condition que toutes les conditions ci-apr&egrave;s soient
+remplies&nbsp;:</p>
+<p class="c6">(1) vous &ecirc;tes seulement
+autoris&eacute; &agrave; donner acc&egrave;s aux clients auxquels
+vous fournissez un service cr&eacute;atif important tel que
+publicit&eacute;, relations publiques, design graphique,
+etc.&nbsp;;</p>
+<p class="c6">(2) vous &ecirc;tes seulement
+autoris&eacute; &agrave; donner un tel acc&egrave;s pour que vos
+clients puissent participer, collaborer, et contribuer aux projets
+cr&eacute;atifs que vous entreprenez pour leur
+compte&nbsp;;</p>
+<p class="c6">(3) vous n&rsquo;&ecirc;tes pas
+autoris&eacute; &agrave; faire payer l&rsquo;acc&egrave;s et
+l&rsquo;utilisation du Version Cue Server&nbsp;;</p>
+<p class="c6">(4) vous n&rsquo;&ecirc;tes pas
+autoris&eacute; &agrave; donner acc&egrave;s au Version Cue Server
+dans un but autre que dans le but express&eacute;ment
+sp&eacute;cifi&eacute; dans la pr&eacute;sente ou dans tout autre
+but ind&eacute;pendant des services de cr&eacute;ation que vous
+fournissez, comme la gestion des propres projets d&rsquo;un
+client&nbsp;;</p>
+<p class="c6">(5) vos clients ne sont pas
+autoris&eacute;s &agrave; t&eacute;l&eacute;charger des copies du
+Version Cue Server&nbsp;; et</p>
+<p class="c6">(6) vous respectez toutes les autres
+stipulations du pr&eacute;sent contrat.</p>
+<p class="c6">Aucune autre utilisation en
+r&eacute;seau n&rsquo;est autoris&eacute;e, y compris,
+notamment, via Internet ou des groupes de travail ou services
+h&eacute;berg&eacute;s sur le web.</p>
+<p class="c6">16.8 Logiciel client Adobe Drive. Si
+le Logiciel comprend le logiciel Adobe Creative Suite et le
+logiciel client Adobe Drive, vous pouvez installer le logiciel
+client Adobe Drive sur plusieurs ordinateurs de votre r&eacute;seau
+interne au lieu d&rsquo;installer et d&rsquo;utiliser une
+copie unique du logiciel client Adobe Drive avec les autres
+composants du Logiciel, mais uniquement si vous avez obtenu un
+num&eacute;ro de s&eacute;rie valide pour le logiciel client Adobe
+Drive.</p>
+<p class="c6">16.9 Certificats
+num&eacute;riques.<a target="ADB-ESG" name="_DV_M46" id="_DV_M46"></a></p>
+<p class="c6">16.9.1 Utilisation. Les certificats
+num&eacute;riques sont d&eacute;livr&eacute;s par des
+autorit&eacute;s de certification tierces, y compris les
+fournisseurs d&rsquo;Adobe Certified Document Services (CDS)
+publi&eacute;s &agrave; l&rsquo;adresse <a target="ADB-ESG" href=
+"http://www.adobe.com/go/partners_cds_fr">http://www.adobe.com/go/partners_cds_fr</a>
+(&laquo;&nbsp;Certificate
+Authorities&nbsp;&raquo;) ou vous pouvez les signer
+vous-m&ecirc;me.</p>
+<p class="c6">16.9.2 Dispositions.
+L&rsquo;achat, l&rsquo;utilisation et la fiabilit&eacute; des
+certificats num&eacute;riques sont votre responsabilit&eacute; et
+celle de l&rsquo;autorit&eacute; de certification. Avant
+d&rsquo;utiliser un document certifi&eacute;, une signature
+num&eacute;rique ou les services d&rsquo;une autorit&eacute; de
+certification, vous devriez prendre connaissance des dispositions
+r&eacute;gissant les services de l&rsquo;autorit&eacute; de
+certification, y compris, par exemple, tout contrat
+d&rsquo;adh&eacute;sion, contrat de tiers d&eacute;pendant,
+r&egrave;glement relatif au certificat et code
+d&eacute;ontologique. Pour plus d&rsquo;informations sur les
+fournisseurs CDS d&rsquo;Adobe, veuillez consulter
+<a target="ADB-ESG" href=
+"http://www.adobe.com/go/partners_cds_fr">http://www.adobe.com/go/partners_cds_fr</a>.
+</p>
+<p class="c6">16.9.3 Accord. Vous acceptez
+que&nbsp;: (a) un certificat num&eacute;rique peut avoir
+&eacute;t&eacute; annul&eacute; avant sa v&eacute;rification, de
+sorte que la signature ou le certificat num&eacute;rique
+appara&icirc;t alors incorrectement valide&nbsp;; (b) la
+s&eacute;curit&eacute; ou l&rsquo;int&eacute;grit&eacute;
+d&rsquo;un certificat num&eacute;rique risque
+d&rsquo;&ecirc;tre compromise par un acte ou une omission du
+signataire du document, de l&rsquo;autorit&eacute; de
+certification ou de tout autre tiers&nbsp;; et (c) un certificat
+peut &ecirc;tre un certificat personnel, sign&eacute; par la
+personne, qui n&rsquo;a pas &eacute;t&eacute; fourni par une
+autorit&eacute; de certification. VOUS ASSUMEZ ENTIEREMENT LA
+RESPONSABILITE DE LA DECISION D&rsquo;UTILISER OU NON UN
+CERTIFICAT. VOUS UTILISEZ LES CERTIFICATS NUMERIQUES A VOS PROPRES
+RISQUES A MOINS QU&rsquo;UNE GARANTIE ECRITE SEPAREE NE VOUS
+SOIT OFFERTE PAR UNE AUTORITE DE CERTIFICATION.&nbsp;</p>
+<a target="ADB-ESG" name="OLE_LINK7" id="OLE_LINK7"></a>
+<p class="c6">16.9.4 Tiers
+b&eacute;n&eacute;ficiaires. Vous acceptez que toute
+autorit&eacute; de certification soit une tierce
+b&eacute;n&eacute;ficiaire de ce contrat et ait le droit de faire
+appliquer lesdites dispositions en son propre nom, au m&ecirc;me
+titre qu&rsquo;Adobe.<a target="ADB-ESG" name="OLE_LINK9" id=
+"OLE_LINK9"></a></p>
+<p class="c6">16.9.5 Indemnit&eacute;. Vous vous
+engagez &agrave; exon&eacute;rer Adobe et toute autre
+autorit&eacute; de certification (sauf disposition explicite
+contraire de ses conditions d&rsquo;utilisation) de toutes
+responsabilit&eacute;s, pertes, actions,
+dommages-int&eacute;r&ecirc;ts ou r&eacute;clamations (y compris
+les d&eacute;penses, co&ucirc;ts et honoraires d&rsquo;avocat
+raisonnables) r&eacute;sultant de ou li&eacute;s &agrave;
+l&rsquo;utilisation de tout service d&rsquo;une
+autorit&eacute; de certification, notamment (a)
+l&rsquo;utilisation d&rsquo;un certificat
+p&eacute;rim&eacute; ou annul&eacute;&nbsp;; (b) la
+v&eacute;rification insuffisante d&rsquo;un certificat&nbsp;;
+(c) l&rsquo;utilisation d&rsquo;un certificat autre que celui
+qui est autoris&eacute; par toute disposition pertinente, par le
+pr&eacute;sent contrat ou par toute loi en vigueur&nbsp;; (d) le
+manque de discernement raisonnable au vu des circonstances en ce
+qui concerne les certificats ou services de
+l&rsquo;&eacute;metteur&nbsp;; ou (e) le non-respect des
+obligations telles qu&rsquo;&eacute;nonc&eacute;es dans les
+conditions pertinentes aux services.</p>
+<p class="c6">16.10 Fonctionnalit&eacute;
+d&rsquo;Acrobat Pro et Acrobat Pro Extended.</p>
+<p class="c6">16.10.1
+D&eacute;finitions.</p>
+<p class="c6">16.10.1.1 Le terme
+&laquo;&nbsp;D&eacute;ployer&nbsp;&raquo; signifie fournir ou
+mettre un document Extended &agrave; la disposition d&rsquo;un
+ou de plusieurs destinataires, directement ou indirectement, par un
+moyen quelconque.</p>
+<p class="c6">16.10.1.2 Le terme
+&laquo;&nbsp;Document Extended&nbsp;&raquo; d&eacute;signe un
+fichier PDF (Portable Document Format) modifi&eacute; par le
+Logiciel Acrobat Pro ou Acrobat Pro Extended pour permettre la
+sauvegarde locale de documents incluant des questionnaires PDF
+remplis.</p>
+<p class="c6">16.10.2 Si le Logiciel inclut
+Acrobat Pro ou Acrobat Pro Extended, le Logiciel comprend une
+technologie d&rsquo;activation qui permet d&rsquo;activer,
+dans les documents PDF, certaines fonctionnalit&eacute;s au moyen
+d&rsquo;une autorisation num&eacute;rique incorpor&eacute;e au
+Logiciel (&laquo;&nbsp;Cl&eacute;&nbsp;&raquo;). Vous vous engagez
+&agrave; ne pas acc&eacute;der, tenter d&rsquo;acc&eacute;der,
+contr&ocirc;ler, d&eacute;sactiver, retirer, utiliser ou distribuer
+la Cl&eacute; &agrave; quelque fin que ce soit.</p>
+<p class="c6">16.10.3 Pour tout document
+Extended&nbsp;unique, vous &ecirc;tes seulement autoris&eacute;
+&agrave;&nbsp;: (a) d&eacute;ployer ce document Extended &agrave;
+un nombre illimit&eacute; de destinataires uniques sans avoir la
+possibilit&eacute; d&rsquo;extraire des donn&eacute;es de plus
+de cinq cents (500) exemplaires uniques de ce document Extended ou
+de toute copie papier de ce document Extended incluant des champs
+de questionnaires remplis&nbsp;; (b) d&eacute;ployer ce document
+Extended &agrave; un nombre limit&eacute; &agrave; cinq cents (500)
+destinataires uniques sans limitation relative au nombre de fois
+que vous pouvez extraire les donn&eacute;es dudit document Extended
+qui vous est renvoy&eacute; rempli par ces destinataires.
+Nonobstant toute disposition contraire des pr&eacute;sentes, le
+fait d&rsquo;obtenir des licences suppl&eacute;mentaires pour
+utiliser Acrobat Pro ou Acrobat Pro Extended ne permet pas
+d&rsquo;accro&icirc;tre le champ des limitations ci-dessus
+(autrement dit, les limitations ci-dessus constituent les limites
+sup&eacute;rieures, quel que soit le nombre de licences
+suppl&eacute;mentaires pour l&rsquo;utilisation
+d&rsquo;Acrobat Pro ou Acrobat Pro Extended que vous puissiez
+avoir obtenu).</p>
+<p class="c6">16.11 Fonction de capture
+d&rsquo;Acrobat Pro Extended. Si le Logiciel inclut la fonction
+de capture d&rsquo;Acrobat Pro Extended, en plus de
+l&rsquo;installation du Logiciel comme autoris&eacute; selon les
+conditions de l&rsquo;Article 2 ci-dessus, vous avez la
+possibilit&eacute; d&rsquo;installer cette fonction
+s&eacute;par&eacute;ment sur un seul Ordinateur Unix.</p>
+<p class="c6">16.12 FlashPaper Printer. Nonobstant
+toute disposition contraire au titre des pr&eacute;sentes, vous
+n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; (a) installer
+FlashPaper Printer sur un serveur permettant
+l&rsquo;acc&egrave;s ou utilisation par des utilisateurs
+multiples ou &agrave; (b) modifier ou remplacer
+l&rsquo;interface utilisateur de la visionneuse FlashPaper
+Printer qui permet d&rsquo;afficher des documents
+FlashPlayer.</p>
+<p class="c6">16.13 Projections et Moteur
+d&rsquo;ex&eacute;cution Flash Player. Vous
+n&rsquo;&ecirc;tes autoris&eacute; &agrave; utiliser tout Flash
+Player, projecteur, StandAlone Player, extension, moteur
+d&rsquo;ex&eacute;cution ou contr&ocirc;le ActiveX qui vous a
+&eacute;t&eacute; fourni comme une partie du Logiciel ou avec le
+Logiciel que dans le cadre des dispositions figurant &agrave;
+l&rsquo;adresse suivante&nbsp;: <a target="ADB-ESG" href=
+"http://www.adobe.com/go/flashplayer_usage_fr">http://www.adobe.com/go/flashplayer_usage_fr</a>.
+ A moins que vous n&rsquo;y soyez autoris&eacute; par ces
+dispositions et hors le cadre desdites dispositions, vous
+n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; utiliser ou
+&agrave; distribuer ledit logiciel.</p>
+<p class="c6">16.14 Device Central. Les images
+d&rsquo;appareils portables affich&eacute;es dans Device Central
+sont uniquement destin&eacute;es &agrave; la simulation. Les
+appareils portables en question, commercialis&eacute;s par leur
+fabricant, peuvent ou non contenir la technologie Adobe
+utilis&eacute;e pour cr&eacute;er la simulation dans Device
+Central. Les images d&rsquo;appareils portables ne doivent
+&ecirc;tre utilis&eacute;es qu&rsquo;&agrave; des fins non
+commerciales et seulement avec le contenu d&eacute;velopp&eacute;
+&agrave; l&rsquo;aide du Logiciel et ne peuvent &ecirc;tre
+utilis&eacute;es pour aucun autre but ou &agrave; des fins
+ill&eacute;gales.</p>
+<p class="c6">16.15 Contribute Publishing
+Services. Sous r&eacute;serve des dispositions du contrat de
+licence d&rsquo;utilisateur final de Contribute Publishing
+Services livr&eacute; avec ce logiciel, vous n&rsquo;&ecirc;tes
+pas autoris&eacute; &agrave; vous connecter au logiciel Contribute
+Publishing Services &agrave; moins que vous n&rsquo;ayez acquis
+une licence pour vous connecter audit logiciel Contribute
+Publishing Services pour chacun des individus susceptibles de se
+connecter &agrave; ce logiciel. Toutefois, les Versions
+d&rsquo;Evaluation du logiciel Adobe Contribute peuvent
+installer le logiciel Contribute Publishing Services et
+s&rsquo;y connecter conform&eacute;ment aux dispositions du
+contrat de licence d&rsquo;utilisateur final de Contribute
+Publishing Services.</p>
+<p class="c6">16.16 Adobe Presenter. Dans le cas
+o&ugrave; le Logiciel inclut Adobe Presenter, si vous installez ou
+utilisez l&rsquo;Application Acrobat Connect dans le cadre de
+l&rsquo;utilisation du Logiciel, vous vous engagez &agrave;
+n&rsquo;installer et &agrave; n&rsquo;utiliser
+l&rsquo;Application Acrobat Connect que sur un ordinateur de
+bureau et non pas sur un &eacute;quipement autre qu&rsquo;un PC,
+y compris, mais de fa&ccedil;on non limitative, des
+p&eacute;riph&eacute;riques Internet, appareils multim&eacute;dia
+de salon, t&eacute;l&eacute;phones portables,
+t&eacute;l&eacute;phones ou tablettes WebPad. De plus, la partie du
+Logiciel qui est int&eacute;gr&eacute;e dans une
+pr&eacute;sentation, des informations ou du contenu
+cr&eacute;&eacute;s et g&eacute;n&eacute;r&eacute;s en utilisant le
+Logiciel (le &laquo;&nbsp;Code d&rsquo;Ex&eacute;cution Adobe
+Presenter&nbsp;&raquo;) ne peut &ecirc;tre utilis&eacute;e
+qu&rsquo;avec la pr&eacute;sentation, les informations ou le
+contenu avec lesquels elle a &eacute;t&eacute; livr&eacute;e. Vous
+n&rsquo;&ecirc;tes pas autoris&eacute; &agrave; utiliser, et
+vous vous engagez &agrave; faire en sorte que les licenci&eacute;s
+de cette pr&eacute;sentation, information ou contenu
+n&rsquo;utilisent pas le Code d&rsquo;Ex&eacute;cution Adobe
+Presenter&nbsp;autrement qu&rsquo;en l&rsquo;&eacute;tat dans
+lequel il est int&eacute;gr&eacute; dans cette pr&eacute;sentation,
+ces informations ou ce contenu. De plus, vous n&rsquo;&ecirc;tes
+pas autoris&eacute; &agrave; modifier, &agrave; effectuer de
+l&rsquo;ing&eacute;nierie inverse ou &agrave;
+d&eacute;sassembler le Code d&rsquo;Ex&eacute;cution Adobe
+Presenter et vous vous engagez &agrave; ce qu&rsquo;aucun
+licenci&eacute; de cette pr&eacute;sentation, ces informations ou
+ce contenu ne modifie, n&rsquo;effectue
+d&rsquo;ing&eacute;nierie inverse ou ne d&eacute;sassemble le
+Code d&rsquo;Ex&eacute;cution Adobe Presenter.</p>
+<p class="c6">16.17 DISTRIBUTION AVC.
+L&rsquo;avis suivant concerne les Logiciels qui contiennent des
+fonctionnalit&eacute;s d&rsquo;importation et
+d&rsquo;exportation AVC&nbsp;: CE PRODUIT FAIT L&rsquo;OBJET
+D&rsquo;UNE CONCESSION DE LICENCE, CONFORMEMENT AU CONTRAT DE
+LICENCE DE PORTEFEUILLE DE BREVETS AVC POUR L&rsquo;USAGE
+PERSONNEL ET NON COMMERCIAL DU CONSOMMATEUR AFIN DE (a) ENCODER DES
+VIDEOS SOUS FORMAT AVC (&laquo;&nbsp;VIDEO AVC&nbsp;&raquo;) ET/OU
+(b) DECODER DES VIDEOS AVC ENCODEES PAR UN CONSOMMATEUR DANS LE
+CADRE D&rsquo;UN USAGE PERSONNEL ET NON COMMERCIAL ET/OU
+FOURNIES PAR UN FOURNISSEUR DE VIDEO AUTORISE A FOURNIR DES VIDEOS
+AVC. AUCUNE LICENCE N&rsquo;EST CONCEDEE, QUE CE SOIT A TITRE
+EXPRES OU IMPLICITE, POUR TOUT AUTRE USAGE QUEL QU&rsquo;IL
+SOIT. DES INFORMATIONS COMPLEMENTAIRES PEUVENT ETRE OBTENUES AUPRES
+DE MPEG LA, L.L.C. SUR LE SITE <a target="ADB-ESG" href=
+"http://www.mpegla.com/">http://www.mpegla.com</a>.
+</p>
+<p class="c6">16.18 DISTRIBUTION MPEG-2.
+L&rsquo;avis suivant concerne les Logiciels qui contiennent des
+fonctionnalit&eacute;s d&rsquo;importation et
+d&rsquo;exportation MPEG-2&nbsp;: TOUT USAGE DE CE PRODUIT A DES
+FINS AUTRES QU&rsquo;UNE UTILISATION PERSONNELLE EN ACCORD AVEC
+LA NORME MPEG-2 D&rsquo;ENCODAGE DES DONNEES VIDEO POUR CREER
+DES PRODUITS PRETS A L&rsquo;EMPLOI EST EXPLICITEMENT INTERDIT
+SANS LICENCE CONFORME AUX BREVETS APPLICABLES DU PORTEFEUILLE DE
+BREVETS MPEG-2, DISPONIBLE AUPRES DE&nbsp;: MPEG LA, L.L.C., 250
+STEEL STREET, SUITE 300, DENVER, COLORADO 80206.</p>
+<p class="c6">16.19 Flash Professional Edition /
+Adobe Media Encoder. En plus de l&rsquo;ordinateur sur lequel
+vous installez et utilisez Flash Professional Edition, vous
+&ecirc;tes autoris&eacute; &agrave; installer et &agrave; utiliser
+Adobe Media Encoder fourni avec la copie du logiciel Flash
+Professionnel sur un ordinateur diff&eacute;rent de
+l&rsquo;ordinateur sur lequel vous avez install&eacute; et
+utilisez ladite copie du logiciel Flash Professionnel &agrave;
+condition que (a) cette installation soit utilis&eacute;e
+exclusivement afin d&rsquo;utiliser Adobe Media Encoder en
+relation avec un contenu que vous avez cr&eacute;&eacute; en
+utilisant le logiciel Flash Professionnel et que (b) Adobe Media
+Encoder ne soit pas install&eacute; ou utilis&eacute; apr&egrave;s
+que vous avez cess&eacute; d&rsquo;&ecirc;tre
+l&rsquo;utilisateur principal de l&rsquo;ordinateur principal
+sur lequel ladite copie du logiciel Flash Professionnel est
+install&eacute;e.</p>
+<p class="c7">Si vous avez des questions
+concernant le pr&eacute;sent contrat ou si vous souhaitez obtenir
+des informations d&rsquo;Adobe, veuillez utiliser les
+coordonn&eacute;es et l&rsquo;adresse incluses dans ce produit
+pour contacter le bureau d&rsquo;Adobe de votre
+r&eacute;gion.</p>
+<p class="c3">Adobe, Acrobat, Acrobat Connect,
+Adobe AIR, Adobe Connect, After Effects, Authorware, Contribute,
+Creative Suite, Flash, FlashPaper, kuler, Shockwave et Version Cue
+sont des marques d&eacute;pos&eacute;es ou commerciales
+d&rsquo;Adobe Systems Incorporated aux Etats-Unis et/ou dans
+d&rsquo;autres pays. Toutes les autres marques appartiennent
+&agrave; leurs propri&eacute;taires respectifs.</p>
+<p class="c8">Gen_WWCombined-fr_CA-20080623_1026&nbsp;</p>
+</body>
+</html>

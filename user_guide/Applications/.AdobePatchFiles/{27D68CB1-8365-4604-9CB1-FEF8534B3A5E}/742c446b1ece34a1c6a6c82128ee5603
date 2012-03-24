@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Instalare</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Ajutor</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>$Fişier</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Instalare extensie</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>Îm$pachetare extensie</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>$Remitere extensie</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>Eli$minare extensie</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Eliminare</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>Disponibil</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>$Accesare Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>I$eşire</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Fereastră</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>$Ajutor</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>$Ajutor Extension Manager</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>$Despre Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>Se importă:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>PRODUSE</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Activată</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Extensie</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Versiune</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Autor</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Actualizări</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Se dezactivează:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Se activează:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Se instalează:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Se împachetează:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Se elimină:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>În curs de migrare:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Se importă extensiile...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Se dezactivează extensia...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Se activează extensia...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Se instalează extensia...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Se împachetează extensia...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Se elimină extensia...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Extensii în curs de migrare...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>Anulare</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Abandonare</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Reîncercare</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Ignorare</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Da</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>Nu</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Da pentru toate</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Acceptare</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Refuzare</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Ulterior</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Niciodată</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>Există câteva extensii instalate în versiunea anterioară a aplicaţiei Extension Manager, doriţi migrarea acestora?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>Migrarea extensiilor din versiunea anterioară a fost finalizată. Reporniţi Extension Manager.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Selectare extensie pentru instalare</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Selectare extensie pentru împachetare</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Salvare pachet extensii ca</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>EXONERARE A RĂSPUNDERII PENTRU EXTENSII&lt;BR&gt;&lt;BR&gt;
+CITIŢI CU ATENŢIE ACEASTĂ EXONERARE A RĂSPUNDERII ÎNAINTE DE A INSTALA EXTENSII.  DACĂ NU SUNTEŢI DE ACORD CU ACEASTĂ EXONERARE A RĂSPUNDERII, NU UTILIZAŢI ŞI/SAU FINALIZAŢI INSTALAREA EXTENSIEI.&lt;BR&gt;&lt;BR&gt;
+Sunteţi pe punctul de a instala o extensie furnizată de şi/sau creată de Adobe sau de o terţă parte.  Înţelegeţi şi sunteţi de acord că Adobe este posibil să NU fi creat extensia pe care sunteţi pe punctul de a o instala. 
+Este posibil ca o terţă parte, faţă de care Adobe nu are nicio relaţie, să fi creat extensia sau ca Adobe să o fi creat.  Sunteţi de acord că nu veţi distribui extensia fără consimţământul scris al Adobe şi/sau deţinătorii săi de licenţe. 
+Înţelegeţi că terţa parte autoare a unei extensii vă poate cere să fiţi de acord cu anumiţi termeni şi condiţii între dvs. şi terţa parte autoare, pentru a utiliza această extensie a autoarei.&lt;BR&gt;&lt;BR&gt;
+În cazul în care acordul de licenţă al terţei părţi apare sub titlul „LICENŢĂ PARTE TERŢĂ (DACĂ EXISTĂ)” de mai jos sau însoţeşte extensia într-un fişier, acest acord de licenţă al terţei părţi va guverna utilizarea extensiei în locul oricărui 
+acord de licenţă pentru descărcare pe care l-aţi acceptat când aţi descărcat extensia de pe site-ul Adobe, cu condiţia însă ca prevederile acestei exonerări a răspunderii să rămână în vigoare.&lt;BR&gt;&lt;BR&gt;
+EXONERARE DE GARANŢII ŞI SUPORT TEHNIC&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE ŞI FURNIZORII SĂI NU FURNIZEAZĂ NICIO REPARAŢIE ŞI GARANŢIE, FIE EXPRESĂ SAU IMPLICITĂ, PENTRU EXTENSIE. EXTENSIA SE FURNIZEAZĂ „CA ATARE” ŞI „CU TOATE ERORILE”, FĂRĂ NICIUN FEL DE SUPORT TEHNIC.&lt;BR&gt;
+(b) ADOBE ŞI FURNIZORII SĂI SE EXONEREAZĂ DE ORICE GARANŢIE ŞI REPREZENTARE, FIE EXPRESE, IMPLICITE SAU DE ALT MOD, INCLUSIV GARANŢII DE VANDABILITATE SAU DE CONFORMARE LA UN ANUMIT SCOP. 
+DE ASEMENEA, NU EXISTĂ NICIO GARANŢIE DE NERESPECTARE A DREPTURILOR, A PROPRIETĂŢII SAU A UTILIZĂRII NETULBURATE.  ADOBE NU GARANTEAZĂ CĂ EXTENSIUNEA ESTE LIPSITĂ DE ERORI SAU CĂ VA OPERA FĂRĂ ÎNTRERUPERE. NU VĂ ESTE CONFERIT NICIUN DREPT SAU REPARAŢIE LA CARE SE FACE REFERIRE ÎN ARTICOLUL 2A AL UCC
+DECÂT DACĂ VĂ SUNT EXPRES ACORDATE PRIN PREZENTA. EXTENSIA NU ESTE DESTINATĂ, PROIECTATĂ SAU LICENŢIATĂ PENTRU UTILIZARE ÎN MEDII PERICULOASE CARE NECESITĂ CONTROALE DE SIGURANŢĂ, INCLUSIV ŞI FĂRĂ LIMITARE, ÎN PROIECTAREA, CONSTRUCŢIA,
+ÎNTREŢINEREA SAU OPERAREA INSTALAŢIILOR NUCLEARE SAU A SISTEMELOR DE COMUNICAŢII, CONTROLUL TRAFICULUI AERIAN, A SISTEMELOR DE SUPORT AL VIEŢII ŞI SISTEMELOR DE ARMAMENT. ADOBE SE EXONEREAZĂ EXPLICIT DE ORICE GARANŢIE EXPRESĂ SAU IMPLICITĂ DE POTRIVIRE LA ASTFEL DE SCOPURI.&lt;BR&gt;
+(c) DACĂ LEGEA ÎN VIGOARE SOLICITĂ GARANŢII REFERITOARE LA EXTENSIE, TOATE GARANŢIILE DE ACEST FEL SE LIMITEAZĂ LA O DURATĂ DE NOUĂZECI (90) DE ZILE DE LA DATE LIVRĂRII.&lt;BR&gt;
+(d) NICIO INFORMAŢIE SAU SFAT FURNIZATE, ORAL SAU ÎN SCRIS, DE ADOBE, DISTRIBUITORII, AGENŢII SAU ANGAJAŢII SĂI NU VOR CREA O GARANŢIE SAU EXTINDE ÎN VREUN FEL LIMITELE ORICĂREI GARANŢII FURNIZATE PRIN PREZENTA.&lt;BR&gt;
+(e) UNELE JURISDICŢII NU PERMIT EXCLUDEREA GARANŢIILOR IMPLICITE, ASTFEL ÎNCÂT ESTE POSIBIL CA LIMITĂRILE DE MAI SUS SĂ NU SE APLICE. ACEASTĂ GARANŢIE VĂ ACORDĂ ANUMITE DREPTURI JURIDICE ŞI ESTE POSIBIL SĂ AVEŢI ŞI ALTE DREPTURI JURIDICE CARE DIFERĂ DE LA STAT LA STAT.&lt;BR&gt;&lt;BR&gt;
+LIMITARE A RESPONSABILITĂŢII&lt;BR&gt;&lt;BR&gt;
+(a) ATÂT ADOBE CÂT ŞI FURNIZORII SĂI NU VOR FI RĂSPUNZĂTORI FAŢĂ DE DVS. SAU ORICE TERŢĂ PARTE PENTRU DAUNE INDIRECTE, SPECIALE, ACCIDENTALE, PUNITIVE, ACOPERITE SAU CONSECUTIVE (INCLUSIV ŞI FĂRĂ LIMITARE, DAUNE CE DECURG DIN INABILITATEA DE A UTILIZA ECHIPAMENTE SAU ACCESA
+DATE, DIN PIERDERI ECONOMICE, PIERDERI DE PROFIT, ÎNTRERUPERI DE ACTIVITATE ŞI ALTELE ASEMENEA), REIEŞIND DIN UTILIZAREA EXTENSIEI, SAU INABILITATEA DE A UTILIZA EXTENSIA, ŞI PE BAZA ORICĂREI TEORII A RĂSPUNDERII, INCLUSIV ÎNCĂLCAREA PREVEDERILOR CONTRACTUALE, NERESPECTAREA GARANŢIEI, PREJUDICIUL (INCLUSIV NEGLIJENŢA),
+RESPONSABILITATEA PENTRU PRODUS SAU ÎN ALT MOD, CHIAR DACĂ ADOBE SAU REPREZENTANŢII SĂI AU FOST INFORMAŢI DE POSIBILITATEA UNOR ASTFEL DE DAUNE ŞI CHIAR DACĂ REPARAŢIA MENŢIONATĂ ÎN PREZENTA NU ŞI-A ATINS SCOPUL ESENŢIAL.&lt;BR&gt;
+(b) RĂSPUNDEREA TOTALĂ A ADOBE FAŢĂ DE DVS. SAU ORICE TERŢĂ PARTE PENTRU DAUNE EFECTIVE INDIFERENT DE CAUZĂ, VOR FI LIMITATE LA 100 USD.&lt;BR&gt;
+(c) UNELE JURISDICŢII NU PERMIT LIMITAREA SAU EXCLUDEREA RĂSPUNDERI PENTRU DAUNE ACCIDENTALE SAU CONSECUTIVE, ASTFEL ÎNCÂT ESTE POSIBIL CA LIMITĂRILE SAU EXCLUDERILE DE MAI SUS SĂ NU SE APLICE ŞI ESTE POSIBIL SĂ AVEŢI ŞI ALTE DREPTURI JURIDICE CARE DIFERĂ DE LA STAT LA STAT.&lt;BR&gt;
+(d) LIMITĂRILE SAU RĂSPUTERILE PRECEDENTE SUNT DESTINATE SĂ SE APLICE GARANŢIILOR ŞI EXONERĂRILOR DE MAI SUS ŞI TUTUROR ASPECTELOR DIN ACEST EULA.&lt;BR&gt;&lt;BR&gt;
+Exonerarea de garanţii şi limitarea răspunderii menţionate mai sus sunt elemente fundamentale ale bazei acordului dintre Adobe şi dvs.
+Adobe nu are posibilitatea să furnizeze această extensie pe o bază economică în lipsa acestor limitări.  Astfel de exonerări de garanţii şi limitări ale răspunderii se fac în beneficiul deţinătorilor de licenţe Adobe.&lt;BR&gt;&lt;BR&gt;
+(NUMAI ÎN AFARA SUA) NUMAI PENTRU CONSUMATORI UTILIZATORI FINALI&lt;BR&gt;&lt;BR&gt;
+Limitările şi exonerările de garanţii şi răspundere conţinute în această exonerare nu afectează sau prejudiciază drepturile statutare ale consumatorului, adică persoana care achiziţionează bunuri altfel decât în cursul unei afaceri.&lt;BR&gt;&lt;BR&gt;
+Limitările şi excluderile de garanţii, reparaţii sau răspundere conţinute în această exonerare vi se va aplica numai dvs. în măsura în care astfel de limitări şi excluderi sunt permise de legile din jurisdicţia în care vă aflaţi.&lt;BR&gt;&lt;BR&gt;
+LICENŢĂ PENTRU TERŢA PARTE (DACĂ EXISTĂ)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Versiune:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>Drept de autor 2000-2008 Adobe System Incorporated şi colaboratorii săi care acordă licenţe. Toate drepturile rezervate.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe şi sigla Adobe sunt mărci comerciale înregistrate sau mărci comerciale ale Adobe Systems Incorporated în Statele Unite şi/sau în alte ţări. Toate celelate mărci comerciale sunt proprietatea deţinătorilor respectivi ai acestora.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>Protejat în S.U.A. prin patentele 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. Există patente în curs de acordare în S.U.A. şi/sau în alte ţări.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Această extensie nu poate fi instalată, deoarece solicită {0} de la {1} la {2}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Această extensie nu poate fi instalată, ea necesită {0} {1}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Această extensie nu poate fi instalată, deoarece solicită {0} {1} sau o versiune ulterioară.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Această extensie nu poate fi instalată, deoarece solicită {0} {1} sau o versiune anterioară.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>Pentru a instala această aplicaţie, încercaţi să instalaţi {0} CS4 sau să utilizaţi Adobe Extension Manager CS3 care funcţionează cu Adobe CS3 şi cu produsele anterioare.</val>
+        </str> 
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>       
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>Aplicaţia nu a reuşit să pornească.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Selectaţi un produs.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Selectaţi o extensie.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Activare pentru produsul curent</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Activare pentru toate produsele acceptate</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Dezactivare pentru produsul curent</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Dezactivare pentru toate produsele acceptate</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Încărcare nereuşită a extensiei din fişierul: {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>Sunteţi pe punctul de a elimina extensia '{0}'. Doriţi să continuaţi?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>Extensia nu va fi instalată pentru produsul {0}</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>Extensia nu va fi activată pentru produsul {0}</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>Extensia nu va fi dezactivată pentru produsul {0}</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>Extensia nu va fi eliminată pentru produsul {0}</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>Această extensie acceptă mai multe produse. Doriţi să continuaţi pentru următorul produs?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_ro</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>

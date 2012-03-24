@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><!DOCTYPE asf SYSTEM "http://ns.adobe.com/asf/asf_1_0.dtd"><asf locale="en_US" version="1.0" xmlns="http://ns.adobe.com/asf">
+	<set name="ExMan">
+		<str name="AdobeExtensionManager" translate="yes">
+			<val>ADOBE EXTENSION MANAGER CS4</val>
+		</str>
+		<str name="Install" translate="yes">
+            <val>Installa</val>
+        </str>
+		<str name="Exchange" translate="yes">
+			<val>Exchange</val>
+		</str>
+		<str name="Help" translate="yes">
+			<val>Guida</val>
+		</str>
+		<str name="File" translate="yes">
+			<val>$File</val>
+		</str>
+		<str name="InstallExtension" translate="yes">
+			<val>$Installa estensione</val>
+		</str>
+		<str name="PackageExtension" translate="yes">
+			<val>Crea $pacchetto estensione</val>
+		</str>
+		<str name="SubmitExtension" translate="yes">
+			<val>Invia esten$sione</val>
+		</str>
+		<str name="RemoveExtension" translate="yes">
+			<val>$Rimuovi estensione</val>
+		</str>
+		<str name="InstallExtension_shortcut" translate="yes">
+            <val>O</val>
+        </str>
+		<str name="RemoveExtension_shortcut" translate="yes">
+            <val>R</val>
+        </str>
+        <str name="GoToAdobeExchange_shortcut" translate="yes">
+            <val>G</val>
+        </str>
+		<str name="Remove" translate="yes">
+            <val>Elimina</val>
+        </str>
+        <str name="Available" translate="yes">
+            <val>Disponibile</val>
+        </str>
+		<str name="GoToAdobeExchange" translate="yes">
+			<val>$Vai ad Adobe Exchange</val>
+		</str>
+		<str name="Exit" translate="yes">
+			<val>$Esci</val>
+		</str>
+		<str name="Window" translate="yes">
+			<val>Finestra</val>
+		</str>
+		<str name="HelpMenu" translate="yes">
+			<val>$Guida</val>
+		</str>
+		<str name="HelpMenuItem" translate="yes">
+			<val>$Guida di Extension Manager</val>
+		</str>
+		<str name="AboutMenuItem" translate="yes">
+			<val>$Informazioni su Adobe Extension Manager</val>
+		</str>
+		<str name="Importing" translate="yes">
+			<val>Importazione di:</val>
+		</str>
+		<str name="Product" translate="yes">
+			<val>PRODOTTI</val>
+		</str>
+		<str name="Enabled" translate="yes">
+			<val>Attivata</val>
+		</str>
+		<str name="Extension" translate="yes">
+			<val>Estensione</val>
+		</str>
+		<str name="Version" translate="yes">
+			<val>Versione</val>
+		</str>
+		<str name="Author" translate="yes">
+			<val>Autore</val>
+		</str>
+		<str name="Updates" translate="yes">
+			<val>Aggiornamenti</val>
+		</str>
+		<str name="Disabling" translate="yes">
+			<val>Disattivazione di:</val>
+		</str>
+		<str name="Enabling" translate="yes">
+			<val>Attivazione di:</val>
+		</str>
+		<str name="Installing" translate="yes">
+			<val>Installazione di:</val>
+		</str>
+		<str name="Packaging" translate="yes">
+			<val>Creazione pacchetto di:</val>
+		</str>
+		<str name="Removing" translate="yes">
+			<val>Rimozione di:</val>
+		</str>
+		<str name="Migrating" translate="yes">
+		  <val>Migrazione di:</val>
+        </str>
+		<str name="ImportingExtensions" translate="yes">
+            <val>Importazione estensioni...</val>
+        </str>
+		<str name="DisablingExtension" translate="yes">
+            <val>Disattivazione dell'estensione...</val>
+        </str>
+        <str name="EnablingExtension" translate="yes">
+            <val>Attivazione dell'estensione...</val>
+        </str>
+        <str name="InstallingExtension" translate="yes">
+            <val>Installazione dell'estensione...</val>
+        </str>
+        <str name="PackagingExtension" translate="yes">
+            <val>Creazione pacchetto dell'estensione...</val>
+        </str>
+        <str name="RemovingExtension" translate="yes">
+            <val>Rimozione dell'estensione...</val>
+        </str>
+        <str name="MigratingExtensions" translate="yes">
+          <val>Migrazione estensioni...</val>
+        </str>
+		<str name="DialogTitle" translate="yes">
+			<val>ADOBE EXTENSION MANAGER</val>
+		</str>
+		<str name="LABEL_OK" translate="yes">
+			<val>OK</val>
+		</str>
+		<str name="LABEL_CANCEL" translate="yes">
+			<val>Annulla</val>
+		</str>
+		<str name="LABEL_ABORT" translate="yes">
+			<val>Interrompi</val>
+		</str>
+		<str name="LABEL_RETRY" translate="yes">
+			<val>Riprova</val>
+		</str>
+		<str name="LABEL_IGNORE" translate="yes">
+			<val>Ignora</val>
+		</str>
+		<str name="LABEL_YES" translate="yes">
+			<val>Sì</val>
+		</str>
+		<str name="LABEL_NO" translate="yes">
+			<val>No</val>
+		</str>
+		<str name="LABEL_YESTOALL" translate="yes">
+			<val>Sì a tutti</val>
+		</str>
+		<str name="LABEL_ACCEPT" translate="yes">
+			<val>Accetta</val>
+		</str>
+		<str name="LABEL_DECLINE" translate="yes">
+			<val>Rifiuta</val>
+		</str>
+		<str name="LABEL_MIGRATION_DELAY" translate="yes">
+			<val>Più tardi</val>
+		</str>
+		<str name="LABEL_MIGRATION_NEVER" translate="yes">
+			<val>Mai</val>
+		</str>
+		<str name="MIGRATION_PROMPT" translate="yes">
+			<val>La versione precedente di Extension Manager include alcune estensioni. Desiderate effettuarne la migrazione?</val>
+		</str>
+		<str name="MIGRATION_DONE" translate="yes">
+			<val>Migrazione dell'estensione dalla versione precedente completata. Riavviare Extension Manager.</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_INSTALL" translate="yes">
+			<val>Selezionate l'estensione da installare</val>
+		</str>
+		<str name="SELECT_EXTENSION_TO_PACKAGE" translate="yes">
+            <val>Selezionate l'estensione da includere nel pacchetto</val>
+        </str>
+        <str name="SAVE_EXTENSION_PACKAGE_AS" translate="yes">
+            <val>Salva copia del pacchetto estensione</val>
+        </str>
+        <str name="EXTENSION_LICENSE" translate="yes">
+            <val>DICHIARAZIONE DI NON RESPONSABILITÀ PER L'ESTENSIONE&lt;BR&gt;&lt;BR&gt;
+LEGGERE ATTENTAMENTE QUESTA DICHIARAZIONE DI NON RESPONSABILITÀ PRIMA DI INSTALLARE QUALSIASI ESTENSIONE.  SE NON SI ACCETTA TALE DICHIARAZIONE, NON UTILIZZARE E/O COMPLETARE L'INSTALLAZIONE DELL'ESTENSIONE.&lt;BR&gt;&lt;BR&gt;
+L'utente sta per installare un'estensione fornita e/o creata da Adobe o da terzi. L'utente prende atto e conviene che Adobe potrebbe NON aver creato l'estensione che si intende installare.  
+È possibile che l'estensione sia stata creata da terzi con cui Adobe non ha alcuna relazione oppure che sia stata creata da Adobe.  L'utente si impegna a non distribuire l'estensione senza il consenso scritto di Adobe e/o dei suoi licenziatari.  
+L'utente prende atto che i terzi che hanno creato l'estensione possono richiedere l'accettazione, da parte dell'utente, di termini e condizioni specifici tra l'utente e i terzi al fine di consentire l'uso dell'estensione.&lt;BR&gt;&lt;BR&gt;
+Nel caso in cui sia presente un contratto di licenza di terzi sotto al titolo 'LICENZA DI TERZI (SE ESISTENTE)' di seguito riportato o nel caso in cui il contratto di licenza venga accluso all'estensione in un file, esso regolerà l'uso dell'estensione sostituendo qualsiasi 
+contratto di licenza che l'utente può aver accettato scaricando l'estensione dal sito di Adobe a condizione, tuttavia, che le disposizioni della presente Dichiarazione di non responsabilità rimangano valide.&lt;BR&gt;&lt;BR&gt;
+DICHIARAZIONE DI NON RESPONSABILITÀ PER TUTTE LE GARANZIE E PER L'ASSISTENZA TECNICA&lt;BR&gt;&lt;BR&gt;
+(a) ADOBE E I SUOI FORNITORI NON FORNISCONO ALCUN RIMEDIO O GARANZIA, SIA ESPRESSA CHE IMPLICITA, PER L'ESTENSIONE.  L'ESTENSIONE VIENE FORNITA 'COSÌ COM'È' E 'CON TUTTI I DIFETTI' SENZA ALCUN TIPO DI ASSISTENZA TECNICA.&lt;BR&gt;
+(b) ADOBE E I SUOI FORNITORI NON RICONOSCONO ALCUNA ALTRA GARANZIA E DICHIARAZIONE, ESPRESSA, IMPLICITA O DI ALTRO TIPO, INCLUSE LE GARANZIE DI COMMERCIABILITÀ O IDONEITÀ A UNO SCOPO PARTICOLARE.  
+INOLTRE, NON È PREVISTA ALCUNA GARANZIA DI NON VIOLAZIONE, TITOLO O GODIMENTO INDISTURBATO.  ADOBE NON GARANTISCE IL FUNZIONAMENTO ININTERROTTO O PRIVO DI ERRORI DELL'ESTENSIONE.   ALL'UTENTE NON SARÀ CONFERITO ALCUN DIRITTO O RIMEDIO MENZIONATO NELL'ARTICOLO 2A DELL'UCC 
+SALVO QUANTO ESPRESSAMENTE CONCESSO NELLA PRESENTE DICHIARAZIONE.  L'ESTENSIONE NON È PROGETTATA, CONCESSA IN LICENZA O INTESA PER L'UTILIZZO IN AMBIENTI A RISCHIO CHE RICHIEDONO CONTROLLI DI FAIL-SAFE, INCLUSO, SENZA LIMITAZIONI, LA PROGETTAZIONE, LA COSTRUZIONE, 
+LA MANUTENZIONE O IL FUNZIONAMENTO DI CENTRALI NUCLEARI, SISTEMI DI COMUNICAZIONE E DI NAVIGAZIONE DI AEROMOBILI, CONTROLLO DEL TRAFFICO AEREO E SISTEMI DI ARMI O SISTEMI DI EMERGENZA.  ADOBE NON RICONOSCE ALCUNA GARANZIA ESPRESSA O IMPLICITA DI IDONEITÀ A TALI SCOPI.&lt;BR&gt;
+(c) QUALORA LA LEGGE IN VIGORE RICHIEDA UNA GARANZIA PER L'ESTENSIONE, TALE GARANZIA SARÀ LIMITATA A NOVANTA (90) GIORNI DALLA DATA DI CONSEGNA.&lt;BR&gt;
+(d) NESSUNA INFORMAZIONE E NESSUN CONSIGLIO, VERBALI O SCRITTI, FORNITI DA ADOBE, DAI SUOI FORNITORI, DISTRIBUTORI, AGENTI O IMPIEGATI POTRANNO RAPPRESENTARE UNA GARANZIA O ALLARGARE LA SFERA DI APPLICAZIONE DI QUALSIASI GARANZIA FORNITA CON LA PRESENTE DICHIARAZIONE.&lt;BR&gt;
+(e) ALCUNE GIURISDIZIONI NON RICONOSCONO L'ESCLUSIONE DELLE GARANZIE IMPLICITE, PERTANTO LA SUDDETTA ESCLUSIONE PUÒ NON ESSERE VALIDA NEL CASO SPECIFICO. LA PRESENTE GARANZIA CONCEDE ALL'UTENTE DIRITTI LEGALI SPECIFICI. L'UTENTE PUÒ INOLTRE GODERE DI ALTRI DIRITTI LEGALI VARIABILI DA STATO A STATO.&lt;BR&gt;&lt;BR&gt;
+LIMITAZIONE DI RESPONSABILITÀ&lt;BR&gt;&lt;BR&gt;
+(a) NÉ ADOBE NÉ I SUOI FORNITORI POTRANNO ESSERE RITENUTI RESPONSABILI NEI CONFRONTI DELL'UTENTE O DI TERZE PARTI PER DANNI INDIRETTI, SPECIALI, INCIDENTALI, PUNITIVI O CONSEQUENZIALI (INCLUSI, IN VIA ESEMPLIFICATIVA, DANNI DOVUTI ALL'INCAPACITÀ DI UTILIZZARE L'APPARECCHIATURA O DI ACCEDERE AI 
+DATI, PERDITA DI CLIENTELA, PROFITTI, INTERRUZIONE DEL CICLO LAVORATIVO O SIMILI), CAUSATI DALL'UTILIZZO O DALL'INCAPACITÀ DI UTILIZZARE L'ESTENSIONE E BASATI SU QUALSIASI IPOTESI DI RESPONSABILITÀ INCLUSA LA VIOLAZIONE DI CONTRATTO, LA VIOLAZIONE DI GARANZIA, IL DOLO (INCLUSA LA NEGLIGENZA), 
+LA RESPONSABILITÀ RELATIVA AL PRODOTTO O ALTRO, ANCHE NEL CASO IN CUI ADOBE O I SUOI RAPPRESENTATI SIANO STATI AVVISATI DELLA POSSIBILITÀ DI TALI DANNI E NEL CASO IN CUI UN RIMEDIO PREVISTO DAL PRESENTE CONTRATTO NON SIA RIUSCITO NELL'INTENTO PREVISTO.&lt;BR&gt;
+(b) LA RESPONSABILITÀ COMPLESSIVA DI ADOBE PER GLI EFFETTIVI DANNI PROVOCATI ALL'UTENTE O A TERZI, INDIPENDENTEMENTE DALLA CAUSA, È LIMITATA A UN RIMBORSO DI 100 USD.&lt;BR&gt;
+(c) POICHÉ ALCUNE GIURISDIZIONI NON RICONOSCONO LA LIMITAZIONE O L'ESCLUSIONE DI RESPONSABILITÀ PER I DANNI DIRETTI O INDIRETTI, LE SUDDETTE LIMITAZIONE O ESCLUSIONE POSSONO NON ESSERE VALIDE NEL CASO SPECIFICO. INOLTRE, L'UTENTE POTREBBE GODERE DI ALTRI DIRITTI LEGALI VARIABILI DA STATO A STATO.&lt;BR&gt;
+(d) LE SUDDETTE LIMITAZIONI DI RESPONSABILITÀ DEVONO ESSERE APPLICATE ALLE GARANZIE E ALLE DICHIARAZIONI DI NON RESPONSABILITÀ DI CUI SOPRA E A TUTTI GLI ALTRI ASPETTI DEL PRESENTE CONTRATTO.&lt;BR&gt;&lt;BR&gt;
+L'Esclusione di garanzia e la Limitazione di responsabilità sopra riportati sono elementi fondamentali alla base del contratto tra Adobe e l'utente. 
+Senza tali limitazioni, Adobe non sarebbe economicamente in grado di fornire l'estensione.  L'Esclusione di garanzia e la Limitazione di responsabilità entrano in vigore a beneficio dei licenziatari Adobe.&lt;BR&gt;&lt;BR&gt;
+(FUORI DAGLI STATI UNITI) SOLO UTENTE FINALE&lt;BR&gt;&lt;BR&gt;
+Le limitazioni o le esclusioni di garanzie e le responsabilità contenute nella presente Dichiarazione di non responsabilità non influenzano o pregiudicano i diritti statutari del consumatore, ovvero di una persona che acquista i beni per proprio uso personale.&lt;BR&gt;&lt;BR&gt;
+Le limitazioni o le esclusioni di garanzie, i rimedi o le responsabilità contenute nella presente Dichiarazione di non responsabilità si applicano all'utente esclusivamente nei termini in cui tali limitazioni o esclusioni siano consentite dalle leggi in vigore nelle singole giurisdizioni.&lt;BR&gt;&lt;BR&gt;
+LICENZA DI TERZI (SE PRESENTE)&lt;BR&gt;&lt;BR&gt;</val>
+        </str>
+        <str name="About_Version" translate="yes">
+            <val>Versione:</val>
+        </str>
+        <str name="About_Copyright" translate="yes">
+            <val>© 2000-2008 Adobe System Incorporated e dei suoi concessori di licenza. Tutti i diritti riservati.</val>
+        </str>
+        <str name="About_Legal" translate="yes">
+            <val>Adobe e il logo Adobe sono marchi registrati o marchi di Adobe Systems Incorporated negli Stati Uniti e/o in altri Paesi. Tutti gli altri marchi sono di proprietà dei rispettivi proprietari.</val>
+        </str>
+        <str name="About_Other_Patents" translate="yes">
+            <val>Updated Information/Additional Third Party Code Information available at:&lt;BR&gt;http://www.adobe.com/go/thirdparty/&lt;BR&gt;Portions utilize Microsoft Windows Media Technologies. Copyright (c) 1999-2002 Microsoft Corporation. All Rights Reserved.&lt;BR&gt;This Product includes code licensed from RSA Data Security.&lt;BR&gt;MPEG Layer-3 audio compression technology licensed by Fraunhofer IIS and THOMSON multimedia (http://www.iis.fhg.de/amm/).&lt;BR&gt;Contains the ArcotID software smartcard technology from Arcot Systems, Inc. which is covered by the following patents:  Patent #6,170,058   Method and apparatus for cryptographically camouflaged cryptographic key storage, certification and use; Patent #6,263,446   Method and apparatus for secure distribution of authentication credentials to roaming users; Patent #6,956,950   Computer readable medium having a private key encryption program.</val>
+        </str>
+        <str name="About_Patents" translate="yes">
+            <val>Protetto dai seguenti brevetti rilasciati negli Stati Uniti 5,546,528; 5,870,091; 5,929,866; 5,943,063; 6,411,730; 6,563,502; 6,711,557; 6,754,382; 6,970,749; 7,002,597; 7,006,107; 7,333,110. In attesa di brevetto negli Stati Uniti e/o in altri Paesi.</val>
+        </str>  
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MINMAX" translate="yes">
+            <val>Impossibile installare l'estensione; è necessario {0} da {1} a {2}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_SAMEMINMAX" translate="yes">
+            <val>Impossibile installare l'estensione; è necessario {0} {1}.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MIN" translate="yes">
+            <val>Impossibile installare l'estensione; è necessario {0} {1} o versione successiva.</val>
+        </str>
+        <str name="EXTENSION_VERSION_UNCOMPATIBLE_MAX" translate="yes">
+            <val>Impossibile installare l'estensione; è necessario {0} {1} o versione precedente.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION" translate="yes">
+            <val>Per installare questa estensione, provare a installare {0} CS4 oppure usare Adobe Extension Manager CS3 che funziona con Adobe CS3 e prodotti precedenti.</val>
+        </str>
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS3">
+            <val>To install this extension, please try to install {0} {1} and use Adobe Extension Manager CS3 which works with Adobe CS3 and earlier products.</val>
+        </str>  
+        <str name="EXTENSION_INSTALL_INSTRUCTION_CS4">
+            <val>To install this extension, please try to install {0} CS4.</val>
+        </str>        
+        <str name="APPLICATION_STARTUP_FAIL" translate="yes">
+            <val>Impossibile avviare l'applicazione.</val>
+        </str>
+        <str name="PLEASE_SELECT_PRODUCT" translate="yes">
+            <val>Selezionare un prodotto.</val>
+        </str>
+        <str name="PLEASE_SELECT_EXTENSION" translate="yes">
+            <val>Selezionare un'estensione.</val>
+        </str>
+        <str name="ENABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Attiva per il prodotto corrente</val>
+        </str>
+        <str name="ENABLE_ALL_PRODUCT" translate="yes">
+            <val>Attiva per tutti i prodotti supportati</val>
+        </str>
+        <str name="DISABLE_CURRENT_PRODUCT" translate="yes">
+            <val>Disattiva per il prodotto corrente</val>
+        </str>
+        <str name="DISABLE_ALL_PRODUCT" translate="yes">
+            <val>Disattiva per tutti i prodotti supportati</val>
+        </str>
+        <str name="FAIL_TO_LOAD_EXTENSION" translate="yes">
+            <val>Impossibile caricare l'estensione dal file: {0}</val>
+        </str>
+        <str name="CONTINUE_TO_REMOVE_OR_NOT" translate="yes">
+            <val>L'estensione '{0}' verrà rimossa. Intendete continuare?</val>
+        </str>
+        <str name="INSTALL_FAIL" translate="yes">
+            <val>L'estensione non verrà installata per il prodotto {0}</val>
+        </str>
+        <str name="ENABLE_FAIL" translate="yes">
+            <val>L'estensione non verrà attivata per il prodotto {0}</val>
+        </str>
+        <str name="DISABLE_FAIL" translate="yes">
+            <val>L'estensione non verrà disattivata per il prodotto {0}</val>
+        </str>
+        <str name="REMOVE_FAIL" translate="yes">
+            <val>L'estensione non verrà rimossa per il prodotto {0}</val>
+        </str>
+        <str name="CONTINUE_NEXT_PRODUCT_OR_NOT" translate="yes">
+            <val>L'estensione supporta più prodotti; intendete continuare con il prodotto successivo?</val>
+        </str>
+        <str name="EXCHANGE_URL" translate="yes">
+            <val>http://www.adobe.com/go/exchange_it</val>
+        </str>
+        <str name="SUBMIT_URL" translate="yes">
+            <val>http://www.adobe.com/cfusion/exchange/upload/index.cfm</val>
+        </str>
+	</set>
+	<set name="CharMapping">	   
+        <str name="e" translate="yes">
+            <val>e</val>
+        </str>        
+        <str name="c" translate="yes">
+	        <val>c</val>
+        </str>
+        <str name="f" translate="yes">
+            <val>f</val>
+        </str>        
+        <str name="h" translate="yes">
+            <val>h</val>
+        </str>
+        <str name="t" translate="yes">
+            <val>t</val>
+        </str>
+        <str name="d" translate="yes">
+            <val>d</val>
+        </str>
+	</set>
+</asf>
